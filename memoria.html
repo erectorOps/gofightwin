@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link href="detail.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/MemoriaUtil.js"></script>
+  <script type="text/javascript">
+ // 存在チェック
+if (String.prototype.format == undefined) {  
+  /**
+   * フォーマット関数
+   */
+  String.prototype.format = function(arg)
+  {
+    // 置換ファンク
+    var rep_fn = undefined;
+
+    // オブジェクトの場合
+    if (typeof arg == "object") {
+      rep_fn = function(m, k) { return arg[k]; }
+    }
+    // 複数引数だった場合
+    else {
+      var args = arguments;
+      rep_fn = function(m, k) { return args[ parseInt(k) ]; }
+    }
+
+    return this.replace( /\{(\w+)\}/g, rep_fn );
+  }
+}
+var pieceList = {};
+$(function() {
+	$.getJSON("PieceCollection.json", function(data) {
+		var selEl = $("#cardid");
+		pieceList = data.pieceList;
+		var len = pieceList.length;
+		optupdate("NONE", "NONE");
+		
+	});
+});
+
+var gSelType = "";
+var gSelRare = "";
+
+function optupdate(seltype, selrare)
+{
+	if (seltype != "NONE")
+		gSelType = seltype;
+	if (selrare != "NONE")
+		gSelRare = selrare;
+
+	var selEl = $("#cardid");
+	selEl.empty();
+	var len = pieceList.length;
+	var ql;
+	gSelRare && (ql = parseInt(gSelRare.substr(5)));
+	var ismore = gSelRare.indexOf("MORE_") == 0;
+	for (var i = 0; i < len; i++) {
+		var l = parseInt(pieceList[i].rank.substr(5));
+
+		if ((!gSelType || gSelType == pieceList[i].pieceType) && (!gSelRare || (ismore ? l >= ql : l == ql)))
+		{
+			var rareText = "ABILITY" == pieceList[i].pieceType ? "A" : "S"
+			for (var n = 0; n < l; n++)
+			{
+				rareText += '★';
+			}
+			selEl.append($("<option>").attr({"value":pieceList[i].pieceId}).text("[{0}]{1} {2}".format(pieceList[i].pieceId, rareText, pieceList[i].pieceName)));
+		}
+	}
+}
+
+function magilocation(e)
+{
+	var pieceObj = getPiece(parseInt(e));
+	if (pieceObj != null)
+	{
+		changeMagi(pieceObj.pieceId);
+	}
+}
+
+function getPiece(pieceId)
+{
+	var len = pieceList.length;
+	for (var i = 0; i < len; i++)
+	{
+		if (pieceList[i].pieceId == pieceId)
+		{
+			return pieceList[i];
+		}
+	}
+	return null;
+}
+
+function getSkillCount(piece)
+{
+	var count = 0;
+	typeof piece.pieceSkill !== 'undefined' && (count += 1);
+	typeof piece.pieceSkill2 !== 'undefined' && (count += 1);
+	typeof piece.pieceSkill3 !== 'undefined' && (count += 1);
+	typeof piece.pieceSkill4 !== 'undefined' && (count += 1);
+	typeof piece.pieceSkill5 !== 'undefined' && (count += 1);
+	return count;
+}
+
+function getSkill(piece, num)
+{
+	if (num <= 1)
+		return piece.pieceSkill;
+	return piece["pieceSkill"+num];
+}
+
+function changeMagi(pieceId)
+{
+	var piece = getPiece(pieceId);
+	var skill1 = getSkill(piece, 1);
+	var skill2 = getSkill(piece, 2);
+	var maxLv1 = MemoriaUtil.getMaxLevel(piece.rank, 1);
+	var maxLv = MemoriaUtil.getMaxLevel(piece.rank, 4);
+	var maxLvParams = MemoriaUtil.getParam(piece, maxLv);
+	var isabi = "ABILITY" == piece.pieceType;
+	$(".inBorder tbody,h1,.desc").empty();
+	
+	$("#mName").text(piece.pieceName);
+	var l = parseInt(piece.rank.substr(5));
+	var rareText = "";
+	for (var n = 0; n < l; n++)
+	{
+		rareText += '★';
+	}
+	$("#mLevel").text("1 / {0}[{1}]".format(maxLv1, maxLv));
+	$("#mRare").text(rareText);
+	$("#mAttr").text(piece.attributeId);
+	$("#mType").text(piece.pieceType);
+	$("#mIllust").text(piece.illustrator);
+	
+	if (typeof piece.charaList !== "undefined" && piece.charaList.length > 0) {
+		var tlen = piece.charaList.length;
+		var ttext = "";
+		for (var ti = 0; ti < tlen; ti++) {
+			if (ti > 0)
+				ttext += ", ";
+			ttext += piece.charaList[ti].name;
+		}
+		$("#mTarget").text(ttext);
+	}
+
+	$("#mHp").text("{0} / [{1}]".format(piece.hp, maxLvParams.hp));	
+	$("#mAtk").text("{0} / [{1}]".format(piece.attack, maxLvParams.attack));
+	$("#mDef").text("{0} / [{1}]".format(piece.defense, maxLvParams.defense));
+
+	$("#mPieceDesc").html(piece.description.replace(/＠/g, "<br />"));
+
+	
+	$("#mSkill1").text(skill1.name);
+	$("#mSkill1Turn").text(isabi ? "永続" : skill1.intervalTurn + " ターン");
+	$("#mSkill1Desc").text(skill1.shortDescription);
+	for (var n = 1; n < 10; n++) {
+		var art = "art" + n;
+		if (typeof skill1[art] === 'undefined')
+			break;
+		var trEl = $("<tr>").attr({"align":"center"});
+		$("<td>").text(skill1[art].verbCode).appendTo(trEl);
+		$("<td>").text(skill1[art].targetId).appendTo(trEl);
+		$("<td>").text(skill1[art].effectValue).appendTo(trEl);
+		$("<td>").text(skill1[art].growPoint).appendTo(trEl);
+		$("<td>").text(skill1[art].effectCode).appendTo(trEl);
+		$("<td>").text(skill1[art].probability).appendTo(trEl);
+		$("<td>").text(skill1[art].enableTurn).appendTo(trEl);
+		$("#mSkill1Flover tbody").append(trEl);
+	}
+
+	$("#mSkill2").text(skill2.name);
+	$("#mSkill2Turn").text(isabi ? "永続" : skill2.intervalTurn + " ターン");
+	$("#mSkill2Desc").text(skill2.shortDescription);
+	for (var n = 1; n < 10; n++) {
+		var art = "art" + n;
+		if (typeof skill2[art] === 'undefined')
+			break;
+		var trEl = $("<tr>").attr({"align":"center"});
+		$("<td>").text(skill2[art].verbCode).appendTo(trEl);
+		$("<td>").text(skill2[art].targetId).appendTo(trEl);
+		$("<td>").text(skill2[art].effectValue).appendTo(trEl);
+		$("<td>").text(skill2[art].growPoint).appendTo(trEl);
+		$("<td>").text(skill2[art].effectCode).appendTo(trEl);
+		$("<td>").text(skill2[art].probability).appendTo(trEl);
+		$("<td>").text(skill2[art].enableTurn).appendTo(trEl);
+		$("#mSkill2Flover tbody").append(trEl);
+	}
+
+	var tbEl = $("#mStatus > tbody");
+
+	for (var lv = 1; lv <= maxLv; lv++)
+	{
+		var params =  MemoriaUtil.getParam(piece, lv);
+		var trEl = $("<tr>").attr({"align":"center"});
+		var css = {};
+		if (lv >= maxLv1 && (lv % 5 == 0)) {
+			css = {"background-color": "#ff9"};
+		}
+		$("<td>").css(css).text(lv).appendTo(trEl);
+		$("<td>").css(css).text(params.hp).appendTo(trEl);
+		$("<td>").css(css).text(params.attack).appendTo(trEl);
+		$("<td>").css(css).text(params.defense).appendTo(trEl);
+		$("<td>").css(css).text(MemoriaUtil.getNextExp(lv)).appendTo(trEl);
+		tbEl.append(trEl);
+	}
+}
+  </script>
+</head>
+<body>
+<div style="position:relative;">
+	<div id="sidemenu">
+		<a href="detail.html"><div class="menubtn">魔法少女</div></a>
+		<a href="memoria.html"><div class="menubtn">メモリア</div></a>
+	</div>
+	<div id="contents">
+		<p id="p1">
+			<strong>
+				<font color="#a21b20">◆</font>
+				"メモリア選択"
+				<font color="#a21b20">◆</font>
+			</strong>
+			<select id="typesel" onchange="optupdate(this.value, 'NONE');">
+				<option value="" selected>すべて</option>
+				<option value="ABILITY">アビリティ</option>
+				<option value="SKILL">スキル</option>
+			</select>
+			<select id="raresel" onchange="optupdate('NONE', this.value);">
+				<option value="" selected>すべて</option>
+				<option value="MORE_2">★★以上</option>
+				<option value="MORE_3">★★★以上</option>
+				<option value="MORE_4">★★★★以上</option>
+				<option value="MORE_5">★★★★★以上</option>
+				<option value="RANK_1">★のみ</option>
+				<option value="RANK_2">★★のみ</option>
+				<option value="RANK_3">★★★のみ</option>
+				<option value="RANK_4">★★★★のみ</option>
+				<option value="RANK_5">★★★★★のみ</option>
+			</select>
+			<select id="cardid" onchange="magilocation(this.value);"></select>
+		</p>
+		<table id="magiData" cellspacing="3">
+			<tbody>
+				<tr>
+					<th><b>名前</b></th>
+					<th><b>レベル</b></th>
+					<th><b>レア</b></th>
+					<th><b>タイプ</b></th>
+					<th><b>attributeId</b></th>
+					<th><b>装備可能</b></th>
+				</tr>
+				<tr align="center">
+					<td rowspan="5" id="mName" width="120px"></td>
+					<td id="mLevel"></td>
+					<td id="mRare"></td>
+					<td id="mType"></td>
+					<td id="mAttr"></td>
+					<td id="mTarget"></td>
+				</tr>
+				<tr>
+					<th><b>HP</b></th>
+					<th><b>ATK</b></th>
+					<th><b>DEF</b></th>
+				</tr>
+				<tr align="center">
+					<td id="mHp"></td>
+					<td id="mAtk"></td>
+					<td id="mDef"></td>
+				</tr>
+				<tr>
+					<th colspan="3"><b>イラスト</b></th>
+				</tr>
+				<tr>
+					<td colspan="3" id="mIllust"></td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="mPieceDesc" class="inBorder" style="width:550px;border-width:1px !important;margin:5px 5px 5px 50px;padding:5px;">
+		</div>
+		<div class="inBorder" style="width:600px;">
+			<div class="inHead">スキル (初期)</div>
+			<h1 id="mSkill1" style="font-size:16px;"></h1>
+			<div class="inHead2">再使用</div>
+			<div id="mSkill1Turn" class="inHead2v"></div>
+			<div id="mSkill1Desc" class="desc"></div>
+			<table id="mSkill1Flover" cellspacing="3">
+				<thead>
+					<tr>
+						<th><b>効果</b></th>
+						<th><b>ターゲット</b></th>
+						<th><b>効果量</b></th>
+						<th><b>強化</b></th>
+						<th><b>状態変化</b></th>
+						<th><b>成功率</b></th>
+						<th><b>持続ターン</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="inBorder" style="width:600px;">
+			<div class="inHead">スキル (限界突破)</div>
+			<h1 id="mSkill2" style="font-size:16px;"></h1>
+			<div class="inHead2">再使用</div>
+			<div id="mSkill2Turn" class="inHead2v"></div>
+			<div id="mSkill2Desc" class="desc"></div>
+			<table id="mSkill2Flover" cellspacing="3">
+				<thead>
+					<tr>
+						<th><b>効果</b></th>
+						<th><b>ターゲット</b></th>
+						<th><b>効果量</b></th>
+						<th><b>強化</b></th>
+						<th><b>状態変化</b></th>
+						<th><b>成功率</b></th>
+						<th><b>持続ターン</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="inBorder" style="width:450px;">
+			<div class="inHead">ステータス</div>
+			<table id="mStatus" cellspacing="3">
+				<thead>
+					<tr>
+						<th width="50px"><b>Level</b></th>
+						<th width="50px"><b>HP</b></th>
+						<th width="50px"><b>ATK</b></th>
+						<th width="50px"><b>DEF</b></th>
+						<th width="80px"><b>次のLVまで</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>

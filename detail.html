@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link href="detail.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/CardUtil.js"></script>
+  <script type="text/javascript">
+ // 存在チェック
+if (String.prototype.format == undefined) {  
+  /**
+   * フォーマット関数
+   */
+  String.prototype.format = function(arg)
+  {
+    // 置換ファンク
+    var rep_fn = undefined;
+
+    // オブジェクトの場合
+    if (typeof arg == "object") {
+      rep_fn = function(m, k) { return arg[k]; }
+    }
+    // 複数引数だった場合
+    else {
+      var args = arguments;
+      rep_fn = function(m, k) { return args[ parseInt(k) ]; }
+    }
+
+    return this.replace( /\{(\w+)\}/g, rep_fn );
+  }
+}
+var charaList = {};
+$(function() {
+	$.getJSON("CharaCollection.json", function(data) {
+		var selEl = $("#cardid");
+		charaList = data.charaList;
+		var len = charaList.length;
+		for (var i = 0; i < len; i++) {
+			var clidx = 0;
+			if (typeof charaList[i].cardList[0].card === 'undefined') {
+				clidx = 1;
+			}
+			selEl.append($("<option>").attr({"value":charaList[i].charaId}).text("[{0}] {1}".format(charaList[i].charaId, charaList[i].cardList[clidx].card.cardName)));
+		}
+	});
+});
+function magilocation(e)
+{
+	var charaObj = getChara(parseInt(e));
+	if (charaObj != null)
+	{
+		var kakubtn = $("#kakusei");
+		kakubtn.empty();
+		var evLen = getEvoCount(charaObj);
+
+		for (var i = 0; i < evLen; i++) {
+			var evoobj = getEvolution(charaObj, i);
+			if (i == 0) {
+				changeMagi(evoobj.charaNo, i);
+			}
+			
+			kakubtn.append(
+						$("<label>").append(
+							$("<input>")
+								.attr({"type":"radio", "name":evoobj.charaNo, "value":i})
+								.prop("checked", i == 0)
+								.change(function(){ changeMagi($(this).attr('name'), $(this).val());}))
+							.append("覚醒{0}段階".format(i))
+							.append($("<br />"))
+							);
+		}
+	}
+}
+
+function getChara(charaId)
+{
+	var len = charaList.length;
+	for (var i = 0; i < len; i++)
+	{
+		if (charaList[i].charaId == charaId)
+		{
+			return charaList[i].chara
+		}
+	}
+	return null;
+}
+
+function getEvoCount(chara)
+{
+	var count = 0;
+	typeof chara.defaultCard !== 'undefined' && (count += 1);
+	typeof chara.evolutionCard1 !== 'undefined' && (count += 1);
+	typeof chara.evolutionCard2 !== 'undefined' && (count += 1);
+	typeof chara.evolutionCard3 !== 'undefined' && (count += 1);
+	typeof chara.evolutionCard4 !== 'undefined' && (count += 1);
+	typeof chara.evolutionCard5 !== 'undefined' && (count += 1);
+	return count;
+}
+
+function getEvolution(chara, evoCount)
+{
+	if (evoCount == 0)
+		return chara.defaultCard;
+	return chara["evolutionCard"+evoCount];
+}
+
+function addCard(el, name, num)
+{
+	var fname = "";
+	if (name === "MPUP")
+		fname = "images/accele.png";
+	else if (name === "CHARGE")
+		fname = "images/charge.png";
+	else if (name === "RANGE_H")
+		fname = "images/blast_h.png";
+	else if (name === "RANGE_V")
+		fname = "images/blast_v.png";
+	else
+		fname = "";
+		
+	el.append($("<div>")
+		.attr("class", "card")
+		.css({
+			"left":(num*70)+"px",
+			"background-image": "url(\'"+fname+"')",
+			"z-index": 400-(num*70)}));
+}
+
+function changeMagi(charaId, evoCount)
+{
+	evoCount = parseInt(evoCount);
+	var chara = getChara(charaId);
+	var cone = getEvolution(chara, evoCount);
+	
+	$(".inBorder tbody,h1,.desc").empty();
+	
+	$("#mCards").empty();
+	$("#mName").text(cone.cardName);
+	var l = parseInt(cone.rank.substr(5));
+	var rareText = "";
+	for (var n = 0; n < l; n++)
+	{
+		rareText += '★';
+	}
+	$("#mRare").text(rareText);
+	$("#mAttr").text(cone.attributeId);
+	$("#mType").text(cone.initialType);
+	$("#mGrow").text(cone.growthType);
+	
+	var maxLv = CardUtil.getMaxLevel(cone.rank);
+	var maxLvParams = CardUtil.getAfterParam(cone.cardId, chara, null, maxLv);
+	$("#mHp").text(cone.hp + " / " + maxLvParams.hp);	
+	$("#mAtk").text(cone.attack + " / " + maxLvParams.attack);
+	$("#mDef").text(cone.defense + " / " + maxLvParams.defense);
+	$("#mRGMA").text(cone.rateGainMpAtk);
+	$("#mRGMD").text(cone.rateGainMpDef);
+
+	$("#mCharaDesc").html(chara.description.replace(/＠/g, "<br />"));
+	$("#mSchool").text(chara.school);
+	$("#mDesigner").text(chara.designer);
+	$("#mVoice").text(chara.voiceActor);
+	
+	var mc = $("#mCards");
+	addCard(mc, cone.commandType1, 0);
+	addCard(mc, cone.commandType2, 1);
+	addCard(mc, cone.commandType3, 2);
+	addCard(mc, cone.commandType4, 3);
+	addCard(mc, cone.commandType5, 4);
+	
+	$("#mMagia").text(cone.cardMagia.name);
+	$("#mMagiaDesc").text(cone.cardMagia.shortDescription);
+	for (var n = 1; n < 10; n++) {
+		var art = "art" + n;
+		if (typeof cone.cardMagia[art] === 'undefined')
+			break;
+		var trEl = $("<tr>").attr({"align":"center"});
+		$("<td>").text(cone.cardMagia[art].verbCode).appendTo(trEl);
+		$("<td>").text(cone.cardMagia[art].targetId).appendTo(trEl);
+		$("<td>").text(cone.cardMagia[art].effectValue).appendTo(trEl);
+		$("<td>").text(cone.cardMagia[art].growPoint).appendTo(trEl);
+		$("<td>").text(cone.cardMagia[art].effectCode).appendTo(trEl);
+		$("<td>").text(cone.cardMagia[art].probability).appendTo(trEl);
+		$("<td>").text(cone.cardMagia[art].enableTurn).appendTo(trEl);
+		$("#mMagiaFlover tbody").append(trEl);
+	}
+
+	if (typeof cone.doppelCardMagia !== 'undefined')
+	{
+		$("#mDoppel").text(cone.doppelCardMagia.name);
+		$("#mDoppelDesc").text(cone.doppelCardMagia.shortDescription);
+		for (var n = 1; n < 10; n++) {
+			var art = "art" + n;
+			if (typeof cone.doppelCardMagia[art] === 'undefined')
+				break;
+			var trEl = $("<tr>").attr({"align":"center"});
+			$("<td>").text(cone.doppelCardMagia[art].verbCode).appendTo(trEl);
+			$("<td>").text(cone.doppelCardMagia[art].targetId).appendTo(trEl);
+			$("<td>").text(cone.doppelCardMagia[art].effectValue).appendTo(trEl);
+			$("<td>").text(cone.doppelCardMagia[art].growPoint).appendTo(trEl);
+			$("<td>").text(cone.doppelCardMagia[art].effectCode).appendTo(trEl);
+			$("<td>").text(cone.doppelCardMagia[art].probability).appendTo(trEl);
+			$("<td>").text(cone.doppelCardMagia[art].enableTurn).appendTo(trEl);
+			$("#mDoppelFlover tbody").append(trEl);
+		}
+	}
+	
+	$("#mConn").text(cone.cardSkill.name);
+	$("#mConnDesc").text(cone.cardSkill.shortDescription);
+	for (var n = 1; n < 10; n++) {
+		var art = "art" + n;
+		if (typeof cone.cardSkill[art] === 'undefined')
+			break;
+		var trEl = $("<tr>").attr({"align":"center"});
+		$("<td>").text(cone.cardSkill[art].verbCode).appendTo(trEl);
+		$("<td>").text(cone.cardSkill[art].targetId).appendTo(trEl);
+		$("<td>").text(cone.cardSkill[art].effectValue).appendTo(trEl);
+		$("<td>").text(cone.cardSkill[art].growPoint).appendTo(trEl);
+		$("<td>").text(cone.cardSkill[art].effectCode).appendTo(trEl);
+		$("<td>").text(cone.cardSkill[art].probability).appendTo(trEl);
+		$("<td>").text(cone.cardSkill[art].enableTurn).appendTo(trEl);
+		$("#mConnFlover tbody").append(trEl);
+	}
+	
+	var tbEl = $("#mStatus > tbody");
+	for (var lv = 1; lv <= maxLv; lv++)
+	{
+		var params = CardUtil.getAfterParam(cone.cardId, chara, null, lv);
+		var trEl = $("<tr>").attr({"align":"center"});
+		$("<td>").text(lv).appendTo(trEl);
+		$("<td>").text(params.hp).appendTo(trEl);
+		$("<td>").text(params.attack).appendTo(trEl);
+		$("<td>").text(params.defense).appendTo(trEl);
+		$("<td>").text(CardUtil.getNextExp(lv)).appendTo(trEl);
+		tbEl.append(trEl);
+	}
+}
+  </script>
+</head>
+<body>
+<div style="position:relative;">
+	<div id="sidemenu">
+		<a href="detail.html"><div class="menubtn">魔法少女</div></a>
+		<a href="memoria.html"><div class="menubtn">メモリア</div></a>
+	</div>
+	<div id="contents">
+		<p id="p1">
+			<strong>
+				<font color="#a21b20">◆</font>
+				"魔法少女選択"
+				<font color="#a21b20">◆</font>
+			</strong>
+			<select id="cardid" onchange="magilocation(this.value);"></select>
+		</p>
+		<p id="p2">
+			<strong>
+				<font color="#a21b20">◆</font>
+				"覚醒"
+				<font color="#a21b20">◆</font>
+			</strong>
+			<div id="kakusei"></div>
+		</p>
+		<table id="magiData" cellspacing="3">
+			<tbody>
+				<tr>
+					<th><b>名前</b></th>
+					<th><b>レア</b></th>
+					<th><b>属性</b></th>
+					<th><b>タイプ</b></th>
+					<th><b>成長</b></th>
+				</tr>
+				<tr align="center">
+					<td rowspan="5" id="mName" width="120px"></td>
+					<td id="mRare"></td>
+					<td id="mAttr"></td>
+					<td id="mType"></td>
+					<td id="mGrow"></td>
+				</tr>
+				<tr>
+					<th><b>HP</b></th>
+					<th><b>ATK</b></th>
+					<th><b>DEF</b></th>
+					<th><b>攻撃時MP上昇率</b></th>
+					<th><b>防御時MP上昇率</b></th>
+				</tr>
+				<tr align="center">
+					<td id="mHp"></td>
+					<td id="mAtk"></td>
+					<td id="mDef"></td>
+					<td id="mRGMA"></td>
+					<td id="mRGMD"></td>
+				</tr>
+				<tr>
+					<th><b>デザイナー</b></th>
+					<th><b>声優</b></th>
+					<th><b>学校</b></th>
+				</tr>
+				<tr align="center">
+					<td id="mDesigner"></td>
+					<td id="mVoice"></td>
+					<td id="mSchool"></td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="mCharaDesc" class="inBorder" style="width:550px;border-width:1px !important;margin:5px 5px 5px 50px;padding:5px;">
+		</div>
+		<div id="mCards" style="position:relative; height:80px;margin:3px;"></div>
+		<div class="inBorder" style="width:600px;">
+			<div class="inHead">マギア</div>
+			<h1 id="mMagia" style="font-size:16px;"></h1>
+			<div id="mMagiaDesc" class="desc"></div>
+			<table id="mMagiaFlover" cellspacing="3">
+				<thead>
+					<tr>
+						<th><b>効果</b></th>
+						<th><b>ターゲット</b></th>
+						<th><b>効果量</b></th>
+						<th><b>マギア強化</b></th>
+						<th><b>状態変化</b></th>
+						<th><b>成功率</b></th>
+						<th><b>持続ターン</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="inBorder" style="width:600px;">
+			<div class="inHead">ドッペル</div>
+			<h1 id="mDoppel" style="font-size:16px;"></h1>
+			<div id="mDoppelDesc" class="desc"></div>
+			<table id="mDoppelFlover" cellspacing="3">
+				<thead>
+					<tr>
+						<th><b>効果</b></th>
+						<th><b>ターゲット</b></th>
+						<th><b>効果量</b></th>
+						<th><b>マギア強化</b></th>
+						<th><b>状態変化</b></th>
+						<th><b>成功率</b></th>
+						<th><b>持続ターン</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="inBorder" style="width:600px;">
+			<div class="inHead">コネクト</div>
+			<h1 id="mConn" style="font-size:16px;"></h1>
+			<div id="mConnDesc" class="desc"></div>
+			<table id="mConnFlover" cellspacing="3">
+				<thead>
+					<tr>
+						<th><b>効果</b></th>
+						<th><b>ターゲット</b></th>
+						<th><b>効果量</b></th>
+						<th><b>強化</b></th>
+						<th><b>状態変化</b></th>
+						<th><b>成功率</b></th>
+						<th><b>持続ターン</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="inBorder" style="width:450px;">
+			<div class="inHead">ステータス</div>
+			<table id="mStatus" cellspacing="3">
+				<thead>
+					<tr>
+						<th width="50px"><b>Level</b></th>
+						<th width="50px"><b>HP</b></th>
+						<th width="50px"><b>ATK</b></th>
+						<th width="50px"><b>DEF</b></th>
+						<th width="80px"><b>次のLVまで</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
