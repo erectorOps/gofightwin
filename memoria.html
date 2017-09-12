@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <link href="detail.css" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="js/MemoriaUtil.js"></script>
   <script type="text/javascript">
  // 存在チェック
@@ -30,6 +31,7 @@ if (String.prototype.format == undefined) {
   }
 }
 var pieceList = {};
+var statChart;
 $(function() {
 	$.getJSON("PieceCollection.json", function(data) {
 		var selEl = $("#cardid");
@@ -37,6 +39,44 @@ $(function() {
 		var len = pieceList.length;
 		optupdate("NONE", "NONE");
 		
+	});
+	var ctx = $("#stat-graph")[0].getContext("2d");
+	statChart = new Chart(ctx, {
+		type: 'line',
+		data: {
+			datasets:[]
+		},
+		options : {
+			tooltips: {
+				mode: 'index',
+				callbacks: {
+					title : function(item, dt) {
+						return "Lv" + item[0].xLabel;
+					}
+				}
+			},
+			scales : {
+				xAxes: [{
+					type: 'linear',
+					position: 'bottom',
+					ticks: {
+						min: 1,
+						max: 100,
+						stepSize: 10,
+						callback: function(v) {
+							return 'Lv'+v;
+						}
+					}
+				}],
+				yAxes: [{
+					type: 'linear',
+					position: 'left',
+					ticks: {
+						beginAtZero:true,
+					}
+				}]
+			}
+		}
 	});
 });
 
@@ -121,7 +161,7 @@ function changeMagi(pieceId)
 	var maxLvParams = MemoriaUtil.getParam(piece, maxLv);
 	var isabi = "ABILITY" == piece.pieceType;
 	$(".inBorder tbody,h1,.desc").empty();
-	
+
 	$("#mName").text(piece.pieceName);
 	var l = parseInt(piece.rank.substr(5));
 	var rareText = "";
@@ -190,10 +230,11 @@ function changeMagi(pieceId)
 	}
 
 	var tbEl = $("#mStatus > tbody");
-
+	var chartData = [];
 	for (var lv = 1; lv <= maxLv; lv++)
 	{
 		var params =  MemoriaUtil.getParam(piece, lv);
+		params.lv = lv;
 		var trEl = $("<tr>").attr({"align":"center"});
 		var css = {};
 		if (lv >= maxLv1 && (lv % 5 == 0)) {
@@ -204,8 +245,35 @@ function changeMagi(pieceId)
 		$("<td>").css(css).text(params.attack).appendTo(trEl);
 		$("<td>").css(css).text(params.defense).appendTo(trEl);
 		$("<td>").css(css).text(MemoriaUtil.getNextExp(lv)).appendTo(trEl);
+		if (lv == 1 || lv % 5 == 0) {
+			chartData.push(params);
+		}
 		tbEl.append(trEl);
 	}
+	
+	var datasets = [
+		{
+			label: 'HP',
+			data : chartData.map(function(o) { return {x:o.lv, y:o.hp};}),
+			borderColor : "rgba(221,210,103,0.8)",
+			backgroundColor : "rgba(221,210,103,0.2)",
+		},
+		{
+			label: 'ATK',
+			borderColor: 'rgba(221, 156, 180, 0.8)',
+			backgroundColor: 'rgba(221, 156, 180, 0.2)',
+			data : chartData.map(function(o) { return {x:o.lv, y:o.attack};}),
+		},
+		{
+			label: 'DEF',
+			borderColor : "rgba(143,183,221,0.8)",
+			backgroundColor : "rgba(143,183,221,0.2)",
+			data : chartData.map(function(o) { return {x:o.lv, y:o.defense};}),
+		}
+	];
+	statChart.data.datasets = datasets;
+	statChart.update();
+
 }
   </script>
 </head>
@@ -277,7 +345,7 @@ function changeMagi(pieceId)
 				</tr>
 			</tbody>
 		</table>
-		<div id="mPieceDesc" class="inBorder" style="width:550px;border-width:1px !important;margin:5px 5px 5px 50px;padding:5px;">
+		<div id="mPieceDesc" class="inBorder" style="width:fit-content;border-width:1px !important;margin:5px 5px 5px 50px;padding:5px;">
 		</div>
 		<div class="inBorder">
 			<div class="inHead">スキル (初期)</div>
@@ -323,8 +391,9 @@ function changeMagi(pieceId)
 				</tbody>
 			</table>
 		</div>
-		<div class="inBorder" style="width:500px;">
+		<div class="inBorder">
 			<div class="inHead">ステータス</div>
+			<canvas id="stat-graph" width="500", height="300"></canvas>
 			<table id="mStatus" cellspacing="3">
 				<thead>
 					<tr>

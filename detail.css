@@ -68,7 +68,7 @@ div.inBorder {
 	border: 2px solid #b28750;
 	border-radius: 10px 10px;
 	margin: 5px;
-	width:750px;
+	width:fit-content;
 }
 
 div.inHead {
@@ -91,7 +91,16 @@ div.inHead2 {
 
 div.inHead2v {
 	display:table-cell;
-	padding: 0px 0px 0px 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+div.inMidCaption {
+	font-weight: bold;
+	font-size: 16px;
+	text-align:left;
+	width:300px;
+	margin-left: auto;
+	border-bottom:solid 2px #d2b790;
 }
 
 div.desc {
