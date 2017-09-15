@@ -29755,6 +29755,1011 @@
 					}
 				}
 			]
+		},
+		{
+			"charaId": 3025,
+			"chara": {
+				"id": 3025,
+				"name": "五十鈴 れん",
+				"kana": "いすず れん",
+				"attributeId": "DARK",
+				"attackType": 1,
+				"initialType": "MAGIA",
+				"growthType": "BALANCE",
+				"enemyFlg": false,
+				"saleItemId": "PRISM",
+				"saleItem": {
+					"itemCode": "PRISM",
+					"name": "マギアチップ",
+					"shortDescription": "マギアチップ",
+					"description": "ショップで特別なアイテムと交換することができるアイテム",
+					"canUse": false,
+					"isSellable": false,
+					"treasureChestColor": "GOLD",
+					"unit": "個",
+					"price": 0,
+					"sortKey": 0
+				},
+				"defaultCardId": 30254,
+				"defaultCard": {
+					"cardId": 30254,
+					"charaNo": 3025,
+					"miniCharaNo": 302500,
+					"magiaCharaNo": 302500,
+					"cardName": "五十鈴 れん",
+					"rank": "RANK_4",
+					"attributeId": "DARK",
+					"initialType": "MAGIA",
+					"growthType": "BALANCE",
+					"attack": 2011,
+					"defense": 1509,
+					"hp": 4724,
+					"rateGainMpAtk": 1200,
+					"rateGainMpDef": 1200,
+					"magiaId": 30254,
+					"cardMagia": {
+						"id": 30254,
+						"groupId": 1067,
+						"name": "ソウル・サルベーション",
+						"shortDescription": "敵単体にダメージ[Ⅵ]＆低HPほど威力UP＆回避(自/1T)",
+						"artId1": 100000306,
+						"art1": {
+							"artId": 100000306,
+							"verbCode": "ATTACK",
+							"effectCode": "LINKED_DAMAGE",
+							"targetId": "TARGET",
+							"effectValue": 6500,
+							"growPoint": 100,
+							"parameter": 3500
+						},
+						"artId2": 610206900,
+						"art2": {
+							"artId": 610206900,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "AVOID",
+							"targetId": "SELF",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"skillId": 30254,
+					"cardSkill": {
+						"id": 30254,
+						"groupId": 1126,
+						"name": "私に続きを記させて",
+						"shortDescription": "ターゲット生存時に必ず追撃",
+						"artId1": 610407300,
+						"art1": {
+							"artId": 610407300,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "PURSUE",
+							"targetId": "CONNECT",
+							"effectValue": 800,
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_V",
+					"commandType4": "RANGE_H",
+					"commandType5": "CHARGE",
+					"illustrator": "QP:flapper",
+					"cardCustomize": {
+						"cardId": 30254,
+						"giftId1": 551,
+						"gift1": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum1": 3,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 70,
+						"giftId2": 152,
+						"gift2": {
+							"id": 152,
+							"name": "ダークオーブ＋",
+							"attributeId": "DARK",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum2": 12,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 50,
+						"giftId3": 153,
+						"gift3": {
+							"id": 153,
+							"name": "ダークオーブ＋＋",
+							"attributeId": "DARK",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum3": 6,
+						"bonusCode3": "HP",
+						"bonusNum3": 60,
+						"giftId4": 502,
+						"gift4": {
+							"id": 502,
+							"name": "階段のモニュメント",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 6,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 60,
+						"giftId5": 403,
+						"gift5": {
+							"id": 403,
+							"name": "絵馬の水引",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum5": 8,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 60,
+						"giftId6": 553,
+						"gift6": {
+							"id": 553,
+							"name": "羊の角",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum6": 6,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 40
+					}
+				},
+				"evolutionCardId1": 30255,
+				"evolutionCard1": {
+					"cardId": 30255,
+					"charaNo": 3025,
+					"miniCharaNo": 302500,
+					"magiaCharaNo": 302500,
+					"cardName": "五十鈴 れん",
+					"rank": "RANK_5",
+					"attributeId": "DARK",
+					"initialType": "MAGIA",
+					"growthType": "BALANCE",
+					"attack": 2282,
+					"defense": 1711,
+					"hp": 5355,
+					"rateGainMpAtk": 1200,
+					"rateGainMpDef": 1200,
+					"magiaId": 30255,
+					"cardMagia": {
+						"id": 30255,
+						"groupId": 1067,
+						"name": "ソウル・サルベーション",
+						"shortDescription": "敵単体にダメージ[Ⅷ]＆低HPほど威力UP＆回避(自/1T)＆HP自動回復(自/3T)",
+						"artId1": 100000308,
+						"art1": {
+							"artId": 100000308,
+							"verbCode": "ATTACK",
+							"effectCode": "LINKED_DAMAGE",
+							"targetId": "TARGET",
+							"effectValue": 6900,
+							"growPoint": 100,
+							"parameter": 3500
+						},
+						"artId2": 610206900,
+						"art2": {
+							"artId": 610206900,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "AVOID",
+							"targetId": "SELF",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						},
+						"artId3": 630207703,
+						"art3": {
+							"artId": 630207703,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "AUTO_HEAL",
+							"targetId": "SELF",
+							"effectValue": 40,
+							"enableTurn": 3,
+							"growPoint": 10,
+							"probability": 1000
+						}
+					},
+					"doppelMagiaId": 30258,
+					"doppelCardMagia": {
+						"id": 30258,
+						"groupId": 1067,
+						"name": "電令のドッペル",
+						"shortDescription": "敵単体にダメージ[Ⅹ]＆低HPほど威力UP＆回避(自/1T)＆HP自動回復(自/3T)",
+						"artId1": 100000310,
+						"art1": {
+							"artId": 100000310,
+							"verbCode": "ATTACK",
+							"effectCode": "LINKED_DAMAGE",
+							"targetId": "TARGET",
+							"effectValue": 7300,
+							"growPoint": 100,
+							"parameter": 3500
+						},
+						"artId2": 610206900,
+						"art2": {
+							"artId": 610206900,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "AVOID",
+							"targetId": "SELF",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						},
+						"artId3": 630207704,
+						"art3": {
+							"artId": 630207704,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "AUTO_HEAL",
+							"targetId": "SELF",
+							"effectValue": 50,
+							"enableTurn": 3,
+							"growPoint": 10,
+							"probability": 1000
+						}
+					},
+					"skillId": 30255,
+					"cardSkill": {
+						"id": 30255,
+						"groupId": 1126,
+						"name": "私に続きを記させて",
+						"shortDescription": "ターゲット生存時に必ず追撃 ＆ 必ず回避",
+						"artId1": 610407300,
+						"art1": {
+							"artId": 610407300,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "PURSUE",
+							"targetId": "CONNECT",
+							"effectValue": 800,
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						},
+						"artId2": 610406900,
+						"art2": {
+							"artId": 610406900,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "AVOID",
+							"targetId": "CONNECT",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_V",
+					"commandType4": "RANGE_H",
+					"commandType5": "CHARGE",
+					"illustrator": "QP:flapper",
+					"cardCustomize": {
+						"cardId": 30255,
+						"giftId1": 551,
+						"gift1": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum1": 3,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 80,
+						"giftId2": 152,
+						"gift2": {
+							"id": 152,
+							"name": "ダークオーブ＋",
+							"attributeId": "DARK",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum2": 15,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 60,
+						"giftId3": 153,
+						"gift3": {
+							"id": 153,
+							"name": "ダークオーブ＋＋",
+							"attributeId": "DARK",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum3": 10,
+						"bonusCode3": "HP",
+						"bonusNum3": 70,
+						"giftId4": 553,
+						"gift4": {
+							"id": 553,
+							"name": "羊の角",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 8,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 70,
+						"giftId5": 503,
+						"gift5": {
+							"id": 503,
+							"name": "マチビト馬の車輪",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 10,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 70,
+						"giftId6": 403,
+						"gift6": {
+							"id": 403,
+							"name": "絵馬の水引",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum6": 15,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 50
+					}
+				},
+				"doppelCharaNo": 302500,
+				"doppel": {
+					"id": 302500,
+					"name": "電令のドッペル",
+					"title": "その姿は、心電図",
+					"description": "この感情の主は、強力な電気信号を駆使し相手の悪意を人格もろとも焼き尽くすこのドッペルの能力に恐怖を覚える一方で、これが殺害以外の方法で人間の悪意を根絶させることが出来る唯一の方法ではないかという誘惑に悩む。＠またこのドッペルは生死を司る力も持ち、その姿を現す時に主は一時的に精神が肉体と分離した幽体離脱状態となる。",
+					"designer": "原案・監修：劇団イヌカレー（泥犬）",
+					"openDate": "2017/09/15 15:10:00"
+				},
+				"firstMagiaGiftId1": 251,
+				"firstMagiaGiftNum1": 5,
+				"firstMagiaGiftId2": 301,
+				"firstMagiaGiftNum2": 5,
+				"firstMagiaGiftId3": 252,
+				"firstMagiaGiftNum3": 3,
+				"firstMagiaGiftId4": 403,
+				"firstMagiaGiftNum4": 3,
+				"firstMagiaGiftId5": 253,
+				"firstMagiaGiftNum5": 1,
+				"firstMagiaGiftId6": 503,
+				"firstMagiaGiftNum6": 1,
+				"secondMagiaGiftId1": 251,
+				"secondMagiaGiftNum1": 7,
+				"secondMagiaGiftId2": 302,
+				"secondMagiaGiftNum2": 7,
+				"secondMagiaGiftId3": 252,
+				"secondMagiaGiftNum3": 5,
+				"secondMagiaGiftId4": 403,
+				"secondMagiaGiftNum4": 5,
+				"secondMagiaGiftId5": 253,
+				"secondMagiaGiftNum5": 3,
+				"secondMagiaGiftId6": 553,
+				"secondMagiaGiftNum6": 3,
+				"thirdMagiaGiftId1": 251,
+				"thirdMagiaGiftNum1": 9,
+				"thirdMagiaGiftId2": 305,
+				"thirdMagiaGiftNum2": 9,
+				"thirdMagiaGiftId3": 252,
+				"thirdMagiaGiftNum3": 7,
+				"thirdMagiaGiftId4": 403,
+				"thirdMagiaGiftNum4": 7,
+				"thirdMagiaGiftId5": 253,
+				"thirdMagiaGiftNum5": 5,
+				"thirdMagiaGiftId6": 503,
+				"thirdMagiaGiftNum6": 5,
+				"fourthMagiaGiftId1": 251,
+				"fourthMagiaGiftNum1": 11,
+				"fourthMagiaGiftId2": 304,
+				"fourthMagiaGiftNum2": 11,
+				"fourthMagiaGiftId3": 252,
+				"fourthMagiaGiftNum3": 9,
+				"fourthMagiaGiftId4": 503,
+				"fourthMagiaGiftNum4": 5,
+				"fourthMagiaGiftId5": 253,
+				"fourthMagiaGiftNum5": 7,
+				"fourthMagiaGiftId6": 552,
+				"fourthMagiaGiftNum6": 7,
+				"firstMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"firstMagiaGift2": {
+					"id": 301,
+					"name": "燕尾の羽",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"firstMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"firstMagiaGift4": {
+					"id": 403,
+					"name": "絵馬の水引",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"firstMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"firstMagiaGift6": {
+					"id": 503,
+					"name": "マチビト馬の車輪",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"secondMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"secondMagiaGift2": {
+					"id": 302,
+					"name": "鏡の招待状",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"secondMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"secondMagiaGift4": {
+					"id": 403,
+					"name": "絵馬の水引",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"secondMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"secondMagiaGift6": {
+					"id": 553,
+					"name": "羊の角",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"thirdMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"thirdMagiaGift2": {
+					"id": 305,
+					"name": "屋上の鍵",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"thirdMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"thirdMagiaGift4": {
+					"id": 403,
+					"name": "絵馬の水引",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"thirdMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"thirdMagiaGift6": {
+					"id": 503,
+					"name": "マチビト馬の車輪",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"fourthMagiaGift2": {
+					"id": 304,
+					"name": "羊の角笛",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"fourthMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"fourthMagiaGift4": {
+					"id": 503,
+					"name": "マチビト馬の車輪",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"fourthMagiaGift6": {
+					"id": 552,
+					"name": "立ち耳の綿",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"description": "小さい頃から内気で、人と話すことが苦手な魔法少女。＠孤立し、生きていくことに苦しみ、自らを追い詰めてしまうが、＠その時に魔法少女の世界を知ったことで、＠どん底から抜け出すことができた。＠精神的に成長もするが、まだ気弱な所がある。",
+				"school": "神浜市立大附属学校",
+				"designer": "さくら小春（QP:flapper）",
+				"voiceActor": "尾崎由香",
+				"openDate": "2017/09/15 15:10:00",
+				"charaMessageList": [
+					{
+						"charaNo": 3025,
+						"messageId": 6,
+						"message": "辛いというより、哀しかったんです"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 7,
+						"message": "みんなみんな…優しくなれたらいいのに"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 8,
+						"message": "私には、それはキラキラと輝いて見えました"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 9,
+						"message": "また…死ぬのに失敗してしまいました"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 10,
+						"message": "私は…この希望を見つめて生きていこう"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 11,
+						"message": "いつだって上手く言葉が出てこない"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 12,
+						"message": "出てこい、私の言葉。私の声…！"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 43,
+						"message": "勝ち…！…ました…はい…！"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 44,
+						"message": "まだ…心臓がドキドキしてます…はい…"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 45,
+						"message": "生きてこそ…ですね"
+					},
+					{
+						"charaNo": 3025,
+						"messageId": 46,
+						"message": "はいっ！これはっ…！嬉しいドキドキですっ…！"
+					}
+				]
+			},
+			"cardList": [
+				{
+					"cardId": 30254,
+					"card": {
+						"cardId": 30254,
+						"charaNo": 3025,
+						"miniCharaNo": 302500,
+						"magiaCharaNo": 302500,
+						"cardName": "五十鈴 れん",
+						"rank": "RANK_4",
+						"attributeId": "DARK",
+						"initialType": "MAGIA",
+						"growthType": "BALANCE",
+						"attack": 2011,
+						"defense": 1509,
+						"hp": 4724,
+						"rateGainMpAtk": 1200,
+						"rateGainMpDef": 1200,
+						"magiaId": 30254,
+						"cardMagia": {
+							"id": 30254,
+							"groupId": 1067,
+							"name": "ソウル・サルベーション",
+							"shortDescription": "敵単体にダメージ[Ⅵ]＆低HPほど威力UP＆回避(自/1T)",
+							"artId1": 100000306,
+							"art1": {
+								"artId": 100000306,
+								"verbCode": "ATTACK",
+								"effectCode": "LINKED_DAMAGE",
+								"targetId": "TARGET",
+								"effectValue": 6500,
+								"growPoint": 100,
+								"parameter": 3500
+							},
+							"artId2": 610206900,
+							"art2": {
+								"artId": 610206900,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "AVOID",
+								"targetId": "SELF",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"skillId": 30254,
+						"cardSkill": {
+							"id": 30254,
+							"groupId": 1126,
+							"name": "私に続きを記させて",
+							"shortDescription": "ターゲット生存時に必ず追撃",
+							"artId1": 610407300,
+							"art1": {
+								"artId": 610407300,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "PURSUE",
+								"targetId": "CONNECT",
+								"effectValue": 800,
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_V",
+						"commandType4": "RANGE_H",
+						"commandType5": "CHARGE",
+						"illustrator": "QP:flapper",
+						"cardCustomize": {
+							"cardId": 30254,
+							"giftId1": 551,
+							"gift1": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum1": 3,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 70,
+							"giftId2": 152,
+							"gift2": {
+								"id": 152,
+								"name": "ダークオーブ＋",
+								"attributeId": "DARK",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum2": 12,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 50,
+							"giftId3": 153,
+							"gift3": {
+								"id": 153,
+								"name": "ダークオーブ＋＋",
+								"attributeId": "DARK",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum3": 6,
+							"bonusCode3": "HP",
+							"bonusNum3": 60,
+							"giftId4": 502,
+							"gift4": {
+								"id": 502,
+								"name": "階段のモニュメント",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 6,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 60,
+							"giftId5": 403,
+							"gift5": {
+								"id": 403,
+								"name": "絵馬の水引",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum5": 8,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 60,
+							"giftId6": 553,
+							"gift6": {
+								"id": 553,
+								"name": "羊の角",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum6": 6,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 40
+						}
+					}
+				},
+				{
+					"cardId": 30255,
+					"card": {
+						"cardId": 30255,
+						"charaNo": 3025,
+						"miniCharaNo": 302500,
+						"magiaCharaNo": 302500,
+						"cardName": "五十鈴 れん",
+						"rank": "RANK_5",
+						"attributeId": "DARK",
+						"initialType": "MAGIA",
+						"growthType": "BALANCE",
+						"attack": 2282,
+						"defense": 1711,
+						"hp": 5355,
+						"rateGainMpAtk": 1200,
+						"rateGainMpDef": 1200,
+						"magiaId": 30255,
+						"cardMagia": {
+							"id": 30255,
+							"groupId": 1067,
+							"name": "ソウル・サルベーション",
+							"shortDescription": "敵単体にダメージ[Ⅷ]＆低HPほど威力UP＆回避(自/1T)＆HP自動回復(自/3T)",
+							"artId1": 100000308,
+							"art1": {
+								"artId": 100000308,
+								"verbCode": "ATTACK",
+								"effectCode": "LINKED_DAMAGE",
+								"targetId": "TARGET",
+								"effectValue": 6900,
+								"growPoint": 100,
+								"parameter": 3500
+							},
+							"artId2": 610206900,
+							"art2": {
+								"artId": 610206900,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "AVOID",
+								"targetId": "SELF",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							},
+							"artId3": 630207703,
+							"art3": {
+								"artId": 630207703,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "AUTO_HEAL",
+								"targetId": "SELF",
+								"effectValue": 40,
+								"enableTurn": 3,
+								"growPoint": 10,
+								"probability": 1000
+							}
+						},
+						"doppelMagiaId": 30258,
+						"doppelCardMagia": {
+							"id": 30258,
+							"groupId": 1067,
+							"name": "電令のドッペル",
+							"shortDescription": "敵単体にダメージ[Ⅹ]＆低HPほど威力UP＆回避(自/1T)＆HP自動回復(自/3T)",
+							"artId1": 100000310,
+							"art1": {
+								"artId": 100000310,
+								"verbCode": "ATTACK",
+								"effectCode": "LINKED_DAMAGE",
+								"targetId": "TARGET",
+								"effectValue": 7300,
+								"growPoint": 100,
+								"parameter": 3500
+							},
+							"artId2": 610206900,
+							"art2": {
+								"artId": 610206900,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "AVOID",
+								"targetId": "SELF",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							},
+							"artId3": 630207704,
+							"art3": {
+								"artId": 630207704,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "AUTO_HEAL",
+								"targetId": "SELF",
+								"effectValue": 50,
+								"enableTurn": 3,
+								"growPoint": 10,
+								"probability": 1000
+							}
+						},
+						"skillId": 30255,
+						"cardSkill": {
+							"id": 30255,
+							"groupId": 1126,
+							"name": "私に続きを記させて",
+							"shortDescription": "ターゲット生存時に必ず追撃 ＆ 必ず回避",
+							"artId1": 610407300,
+							"art1": {
+								"artId": 610407300,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "PURSUE",
+								"targetId": "CONNECT",
+								"effectValue": 800,
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							},
+							"artId2": 610406900,
+							"art2": {
+								"artId": 610406900,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "AVOID",
+								"targetId": "CONNECT",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_V",
+						"commandType4": "RANGE_H",
+						"commandType5": "CHARGE",
+						"illustrator": "QP:flapper",
+						"cardCustomize": {
+							"cardId": 30255,
+							"giftId1": 551,
+							"gift1": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum1": 3,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 80,
+							"giftId2": 152,
+							"gift2": {
+								"id": 152,
+								"name": "ダークオーブ＋",
+								"attributeId": "DARK",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum2": 15,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 60,
+							"giftId3": 153,
+							"gift3": {
+								"id": 153,
+								"name": "ダークオーブ＋＋",
+								"attributeId": "DARK",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum3": 10,
+							"bonusCode3": "HP",
+							"bonusNum3": 70,
+							"giftId4": 553,
+							"gift4": {
+								"id": 553,
+								"name": "羊の角",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 8,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 70,
+							"giftId5": 503,
+							"gift5": {
+								"id": 503,
+								"name": "マチビト馬の車輪",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 10,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 70,
+							"giftId6": 403,
+							"gift6": {
+								"id": 403,
+								"name": "絵馬の水引",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum6": 15,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 50
+						}
+					}
+				}
+			]
 		}
 	],
 	"forceClearCache": false
