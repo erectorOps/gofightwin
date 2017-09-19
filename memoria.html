@@ -30,6 +30,7 @@ if (String.prototype.format == undefined) {
     return this.replace( /\{(\w+)\}/g, rep_fn );
   }
 }
+var artkeys = [];
 var pieceList = {};
 var statChart;
 $(function() {
@@ -78,6 +79,12 @@ $(function() {
 			}
 		}
 	});
+	for (var i = 1; i < 10; i++) {
+		artkeys.push("art"+i);
+	}
+	for (var i = 1; i < 10; i++) {
+		artkeys.push("eventArt"+i);
+	}
 });
 
 var gSelType = "";
@@ -195,11 +202,16 @@ function changeMagi(pieceId)
 	
 	$("#mSkill1").text(skill1.name);
 	$("#mSkill1Turn").text(isabi ? "永続" : skill1.intervalTurn + " ターン");
-	$("#mSkill1Desc").text(skill1.shortDescription);
-	for (var n = 1; n < 10; n++) {
-		var art = "art" + n;
+	var sktext = skill1.shortDescription;
+	if (typeof skill1.eventDescription !== "undefined")
+	{
+		sktext += "<br />" + skill1.eventDescription;
+	}
+	$("#mSkill1Desc").html(sktext);
+
+	$.each(artkeys, function(i, art) {
 		if (typeof skill1[art] === 'undefined')
-			break;
+			return true; // continue
 		var trEl = $("<tr>").attr({"align":"center"});
 		$("<td>").text(skill1[art].verbCode).appendTo(trEl);
 		$("<td>").text(skill1[art].targetId).appendTo(trEl);
@@ -209,15 +221,19 @@ function changeMagi(pieceId)
 		$("<td>").text(skill1[art].probability).appendTo(trEl);
 		$("<td>").text(skill1[art].enableTurn).appendTo(trEl);
 		$("#mSkill1Flover tbody").append(trEl);
-	}
+	});
 
 	$("#mSkill2").text(skill2.name);
 	$("#mSkill2Turn").text(isabi ? "永続" : skill2.intervalTurn + " ターン");
-	$("#mSkill2Desc").text(skill2.shortDescription);
-	for (var n = 1; n < 10; n++) {
-		var art = "art" + n;
+	sktext = skill2.shortDescription;
+	if (typeof skill2.eventDescription !== "undefined")
+	{
+		sktext += "<br />" + skill2.eventDescription;
+	}
+	$("#mSkill2Desc").html(sktext);
+	$.each(artkeys, function(i, art) {
 		if (typeof skill2[art] === 'undefined')
-			break;
+			return true; // continue
 		var trEl = $("<tr>").attr({"align":"center"});
 		$("<td>").text(skill2[art].verbCode).appendTo(trEl);
 		$("<td>").text(skill2[art].targetId).appendTo(trEl);
@@ -227,7 +243,7 @@ function changeMagi(pieceId)
 		$("<td>").text(skill2[art].probability).appendTo(trEl);
 		$("<td>").text(skill2[art].enableTurn).appendTo(trEl);
 		$("#mSkill2Flover tbody").append(trEl);
-	}
+	});
 
 	var tbEl = $("#mStatus > tbody");
 	var chartData = [];
