@@ -33,8 +33,15 @@ if (String.prototype.format == undefined) {
 var charaList = {};
 var statChart;
 $(function() {
-	$.getJSON("CharaCollection.json", function(data) {
+	$.ajaxSetup({ cache: false });
+	
+	$.getJSON("CharaCollection.json", function(data, textStatus, request) {
 		var selEl = $("#cardid");
+		var lastModified = request.getResponseHeader("Last-Modified");
+		if (lastModified !== null) {
+			var dat = new Date(lastModified);
+			$("#lastmodi").text("Chara更新日時:"+dat.getFullYear()+"/"+('0'+(dat.getMonth()+1)).slice(-2)+"/"+('0'+dat.getDate()).slice(-2));
+		}
 		charaList = data.charaList;
 		var len = charaList.length;
 		for (var i = 0; i < len; i++) {
@@ -309,6 +316,7 @@ function changeMagi(charaId, evoCount)
 	<div id="sidemenu">
 		<a href="detail.html"><div class="menubtn">魔法少女</div></a>
 		<a href="memoria.html"><div class="menubtn">メモリア</div></a>
+		<div style="font-size:11px" id="lastmodi"></div>
 	</div>
 	<div id="contents">
 		<p id="p1">
@@ -391,9 +399,6 @@ function changeMagi(charaId, evoCount)
 				<tbody>
 				</tbody>
 			</table>
-			<br />
-			<div class="inMidCaption">強化</div>
-			<br />
 		</div>
 		<div class="inBorder">
 			<div class="inHead">ドッペル</div>

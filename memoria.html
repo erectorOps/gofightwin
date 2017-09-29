@@ -34,8 +34,14 @@ var artkeys = [];
 var pieceList = {};
 var statChart;
 $(function() {
-	$.getJSON("PieceCollection.json", function(data) {
+	$.ajaxSetup({ cache: false });
+	$.getJSON("PieceCollection.json", function(data, textStatus, request) {
 		var selEl = $("#cardid");
+		var lastModified = request.getResponseHeader("Last-Modified");
+		if (lastModified !== null) {
+			var dat = new Date(lastModified);
+			$("#lastmodi").text("Memoria更新日時:"+dat.getFullYear()+"/"+('0'+(dat.getMonth()+1)).slice(-2)+"/"+('0'+dat.getDate()).slice(-2));
+		}
 		pieceList = data.pieceList;
 		var len = pieceList.length;
 		optupdate("NONE", "NONE");
@@ -298,6 +304,7 @@ function changeMagi(pieceId)
 	<div id="sidemenu">
 		<a href="detail.html"><div class="menubtn">魔法少女</div></a>
 		<a href="memoria.html"><div class="menubtn">メモリア</div></a>
+		<div style="font-size:11px" id="lastmodi"></div>
 	</div>
 	<div id="contents">
 		<p id="p1">
