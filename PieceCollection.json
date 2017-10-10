@@ -5633,6 +5633,610 @@
 			"description": "あたしの願いなんてちっぽけなもんだよ。良かれと思ったのに、＠結局は失敗しちまったんだ…。だからこそ、あたしは心に決めた。＠今度は失敗しない、自分のためだけに生きるって。＠これがあたしのさ、曲げられない信念なんだよ。",
 			"illustrator": "谷口淳一郎",
 			"openDate": "2017/09/28 23:40:00"
+		},
+		{
+			"pieceId": 1114,
+			"pieceType": "SKILL",
+			"pieceName": "花咲く家で育って",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "3026",
+			"charaList": [
+				{
+					"charaId": 3026,
+					"name": "静海 このは"
+				}
+			],
+			"attack": 0,
+			"defense": 501,
+			"hp": 421,
+			"skillId": 111400,
+			"pieceSkill": {
+				"id": 111400,
+				"groupId": 1093,
+				"name": "モーラルアップ[Ⅸ]",
+				"intervalTurn": 8,
+				"shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
+				"messageId": 70,
+				"artId1": 310201909,
+				"art1": {
+					"artId": 310201909,
+					"verbCode": "BUFF",
+					"effectCode": "MP_GAIN",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 111401,
+			"pieceSkill2": {
+				"id": 111401,
+				"groupId": 1093,
+				"name": "モーラルアップ[Ⅹ]",
+				"intervalTurn": 7,
+				"shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
+				"messageId": 70,
+				"artId1": 310201910,
+				"art1": {
+					"artId": 310201910,
+					"verbCode": "BUFF",
+					"effectCode": "MP_GAIN",
+					"targetId": "SELF",
+					"effectValue": 275,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "天涯孤独の私を引き取ってくれたあの家＠今でも夢に出てくるけど、今はもうないあの家＠つつじの花が咲き誇る中、私たちは笑って、怒って、泣いて…＠もう帰ることができない、大切な、大切な、あの家…",
+			"illustrator": "茶ちえ",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1115,
+			"pieceType": "SKILL",
+			"pieceName": "三人でお茶を",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 0,
+			"defense": 361,
+			"hp": 441,
+			"skillId": 111500,
+			"pieceSkill": {
+				"id": 111500,
+				"groupId": 1088,
+				"name": "マギアアップ[Ⅴ]",
+				"intervalTurn": 15,
+				"shortDescription": "マギアダメージUP[Ⅴ](自/1T)",
+				"artId1": 310201405,
+				"art1": {
+					"artId": 310201405,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 150,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 111501,
+			"pieceSkill2": {
+				"id": 111501,
+				"groupId": 1088,
+				"name": "マギアアップ[Ⅵ]",
+				"intervalTurn": 13,
+				"shortDescription": "マギアダメージUP[Ⅵ](自/1T)",
+				"artId1": 310201406,
+				"art1": {
+					"artId": 310201406,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 175,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "日差しは暖かいけど、感じる温度は少し寒い＠こういう時ほど、熱いお茶が体に染みる＠ということで、お気に入りのカップでティータイムを＠料理はあまり得意じゃない私でも、お茶くらいは…うん…ね？",
+			"illustrator": "ゆーげん",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1116,
+			"pieceType": "SKILL",
+			"pieceName": "葉月はいつでも忙しい",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "3027",
+			"charaList": [
+				{
+					"charaId": 3027,
+					"name": "遊佐 葉月"
+				}
+			],
+			"attack": 0,
+			"defense": 441,
+			"hp": 481,
+			"skillId": 111600,
+			"pieceSkill": {
+				"id": 111600,
+				"groupId": 1131,
+				"name": "スキルクイック",
+				"intervalTurn": 15,
+				"shortDescription": "スキルクイック(自/3T)",
+				"messageId": 70,
+				"artId1": 630207800,
+				"art1": {
+					"artId": 630207800,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "SKILL_QUICK",
+					"targetId": "SELF",
+					"enableTurn": 3,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 111601,
+			"pieceSkill2": {
+				"id": 111601,
+				"groupId": 1131,
+				"name": "スキルクイック",
+				"intervalTurn": 13,
+				"shortDescription": "スキルクイック(自/3T)",
+				"messageId": 70,
+				"artId1": 630207800,
+				"art1": {
+					"artId": 630207800,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "SKILL_QUICK",
+					"targetId": "SELF",
+					"enableTurn": 3,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "「今日は15時からアポイントメントが２件＠その帰りに食材を買って、18時には晩御飯の支度をしなきゃ…＠あ、そうだ！あやめが壊した家具も直さなきゃ！＠えーっと、あとそれから…何かあったっけ？」",
+			"illustrator": "スミカワ",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1117,
+			"pieceType": "ABILITY",
+			"pieceName": "視線の先にあるものは…",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 441,
+			"defense": 0,
+			"hp": 361,
+			"skillId": 111700,
+			"pieceSkill": {
+				"id": 111700,
+				"groupId": 1124,
+				"name": "パリィ・アデプト[Ⅱ]",
+				"shortDescription": "確率で回避[Ⅱ]",
+				"messageId": 70,
+				"artId1": 690206802,
+				"art1": {
+					"artId": 690206802,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "AVOID",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 150
+				}
+			},
+			"skillId2": 111701,
+			"pieceSkill2": {
+				"id": 111701,
+				"groupId": 1124,
+				"name": "パリィ・アデプト[Ⅲ]",
+				"shortDescription": "確率で回避[Ⅲ]",
+				"messageId": 70,
+				"artId1": 690206803,
+				"art1": {
+					"artId": 690206803,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "AVOID",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 200
+				}
+			},
+			"description": "「…ん？あ、呼んでた？ごめんごめん、スマホ見てて…＠まー、なんていうか…今後に向けた情報収集ってやつ？＠…ふふ、とか言って、嘘、ごめん…マンガ読んでた～＠だって面白いんだよ、これ～！このはも読んでみてよ～！」",
+			"illustrator": "ゆーげん",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1118,
+			"pieceType": "SKILL",
+			"pieceName": "あやめコレクション！",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "3028",
+			"charaList": [
+				{
+					"charaId": 3028,
+					"name": "三栗 あやめ"
+				}
+			],
+			"attack": 0,
+			"defense": 481,
+			"hp": 441,
+			"skillId": 111800,
+			"pieceSkill": {
+				"id": 111800,
+				"groupId": 1121,
+				"name": "クリティカル・ストライク",
+				"intervalTurn": 15,
+				"shortDescription": "必ずクリティカル(自/1T)",
+				"artId1": 610206400,
+				"art1": {
+					"artId": 610206400,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "CRITICAL",
+					"targetId": "SELF",
+					"effectValue": 2000,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 111801,
+			"pieceSkill2": {
+				"id": 111801,
+				"groupId": 1121,
+				"name": "クリティカル・ストライク",
+				"intervalTurn": 13,
+				"shortDescription": "必ずクリティカル(自/1T)",
+				"artId1": 610206400,
+				"art1": {
+					"artId": 610206400,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "CRITICAL",
+					"targetId": "SELF",
+					"effectValue": 2000,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "「見て見て！これ、あちしが見つけてきた宝物だよ！＠これなんて、すごい珍しい宝石で…違うよ！ビー玉じゃないもん！＠これはモンスターが脱皮した…違うよ！セミの抜け殻じゃないもん！＠もう分かってないなぁ～！あちしのコレクションの素晴らしさをさ！」",
+			"illustrator": "絵西",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1119,
+			"pieceType": "SKILL",
+			"pieceName": "サカサマのあちし！",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 0,
+			"defense": 441,
+			"hp": 361,
+			"skillId": 111900,
+			"pieceSkill": {
+				"id": 111900,
+				"groupId": 1087,
+				"name": "スラッシュライズ[Ⅲ]",
+				"intervalTurn": 8,
+				"shortDescription": "与えるダメージUP[Ⅲ](自/3T)",
+				"messageId": 70,
+				"artId1": 310201305,
+				"art1": {
+					"artId": 310201305,
+					"verbCode": "BUFF",
+					"effectCode": "DAMAGE",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 111901,
+			"pieceSkill2": {
+				"id": 111901,
+				"groupId": 1087,
+				"name": "スラッシュライズ[Ⅳ]",
+				"intervalTurn": 7,
+				"shortDescription": "与えるダメージUP[Ⅳ](自/3T)",
+				"messageId": 70,
+				"artId1": 310201306,
+				"art1": {
+					"artId": 310201306,
+					"verbCode": "BUFF",
+					"effectCode": "DAMAGE",
+					"targetId": "SELF",
+					"effectValue": 300,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "「キャンディーの美味しい食べ方知ってる？＠…こーやんの！だはー！どうどう？ほらほらー！＠サカサマになるとねー、なんか美味しく感じんの！＠…え？あちしだけ？そんなことないよー！やってみてってば！」",
+			"illustrator": "ゆーげん",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1120,
+			"pieceType": "ABILITY",
+			"pieceName": "戻れないあの頃",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 840,
+			"defense": 0,
+			"hp": 760,
+			"skillId": 112000,
+			"pieceSkill": {
+				"id": 112000,
+				"groupId": 1129,
+				"name": "マナガイザー・アデプト[Ⅳ]",
+				"shortDescription": "HP自動回復[Ⅳ] & マギアダメージUP[Ⅲ]",
+				"messageId": 70,
+				"artId1": 690207704,
+				"art1": {
+					"artId": 690207704,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "AUTO_HEAL",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 10,
+					"probability": 1000
+				},
+				"artId2": 390201403,
+				"art2": {
+					"artId": 390201403,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 100,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1005,
+				"eventArtId1": 100360,
+				"eventArt1": {
+					"artId": 100360,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 1000,
+					"genericValue": "EVENT_BRANCH_1005_PART_1"
+				},
+				"eventArtId2": 100364,
+				"eventArt2": {
+					"artId": 100364,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 1000,
+					"genericValue": "EVENT_BRANCH_1005_PART_2"
+				},
+				"eventDescription": "＆赤つつじ入手時＋1＆白つつじ入手時+1"
+			},
+			"skillId2": 112001,
+			"pieceSkill2": {
+				"id": 112001,
+				"groupId": 1129,
+				"name": "マナガイザー・アデプト[Ⅴ]",
+				"shortDescription": "HP自動回復[Ⅴ] & マギアダメージUP[Ⅳ]",
+				"messageId": 70,
+				"artId1": 690207705,
+				"art1": {
+					"artId": 690207705,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "AUTO_HEAL",
+					"targetId": "SELF",
+					"effectValue": 60,
+					"growPoint": 10,
+					"probability": 1000
+				},
+				"artId2": 390201404,
+				"art2": {
+					"artId": 390201404,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 125,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1005,
+				"eventArtId1": 100361,
+				"eventArt1": {
+					"artId": 100361,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 2000,
+					"genericValue": "EVENT_BRANCH_1005_PART_1"
+				},
+				"eventArtId2": 100365,
+				"eventArt2": {
+					"artId": 100365,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 2000,
+					"genericValue": "EVENT_BRANCH_1005_PART_2"
+				},
+				"eventDescription": "＆赤つつじ入手時＋2＆白つつじ入手時+2"
+			},
+			"description": "写っているのは、私たちが優しく抱きしめられていた日々＠でも、この写真から目を上げれば、そこには\"今\"が広がっている＠分かっている…私たちが、その\"今\"と戦わなきゃいけないことは＠でも…あともう少しだけで、私をあの頃にいさせて…",
+			"illustrator": "ゆーげん",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1121,
+			"pieceType": "SKILL",
+			"pieceName": "頼れるネゴシエーター",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 0,
+			"defense": 880,
+			"hp": 720,
+			"skillId": 112100,
+			"pieceSkill": {
+				"id": 112100,
+				"groupId": 1096,
+				"name": "ウォークライ[Ⅸ]",
+				"intervalTurn": 6,
+				"shortDescription": "与えるダメージDOWN[Ⅸ](敵全/1T) & 状態異常耐性UP[Ⅷ](自/1T)",
+				"artId1": 410302209,
+				"art1": {
+					"artId": 410302209,
+					"verbCode": "DEBUFF",
+					"effectCode": "DAMAGE",
+					"targetId": "ALL",
+					"effectValue": 450,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"artId2": 310201508,
+				"art2": {
+					"artId": 310201508,
+					"verbCode": "BUFF",
+					"effectCode": "RESIST",
+					"targetId": "SELF",
+					"effectValue": 550,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"eventId": 1005,
+				"eventArtId1": 100366,
+				"eventArt1": {
+					"artId": 100366,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 3000,
+					"genericValue": "EVENT_BRANCH_1005_PART_2"
+				},
+				"eventDescription": "＆白つつじ入手時＋3"
+			},
+			"skillId2": 112101,
+			"pieceSkill2": {
+				"id": 112101,
+				"groupId": 1096,
+				"name": "ウォークライ[Ⅹ]",
+				"intervalTurn": 5,
+				"shortDescription": "与えるダメージDOWN[Ⅹ](敵全/1T) & 状態異常耐性UP[Ⅸ](自/1T)",
+				"artId1": 410302210,
+				"art1": {
+					"artId": 410302210,
+					"verbCode": "DEBUFF",
+					"effectCode": "DAMAGE",
+					"targetId": "ALL",
+					"effectValue": 500,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"artId2": 310201509,
+				"art2": {
+					"artId": 310201509,
+					"verbCode": "BUFF",
+					"effectCode": "RESIST",
+					"targetId": "SELF",
+					"effectValue": 600,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"eventId": 1005,
+				"eventArtId1": 100367,
+				"eventArt1": {
+					"artId": 100367,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 7000,
+					"genericValue": "EVENT_BRANCH_1005_PART_2"
+				},
+				"eventDescription": "＆白つつじ入手時＋7"
+			},
+			"description": "あー、ちょい待って！用件があるなら、アタシが聞くから！＠後ろのふたり？大丈夫大丈夫！気にしないでいいよ！＠…だって、こういうのは、アタシの\"仕事\"だからさ…＠んじゃ、まずはそちらの話、聞かせてよ…！",
+			"illustrator": "ゆーげん",
+			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1122,
+			"pieceType": "ABILITY",
+			"pieceName": "友達できた！",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 880,
+			"defense": 0,
+			"hp": 720,
+			"skillId": 112200,
+			"pieceSkill": {
+				"id": 112200,
+				"groupId": 1121,
+				"name": "エスペランサ―・アデプト[Ⅲ]",
+				"shortDescription": "確率でクリティカル[Ⅲ] & 攻撃力UP[Ⅲ] ",
+				"messageId": 70,
+				"artId1": 690206303,
+				"art1": {
+					"artId": 690206303,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "CRITICAL",
+					"targetId": "SELF",
+					"effectValue": 2000,
+					"growPoint": 0,
+					"probability": 200
+				},
+				"artId2": 390201103,
+				"art2": {
+					"artId": 390201103,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 150,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1005,
+				"eventArtId1": 100362,
+				"eventArt1": {
+					"artId": 100362,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 3000,
+					"genericValue": "EVENT_BRANCH_1005_PART_1"
+				},
+				"eventDescription": "＆赤つつじ入手時＋3"
+			},
+			"skillId2": 112201,
+			"pieceSkill2": {
+				"id": 112201,
+				"groupId": 1121,
+				"name": "エスペランサ―・アデプト[Ⅳ]",
+				"shortDescription": "確率でクリティカル[Ⅳ] & 攻撃力UP[Ⅳ]",
+				"messageId": 70,
+				"artId1": 690206304,
+				"art1": {
+					"artId": 690206304,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "CRITICAL",
+					"targetId": "SELF",
+					"effectValue": 2000,
+					"growPoint": 0,
+					"probability": 250
+				},
+				"artId2": 390201104,
+				"art2": {
+					"artId": 390201104,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1005,
+				"eventArtId1": 100363,
+				"eventArt1": {
+					"artId": 100363,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 7000,
+					"genericValue": "EVENT_BRANCH_1005_PART_1"
+				},
+				"eventDescription": "＆赤つつじ入手時＋7"
+			},
+			"description": "出かける前からワクワクすんの！今日はふたりと何しよかなーって！＠そんで、会って、遊ぶでしょ？そんでそんで、すんごい楽しいの！＠でもね、ちょっとだけ胸が苦しくなんの…思い出しちゃうんだ、あちし＠魔法少女になる前って、毎日こんな感じだったなって…",
+			"illustrator": "ゆーげん",
+			"openDate": "2017/10/10 15:10:00"
 		}
 	],
 	"campaignList": []
