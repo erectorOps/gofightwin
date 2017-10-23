@@ -34,7 +34,13 @@ var charaList = {};
 var statChart;
 $(function() {
 	$.ajaxSetup({ cache: false });
-	
+	$.getJSON("menu.json", function(data) {
+		if (data != null) {
+			for (var i = 0; i < data.length; i++) {
+				$("<a>").attr("href", data[i++]).append($("<div>").addClass("menubtn").text(data[i])).insertBefore("#lastmodi");
+			}
+		}
+	});
 	$.getJSON("CharaCollection.json", function(data, textStatus, request) {
 		var selEl = $("#cardid");
 		var lastModified = request.getResponseHeader("Last-Modified");
@@ -44,13 +50,7 @@ $(function() {
 		}
 		charaList = data.charaList;
 		var len = charaList.length;
-		for (var i = 0; i < len; i++) {
-			var clidx = 0;
-			if (typeof charaList[i].cardList[0].card === 'undefined') {
-				clidx = 1;
-			}
-			selEl.append($("<option>").attr({"value":charaList[i].charaId}).text("[{0}] {1}".format(charaList[i].charaId, charaList[i].cardList[clidx].card.cardName)));
-		}
+		optupdate("NONE", "NONE");
 	});
 	var ctx = $("#stat-graph")[0].getContext("2d");
 	statChart = new Chart(ctx, {
@@ -91,6 +91,39 @@ $(function() {
 		}
 	});
 });
+
+var gSelType = "";
+var gSelRare = "";
+
+function optupdate(seltype, selrare)
+{
+	if (seltype != "NONE")
+		gSelType = seltype;
+	if (selrare != "NONE")
+		gSelRare = selrare;
+
+	var selEl = $("#cardid");
+	selEl.empty();
+	var len = charaList.length;
+	var ql;
+	gSelRare && (ql = parseInt(gSelRare.substr(5)));
+	var ismore = gSelRare.indexOf("MORE_") == 0;
+	for (var i = 0; i < len; i++) {
+		var c = charaList[i].chara;
+		var l = parseInt(c.defaultCard.rank.substr(5));
+
+		if ((!gSelType || gSelType == c.attributeId) && (!gSelRare || (ismore ? l >= ql : l == ql)))
+		{
+			var rareText = CardUtil.getAttributeShortStr(c.attributeId);
+			for (var n = 0; n < l; n++)
+			{
+				rareText += '★';
+			}
+			selEl.append($("<option>").attr({"value":c.id}).text("[{0}, {1}] {2}".format(c.id, rareText, c.name)));
+		}
+	}
+}
+
 function magilocation(e)
 {
 	var charaObj = getChara(parseInt(e));
@@ -314,8 +347,6 @@ function changeMagi(charaId, evoCount)
 <body>
 <div style="position:relative;">
 	<div id="sidemenu">
-		<a href="detail.html"><div class="menubtn">魔法少女</div></a>
-		<a href="memoria.html"><div class="menubtn">メモリア</div></a>
 		<div style="font-size:11px" id="lastmodi"></div>
 	</div>
 	<div id="contents">
@@ -325,6 +356,26 @@ function changeMagi(charaId, evoCount)
 				"魔法少女選択"
 				<font color="#a21b20">◆</font>
 			</strong>
+			<select id="typesel" onchange="optupdate(this.value, 'NONE');">
+				<option value="" selected>すべて</option>
+				<option value="FIRE">火</option>
+				<option value="WATER">水</option>
+				<option value="TIMBER">木</option>
+				<option value="LIGHT">光</option>
+				<option value="DARK">闇</option>
+			</select>
+			<select id="raresel" onchange="optupdate('NONE', this.value);">
+				<option value="" selected>すべて</option>
+				<option value="MORE_2">★★以上</option>
+				<option value="MORE_3">★★★以上</option>
+				<option value="MORE_4">★★★★以上</option>
+				<option value="MORE_5">★★★★★以上</option>
+				<option value="RANK_1">★のみ</option>
+				<option value="RANK_2">★★のみ</option>
+				<option value="RANK_3">★★★のみ</option>
+				<option value="RANK_4">★★★★のみ</option>
+				<option value="RANK_5">★★★★★のみ</option>
+			</select>
 			<select id="cardid" onchange="magilocation(this.value);"></select>
 		</p>
 		<p id="p2">

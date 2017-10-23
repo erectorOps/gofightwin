@@ -8,6 +8,9 @@ var CardUtil = (function() {
         HEAL: "ヒール",
         SUPPORT: "サポート"
     };
+    var atr = {
+        FIRE: "火", WATER: "水", TIMBER: "木", LIGHT: "光", DARK: "闇"
+    };
     d.episodeExp = [0, 1E3, 4E3, 14E3, 64E3];
     d.exArr = [
     	0, 110, 250, 430, 660, 950, 1310, 1750, 2280, 2910, 
@@ -27,6 +30,9 @@ var CardUtil = (function() {
     		return 0;
     	return d.exArr[lv] - d.exArr[lv - 1];
     };
+    d.getAttributeShortStr = function(attr_id) {
+    	return atr[attr_id];
+    }
     d.getMaxLevel = function(a) {
         switch (a) {
             case "RANK_1":

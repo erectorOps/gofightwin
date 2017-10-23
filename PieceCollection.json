@@ -4308,7 +4308,7 @@
 				"groupId": 1121,
 				"name": "クリティカル・ストライク",
 				"intervalTurn": 15,
-				"shortDescription": "クリティカル(100%)(自/1T)",
+				"shortDescription": "必ずクリティカル(自/1T)",
 				"messageId": 70,
 				"artId1": 610206400,
 				"art1": {
@@ -4328,7 +4328,7 @@
 				"groupId": 1121,
 				"name": "クリティカル・ストライク",
 				"intervalTurn": 13,
-				"shortDescription": "クリティカル(100%)(自/1T)",
+				"shortDescription": "必ずクリティカル(自/1T)",
 				"messageId": 70,
 				"artId1": 610206400,
 				"art1": {
@@ -4564,7 +4564,7 @@
 					"probability": 1000
 				}
 			},
-			"description": "“蒼海幣”という組織に所属する、ある少女は＠助けられる立場から、皆を支えていける人間になりたいと願い、＠“蒼碧拳”というカンフーを身に付けようと必死に修行した。＠血の滲むような修行は、傷だらけの木人が物語っている。",
+			"description": "“蒼海幇”という組織に所属する、ある少女は＠助けられる立場から、皆を支えていける人間になりたいと願い、＠“蒼碧拳”というカンフーを身に付けようと必死に修行した。＠血の滲むような修行は、傷だらけの木人が物語っている。",
 			"illustrator": "弘司"
 		},
 		{
@@ -5706,7 +5706,7 @@
 				"id": 111500,
 				"groupId": 1088,
 				"name": "マギアアップ[Ⅴ]",
-				"intervalTurn": 15,
+				"intervalTurn": 6,
 				"shortDescription": "マギアダメージUP[Ⅴ](自/1T)",
 				"artId1": 310201405,
 				"art1": {
@@ -5724,7 +5724,7 @@
 				"id": 111501,
 				"groupId": 1088,
 				"name": "マギアアップ[Ⅵ]",
-				"intervalTurn": 13,
+				"intervalTurn": 5,
 				"shortDescription": "マギアダメージUP[Ⅵ](自/1T)",
 				"artId1": 310201406,
 				"art1": {
@@ -6056,7 +6056,7 @@
 				},
 				"eventDescription": "＆赤つつじ入手時＋2＆白つつじ入手時+2"
 			},
-			"description": "写っているのは、私たちが優しく抱きしめられていた日々＠でも、この写真から目を上げれば、そこには\"今\"が広がっている＠分かっている…私たちが、その\"今\"と戦わなきゃいけないことは＠でも…あともう少しだけで、私をあの頃にいさせて…",
+			"description": "写っているのは、私たちが優しく抱きしめられていた日々＠でも、この写真から目を上げれば、そこには\"今\"が広がっている＠分かっている…私たちが、その\"今\"と戦わなきゃいけないことは＠でも…あともう少しだけ、私をあの頃にいさせて…",
 			"illustrator": "ゆーげん",
 			"openDate": "2017/10/10 15:10:00"
 		},
@@ -6237,6 +6237,358 @@
 			"description": "出かける前からワクワクすんの！今日はふたりと何しよかなーって！＠そんで、会って、遊ぶでしょ？そんでそんで、すんごい楽しいの！＠でもね、ちょっとだけ胸が苦しくなんの…思い出しちゃうんだ、あちし＠魔法少女になる前って、毎日こんな感じだったなって…",
 			"illustrator": "ゆーげん",
 			"openDate": "2017/10/10 15:10:00"
+		},
+		{
+			"pieceId": 1123,
+			"pieceType": "SKILL",
+			"pieceName": "50通目のラブレター（未完）",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "3023",
+			"charaList": [
+				{
+					"charaId": 3023,
+					"name": "江利 あいみ"
+				}
+			],
+			"attack": 0,
+			"defense": 428,
+			"hp": 508,
+			"skillId": 112300,
+			"pieceSkill": {
+				"id": 112300,
+				"groupId": 1123,
+				"name": "ペネトレイト",
+				"intervalTurn": 8,
+				"shortDescription": "必ず防御無視(自/1T)",
+				"messageId": 70,
+				"artId1": 610206700,
+				"art1": {
+					"artId": 610206700,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DEFENSE_IGNORED",
+					"targetId": "SELF",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 112301,
+			"pieceSkill2": {
+				"id": 112301,
+				"groupId": 1123,
+				"name": "ペネトレイト",
+				"intervalTurn": 7,
+				"shortDescription": "必ず防御無視(自/1T)",
+				"messageId": 70,
+				"artId1": 610206700,
+				"art1": {
+					"artId": 610206700,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DEFENSE_IGNORED",
+					"targetId": "SELF",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "スマホのメッセージじゃ彼女の熱い想いは伝わらない＠直接告白しようと思っても、顔を直視することだってできない＠だからこの1枚の紙に自分の字で自分の想いをギュッと詰める＠寝る前に覚悟を決めた彼女は、スズメの声を聞きながら悩んでいる",
+			"illustrator": "mepo",
+			"openDate": "2017/10/23 15:10:00"
+		},
+		{
+			"pieceId": 1124,
+			"pieceType": "ABILITY",
+			"pieceName": "日々妄想",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 363,
+			"defense": 0,
+			"hp": 443,
+			"skillId": 112400,
+			"pieceSkill": {
+				"id": 112400,
+				"groupId": 1089,
+				"name": "レジスト・アデプト[Ⅱ]",
+				"shortDescription": "状態異常耐性UP[Ⅱ]",
+				"artId1": 390201502,
+				"art1": {
+					"artId": 390201502,
+					"verbCode": "BUFF",
+					"effectCode": "RESIST",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 112401,
+			"pieceSkill2": {
+				"id": 112401,
+				"groupId": 1089,
+				"name": "レジスト・アデプト[Ⅲ]",
+				"shortDescription": "状態異常耐性UP[Ⅲ]",
+				"artId1": 390201503,
+				"art1": {
+					"artId": 390201503,
+					"verbCode": "BUFF",
+					"effectCode": "RESIST",
+					"targetId": "SELF",
+					"effectValue": 300,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "「今日の調理実習、彼と同じ班になっちゃった！＠お家でママとコロッケ作る練習もしたし…＠“あいみは料理も上手なんだね、お嫁さんにしたいくらいだ”なんて＠言われちゃったり！…って！待って待って！お嫁さんって気が早いよー」",
+			"illustrator": "かんざきひろ",
+			"openDate": "2017/10/23 15:10:00"
+		},
+		{
+			"pieceId": 1125,
+			"pieceType": "SKILL",
+			"pieceName": "路地裏の友だち",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "1004",
+			"charaList": [
+				{
+					"charaId": 1004,
+					"name": "二葉 さな"
+				}
+			],
+			"attack": 0,
+			"defense": 448,
+			"hp": 488,
+			"skillId": 112500,
+			"pieceSkill": {
+				"id": 112500,
+				"groupId": 1170,
+				"name": "カバーリング",
+				"intervalTurn": 8,
+				"shortDescription": "味方を必ずかばう(1T)",
+				"messageId": 71,
+				"artId1": 610213300,
+				"art1": {
+					"artId": 610213300,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "PROTECT",
+					"targetId": "ONE",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 112501,
+			"pieceSkill2": {
+				"id": 112501,
+				"groupId": 1170,
+				"name": "カバーリング",
+				"intervalTurn": 7,
+				"shortDescription": "味方を必ずかばう(1T)",
+				"messageId": 71,
+				"artId1": 610213300,
+				"art1": {
+					"artId": 610213300,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "PROTECT",
+					"targetId": "ONE",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "ポツンと座る小さな命は、少女を支えた大きな命＠暗くて怖い路地裏を、優しい雰囲気で包み込むように＠薄暗く沈んだ心を、明るく穏やかにしてくれた＠だから今も少女の夢には、時折この子が顔を覗かせる",
+			"illustrator": "匈歌ハトリ",
+			"openDate": "2017/10/23 15:10:00"
+		},
+		{
+			"pieceId": 1126,
+			"pieceType": "SKILL",
+			"pieceName": "放課後の透明少女",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 0,
+			"defense": 383,
+			"hp": 423,
+			"skillId": 112600,
+			"pieceSkill": {
+				"id": 112600,
+				"groupId": 1106,
+				"name": "ポイズン・クラウド[Ⅴ]",
+				"intervalTurn": 8,
+				"shortDescription": "確率で毒[Ⅴ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510304505,
+				"art1": {
+					"artId": 510304505,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "POISON",
+					"targetId": "ALL",
+					"effectValue": 50,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 400
+				}
+			},
+			"skillId2": 112601,
+			"pieceSkill2": {
+				"id": 112601,
+				"groupId": 1106,
+				"name": "ポイズン・クラウド[Ⅵ]",
+				"intervalTurn": 7,
+				"shortDescription": "確率で毒[Ⅵ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510304506,
+				"art1": {
+					"artId": 510304506,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "POISON",
+					"targetId": "ALL",
+					"effectValue": 50,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 425
+				}
+			},
+			"description": "（あ…前にいるのって…いろはさん…やちよさんの家に帰るのかな？＠お、追いかけてみようかな…私も一緒に付いて行ったら駄目かな？＠偶然会ったときぐらい、一緒にお話しながら帰ってもいいよね？＠だって、私を必要としてくれた人だもん…）「あのっ、いろはさん！」",
+			"illustrator": "シャフト",
+			"openDate": "2017/10/23 15:10:00"
+		},
+		{
+			"pieceId": 1127,
+			"pieceType": "ABILITY",
+			"pieceName": "地下水路の手荒い歓迎",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 542,
+			"defense": 0,
+			"hp": 662,
+			"skillId": 112700,
+			"pieceSkill": {
+				"id": 112700,
+				"groupId": 1086,
+				"name": "アンチ・スタン",
+				"shortDescription": "防御力UP[Ⅲ]&スタン無効",
+				"artId1": 390201203,
+				"art1": {
+					"artId": 390201203,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 225,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 690208400,
+				"art2": {
+					"artId": 690208400,
+					"verbCode": "IGNORE",
+					"effectCode": "STUN",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 112701,
+			"pieceSkill2": {
+				"id": 112701,
+				"groupId": 1086,
+				"name": "アンチ・スタン",
+				"shortDescription": "防御力UP[Ⅳ]&スタン無効",
+				"artId1": 390201204,
+				"art1": {
+					"artId": 390201204,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 300,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 690208400,
+				"art2": {
+					"artId": 690208400,
+					"verbCode": "IGNORE",
+					"effectCode": "STUN",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "深月フェリシアに案内されて辿り着いたのは薄暗い地下水路＠そこで待ち受けていたのは、追っていた魔法少女ではなく、＠地下水路を住処にしていた、暗闇の生物たちだった！＠キーッキーッキーッ！「きゃあー！」「うわっ！」「あっははは！」",
+			"illustrator": "シャフト",
+			"openDate": "2017/10/23 15:10:00"
+		},
+		{
+			"pieceId": 1128,
+			"pieceType": "SKILL",
+			"pieceName": "再起と決意",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 0,
+			"defense": 841,
+			"hp": 761,
+			"skillId": 112800,
+			"pieceSkill": {
+				"id": 112800,
+				"groupId": 1170,
+				"name": "ハード・カバーリング",
+				"intervalTurn": 8,
+				"shortDescription": "味方を必ずかばう&防御力UP[Ⅷ](自/1T)",
+				"messageId": 71,
+				"artId1": 610213300,
+				"art1": {
+					"artId": 610213300,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "PROTECT",
+					"targetId": "ONE",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"artId2": 310201208,
+				"art2": {
+					"artId": 310201208,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 600,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 112801,
+			"pieceSkill2": {
+				"id": 112801,
+				"groupId": 1170,
+				"name": "ハード・カバーリング",
+				"intervalTurn": 7,
+				"shortDescription": "味方を必ずかばう&防御力UP[Ⅸ](自/1T)",
+				"messageId": 71,
+				"artId1": 610213300,
+				"art1": {
+					"artId": 610213300,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "PROTECT",
+					"targetId": "ONE",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"artId2": 310201209,
+				"art2": {
+					"artId": 310201209,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 675,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "「この世界に私の居場所はないから、私は人の視界から姿を消した…＠辛くて、寂しくて、切なかったけど、おかげで大切な人と出会えた…＠だから、私は何があっても、もうこの関係を手放したりしない…＠私は私を必要としてくれる人のために、この身を捧げます…」",
+			"illustrator": "谷口淳一郎",
+			"openDate": "2017/10/23 15:10:00"
 		}
 	],
 	"campaignList": []

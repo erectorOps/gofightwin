@@ -35,6 +35,13 @@ var pieceList = {};
 var statChart;
 $(function() {
 	$.ajaxSetup({ cache: false });
+	$.getJSON("menu.json", function(data) {
+		if (data != null) {
+			for (var i = 0; i < data.length; i++) {
+				$("<a>").attr("href", data[i++]).append($("<div>").addClass("menubtn").text(data[i])).insertBefore("#lastmodi");
+			}
+		}
+	});
 	$.getJSON("PieceCollection.json", function(data, textStatus, request) {
 		var selEl = $("#cardid");
 		var lastModified = request.getResponseHeader("Last-Modified");
@@ -302,8 +309,6 @@ function changeMagi(pieceId)
 <body>
 <div style="position:relative;">
 	<div id="sidemenu">
-		<a href="detail.html"><div class="menubtn">魔法少女</div></a>
-		<a href="memoria.html"><div class="menubtn">メモリア</div></a>
 		<div style="font-size:11px" id="lastmodi"></div>
 	</div>
 	<div id="contents">
