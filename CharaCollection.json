@@ -8453,6 +8453,1115 @@
 			]
 		},
 		{
+			"charaId": 1012,
+			"chara": {
+				"id": 1012,
+				"name": "御園 かりん",
+				"kana": "みその かりん",
+				"attributeId": "FIRE",
+				"attackType": 1,
+				"initialType": "SUPPORT",
+				"growthType": "ATKHP",
+				"enemyFlg": false,
+				"saleItemId": "PRISM",
+				"saleItem": {
+					"itemCode": "PRISM",
+					"name": "マギアチップ",
+					"shortDescription": "マギアチップ",
+					"description": "ショップで特別なアイテムと交換することができるアイテム",
+					"canUse": false,
+					"isSellable": false,
+					"treasureChestColor": "GOLD",
+					"unit": "個",
+					"price": 0,
+					"sortKey": 0
+				},
+				"defaultCardId": 10124,
+				"defaultCard": {
+					"cardId": 10124,
+					"charaNo": 1012,
+					"miniCharaNo": 101200,
+					"magiaCharaNo": 101200,
+					"cardName": "御園 かりん",
+					"rank": "RANK_4",
+					"attributeId": "FIRE",
+					"initialType": "SUPPORT",
+					"growthType": "ATKHP",
+					"attack": 1724,
+					"defense": 1677,
+					"hp": 6189,
+					"rateGainMpAtk": 1200,
+					"rateGainMpDef": 1000,
+					"magiaId": 10124,
+					"cardMagia": {
+						"id": 10124,
+						"groupId": 1012,
+						"name": "キャンディーデススコール",
+						"shortDescription": "敵単体にダメージ[Ⅴ] & 防御力DOWN(敵単/3T) & Accele MPUP(全/3T)",
+						"artId1": 100000105,
+						"art1": {
+							"artId": 100000105,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 6800,
+							"growPoint": 100
+						},
+						"artId2": 430002106,
+						"art2": {
+							"artId": 430002106,
+							"verbCode": "DEBUFF",
+							"effectCode": "DEFENSE",
+							"targetId": "TARGET",
+							"effectValue": 300,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId3": 330301606,
+						"art3": {
+							"artId": 330301606,
+							"verbCode": "BUFF",
+							"effectCode": "ACCEL",
+							"targetId": "ALL",
+							"effectValue": 225,
+							"enableTurn": 3,
+							"growPoint": 25
+						}
+					},
+					"skillId": 10124,
+					"cardSkill": {
+						"id": 10124,
+						"groupId": 1085,
+						"name": "一夜限りのお手伝いなのっ！",
+						"shortDescription": "攻撃力UP[Ⅶ] & 必ず幻惑 & 確率でマギア不可",
+						"artId1": 310401107,
+						"art1": {
+							"artId": 310401107,
+							"verbCode": "BUFF",
+							"effectCode": "ATTACK",
+							"targetId": "CONNECT",
+							"effectValue": 350,
+							"enableTurn": 1,
+							"growPoint": 25
+						},
+						"artId2": 610411405,
+						"art2": {
+							"artId": 610411405,
+							"verbCode": "ENCHANT",
+							"effectCode": "BAN_MAGIA",
+							"targetId": "CONNECT",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 300
+						},
+						"artId3": 610411100,
+						"art3": {
+							"artId": 610411100,
+							"verbCode": "ENCHANT",
+							"effectCode": "BLINDNESS",
+							"targetId": "CONNECT",
+							"effectValue": 500,
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "MPUP",
+					"commandType4": "RANGE_H",
+					"commandType5": "CHARGE",
+					"illustrator": "蒼樹うめ",
+					"cardCustomize": {
+						"cardId": 10124,
+						"giftId1": 112,
+						"gift1": {
+							"id": 112,
+							"name": "フレイムオーブ＋",
+							"attributeId": "FIRE",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum1": 12,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 50,
+						"giftId2": 113,
+						"gift2": {
+							"id": 113,
+							"name": "フレイムオーブ＋＋",
+							"attributeId": "FIRE",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum2": 6,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 50,
+						"giftId3": 551,
+						"gift3": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum3": 3,
+						"bonusCode3": "HP",
+						"bonusNum3": 80,
+						"giftId4": 504,
+						"gift4": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 6,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 80,
+						"giftId5": 404,
+						"gift5": {
+							"id": 404,
+							"name": "オウルのバケツ",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum5": 8,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 40,
+						"giftId6": 306,
+						"gift6": {
+							"id": 306,
+							"name": "振子のネジ",
+							"rank": 1,
+							"rankGift": "RANK_1",
+							"price": 1000
+						},
+						"giftNum6": 12,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 40
+					}
+				},
+				"evolutionCardId1": 10125,
+				"evolutionCard1": {
+					"cardId": 10125,
+					"charaNo": 1012,
+					"miniCharaNo": 101200,
+					"magiaCharaNo": 101200,
+					"cardName": "御園 かりん",
+					"rank": "RANK_5",
+					"attributeId": "FIRE",
+					"initialType": "SUPPORT",
+					"growthType": "ATKHP",
+					"attack": 1954,
+					"defense": 1900,
+					"hp": 7014,
+					"rateGainMpAtk": 1200,
+					"rateGainMpDef": 1000,
+					"magiaId": 10125,
+					"cardMagia": {
+						"id": 10125,
+						"groupId": 1012,
+						"name": "キャンディーデススコール",
+						"shortDescription": "敵単体にダメージ[Ⅶ] & 防御力DOWN(敵単/3T) & Accele MPUP & ダメージUP(全/3T)",
+						"artId1": 100000107,
+						"art1": {
+							"artId": 100000107,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 7200,
+							"growPoint": 100
+						},
+						"artId2": 430002108,
+						"art2": {
+							"artId": 430002108,
+							"verbCode": "DEBUFF",
+							"effectCode": "DEFENSE",
+							"targetId": "TARGET",
+							"effectValue": 400,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId3": 330301608,
+						"art3": {
+							"artId": 330301608,
+							"verbCode": "BUFF",
+							"effectCode": "ACCEL",
+							"targetId": "ALL",
+							"effectValue": 275,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId4": 330301308,
+						"art4": {
+							"artId": 330301308,
+							"verbCode": "BUFF",
+							"effectCode": "DAMAGE",
+							"targetId": "ALL",
+							"effectValue": 325,
+							"enableTurn": 3,
+							"growPoint": 25
+						}
+					},
+					"doppelMagiaId": 10128,
+					"doppelCardMagia": {
+						"id": 10128,
+						"groupId": 1012,
+						"name": "枕探しのドッペル",
+						"shortDescription": "敵単体にダメージ[Ⅸ] & 防御力DOWN(敵単/3T) & Accele MPUP & ダメージUP(全/3T)",
+						"artId1": 190101281,
+						"art1": {
+							"artId": 190101281,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 16720,
+							"growPoint": 220
+						},
+						"artId2": 430002110,
+						"art2": {
+							"artId": 430002110,
+							"verbCode": "DEBUFF",
+							"effectCode": "DEFENSE",
+							"targetId": "TARGET",
+							"effectValue": 500,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId3": 330301610,
+						"art3": {
+							"artId": 330301610,
+							"verbCode": "BUFF",
+							"effectCode": "ACCEL",
+							"targetId": "ALL",
+							"effectValue": 325,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId4": 330301310,
+						"art4": {
+							"artId": 330301310,
+							"verbCode": "BUFF",
+							"effectCode": "DAMAGE",
+							"targetId": "ALL",
+							"effectValue": 375,
+							"enableTurn": 3,
+							"growPoint": 25
+						}
+					},
+					"skillId": 10125,
+					"cardSkill": {
+						"id": 10125,
+						"groupId": 1085,
+						"name": "一夜限りのお手伝いなのっ！",
+						"shortDescription": "攻撃力UP[Ⅸ] & 必ず幻惑 & 確率でマギア不可",
+						"artId1": 310401109,
+						"art1": {
+							"artId": 310401109,
+							"verbCode": "BUFF",
+							"effectCode": "ATTACK",
+							"targetId": "CONNECT",
+							"effectValue": 400,
+							"enableTurn": 1,
+							"growPoint": 25
+						},
+						"artId2": 610411406,
+						"art2": {
+							"artId": 610411406,
+							"verbCode": "ENCHANT",
+							"effectCode": "BAN_MAGIA",
+							"targetId": "CONNECT",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 350
+						},
+						"artId3": 610411100,
+						"art3": {
+							"artId": 610411100,
+							"verbCode": "ENCHANT",
+							"effectCode": "BLINDNESS",
+							"targetId": "CONNECT",
+							"effectValue": 500,
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "MPUP",
+					"commandType4": "RANGE_H",
+					"commandType5": "CHARGE",
+					"illustrator": "ササギコウシ",
+					"cardCustomize": {
+						"cardId": 10125,
+						"giftId1": 112,
+						"gift1": {
+							"id": 112,
+							"name": "フレイムオーブ＋",
+							"attributeId": "FIRE",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum1": 15,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 60,
+						"giftId2": 113,
+						"gift2": {
+							"id": 113,
+							"name": "フレイムオーブ＋＋",
+							"attributeId": "FIRE",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum2": 10,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 60,
+						"giftId3": 551,
+						"gift3": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum3": 3,
+						"bonusCode3": "HP",
+						"bonusNum3": 90,
+						"giftId4": 504,
+						"gift4": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 8,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 90,
+						"giftId5": 553,
+						"gift5": {
+							"id": 553,
+							"name": "羊の角",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 10,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 50,
+						"giftId6": 404,
+						"gift6": {
+							"id": 404,
+							"name": "オウルのバケツ",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum6": 15,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 50
+					}
+				},
+				"doppelCharaNo": 101200,
+				"doppel": {
+					"id": 101200,
+					"name": "枕探しのドッペル",
+					"title": "その姿は、モートセーフ",
+					"description": "この感情の主は臆病であるためにこのような頑強なドッペルを生み出した。＠失うことを恐れ、得ることに執着する。＠このドッペルは主同様手癖が悪くあらゆるものをかすめ取る。＠その対象は自身の仲間にすら及ぶだろう。＠一度手に入れたものは決して離さないがめつさを持ち非常に欲深い。",
+					"designer": "原案・監修：劇団イヌカレー（泥犬）",
+					"openDate": "2017/10/30 15:10:00"
+				},
+				"firstMagiaGiftId1": 211,
+				"firstMagiaGiftNum1": 5,
+				"firstMagiaGiftId2": 306,
+				"firstMagiaGiftNum2": 5,
+				"firstMagiaGiftId3": 212,
+				"firstMagiaGiftNum3": 3,
+				"firstMagiaGiftId4": 404,
+				"firstMagiaGiftNum4": 3,
+				"firstMagiaGiftId5": 213,
+				"firstMagiaGiftNum5": 1,
+				"firstMagiaGiftId6": 504,
+				"firstMagiaGiftNum6": 1,
+				"secondMagiaGiftId1": 211,
+				"secondMagiaGiftNum1": 7,
+				"secondMagiaGiftId2": 302,
+				"secondMagiaGiftNum2": 7,
+				"secondMagiaGiftId3": 212,
+				"secondMagiaGiftNum3": 5,
+				"secondMagiaGiftId4": 404,
+				"secondMagiaGiftNum4": 5,
+				"secondMagiaGiftId5": 213,
+				"secondMagiaGiftNum5": 3,
+				"secondMagiaGiftId6": 553,
+				"secondMagiaGiftNum6": 3,
+				"thirdMagiaGiftId1": 211,
+				"thirdMagiaGiftNum1": 9,
+				"thirdMagiaGiftId2": 306,
+				"thirdMagiaGiftNum2": 9,
+				"thirdMagiaGiftId3": 212,
+				"thirdMagiaGiftNum3": 7,
+				"thirdMagiaGiftId4": 404,
+				"thirdMagiaGiftNum4": 7,
+				"thirdMagiaGiftId5": 213,
+				"thirdMagiaGiftNum5": 5,
+				"thirdMagiaGiftId6": 504,
+				"thirdMagiaGiftNum6": 5,
+				"fourthMagiaGiftId1": 211,
+				"fourthMagiaGiftNum1": 11,
+				"fourthMagiaGiftId2": 304,
+				"fourthMagiaGiftNum2": 11,
+				"fourthMagiaGiftId3": 212,
+				"fourthMagiaGiftNum3": 9,
+				"fourthMagiaGiftId4": 504,
+				"fourthMagiaGiftNum4": 5,
+				"fourthMagiaGiftId5": 213,
+				"fourthMagiaGiftNum5": 7,
+				"fourthMagiaGiftId6": 552,
+				"fourthMagiaGiftNum6": 7,
+				"firstMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"firstMagiaGift2": {
+					"id": 306,
+					"name": "振子のネジ",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"firstMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"firstMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"firstMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"firstMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"secondMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"secondMagiaGift2": {
+					"id": 302,
+					"name": "鏡の招待状",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"secondMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"secondMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"secondMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"secondMagiaGift6": {
+					"id": 553,
+					"name": "羊の角",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"thirdMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"thirdMagiaGift2": {
+					"id": 306,
+					"name": "振子のネジ",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"thirdMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"thirdMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"thirdMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"thirdMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"fourthMagiaGift2": {
+					"id": 304,
+					"name": "羊の角笛",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"fourthMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"fourthMagiaGift4": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"fourthMagiaGift6": {
+					"id": 552,
+					"name": "立ち耳の綿",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"description": "自称、ハロウィンが生んだ魔法少女。＠夢見がちで都合良く解釈しようとする性格と、漫画の読み描きという趣味が相まって、魔法少女としての設定を作ってしまった。＠“怪盗少女マジカルきりん”というお気に入りの漫画に影響されている。",
+				"school": "栄総合学園",
+				"designer": "蒼樹うめ",
+				"voiceActor": "金元寿子",
+				"openDate": "2017/10/30 15:10:00",
+				"charaMessageList": [
+					{
+						"charaNo": 1012,
+						"messageId": 6,
+						"message": "マジカルきりんは、思い出の漫画なの"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 7,
+						"message": "アリナ先輩、絵の描き方を教えて欲しいの！"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 8,
+						"message": "我は弱き魔法少女を助ける、マジカルかりん"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 9,
+						"message": "ハロウィンはわたしを生んだ特別な日なの"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 10,
+						"message": "みんなのおかげで新しい生き方を見つけたの"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 11,
+						"message": "おばあちゃんは私が助けるの！"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 12,
+						"message": "トリックオアじゃなくてトリックアンドなの"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 43,
+						"message": "これぞハッピーハロウィーン"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 44,
+						"message": "この大鎌に狩れぬものはない"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 45,
+						"message": "次はお菓子を持ってきたら許すのだ"
+					},
+					{
+						"charaNo": 1012,
+						"messageId": 46,
+						"message": "これぞ、あの世から来た魔物の力なのだ"
+					}
+				]
+			},
+			"cardList": [
+				{
+					"cardId": 10124,
+					"card": {
+						"cardId": 10124,
+						"charaNo": 1012,
+						"miniCharaNo": 101200,
+						"magiaCharaNo": 101200,
+						"cardName": "御園 かりん",
+						"rank": "RANK_4",
+						"attributeId": "FIRE",
+						"initialType": "SUPPORT",
+						"growthType": "ATKHP",
+						"attack": 1724,
+						"defense": 1677,
+						"hp": 6189,
+						"rateGainMpAtk": 1200,
+						"rateGainMpDef": 1000,
+						"magiaId": 10124,
+						"cardMagia": {
+							"id": 10124,
+							"groupId": 1012,
+							"name": "キャンディーデススコール",
+							"shortDescription": "敵単体にダメージ[Ⅴ] & 防御力DOWN(敵単/3T) & Accele MPUP(全/3T)",
+							"artId1": 100000105,
+							"art1": {
+								"artId": 100000105,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 6800,
+								"growPoint": 100
+							},
+							"artId2": 430002106,
+							"art2": {
+								"artId": 430002106,
+								"verbCode": "DEBUFF",
+								"effectCode": "DEFENSE",
+								"targetId": "TARGET",
+								"effectValue": 300,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId3": 330301606,
+							"art3": {
+								"artId": 330301606,
+								"verbCode": "BUFF",
+								"effectCode": "ACCEL",
+								"targetId": "ALL",
+								"effectValue": 225,
+								"enableTurn": 3,
+								"growPoint": 25
+							}
+						},
+						"skillId": 10124,
+						"cardSkill": {
+							"id": 10124,
+							"groupId": 1085,
+							"name": "一夜限りのお手伝いなのっ！",
+							"shortDescription": "攻撃力UP[Ⅶ] & 必ず幻惑 & 確率でマギア不可",
+							"artId1": 310401107,
+							"art1": {
+								"artId": 310401107,
+								"verbCode": "BUFF",
+								"effectCode": "ATTACK",
+								"targetId": "CONNECT",
+								"effectValue": 350,
+								"enableTurn": 1,
+								"growPoint": 25
+							},
+							"artId2": 610411405,
+							"art2": {
+								"artId": 610411405,
+								"verbCode": "ENCHANT",
+								"effectCode": "BAN_MAGIA",
+								"targetId": "CONNECT",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 300
+							},
+							"artId3": 610411100,
+							"art3": {
+								"artId": 610411100,
+								"verbCode": "ENCHANT",
+								"effectCode": "BLINDNESS",
+								"targetId": "CONNECT",
+								"effectValue": 500,
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "MPUP",
+						"commandType4": "RANGE_H",
+						"commandType5": "CHARGE",
+						"illustrator": "蒼樹うめ",
+						"cardCustomize": {
+							"cardId": 10124,
+							"giftId1": 112,
+							"gift1": {
+								"id": 112,
+								"name": "フレイムオーブ＋",
+								"attributeId": "FIRE",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum1": 12,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 50,
+							"giftId2": 113,
+							"gift2": {
+								"id": 113,
+								"name": "フレイムオーブ＋＋",
+								"attributeId": "FIRE",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum2": 6,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 50,
+							"giftId3": 551,
+							"gift3": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum3": 3,
+							"bonusCode3": "HP",
+							"bonusNum3": 80,
+							"giftId4": 504,
+							"gift4": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 6,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 80,
+							"giftId5": 404,
+							"gift5": {
+								"id": 404,
+								"name": "オウルのバケツ",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum5": 8,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 40,
+							"giftId6": 306,
+							"gift6": {
+								"id": 306,
+								"name": "振子のネジ",
+								"rank": 1,
+								"rankGift": "RANK_1",
+								"price": 1000
+							},
+							"giftNum6": 12,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 40
+						}
+					}
+				},
+				{
+					"cardId": 10125,
+					"card": {
+						"cardId": 10125,
+						"charaNo": 1012,
+						"miniCharaNo": 101200,
+						"magiaCharaNo": 101200,
+						"cardName": "御園 かりん",
+						"rank": "RANK_5",
+						"attributeId": "FIRE",
+						"initialType": "SUPPORT",
+						"growthType": "ATKHP",
+						"attack": 1954,
+						"defense": 1900,
+						"hp": 7014,
+						"rateGainMpAtk": 1200,
+						"rateGainMpDef": 1000,
+						"magiaId": 10125,
+						"cardMagia": {
+							"id": 10125,
+							"groupId": 1012,
+							"name": "キャンディーデススコール",
+							"shortDescription": "敵単体にダメージ[Ⅶ] & 防御力DOWN(敵単/3T) & Accele MPUP & ダメージUP(全/3T)",
+							"artId1": 100000107,
+							"art1": {
+								"artId": 100000107,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 7200,
+								"growPoint": 100
+							},
+							"artId2": 430002108,
+							"art2": {
+								"artId": 430002108,
+								"verbCode": "DEBUFF",
+								"effectCode": "DEFENSE",
+								"targetId": "TARGET",
+								"effectValue": 400,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId3": 330301608,
+							"art3": {
+								"artId": 330301608,
+								"verbCode": "BUFF",
+								"effectCode": "ACCEL",
+								"targetId": "ALL",
+								"effectValue": 275,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId4": 330301308,
+							"art4": {
+								"artId": 330301308,
+								"verbCode": "BUFF",
+								"effectCode": "DAMAGE",
+								"targetId": "ALL",
+								"effectValue": 325,
+								"enableTurn": 3,
+								"growPoint": 25
+							}
+						},
+						"doppelMagiaId": 10128,
+						"doppelCardMagia": {
+							"id": 10128,
+							"groupId": 1012,
+							"name": "枕探しのドッペル",
+							"shortDescription": "敵単体にダメージ[Ⅸ] & 防御力DOWN(敵単/3T) & Accele MPUP & ダメージUP(全/3T)",
+							"artId1": 190101281,
+							"art1": {
+								"artId": 190101281,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 16720,
+								"growPoint": 220
+							},
+							"artId2": 430002110,
+							"art2": {
+								"artId": 430002110,
+								"verbCode": "DEBUFF",
+								"effectCode": "DEFENSE",
+								"targetId": "TARGET",
+								"effectValue": 500,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId3": 330301610,
+							"art3": {
+								"artId": 330301610,
+								"verbCode": "BUFF",
+								"effectCode": "ACCEL",
+								"targetId": "ALL",
+								"effectValue": 325,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId4": 330301310,
+							"art4": {
+								"artId": 330301310,
+								"verbCode": "BUFF",
+								"effectCode": "DAMAGE",
+								"targetId": "ALL",
+								"effectValue": 375,
+								"enableTurn": 3,
+								"growPoint": 25
+							}
+						},
+						"skillId": 10125,
+						"cardSkill": {
+							"id": 10125,
+							"groupId": 1085,
+							"name": "一夜限りのお手伝いなのっ！",
+							"shortDescription": "攻撃力UP[Ⅸ] & 必ず幻惑 & 確率でマギア不可",
+							"artId1": 310401109,
+							"art1": {
+								"artId": 310401109,
+								"verbCode": "BUFF",
+								"effectCode": "ATTACK",
+								"targetId": "CONNECT",
+								"effectValue": 400,
+								"enableTurn": 1,
+								"growPoint": 25
+							},
+							"artId2": 610411406,
+							"art2": {
+								"artId": 610411406,
+								"verbCode": "ENCHANT",
+								"effectCode": "BAN_MAGIA",
+								"targetId": "CONNECT",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 350
+							},
+							"artId3": 610411100,
+							"art3": {
+								"artId": 610411100,
+								"verbCode": "ENCHANT",
+								"effectCode": "BLINDNESS",
+								"targetId": "CONNECT",
+								"effectValue": 500,
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "MPUP",
+						"commandType4": "RANGE_H",
+						"commandType5": "CHARGE",
+						"illustrator": "ササギコウシ",
+						"cardCustomize": {
+							"cardId": 10125,
+							"giftId1": 112,
+							"gift1": {
+								"id": 112,
+								"name": "フレイムオーブ＋",
+								"attributeId": "FIRE",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum1": 15,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 60,
+							"giftId2": 113,
+							"gift2": {
+								"id": 113,
+								"name": "フレイムオーブ＋＋",
+								"attributeId": "FIRE",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum2": 10,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 60,
+							"giftId3": 551,
+							"gift3": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum3": 3,
+							"bonusCode3": "HP",
+							"bonusNum3": 90,
+							"giftId4": 504,
+							"gift4": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 8,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 90,
+							"giftId5": 553,
+							"gift5": {
+								"id": 553,
+								"name": "羊の角",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 10,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 50,
+							"giftId6": 404,
+							"gift6": {
+								"id": 404,
+								"name": "オウルのバケツ",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum6": 15,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 50
+						}
+					}
+				}
+			]
+		},
+		{
 			"charaId": 1013,
 			"chara": {
 				"id": 1013,

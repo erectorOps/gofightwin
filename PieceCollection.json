@@ -5921,14 +5921,14 @@
 				"intervalTurn": 8,
 				"shortDescription": "与えるダメージUP[Ⅲ](自/3T)",
 				"messageId": 70,
-				"artId1": 310201305,
+				"artId1": 330201303,
 				"art1": {
-					"artId": 310201305,
+					"artId": 330201303,
 					"verbCode": "BUFF",
 					"effectCode": "DAMAGE",
 					"targetId": "SELF",
-					"effectValue": 250,
-					"enableTurn": 1,
+					"effectValue": 150,
+					"enableTurn": 3,
 					"growPoint": 25
 				}
 			},
@@ -5940,14 +5940,14 @@
 				"intervalTurn": 7,
 				"shortDescription": "与えるダメージUP[Ⅳ](自/3T)",
 				"messageId": 70,
-				"artId1": 310201306,
+				"artId1": 330201304,
 				"art1": {
-					"artId": 310201306,
+					"artId": 330201304,
 					"verbCode": "BUFF",
 					"effectCode": "DAMAGE",
 					"targetId": "SELF",
-					"effectValue": 300,
-					"enableTurn": 1,
+					"effectValue": 200,
+					"enableTurn": 3,
 					"growPoint": 25
 				}
 			},
@@ -6589,7 +6589,346 @@
 			"description": "「この世界に私の居場所はないから、私は人の視界から姿を消した…＠辛くて、寂しくて、切なかったけど、おかげで大切な人と出会えた…＠だから、私は何があっても、もうこの関係を手放したりしない…＠私は私を必要としてくれる人のために、この身を捧げます…」",
 			"illustrator": "谷口淳一郎",
 			"openDate": "2017/10/23 15:10:00"
+		},
+		{
+			"pieceId": 1129,
+			"pieceType": "SKILL",
+			"pieceName": "怪盗かりん計画",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "1012",
+			"charaList": [
+				{
+					"charaId": 1012,
+					"name": "御園 かりん"
+				}
+			],
+			"attack": 0,
+			"defense": 468,
+			"hp": 468,
+			"skillId": 112900,
+			"pieceSkill": {
+				"id": 112900,
+				"groupId": 1134,
+				"name": "ブルズアイ",
+				"intervalTurn": 5,
+				"shortDescription": "回避無効(自/3T)",
+				"artId1": 630208100,
+				"art1": {
+					"artId": 630208100,
+					"verbCode": "IGNORE",
+					"effectCode": "AVOID",
+					"targetId": "SELF",
+					"enableTurn": 3,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 112901,
+			"pieceSkill2": {
+				"id": 112901,
+				"groupId": 1134,
+				"name": "ブルズアイ",
+				"intervalTurn": 4,
+				"shortDescription": "回避無効(自/3T)",
+				"artId1": 630208100,
+				"art1": {
+					"artId": 630208100,
+					"verbCode": "IGNORE",
+					"effectCode": "AVOID",
+					"targetId": "SELF",
+					"enableTurn": 3,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "わたしに流れてる血、人を困らせるおばあちゃんの血＠簡単には消せないんだって分かったけど＠困らせた分だけ、わたしは幸せを分ける方法を見つけた＠それが「怪盗かりん」…弱い人に幸せを配るただひとりの魔法少女",
+			"illustrator": "mepo",
+			"openDate": "2017/10/30 15:10:00"
+		},
+		{
+			"pieceId": 1130,
+			"pieceType": "ABILITY",
+			"pieceName": "マイバイブル",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 721,
+			"defense": 0,
+			"hp": 881,
+			"skillId": 113000,
+			"pieceSkill": {
+				"id": 113000,
+				"groupId": 1119,
+				"name": "ブレッシング・アデプト",
+				"shortDescription": "ダメージアップ状態[Ⅳ]&呪い無効",
+				"artId1": 690206104,
+				"art1": {
+					"artId": 690206104,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_UP",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 690208800,
+				"art2": {
+					"artId": 690208800,
+					"verbCode": "IGNORE",
+					"effectCode": "CURSE",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 113001,
+			"pieceSkill2": {
+				"id": 113001,
+				"groupId": 1119,
+				"name": "ブレッシング・アデプト",
+				"shortDescription": "ダメージアップ状態[Ⅴ]&呪い無効",
+				"artId1": 690206105,
+				"art1": {
+					"artId": 690206105,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_UP",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 690208800,
+				"art2": {
+					"artId": 690208800,
+					"verbCode": "IGNORE",
+					"effectCode": "CURSE",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "「なるほど、ここで鍵開けテクが活用できるんだ！…って違う？うそでしょ!?＠この主人公、擦れ違い様に警備員から鍵を取ってたの!?＠どういうことだろ…え、えっと、解説は巻末の152Pに記載…＠こんなテクニックが書いてあるなんて、作者は何者なの!?」",
+			"illustrator": "ニリツ",
+			"openDate": "2017/10/30 15:10:00"
+		},
+		{
+			"pieceId": 1131,
+			"pieceType": "SKILL",
+			"pieceName": "一夜限りのオオカミさん",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 0,
+			"defense": 661,
+			"hp": 541,
+			"skillId": 113100,
+			"pieceSkill": {
+				"id": 113100,
+				"groupId": 1103,
+				"name": "チャーム・アイズ[Ⅲ]",
+				"intervalTurn": 8,
+				"shortDescription": "確率で魅了[Ⅲ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510303903,
+				"art1": {
+					"artId": 510303903,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "CHARM",
+					"targetId": "ALL",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 350
+				}
+			},
+			"skillId2": 113101,
+			"pieceSkill2": {
+				"id": 113101,
+				"groupId": 1103,
+				"name": "チャーム・アイズ[Ⅳ]",
+				"intervalTurn": 6,
+				"shortDescription": "確率で魅了[Ⅳ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510303904,
+				"art1": {
+					"artId": 510303904,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "CHARM",
+					"targetId": "ALL",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 375
+				}
+			},
+			"description": "「この仮装、なかなかあたしに似合ってると思わないかい？＠今日は色んな家を回って、当面のお菓子は集めたいところだよな＠にしても、まずはどこを回るかだよなぁ…＠やっぱアイツの家しかないだろ。美味いケーキも用意してそうだし」",
+			"illustrator": "シャフト",
+			"openDate": "2017/10/30 15:10:00"
+		},
+		{
+			"pieceId": 1132,
+			"pieceType": "SKILL",
+			"pieceName": "トリートでお出迎え",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 0,
+			"defense": 381,
+			"hp": 421,
+			"skillId": 113200,
+			"pieceSkill": {
+				"id": 113200,
+				"groupId": 1109,
+				"name": "フォッグ[Ⅴ]",
+				"intervalTurn": 7,
+				"shortDescription": "確率で霧[Ⅴ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510305105,
+				"art1": {
+					"artId": 510305105,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "FOG",
+					"targetId": "ALL",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 400
+				}
+			},
+			"skillId2": 113201,
+			"pieceSkill2": {
+				"id": 113201,
+				"groupId": 1109,
+				"name": "フォッグ[Ⅵ]",
+				"intervalTurn": 6,
+				"shortDescription": "確率で霧[Ⅵ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510305106,
+				"art1": {
+					"artId": 510305106,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "FOG",
+					"targetId": "ALL",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 425
+				}
+			},
+			"description": "「あら、鹿目さん、すごく素敵な飾り付けになったわね」＠「頑張っちゃいました。マミさんのケーキもすごく美味しそうですね」＠「今日は腕によりを掛けてつくったわよ、ってあら、誰かしら？＠美樹さんは飲み物の買出しに出たばかりのはずだけど…」",
+			"illustrator": "シャフト",
+			"openDate": "2017/10/30 15:10:00"
+		},
+		{
+			"pieceId": 1133,
+			"pieceType": "ABILITY",
+			"pieceName": "稽古は続く",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 572,
+			"defense": 0,
+			"hp": 632,
+			"skillId": 113300,
+			"pieceSkill": {
+				"id": 113300,
+				"groupId": 1146,
+				"name": "スタン・エッジ[Ⅰ]",
+				"shortDescription": "攻撃時に確率でスタンを付与[Ⅰ]",
+				"artId1": 690209601,
+				"art1": {
+					"artId": 690209601,
+					"verbCode": "ENCHANT",
+					"effectCode": "STUN",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 100
+				}
+			},
+			"skillId2": 113301,
+			"pieceSkill2": {
+				"id": 113301,
+				"groupId": 1146,
+				"name": "スタン・エッジ[Ⅱ]",
+				"shortDescription": "攻撃時に確率でスタンを付与[Ⅱ]",
+				"artId1": 690209602,
+				"art1": {
+					"artId": 690209602,
+					"verbCode": "ENCHANT",
+					"effectCode": "STUN",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 150
+				}
+			},
+			"description": "「最近、ずっと劇の練習をしていたときのことを思い出すの。＠わたし、いつもひとりで漫画を描いてるからだと思うんだけど、＠みんなで練習をするのって、とっても新鮮で楽しかったのっ！＠…あっ、またみんな誘ったら劇をやってくれるかもしれないの！」",
+			"openDate": "2017/10/30 15:10:00"
+		},
+		{
+			"pieceId": 1134,
+			"pieceType": "SKILL",
+			"pieceName": "マジカルハロウィンシアター",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 0,
+			"defense": 761,
+			"hp": 841,
+			"skillId": 113400,
+			"pieceSkill": {
+				"id": 113400,
+				"groupId": 1108,
+				"name": "カースワード[Ⅷ]",
+				"intervalTurn": 5,
+				"shortDescription": "呪い(敵単/1T) & 防御力DOWN[Ⅷ](敵単/1T)",
+				"artId1": 510005000,
+				"art1": {
+					"artId": 510005000,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "CURSE",
+					"targetId": "TARGET",
+					"effectValue": 150,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"artId2": 410002108,
+				"art2": {
+					"artId": 410002108,
+					"verbCode": "DEBUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "TARGET",
+					"effectValue": 400,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 113401,
+			"pieceSkill2": {
+				"id": 113401,
+				"groupId": 1108,
+				"name": "カースワード[Ⅷ]",
+				"intervalTurn": 4,
+				"shortDescription": "呪い(敵単/1T) & 防御力DOWN[Ⅸ](敵単/1T)",
+				"artId1": 510005000,
+				"art1": {
+					"artId": 510005000,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "CURSE",
+					"targetId": "TARGET",
+					"effectValue": 150,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"artId2": 410002109,
+				"art2": {
+					"artId": 410002109,
+					"verbCode": "DEBUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "TARGET",
+					"effectValue": 450,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "「このときは、ちょうど出番だとは思わなかったしビックリしたけど、＠名前の通りマジカルな感じで、子どもたちも喜んでくれて良かったの！＠それより、終わったあとの方が大変だったの。子どもたちから本当に＠魔法が使えるのか、とか聞かれてはぐらかすしかなかったの…」",
+			"openDate": "2017/10/30 15:10:00"
 		}
 	],
-	"campaignList": []
+	"campaignList": [],
 }
