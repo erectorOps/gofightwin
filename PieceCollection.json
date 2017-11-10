@@ -1316,7 +1316,7 @@
 				"id": 102900,
 				"groupId": 1148,
 				"name": "ポイズン・エッジ[Ⅱ]",
-				"shortDescription": "攻撃時に確率で毒を付与[Ⅱ]",
+				"shortDescription": "攻撃時に確率で毒(3T)を付与[Ⅱ]",
 				"artId1": 690210002,
 				"art1": {
 					"artId": 690210002,
@@ -1324,6 +1324,7 @@
 					"effectCode": "POISON",
 					"targetId": "SELF",
 					"effectValue": 50,
+					"enableTurn": 3,
 					"growPoint": 0,
 					"probability": 150
 				}
@@ -1333,7 +1334,7 @@
 				"id": 102901,
 				"groupId": 1148,
 				"name": "ポイズン・エッジ[Ⅲ]",
-				"shortDescription": "攻撃時に確率で毒を付与[Ⅲ]",
+				"shortDescription": "攻撃時に確率で毒(3T)を付与[Ⅲ]",
 				"artId1": 690210003,
 				"art1": {
 					"artId": 690210003,
@@ -1341,6 +1342,7 @@
 					"effectCode": "POISON",
 					"targetId": "SELF",
 					"effectValue": 50,
+					"enableTurn": 3,
 					"growPoint": 0,
 					"probability": 200
 				}
@@ -1508,7 +1510,7 @@
 				"id": 103300,
 				"groupId": 1151,
 				"name": "フォッグ・エッジ[Ⅱ]",
-				"shortDescription": "攻撃時に確率で霧を付与[Ⅱ]",
+				"shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅱ]",
 				"artId1": 690210602,
 				"art1": {
 					"artId": 690210602,
@@ -1516,6 +1518,7 @@
 					"effectCode": "FOG",
 					"targetId": "SELF",
 					"effectValue": 250,
+					"enableTurn": 3,
 					"growPoint": 0,
 					"probability": 150
 				}
@@ -1525,7 +1528,7 @@
 				"id": 103301,
 				"groupId": 1151,
 				"name": "フォッグ・エッジ[Ⅲ]",
-				"shortDescription": "攻撃時に確率で霧を付与[Ⅲ]",
+				"shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅲ]",
 				"artId1": 690210603,
 				"art1": {
 					"artId": 690210603,
@@ -1533,6 +1536,7 @@
 					"effectCode": "FOG",
 					"targetId": "SELF",
 					"effectValue": 250,
+					"enableTurn": 3,
 					"growPoint": 0,
 					"probability": 200
 				}
@@ -4974,7 +4978,7 @@
 				"id": 110300,
 				"groupId": 1154,
 				"name": "ジャミング・エッジ[Ⅱ]",
-				"shortDescription": "攻撃時に確率でスキル不可を付与[Ⅱ]",
+				"shortDescription": "攻撃時に確率でスキル不可(3T)を付与[Ⅱ]",
 				"messageId": 70,
 				"artId1": 690211202,
 				"art1": {
@@ -4982,6 +4986,7 @@
 					"verbCode": "ENCHANT",
 					"effectCode": "BAN_SKILL",
 					"targetId": "SELF",
+					"enableTurn": 3,
 					"growPoint": 0,
 					"probability": 150
 				}
@@ -4991,7 +4996,7 @@
 				"id": 110301,
 				"groupId": 1154,
 				"name": "ジャミング・エッジ[Ⅲ]",
-				"shortDescription": "攻撃時に確率でスキル不可を付与[Ⅲ]",
+				"shortDescription": "攻撃時に確率でスキル不可(3T)を付与[Ⅲ]",
 				"messageId": 70,
 				"artId1": 690211203,
 				"art1": {
@@ -4999,6 +5004,7 @@
 					"verbCode": "ENCHANT",
 					"effectCode": "BAN_SKILL",
 					"targetId": "SELF",
+					"enableTurn": 3,
 					"growPoint": 0,
 					"probability": 200
 				}
@@ -5548,7 +5554,7 @@
 				"id": 111201,
 				"groupId": 1149,
 				"name": "バーン・エッジ[Ⅲ]",
-				"shortDescription": "攻撃時に確率でやけどを付与[Ⅲ]",
+				"shortDescription": "攻撃時に確率でやけど(2T)を付与[Ⅲ]",
 				"messageId": 70,
 				"artId1": 690210203,
 				"art1": {
@@ -5557,6 +5563,7 @@
 					"effectCode": "BURN",
 					"targetId": "SELF",
 					"effectValue": 100,
+					"enableTurn": 2,
 					"growPoint": 0,
 					"probability": 200
 				}
@@ -5566,7 +5573,7 @@
 				"id": 111202,
 				"groupId": 1149,
 				"name": "バーン・エッジ[Ⅳ]",
-				"shortDescription": "攻撃時に確率でやけどを付与[Ⅳ]",
+				"shortDescription": "攻撃時に確率でやけど(2T)を付与[Ⅳ]",
 				"messageId": 70,
 				"artId1": 690210204,
 				"art1": {
@@ -5575,6 +5582,7 @@
 					"effectCode": "BURN",
 					"targetId": "SELF",
 					"effectValue": 100,
+					"enableTurn": 2,
 					"growPoint": 0,
 					"probability": 250
 				}
@@ -6829,13 +6837,14 @@
 				"id": 113300,
 				"groupId": 1146,
 				"name": "スタン・エッジ[Ⅰ]",
-				"shortDescription": "攻撃時に確率でスタンを付与[Ⅰ]",
+				"shortDescription": "攻撃時に確率でスタン(1T)を付与[Ⅰ]",
 				"artId1": 690209601,
 				"art1": {
 					"artId": 690209601,
 					"verbCode": "ENCHANT",
 					"effectCode": "STUN",
 					"targetId": "SELF",
+					"enableTurn": 1,
 					"growPoint": 0,
 					"probability": 100
 				}
@@ -6845,13 +6854,14 @@
 				"id": 113301,
 				"groupId": 1146,
 				"name": "スタン・エッジ[Ⅱ]",
-				"shortDescription": "攻撃時に確率でスタンを付与[Ⅱ]",
+				"shortDescription": "攻撃時に確率でスタン(1T)を付与[Ⅱ]",
 				"artId1": 690209602,
 				"art1": {
 					"artId": 690209602,
 					"verbCode": "ENCHANT",
 					"effectCode": "STUN",
 					"targetId": "SELF",
+					"enableTurn": 1,
 					"growPoint": 0,
 					"probability": 150
 				}
@@ -6901,7 +6911,7 @@
 			"pieceSkill2": {
 				"id": 113401,
 				"groupId": 1108,
-				"name": "カースワード[Ⅷ]",
+				"name": "カースワード[Ⅸ]",
 				"intervalTurn": 4,
 				"shortDescription": "呪い(敵単/1T) & 防御力DOWN[Ⅸ](敵単/1T)",
 				"artId1": 510005000,
@@ -6928,6 +6938,270 @@
 			},
 			"description": "「このときは、ちょうど出番だとは思わなかったしビックリしたけど、＠名前の通りマジカルな感じで、子どもたちも喜んでくれて良かったの！＠それより、終わったあとの方が大変だったの。子どもたちから本当に＠魔法が使えるのか、とか聞かれてはぐらかすしかなかったの…」",
 			"openDate": "2017/10/30 15:10:00"
+		},
+		{
+			"pieceId": 1135,
+			"pieceType": "SKILL",
+			"pieceName": "瞼の裏に浮かぶ景色",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "3016",
+			"charaList": [
+				{
+					"charaId": 3016,
+					"name": "粟根 こころ"
+				}
+			],
+			"attack": 0,
+			"defense": 421,
+			"hp": 381,
+			"skillId": 113510,
+			"pieceSkill": {
+				"id": 113510,
+				"groupId": 1120,
+				"name": "エンハンス・シールド[Ⅶ]",
+				"intervalTurn": 8,
+				"shortDescription": "ダメージカット状態[Ⅶ](自/1T)",
+				"messageId": 72,
+				"artId1": 610206207,
+				"art1": {
+					"artId": 610206207,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_DOWN",
+					"targetId": "SELF",
+					"effectValue": 350,
+					"enableTurn": 1,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 113511,
+			"pieceSkill2": {
+				"id": 113511,
+				"groupId": 1120,
+				"name": "エンハンス・シールド[Ⅷ]",
+				"intervalTurn": 7,
+				"shortDescription": "ダメージカット状態[Ⅷ](自/1T)",
+				"messageId": 72,
+				"artId1": 610206208,
+				"art1": {
+					"artId": 610206208,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_DOWN",
+					"targetId": "SELF",
+					"effectValue": 400,
+					"enableTurn": 1,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "幸せな家族でありたい。仲の良い家族を守りたい。＠あの時の彼女は、そんなことは思いもしなかっただろう。＠今となっては、自然な日々の中で紡いできた家族との思い出が、＠幾度も瞼の裏に浮かんでくるようになってしまった。",
+			"illustrator": "吟の筆",
+			"openDate": "2017/11/10 15:10:00"
+		},
+		{
+			"pieceId": 1136,
+			"pieceType": "ABILITY",
+			"pieceName": "なんでもない日",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 381,
+			"defense": 0,
+			"hp": 421,
+			"skillId": 113600,
+			"pieceSkill": {
+				"id": 113600,
+				"groupId": 1086,
+				"name": "ガード・アデプト[Ⅱ]",
+				"shortDescription": "防御力UP[Ⅱ]",
+				"artId1": 390201202,
+				"art1": {
+					"artId": 390201202,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 150,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1007,
+				"eventArtId1": 100701,
+				"eventArt1": {
+					"artId": 100701,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 1000,
+					"genericValue": "EVENT_TOWER_1007_KEY"
+				},
+				"eventDescription": "＆ドリンク入手時＋1"
+			},
+			"skillId2": 113601,
+			"pieceSkill2": {
+				"id": 113601,
+				"groupId": 1086,
+				"name": "ガード・アデプト[Ⅲ]",
+				"shortDescription": "防御力UP[Ⅲ]",
+				"artId1": 390201203,
+				"art1": {
+					"artId": 390201203,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 225,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1007,
+				"eventArtId1": 100702,
+				"eventArt1": {
+					"artId": 100702,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 2000,
+					"genericValue": "EVENT_TOWER_1007_KEY"
+				},
+				"eventDescription": "＆ドリンク入手時＋2"
+			},
+			"description": "「この紅茶うまいな。クッキーによくあう」＠「紅茶はね、お母さんと選んだの。お父さんも好きそうだなって」＠「ふふっ、クッキーはこころちゃんが焼いてくれたのよね」＠（この時間がずっと続けばいいのに…）",
+			"illustrator": "GAN",
+			"openDate": "2017/11/10 15:10:00"
+		},
+		{
+			"pieceId": 1137,
+			"pieceType": "SKILL",
+			"pieceName": "思いがけないリアクション",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 0,
+			"defense": 572,
+			"hp": 632,
+			"skillId": 113700,
+			"pieceSkill": {
+				"id": 113700,
+				"groupId": 1088,
+				"name": "マギアアップ[Ⅶ]",
+				"intervalTurn": 6,
+				"shortDescription": "マギアダメージUP[Ⅶ](自/1T)",
+				"messageId": 70,
+				"artId1": 310201407,
+				"art1": {
+					"artId": 310201407,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"eventId": 1007,
+				"eventArtId1": 100702,
+				"eventArt1": {
+					"artId": 100702,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 2000,
+					"genericValue": "EVENT_TOWER_1007_KEY"
+				},
+				"eventDescription": "＆ドリンク入手時＋2"
+			},
+			"skillId2": 113701,
+			"pieceSkill2": {
+				"id": 113701,
+				"groupId": 1088,
+				"name": "マギアアップ[Ⅷ]",
+				"intervalTurn": 5,
+				"shortDescription": "マギアダメージUP[Ⅷ](自/1T)",
+				"messageId": 70,
+				"artId1": 310201408,
+				"art1": {
+					"artId": 310201408,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 225,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"eventId": 1007,
+				"eventArtId1": 100705,
+				"eventArt1": {
+					"artId": 100705,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 5000,
+					"genericValue": "EVENT_TOWER_1007_KEY"
+				},
+				"eventDescription": "＆ドリンク入手時＋5"
+			},
+			"description": "そんなレアな表情が見られるのなら、また何度だって、＠お弁当を作りたいと思う。＠自信作を食べ終わったなら、ランチボックスは畳んでリュックの中へ。隣にあなたがいる分だけ…軽くなった荷物を背負って、またふたり歩いていこう",
+			"illustrator": "かにぱんだ",
+			"openDate": "2017/11/10 15:10:00"
+		},
+		{
+			"pieceId": 1138,
+			"pieceType": "ABILITY",
+			"pieceName": "心地よいアンバランス",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 761,
+			"defense": 0,
+			"hp": 841,
+			"skillId": 113810,
+			"pieceSkill": {
+				"id": 113810,
+				"groupId": 1085,
+				"name": "フルゲージドライブ[Ⅳ]",
+				"shortDescription": "HP最大時攻撃力UP[Ⅳ]",
+				"artId1": 390203104,
+				"art1": {
+					"artId": 390203104,
+					"verbCode": "BUFF_HPMAX",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 20,
+					"probability": 1000
+				},
+				"eventId": 1007,
+				"eventArtId1": 100703,
+				"eventArt1": {
+					"artId": 100703,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 3000,
+					"genericValue": "EVENT_TOWER_1007_KEY"
+				},
+				"eventDescription": "＆ドリンク入手時＋3"
+			},
+			"skillId2": 113811,
+			"pieceSkill2": {
+				"id": 113811,
+				"groupId": 1085,
+				"name": "フルゲージドライブ[Ⅴ]",
+				"shortDescription": "HP最大時攻撃力UP[Ⅴ]",
+				"artId1": 390203105,
+				"art1": {
+					"artId": 390203105,
+					"verbCode": "BUFF_HPMAX",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"growPoint": 20,
+					"probability": 1000
+				},
+				"eventId": 1007,
+				"eventArtId1": 100707,
+				"eventArt1": {
+					"artId": 100707,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 7000,
+					"genericValue": "EVENT_TOWER_1007_KEY"
+				},
+				"eventDescription": "＆ドリンク入手時＋7"
+			},
+			"description": "不思議といつまで経っても気が付かない＠いつも彼女が追い求めている視線は、別モノを見つめる今このときこそ、＠彼女に注がれているというのに＠交差するばかりの想いだけれど、それこそが彼女たちの絶妙なバランス",
+			"openDate": "2017/11/10 15:10:00"
 		}
 	],
 	"campaignList": []

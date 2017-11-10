@@ -26541,6 +26541,1029 @@
 			]
 		},
 		{
+			"charaId": 3016,
+			"chara": {
+				"id": 3016,
+				"name": "粟根 こころ",
+				"kana": "あわね こころ",
+				"attributeId": "LIGHT",
+				"attackType": 1,
+				"initialType": "DEFENSE",
+				"growthType": "DEFENSE",
+				"enemyFlg": false,
+				"saleItemId": "PRISM",
+				"saleItem": {
+					"itemCode": "PRISM",
+					"name": "マギアチップ",
+					"shortDescription": "マギアチップ",
+					"description": "ショップで特別なアイテムと交換することができるアイテム",
+					"canUse": false,
+					"isSellable": false,
+					"treasureChestColor": "GOLD",
+					"unit": "個",
+					"price": 0,
+					"sortKey": 0
+				},
+				"defaultCardId": 30164,
+				"defaultCard": {
+					"cardId": 30164,
+					"charaNo": 3016,
+					"miniCharaNo": 301600,
+					"magiaCharaNo": 301600,
+					"cardName": "粟根 こころ",
+					"rank": "RANK_4",
+					"attributeId": "LIGHT",
+					"initialType": "DEFENSE",
+					"growthType": "DEFENSE",
+					"attack": 1602,
+					"defense": 2117,
+					"hp": 6392,
+					"rateGainMpAtk": 800,
+					"rateGainMpDef": 1000,
+					"magiaId": 30164,
+					"cardMagia": {
+						"id": 30164,
+						"groupId": 1012,
+						"name": "ディスクリート・バレット",
+						"shortDescription": "敵単体にダメージ[Ⅴ] & 確率でカウンター(全/3T)",
+						"artId1": 100000105,
+						"art1": {
+							"artId": 100000105,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 6800,
+							"growPoint": 100
+						},
+						"artId2": 630307002,
+						"art2": {
+							"artId": 630307002,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "COUNTER",
+							"targetId": "ALL",
+							"effectValue": 800,
+							"enableTurn": 3,
+							"growPoint": 0,
+							"probability": 150
+						}
+					},
+					"skillId": 30164,
+					"cardSkill": {
+						"id": 30164,
+						"groupId": 1125,
+						"name": "もうひとりで我慢しないよ",
+						"shortDescription": "必ずカウンター & ダメージカット状態[Ⅶ]",
+						"artId1": 610407100,
+						"art1": {
+							"artId": 610407100,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "COUNTER",
+							"targetId": "CONNECT",
+							"effectValue": 800,
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						},
+						"artId2": 610406207,
+						"art2": {
+							"artId": 610406207,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DAMAGE_DOWN",
+							"targetId": "CONNECT",
+							"effectValue": 600,
+							"enableTurn": 1,
+							"growPoint": 25,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_H",
+					"commandType4": "CHARGE",
+					"commandType5": "CHARGE",
+					"illustrator": "GAN",
+					"cardCustomize": {
+						"cardId": 30164,
+						"giftId1": 142,
+						"gift1": {
+							"id": 142,
+							"name": "ライトオーブ＋",
+							"attributeId": "LIGHT",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum1": 12,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 40,
+						"giftId2": 551,
+						"gift2": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum2": 3,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 80,
+						"giftId3": 143,
+						"gift3": {
+							"id": 143,
+							"name": "ライトオーブ＋＋",
+							"attributeId": "LIGHT",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum3": 6,
+						"bonusCode3": "HP",
+						"bonusNum3": 60,
+						"giftId4": 553,
+						"gift4": {
+							"id": 553,
+							"name": "羊の角",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 8,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 60,
+						"giftId5": 302,
+						"gift5": {
+							"id": 302,
+							"name": "鏡の招待状",
+							"rank": 1,
+							"rankGift": "RANK_1",
+							"price": 1000
+						},
+						"giftNum5": 12,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 40,
+						"giftId6": 504,
+						"gift6": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum6": 6,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 60
+					}
+				},
+				"evolutionCardId1": 30165,
+				"evolutionCard1": {
+					"cardId": 30165,
+					"charaNo": 3016,
+					"miniCharaNo": 301600,
+					"magiaCharaNo": 301600,
+					"cardName": "粟根 こころ",
+					"rank": "RANK_5",
+					"attributeId": "LIGHT",
+					"initialType": "DEFENSE",
+					"growthType": "DEFENSE",
+					"attack": 1855,
+					"defense": 2410,
+					"hp": 7245,
+					"rateGainMpAtk": 800,
+					"rateGainMpDef": 1000,
+					"magiaId": 30165,
+					"cardMagia": {
+						"id": 30165,
+						"groupId": 1012,
+						"name": "ディスクリート・バレット",
+						"shortDescription": "敵単体にダメージ[Ⅶ] & 確率でカウンター(全/3T) & ダメージカット(全/3T)",
+						"artId1": 100000107,
+						"art1": {
+							"artId": 100000107,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 7200,
+							"growPoint": 100
+						},
+						"artId2": 630307003,
+						"art2": {
+							"artId": 630307003,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "COUNTER",
+							"targetId": "ALL",
+							"effectValue": 800,
+							"enableTurn": 3,
+							"growPoint": 0,
+							"probability": 200
+						},
+						"artId3": 630306208,
+						"art3": {
+							"artId": 630306208,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DAMAGE_DOWN",
+							"targetId": "ALL",
+							"effectValue": 375,
+							"enableTurn": 3,
+							"growPoint": 25,
+							"probability": 1000
+						}
+					},
+					"doppelMagiaId": 30168,
+					"doppelCardMagia": {
+						"id": 30168,
+						"groupId": 1012,
+						"name": "我慢のドッペル",
+						"shortDescription": "敵単体にダメージ[Ⅸ] & 確率でカウンター(全/3T) & ダメージカット(全/3T)",
+						"artId1": 190301681,
+						"art1": {
+							"artId": 190301681,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 16720,
+							"growPoint": 220
+						},
+						"artId2": 630307004,
+						"art2": {
+							"artId": 630307004,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "COUNTER",
+							"targetId": "ALL",
+							"effectValue": 800,
+							"enableTurn": 3,
+							"growPoint": 0,
+							"probability": 250
+						},
+						"artId3": 630306210,
+						"art3": {
+							"artId": 630306210,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DAMAGE_DOWN",
+							"targetId": "ALL",
+							"effectValue": 425,
+							"enableTurn": 3,
+							"growPoint": 25,
+							"probability": 1000
+						}
+					},
+					"skillId": 30165,
+					"cardSkill": {
+						"id": 30165,
+						"groupId": 1125,
+						"name": "もうひとりで我慢しないよ",
+						"shortDescription": "必ずカウンター & ダメージカット状態[Ⅸ]",
+						"artId1": 610407100,
+						"art1": {
+							"artId": 610407100,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "COUNTER",
+							"targetId": "CONNECT",
+							"effectValue": 800,
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						},
+						"artId2": 610406209,
+						"art2": {
+							"artId": 610406209,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DAMAGE_DOWN",
+							"targetId": "CONNECT",
+							"effectValue": 700,
+							"enableTurn": 1,
+							"growPoint": 25,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_H",
+					"commandType4": "CHARGE",
+					"commandType5": "CHARGE",
+					"illustrator": "GAN",
+					"cardCustomize": {
+						"cardId": 30165,
+						"giftId1": 142,
+						"gift1": {
+							"id": 142,
+							"name": "ライトオーブ＋",
+							"attributeId": "LIGHT",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum1": 15,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 50,
+						"giftId2": 551,
+						"gift2": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum2": 3,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 90,
+						"giftId3": 143,
+						"gift3": {
+							"id": 143,
+							"name": "ライトオーブ＋＋",
+							"attributeId": "LIGHT",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum3": 10,
+						"bonusCode3": "HP",
+						"bonusNum3": 70,
+						"giftId4": 504,
+						"gift4": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 10,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 70,
+						"giftId5": 404,
+						"gift5": {
+							"id": 404,
+							"name": "オウルのバケツ",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum5": 15,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 50,
+						"giftId6": 552,
+						"gift6": {
+							"id": 552,
+							"name": "立ち耳の綿",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum6": 8,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 70
+					}
+				},
+				"doppelCharaNo": 301600,
+				"doppel": {
+					"id": 301600,
+					"name": "我慢のドッペル",
+					"title": "その姿は、殻",
+					"description": "この感情の主は自身のドッペルのことを、自分が溜め込んでいる感情を発露してくれるものだと認識しているが、それが代償行動だと理解しているので、割り切れない気持ちで眺めている。＠このドッペルは、害を加えようとする者に抵抗感を示してトゲを出し、危険と認識すれば激しく攻撃を加えてくる。＠まれに、主の感情の高ぶりに合わせて爆発を引き起こすと、陶器とも金属とも違った強い強度をもつ殻が破られ、激しい魔力の波が辺りを包み込む。",
+					"designer": "原案・監修：GAN",
+					"openDate": "2017/11/10 15:10:00"
+				},
+				"firstMagiaGiftId1": 241,
+				"firstMagiaGiftNum1": 5,
+				"firstMagiaGiftId2": 301,
+				"firstMagiaGiftNum2": 5,
+				"firstMagiaGiftId3": 242,
+				"firstMagiaGiftNum3": 3,
+				"firstMagiaGiftId4": 404,
+				"firstMagiaGiftNum4": 3,
+				"firstMagiaGiftId5": 243,
+				"firstMagiaGiftNum5": 1,
+				"firstMagiaGiftId6": 504,
+				"firstMagiaGiftNum6": 1,
+				"secondMagiaGiftId1": 241,
+				"secondMagiaGiftNum1": 7,
+				"secondMagiaGiftId2": 302,
+				"secondMagiaGiftNum2": 7,
+				"secondMagiaGiftId3": 242,
+				"secondMagiaGiftNum3": 5,
+				"secondMagiaGiftId4": 404,
+				"secondMagiaGiftNum4": 5,
+				"secondMagiaGiftId5": 243,
+				"secondMagiaGiftNum5": 3,
+				"secondMagiaGiftId6": 553,
+				"secondMagiaGiftNum6": 3,
+				"thirdMagiaGiftId1": 241,
+				"thirdMagiaGiftNum1": 9,
+				"thirdMagiaGiftId2": 305,
+				"thirdMagiaGiftNum2": 9,
+				"thirdMagiaGiftId3": 242,
+				"thirdMagiaGiftNum3": 7,
+				"thirdMagiaGiftId4": 404,
+				"thirdMagiaGiftNum4": 7,
+				"thirdMagiaGiftId5": 243,
+				"thirdMagiaGiftNum5": 5,
+				"thirdMagiaGiftId6": 504,
+				"thirdMagiaGiftNum6": 5,
+				"fourthMagiaGiftId1": 241,
+				"fourthMagiaGiftNum1": 11,
+				"fourthMagiaGiftId2": 304,
+				"fourthMagiaGiftNum2": 11,
+				"fourthMagiaGiftId3": 242,
+				"fourthMagiaGiftNum3": 9,
+				"fourthMagiaGiftId4": 504,
+				"fourthMagiaGiftNum4": 5,
+				"fourthMagiaGiftId5": 243,
+				"fourthMagiaGiftNum5": 7,
+				"fourthMagiaGiftId6": 552,
+				"fourthMagiaGiftNum6": 7,
+				"firstMagiaGift1": {
+					"id": 241,
+					"name": "ライトブック",
+					"attributeId": "LIGHT",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"firstMagiaGift2": {
+					"id": 301,
+					"name": "燕尾の羽",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"firstMagiaGift3": {
+					"id": 242,
+					"name": "ライトブック＋",
+					"attributeId": "LIGHT",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"firstMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"firstMagiaGift5": {
+					"id": 243,
+					"name": "ライトブック＋＋",
+					"attributeId": "LIGHT",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"firstMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"secondMagiaGift1": {
+					"id": 241,
+					"name": "ライトブック",
+					"attributeId": "LIGHT",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"secondMagiaGift2": {
+					"id": 302,
+					"name": "鏡の招待状",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"secondMagiaGift3": {
+					"id": 242,
+					"name": "ライトブック＋",
+					"attributeId": "LIGHT",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"secondMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"secondMagiaGift5": {
+					"id": 243,
+					"name": "ライトブック＋＋",
+					"attributeId": "LIGHT",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"secondMagiaGift6": {
+					"id": 553,
+					"name": "羊の角",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"thirdMagiaGift1": {
+					"id": 241,
+					"name": "ライトブック",
+					"attributeId": "LIGHT",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"thirdMagiaGift2": {
+					"id": 305,
+					"name": "屋上の鍵",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"thirdMagiaGift3": {
+					"id": 242,
+					"name": "ライトブック＋",
+					"attributeId": "LIGHT",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"thirdMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"thirdMagiaGift5": {
+					"id": 243,
+					"name": "ライトブック＋＋",
+					"attributeId": "LIGHT",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"thirdMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift1": {
+					"id": 241,
+					"name": "ライトブック",
+					"attributeId": "LIGHT",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"fourthMagiaGift2": {
+					"id": 304,
+					"name": "羊の角笛",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"fourthMagiaGift3": {
+					"id": 242,
+					"name": "ライトブック＋",
+					"attributeId": "LIGHT",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"fourthMagiaGift4": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift5": {
+					"id": 243,
+					"name": "ライトブック＋＋",
+					"attributeId": "LIGHT",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"fourthMagiaGift6": {
+					"id": 552,
+					"name": "立ち耳の綿",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"description": "心の内にわだかまりを押さえつけている魔法少女。＠幼い頃に両親が離婚して以来、父親と共に暮らすが、お互いが正面から向き合えず、ギクシャクした関係がずっと続いてきた。＠表立って態度に示したりもせず、煮え切らない日々を過ごしている。",
+				"school": "中央学園",
+				"designer": "GAN",
+				"voiceActor": "近藤玲奈",
+				"openDate": "2017/11/10 15:10:00",
+				"charaMessageList": [
+					{
+						"charaNo": 3016,
+						"messageId": 6,
+						"message": "ただ…いつか気付いて欲しい"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 7,
+						"message": "この子…まるで死ぬことを恐れてない…！"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 8,
+						"message": "私が守らなきゃ…いけなかったのに…！"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 9,
+						"message": "私は私のために生きるって決めたから！"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 10,
+						"message": "そんな簡単に家族を壊さないでよ！"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 11,
+						"message": "あなたと…一緒にいてもいいですか？"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 12,
+						"message": "何で…？何で出て行ったりしたの？"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 43,
+						"message": "みんな、怪我はない？"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 44,
+						"message": "あ～、ドキドキしたっ！ふふっ"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 45,
+						"message": "ホッとしたら力抜けちゃった"
+					},
+					{
+						"charaNo": 3016,
+						"messageId": 46,
+						"message": "大丈夫。私が…守るから"
+					}
+				]
+			},
+			"cardList": [
+				{
+					"cardId": 30164,
+					"card": {
+						"cardId": 30164,
+						"charaNo": 3016,
+						"miniCharaNo": 301600,
+						"magiaCharaNo": 301600,
+						"cardName": "粟根 こころ",
+						"rank": "RANK_4",
+						"attributeId": "LIGHT",
+						"initialType": "DEFENSE",
+						"growthType": "DEFENSE",
+						"attack": 1602,
+						"defense": 2117,
+						"hp": 6392,
+						"rateGainMpAtk": 800,
+						"rateGainMpDef": 1000,
+						"magiaId": 30164,
+						"cardMagia": {
+							"id": 30164,
+							"groupId": 1012,
+							"name": "ディスクリート・バレット",
+							"shortDescription": "敵単体にダメージ[Ⅴ] & 確率でカウンター(全/3T)",
+							"artId1": 100000105,
+							"art1": {
+								"artId": 100000105,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 6800,
+								"growPoint": 100
+							},
+							"artId2": 630307002,
+							"art2": {
+								"artId": 630307002,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "COUNTER",
+								"targetId": "ALL",
+								"effectValue": 800,
+								"enableTurn": 3,
+								"growPoint": 0,
+								"probability": 150
+							}
+						},
+						"skillId": 30164,
+						"cardSkill": {
+							"id": 30164,
+							"groupId": 1125,
+							"name": "もうひとりで我慢しないよ",
+							"shortDescription": "必ずカウンター & ダメージカット状態[Ⅶ]",
+							"artId1": 610407100,
+							"art1": {
+								"artId": 610407100,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "COUNTER",
+								"targetId": "CONNECT",
+								"effectValue": 800,
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							},
+							"artId2": 610406207,
+							"art2": {
+								"artId": 610406207,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DAMAGE_DOWN",
+								"targetId": "CONNECT",
+								"effectValue": 600,
+								"enableTurn": 1,
+								"growPoint": 25,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_H",
+						"commandType4": "CHARGE",
+						"commandType5": "CHARGE",
+						"illustrator": "GAN",
+						"cardCustomize": {
+							"cardId": 30164,
+							"giftId1": 142,
+							"gift1": {
+								"id": 142,
+								"name": "ライトオーブ＋",
+								"attributeId": "LIGHT",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum1": 12,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 40,
+							"giftId2": 551,
+							"gift2": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum2": 3,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 80,
+							"giftId3": 143,
+							"gift3": {
+								"id": 143,
+								"name": "ライトオーブ＋＋",
+								"attributeId": "LIGHT",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum3": 6,
+							"bonusCode3": "HP",
+							"bonusNum3": 60,
+							"giftId4": 553,
+							"gift4": {
+								"id": 553,
+								"name": "羊の角",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 8,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 60,
+							"giftId5": 302,
+							"gift5": {
+								"id": 302,
+								"name": "鏡の招待状",
+								"rank": 1,
+								"rankGift": "RANK_1",
+								"price": 1000
+							},
+							"giftNum5": 12,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 40,
+							"giftId6": 504,
+							"gift6": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum6": 6,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 60
+						}
+					}
+				},
+				{
+					"cardId": 30165,
+					"card": {
+						"cardId": 30165,
+						"charaNo": 3016,
+						"miniCharaNo": 301600,
+						"magiaCharaNo": 301600,
+						"cardName": "粟根 こころ",
+						"rank": "RANK_5",
+						"attributeId": "LIGHT",
+						"initialType": "DEFENSE",
+						"growthType": "DEFENSE",
+						"attack": 1855,
+						"defense": 2410,
+						"hp": 7245,
+						"rateGainMpAtk": 800,
+						"rateGainMpDef": 1000,
+						"magiaId": 30165,
+						"cardMagia": {
+							"id": 30165,
+							"groupId": 1012,
+							"name": "ディスクリート・バレット",
+							"shortDescription": "敵単体にダメージ[Ⅶ] & 確率でカウンター(全/3T) & ダメージカット(全/3T)",
+							"artId1": 100000107,
+							"art1": {
+								"artId": 100000107,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 7200,
+								"growPoint": 100
+							},
+							"artId2": 630307003,
+							"art2": {
+								"artId": 630307003,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "COUNTER",
+								"targetId": "ALL",
+								"effectValue": 800,
+								"enableTurn": 3,
+								"growPoint": 0,
+								"probability": 200
+							},
+							"artId3": 630306208,
+							"art3": {
+								"artId": 630306208,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DAMAGE_DOWN",
+								"targetId": "ALL",
+								"effectValue": 375,
+								"enableTurn": 3,
+								"growPoint": 25,
+								"probability": 1000
+							}
+						},
+						"doppelMagiaId": 30168,
+						"doppelCardMagia": {
+							"id": 30168,
+							"groupId": 1012,
+							"name": "我慢のドッペル",
+							"shortDescription": "敵単体にダメージ[Ⅸ] & 確率でカウンター(全/3T) & ダメージカット(全/3T)",
+							"artId1": 190301681,
+							"art1": {
+								"artId": 190301681,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 16720,
+								"growPoint": 220
+							},
+							"artId2": 630307004,
+							"art2": {
+								"artId": 630307004,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "COUNTER",
+								"targetId": "ALL",
+								"effectValue": 800,
+								"enableTurn": 3,
+								"growPoint": 0,
+								"probability": 250
+							},
+							"artId3": 630306210,
+							"art3": {
+								"artId": 630306210,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DAMAGE_DOWN",
+								"targetId": "ALL",
+								"effectValue": 425,
+								"enableTurn": 3,
+								"growPoint": 25,
+								"probability": 1000
+							}
+						},
+						"skillId": 30165,
+						"cardSkill": {
+							"id": 30165,
+							"groupId": 1125,
+							"name": "もうひとりで我慢しないよ",
+							"shortDescription": "必ずカウンター & ダメージカット状態[Ⅸ]",
+							"artId1": 610407100,
+							"art1": {
+								"artId": 610407100,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "COUNTER",
+								"targetId": "CONNECT",
+								"effectValue": 800,
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							},
+							"artId2": 610406209,
+							"art2": {
+								"artId": 610406209,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DAMAGE_DOWN",
+								"targetId": "CONNECT",
+								"effectValue": 700,
+								"enableTurn": 1,
+								"growPoint": 25,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_H",
+						"commandType4": "CHARGE",
+						"commandType5": "CHARGE",
+						"illustrator": "GAN",
+						"cardCustomize": {
+							"cardId": 30165,
+							"giftId1": 142,
+							"gift1": {
+								"id": 142,
+								"name": "ライトオーブ＋",
+								"attributeId": "LIGHT",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum1": 15,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 50,
+							"giftId2": 551,
+							"gift2": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum2": 3,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 90,
+							"giftId3": 143,
+							"gift3": {
+								"id": 143,
+								"name": "ライトオーブ＋＋",
+								"attributeId": "LIGHT",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum3": 10,
+							"bonusCode3": "HP",
+							"bonusNum3": 70,
+							"giftId4": 504,
+							"gift4": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 10,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 70,
+							"giftId5": 404,
+							"gift5": {
+								"id": 404,
+								"name": "オウルのバケツ",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum5": 15,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 50,
+							"giftId6": 552,
+							"gift6": {
+								"id": 552,
+								"name": "立ち耳の綿",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum6": 8,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 70
+						}
+					}
+				}
+			]
+		},
+		{
 			"charaId": 3019,
 			"chara": {
 				"id": 3019,
