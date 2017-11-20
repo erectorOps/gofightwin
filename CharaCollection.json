@@ -39247,6 +39247,2632 @@
 					}
 				}
 			]
+		},
+		{
+			"charaId": 4011,
+			"chara": {
+				"id": 4011,
+				"name": "かずみ",
+				"kana": "かずみ",
+				"attributeId": "DARK",
+				"attackType": 1,
+				"initialType": "ATTACK",
+				"growthType": "DEFHP",
+				"enemyFlg": false,
+				"saleItemId": "PRISM",
+				"saleItem": {
+					"itemCode": "PRISM",
+					"name": "マギアチップ",
+					"shortDescription": "マギアチップ",
+					"description": "ショップで特別なアイテムと交換することができるアイテム",
+					"canUse": false,
+					"isSellable": false,
+					"treasureChestColor": "GOLD",
+					"unit": "個",
+					"price": 0,
+					"sortKey": 0
+				},
+				"defaultCardId": 40114,
+				"defaultCard": {
+					"cardId": 40114,
+					"charaNo": 4011,
+					"miniCharaNo": 401100,
+					"magiaCharaNo": 401100,
+					"cardName": "かずみ",
+					"rank": "RANK_4",
+					"attributeId": "DARK",
+					"initialType": "ATTACK",
+					"growthType": "DEFHP",
+					"attack": 2061,
+					"defense": 1620,
+					"hp": 5026,
+					"rateGainMpAtk": 1000,
+					"rateGainMpDef": 800,
+					"magiaId": 40114,
+					"cardMagia": {
+						"id": 40114,
+						"groupId": 1014,
+						"name": "リーミティ・エステールニ",
+						"shortDescription": "敵全体にダメージ[Ⅴ]  & MP回復(自)",
+						"artId1": 100300105,
+						"art1": {
+							"artId": 100300105,
+							"verbCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 3400,
+							"growPoint": 100
+						},
+						"artId2": 200200504,
+						"art2": {
+							"artId": 200200504,
+							"verbCode": "HEAL",
+							"effectCode": "MP",
+							"targetId": "SELF",
+							"effectValue": 275,
+							"growPoint": 10
+						}
+					},
+					"skillId": 40114,
+					"cardSkill": {
+						"id": 40114,
+						"groupId": 1092,
+						"name": "いまのわたしはこう動く！",
+						"shortDescription": "BlastダメージUP[Ⅶ] & 防御無視",
+						"artId1": 310401807,
+						"art1": {
+							"artId": 310401807,
+							"verbCode": "BUFF",
+							"effectCode": "BLAST",
+							"targetId": "CONNECT",
+							"effectValue": 700,
+							"enableTurn": 1,
+							"growPoint": 25
+						},
+						"artId2": 610406700,
+						"art2": {
+							"artId": 610406700,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DEFENSE_IGNORED",
+							"targetId": "CONNECT",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_H",
+					"commandType4": "RANGE_H",
+					"commandType5": "CHARGE",
+					"illustrator": "天杉貴志",
+					"cardCustomize": {
+						"cardId": 40114,
+						"giftId1": 551,
+						"gift1": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum1": 3,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 80,
+						"giftId2": 152,
+						"gift2": {
+							"id": 152,
+							"name": "ダークオーブ＋",
+							"attributeId": "DARK",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum2": 12,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 40,
+						"giftId3": 153,
+						"gift3": {
+							"id": 153,
+							"name": "ダークオーブ＋＋",
+							"attributeId": "DARK",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum3": 6,
+						"bonusCode3": "HP",
+						"bonusNum3": 50,
+						"giftId4": 504,
+						"gift4": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 6,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 60,
+						"giftId5": 552,
+						"gift5": {
+							"id": 552,
+							"name": "立ち耳の綿",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 8,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 60,
+						"giftId6": 301,
+						"gift6": {
+							"id": 301,
+							"name": "燕尾の羽",
+							"rank": 1,
+							"rankGift": "RANK_1",
+							"price": 1000
+						},
+						"giftNum6": 12,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 40
+					}
+				},
+				"evolutionCardId1": 40115,
+				"evolutionCard1": {
+					"cardId": 40115,
+					"charaNo": 4011,
+					"miniCharaNo": 401100,
+					"magiaCharaNo": 401100,
+					"cardName": "かずみ",
+					"rank": "RANK_5",
+					"attributeId": "DARK",
+					"initialType": "ATTACK",
+					"growthType": "DEFHP",
+					"attack": 2336,
+					"defense": 1837,
+					"hp": 5697,
+					"rateGainMpAtk": 1000,
+					"rateGainMpDef": 800,
+					"magiaId": 40115,
+					"cardMagia": {
+						"id": 40115,
+						"groupId": 1014,
+						"name": "リーミティ・エステールニ",
+						"shortDescription": "敵全体にダメージ[Ⅶ]  & MP回復(自) & BlastダメージUP(全/3T)",
+						"artId1": 100300107,
+						"art1": {
+							"artId": 100300107,
+							"verbCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 3600,
+							"growPoint": 100
+						},
+						"artId2": 330301807,
+						"art2": {
+							"artId": 330301807,
+							"verbCode": "BUFF",
+							"effectCode": "BLAST",
+							"targetId": "ALL",
+							"effectValue": 450,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId3": 200200506,
+						"art3": {
+							"artId": 200200506,
+							"verbCode": "HEAL",
+							"effectCode": "MP",
+							"targetId": "SELF",
+							"effectValue": 325,
+							"growPoint": 10
+						}
+					},
+					"doppelMagiaId": 40118,
+					"doppelCardMagia": {
+						"id": 40118,
+						"groupId": 1014,
+						"name": "空腹のドッペル",
+						"shortDescription": "敵全体にダメージ[Ⅸ]  & MP回復(自) & BlastダメージUP(全/3T)",
+						"artId1": 190401181,
+						"art1": {
+							"artId": 190401181,
+							"verbCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 8360,
+							"growPoint": 220
+						},
+						"artId2": 330301809,
+						"art2": {
+							"artId": 330301809,
+							"verbCode": "BUFF",
+							"effectCode": "BLAST",
+							"targetId": "ALL",
+							"effectValue": 550,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId3": 200200508,
+						"art3": {
+							"artId": 200200508,
+							"verbCode": "HEAL",
+							"effectCode": "MP",
+							"targetId": "SELF",
+							"effectValue": 375,
+							"growPoint": 10
+						}
+					},
+					"skillId": 40115,
+					"cardSkill": {
+						"id": 40115,
+						"groupId": 1092,
+						"name": "いまのわたしはこう動く！",
+						"shortDescription": "BlastダメージUP[Ⅸ] & 防御無視",
+						"artId1": 310401809,
+						"art1": {
+							"artId": 310401809,
+							"verbCode": "BUFF",
+							"effectCode": "BLAST",
+							"targetId": "CONNECT",
+							"effectValue": 800,
+							"enableTurn": 1,
+							"growPoint": 25
+						},
+						"artId2": 610406700,
+						"art2": {
+							"artId": 610406700,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DEFENSE_IGNORED",
+							"targetId": "CONNECT",
+							"enableTurn": 1,
+							"growPoint": 0,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_H",
+					"commandType4": "RANGE_H",
+					"commandType5": "CHARGE",
+					"illustrator": "天杉貴志",
+					"cardCustomize": {
+						"cardId": 40115,
+						"giftId1": 551,
+						"gift1": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum1": 3,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 90,
+						"giftId2": 152,
+						"gift2": {
+							"id": 152,
+							"name": "ダークオーブ＋",
+							"attributeId": "DARK",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum2": 15,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 50,
+						"giftId3": 153,
+						"gift3": {
+							"id": 153,
+							"name": "ダークオーブ＋＋",
+							"attributeId": "DARK",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum3": 10,
+						"bonusCode3": "HP",
+						"bonusNum3": 60,
+						"giftId4": 554,
+						"gift4": {
+							"id": 554,
+							"name": "屋上のバルーン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 8,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 70,
+						"giftId5": 504,
+						"gift5": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 10,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 70,
+						"giftId6": 404,
+						"gift6": {
+							"id": 404,
+							"name": "オウルのバケツ",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum6": 15,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 50
+					}
+				},
+				"doppelCharaNo": 401100,
+				"doppel": {
+					"id": 401100,
+					"name": "空腹のドッペル",
+					"title": "その姿は、黒いコック",
+					"description": "この感情の主は、食に対して人の何倍もの強い拘りをもつ。＠相手が魔法少女であろうと、魔女であろうと、お構いなし。手当たり次第になんでも調理し、自らの体内へと収めてしまう。＠まさに食欲そのものから生まれ出でし料理人であり、すべてを喰らいつくして無へと帰す暴食のドッペルである。＠テーブルの上の皿は、いつでも、何枚でも用意されている。戦いの場で席を同じくして、自らが供されることのないように…。",
+					"designer": "原案・監修：平松正樹/天杉貴志",
+					"openDate": "2017/11/20 15:10:00"
+				},
+				"firstMagiaGiftId1": 251,
+				"firstMagiaGiftNum1": 5,
+				"firstMagiaGiftId2": 301,
+				"firstMagiaGiftNum2": 5,
+				"firstMagiaGiftId3": 252,
+				"firstMagiaGiftNum3": 3,
+				"firstMagiaGiftId4": 404,
+				"firstMagiaGiftNum4": 3,
+				"firstMagiaGiftId5": 253,
+				"firstMagiaGiftNum5": 1,
+				"firstMagiaGiftId6": 504,
+				"firstMagiaGiftNum6": 1,
+				"secondMagiaGiftId1": 251,
+				"secondMagiaGiftNum1": 7,
+				"secondMagiaGiftId2": 302,
+				"secondMagiaGiftNum2": 7,
+				"secondMagiaGiftId3": 252,
+				"secondMagiaGiftNum3": 5,
+				"secondMagiaGiftId4": 404,
+				"secondMagiaGiftNum4": 5,
+				"secondMagiaGiftId5": 253,
+				"secondMagiaGiftNum5": 3,
+				"secondMagiaGiftId6": 553,
+				"secondMagiaGiftNum6": 3,
+				"thirdMagiaGiftId1": 251,
+				"thirdMagiaGiftNum1": 9,
+				"thirdMagiaGiftId2": 305,
+				"thirdMagiaGiftNum2": 9,
+				"thirdMagiaGiftId3": 252,
+				"thirdMagiaGiftNum3": 7,
+				"thirdMagiaGiftId4": 404,
+				"thirdMagiaGiftNum4": 7,
+				"thirdMagiaGiftId5": 253,
+				"thirdMagiaGiftNum5": 5,
+				"thirdMagiaGiftId6": 504,
+				"thirdMagiaGiftNum6": 5,
+				"fourthMagiaGiftId1": 251,
+				"fourthMagiaGiftNum1": 11,
+				"fourthMagiaGiftId2": 304,
+				"fourthMagiaGiftNum2": 11,
+				"fourthMagiaGiftId3": 252,
+				"fourthMagiaGiftNum3": 9,
+				"fourthMagiaGiftId4": 504,
+				"fourthMagiaGiftNum4": 5,
+				"fourthMagiaGiftId5": 253,
+				"fourthMagiaGiftNum5": 7,
+				"fourthMagiaGiftId6": 552,
+				"fourthMagiaGiftNum6": 7,
+				"firstMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"firstMagiaGift2": {
+					"id": 301,
+					"name": "燕尾の羽",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"firstMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"firstMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"firstMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"firstMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"secondMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"secondMagiaGift2": {
+					"id": 302,
+					"name": "鏡の招待状",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"secondMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"secondMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"secondMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"secondMagiaGift6": {
+					"id": 553,
+					"name": "羊の角",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"thirdMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"thirdMagiaGift2": {
+					"id": 305,
+					"name": "屋上の鍵",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"thirdMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"thirdMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"thirdMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"thirdMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift1": {
+					"id": 251,
+					"name": "ダークブック",
+					"attributeId": "DARK",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"fourthMagiaGift2": {
+					"id": 304,
+					"name": "羊の角笛",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"fourthMagiaGift3": {
+					"id": 252,
+					"name": "ダークブック＋",
+					"attributeId": "DARK",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"fourthMagiaGift4": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift5": {
+					"id": 253,
+					"name": "ダークブック＋＋",
+					"attributeId": "DARK",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"fourthMagiaGift6": {
+					"id": 552,
+					"name": "立ち耳の綿",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"description": "記憶を失っているあすなろ市の魔法少女。＠普段は御崎海香、牧カオルと共に行動し、一緒に生活もしている。＠食に対しての意欲は人一倍で、食べるのも好きだが、作る方の腕前もかなりのもの。＠髪の毛の具合で魔女の居場所を察することができる。",
+				"school": "―",
+				"designer": "平松正樹/天杉貴志",
+				"voiceActor": "丹下桜",
+				"openDate": "2017/11/20 15:10:00",
+				"charaMessageList": [
+					{
+						"charaNo": 4011,
+						"messageId": 6,
+						"message": "すごいでしょ…わたし、魔法が使えるんだよ"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 7,
+						"message": "悪い人が魔女になるとは、限らないんだね"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 8,
+						"message": "あ～、おなかへったなぁ～…"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 9,
+						"message": "海香、カオル！ごはんできたよ～！"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 10,
+						"message": "わ、わたしたち、神浜市へ行くの？"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 11,
+						"message": "名前はかずみ。苗字はまだ思い出せないんだ"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 12,
+						"message": "あ…！こっち！魔女を感じる！"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 43,
+						"message": "はぁ～、おなかすいた…"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 44,
+						"message": "よし！じゃあ、何か食べに行こうか！"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 45,
+						"message": "息ピッタリだったね！"
+					},
+					{
+						"charaNo": 4011,
+						"messageId": 46,
+						"message": "わたし…戦える！"
+					}
+				]
+			},
+			"cardList": [
+				{
+					"cardId": 40114,
+					"card": {
+						"cardId": 40114,
+						"charaNo": 4011,
+						"miniCharaNo": 401100,
+						"magiaCharaNo": 401100,
+						"cardName": "かずみ",
+						"rank": "RANK_4",
+						"attributeId": "DARK",
+						"initialType": "ATTACK",
+						"growthType": "DEFHP",
+						"attack": 2061,
+						"defense": 1620,
+						"hp": 5026,
+						"rateGainMpAtk": 1000,
+						"rateGainMpDef": 800,
+						"magiaId": 40114,
+						"cardMagia": {
+							"id": 40114,
+							"groupId": 1014,
+							"name": "リーミティ・エステールニ",
+							"shortDescription": "敵全体にダメージ[Ⅴ]  & MP回復(自)",
+							"artId1": 100300105,
+							"art1": {
+								"artId": 100300105,
+								"verbCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 3400,
+								"growPoint": 100
+							},
+							"artId2": 200200504,
+							"art2": {
+								"artId": 200200504,
+								"verbCode": "HEAL",
+								"effectCode": "MP",
+								"targetId": "SELF",
+								"effectValue": 275,
+								"growPoint": 10
+							}
+						},
+						"skillId": 40114,
+						"cardSkill": {
+							"id": 40114,
+							"groupId": 1092,
+							"name": "いまのわたしはこう動く！",
+							"shortDescription": "BlastダメージUP[Ⅶ] & 防御無視",
+							"artId1": 310401807,
+							"art1": {
+								"artId": 310401807,
+								"verbCode": "BUFF",
+								"effectCode": "BLAST",
+								"targetId": "CONNECT",
+								"effectValue": 700,
+								"enableTurn": 1,
+								"growPoint": 25
+							},
+							"artId2": 610406700,
+							"art2": {
+								"artId": 610406700,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DEFENSE_IGNORED",
+								"targetId": "CONNECT",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_H",
+						"commandType4": "RANGE_H",
+						"commandType5": "CHARGE",
+						"illustrator": "天杉貴志",
+						"cardCustomize": {
+							"cardId": 40114,
+							"giftId1": 551,
+							"gift1": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum1": 3,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 80,
+							"giftId2": 152,
+							"gift2": {
+								"id": 152,
+								"name": "ダークオーブ＋",
+								"attributeId": "DARK",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum2": 12,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 40,
+							"giftId3": 153,
+							"gift3": {
+								"id": 153,
+								"name": "ダークオーブ＋＋",
+								"attributeId": "DARK",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum3": 6,
+							"bonusCode3": "HP",
+							"bonusNum3": 50,
+							"giftId4": 504,
+							"gift4": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 6,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 60,
+							"giftId5": 552,
+							"gift5": {
+								"id": 552,
+								"name": "立ち耳の綿",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 8,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 60,
+							"giftId6": 301,
+							"gift6": {
+								"id": 301,
+								"name": "燕尾の羽",
+								"rank": 1,
+								"rankGift": "RANK_1",
+								"price": 1000
+							},
+							"giftNum6": 12,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 40
+						}
+					}
+				},
+				{
+					"cardId": 40115,
+					"card": {
+						"cardId": 40115,
+						"charaNo": 4011,
+						"miniCharaNo": 401100,
+						"magiaCharaNo": 401100,
+						"cardName": "かずみ",
+						"rank": "RANK_5",
+						"attributeId": "DARK",
+						"initialType": "ATTACK",
+						"growthType": "DEFHP",
+						"attack": 2336,
+						"defense": 1837,
+						"hp": 5697,
+						"rateGainMpAtk": 1000,
+						"rateGainMpDef": 800,
+						"magiaId": 40115,
+						"cardMagia": {
+							"id": 40115,
+							"groupId": 1014,
+							"name": "リーミティ・エステールニ",
+							"shortDescription": "敵全体にダメージ[Ⅶ]  & MP回復(自) & BlastダメージUP(全/3T)",
+							"artId1": 100300107,
+							"art1": {
+								"artId": 100300107,
+								"verbCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 3600,
+								"growPoint": 100
+							},
+							"artId2": 330301807,
+							"art2": {
+								"artId": 330301807,
+								"verbCode": "BUFF",
+								"effectCode": "BLAST",
+								"targetId": "ALL",
+								"effectValue": 450,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId3": 200200506,
+							"art3": {
+								"artId": 200200506,
+								"verbCode": "HEAL",
+								"effectCode": "MP",
+								"targetId": "SELF",
+								"effectValue": 325,
+								"growPoint": 10
+							}
+						},
+						"doppelMagiaId": 40118,
+						"doppelCardMagia": {
+							"id": 40118,
+							"groupId": 1014,
+							"name": "空腹のドッペル",
+							"shortDescription": "敵全体にダメージ[Ⅸ]  & MP回復(自) & BlastダメージUP(全/3T)",
+							"artId1": 190401181,
+							"art1": {
+								"artId": 190401181,
+								"verbCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 8360,
+								"growPoint": 220
+							},
+							"artId2": 330301809,
+							"art2": {
+								"artId": 330301809,
+								"verbCode": "BUFF",
+								"effectCode": "BLAST",
+								"targetId": "ALL",
+								"effectValue": 550,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId3": 200200508,
+							"art3": {
+								"artId": 200200508,
+								"verbCode": "HEAL",
+								"effectCode": "MP",
+								"targetId": "SELF",
+								"effectValue": 375,
+								"growPoint": 10
+							}
+						},
+						"skillId": 40115,
+						"cardSkill": {
+							"id": 40115,
+							"groupId": 1092,
+							"name": "いまのわたしはこう動く！",
+							"shortDescription": "BlastダメージUP[Ⅸ] & 防御無視",
+							"artId1": 310401809,
+							"art1": {
+								"artId": 310401809,
+								"verbCode": "BUFF",
+								"effectCode": "BLAST",
+								"targetId": "CONNECT",
+								"effectValue": 800,
+								"enableTurn": 1,
+								"growPoint": 25
+							},
+							"artId2": 610406700,
+							"art2": {
+								"artId": 610406700,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DEFENSE_IGNORED",
+								"targetId": "CONNECT",
+								"enableTurn": 1,
+								"growPoint": 0,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_H",
+						"commandType4": "RANGE_H",
+						"commandType5": "CHARGE",
+						"illustrator": "天杉貴志",
+						"cardCustomize": {
+							"cardId": 40115,
+							"giftId1": 551,
+							"gift1": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum1": 3,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 90,
+							"giftId2": 152,
+							"gift2": {
+								"id": 152,
+								"name": "ダークオーブ＋",
+								"attributeId": "DARK",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum2": 15,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 50,
+							"giftId3": 153,
+							"gift3": {
+								"id": 153,
+								"name": "ダークオーブ＋＋",
+								"attributeId": "DARK",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum3": 10,
+							"bonusCode3": "HP",
+							"bonusNum3": 60,
+							"giftId4": 554,
+							"gift4": {
+								"id": 554,
+								"name": "屋上のバルーン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 8,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 70,
+							"giftId5": 504,
+							"gift5": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 10,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 70,
+							"giftId6": 404,
+							"gift6": {
+								"id": 404,
+								"name": "オウルのバケツ",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum6": 15,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 50
+						}
+					}
+				}
+			]
+		},
+		{
+			"charaId": 4012,
+			"chara": {
+				"id": 4012,
+				"name": "御崎 海香",
+				"kana": "みさき うみか",
+				"attributeId": "WATER",
+				"attackType": 1,
+				"initialType": "HEAL",
+				"growthType": "BALANCE",
+				"enemyFlg": false,
+				"saleItemId": "PRISM",
+				"saleItem": {
+					"itemCode": "PRISM",
+					"name": "マギアチップ",
+					"shortDescription": "マギアチップ",
+					"description": "ショップで特別なアイテムと交換することができるアイテム",
+					"canUse": false,
+					"isSellable": false,
+					"treasureChestColor": "GOLD",
+					"unit": "個",
+					"price": 0,
+					"sortKey": 0
+				},
+				"defaultCardId": 40123,
+				"defaultCard": {
+					"cardId": 40123,
+					"charaNo": 4012,
+					"miniCharaNo": 401200,
+					"magiaCharaNo": 401200,
+					"cardName": "御崎 海香",
+					"rank": "RANK_3",
+					"attributeId": "WATER",
+					"initialType": "HEAL",
+					"growthType": "BALANCE",
+					"attack": 1197,
+					"defense": 1557,
+					"hp": 4147,
+					"rateGainMpAtk": 1000,
+					"rateGainMpDef": 1200,
+					"magiaId": 40123,
+					"cardMagia": {
+						"id": 40123,
+						"groupId": 1014,
+						"name": "イクス・フィーレ",
+						"shortDescription": "敵全体にダメージ[Ⅱ] ＆ HP 回復(全)",
+						"artId1": 100300102,
+						"art1": {
+							"artId": 100300102,
+							"verbCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 3100,
+							"growPoint": 100
+						},
+						"artId2": 200300403,
+						"art2": {
+							"artId": 200300403,
+							"verbCode": "HEAL",
+							"effectCode": "HP",
+							"targetId": "ALL",
+							"effectValue": 175,
+							"growPoint": 20
+						}
+					},
+					"skillId": 40123,
+					"cardSkill": {
+						"id": 40123,
+						"groupId": 1078,
+						"name": "読めたわ！仕掛けるわよ！",
+						"shortDescription": "HP回復[Ⅴ] & ダメージカット[Ⅴ]",
+						"artId1": 200400405,
+						"art1": {
+							"artId": 200400405,
+							"verbCode": "HEAL",
+							"effectCode": "HP",
+							"targetId": "CONNECT",
+							"effectValue": 400,
+							"growPoint": 20
+						},
+						"artId2": 610406205,
+						"art2": {
+							"artId": 610406205,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DAMAGE_DOWN",
+							"targetId": "CONNECT",
+							"effectValue": 500,
+							"enableTurn": 1,
+							"growPoint": 25,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_H",
+					"commandType4": "CHARGE",
+					"commandType5": "CHARGE",
+					"illustrator": "天杉貴志",
+					"cardCustomize": {
+						"cardId": 40123,
+						"giftId1": 602,
+						"gift1": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum1": 1,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 40,
+						"giftId2": 602,
+						"gift2": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum2": 1,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 60,
+						"giftId3": 602,
+						"gift3": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum3": 1,
+						"bonusCode3": "HP",
+						"bonusNum3": 50,
+						"giftId4": 602,
+						"gift4": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 1,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 50,
+						"giftId5": 602,
+						"gift5": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 1,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 30,
+						"giftId6": 602,
+						"gift6": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum6": 1,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 50
+					}
+				},
+				"evolutionCardId1": 40124,
+				"evolutionCard1": {
+					"cardId": 40124,
+					"charaNo": 4012,
+					"miniCharaNo": 401200,
+					"magiaCharaNo": 401200,
+					"cardName": "御崎 海香",
+					"rank": "RANK_4",
+					"attributeId": "WATER",
+					"initialType": "HEAL",
+					"growthType": "BALANCE",
+					"attack": 1411,
+					"defense": 1846,
+					"hp": 4905,
+					"rateGainMpAtk": 1000,
+					"rateGainMpDef": 1200,
+					"magiaId": 40124,
+					"cardMagia": {
+						"id": 40124,
+						"groupId": 1014,
+						"name": "イクス・フィーレ",
+						"shortDescription": "敵全体にダメージ[Ⅳ] ＆ 状態異常解除(全) ＆ HP回復(全)",
+						"artId1": 100300104,
+						"art1": {
+							"artId": 100300104,
+							"verbCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 3300,
+							"growPoint": 100
+						},
+						"artId2": 200301000,
+						"art2": {
+							"artId": 200301000,
+							"verbCode": "REVOKE",
+							"effectCode": "BAD",
+							"targetId": "ALL",
+							"growPoint": 0
+						},
+						"artId3": 200300405,
+						"art3": {
+							"artId": 200300405,
+							"verbCode": "HEAL",
+							"effectCode": "HP",
+							"targetId": "ALL",
+							"effectValue": 200,
+							"growPoint": 20
+						}
+					},
+					"skillId": 40124,
+					"cardSkill": {
+						"id": 40124,
+						"groupId": 1078,
+						"name": "読めたわ！仕掛けるわよ！",
+						"shortDescription": "HP回復[Ⅶ] & ダメージカット[Ⅶ]",
+						"artId1": 200400407,
+						"art1": {
+							"artId": 200400407,
+							"verbCode": "HEAL",
+							"effectCode": "HP",
+							"targetId": "CONNECT",
+							"effectValue": 450,
+							"growPoint": 20
+						},
+						"artId2": 610406207,
+						"art2": {
+							"artId": 610406207,
+							"verbCode": "CONDITION_GOOD",
+							"effectCode": "DAMAGE_DOWN",
+							"targetId": "CONNECT",
+							"effectValue": 600,
+							"enableTurn": 1,
+							"growPoint": 25,
+							"probability": 1000
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "MPUP",
+					"commandType3": "RANGE_H",
+					"commandType4": "CHARGE",
+					"commandType5": "CHARGE",
+					"illustrator": "天杉貴志",
+					"cardCustomize": {
+						"cardId": 40124,
+						"giftId1": 602,
+						"gift1": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum1": 1,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 50,
+						"giftId2": 602,
+						"gift2": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum2": 1,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 70,
+						"giftId3": 602,
+						"gift3": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum3": 1,
+						"bonusCode3": "HP",
+						"bonusNum3": 60,
+						"giftId4": 602,
+						"gift4": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum4": 1,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 60,
+						"giftId5": 602,
+						"gift5": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 1,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 40,
+						"giftId6": 602,
+						"gift6": {
+							"id": 602,
+							"name": "海香の覚醒書",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum6": 1,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 60
+					}
+				},
+				"firstMagiaGiftId1": 603,
+				"firstMagiaGiftNum1": 1,
+				"secondMagiaGiftId1": 603,
+				"secondMagiaGiftNum1": 2,
+				"thirdMagiaGiftId1": 603,
+				"thirdMagiaGiftNum1": 3,
+				"fourthMagiaGiftId1": 603,
+				"fourthMagiaGiftNum1": 4,
+				"firstMagiaGift1": {
+					"id": 603,
+					"name": "海香の魔導書",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"secondMagiaGift1": {
+					"id": 603,
+					"name": "海香の魔導書",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"thirdMagiaGift1": {
+					"id": 603,
+					"name": "海香の魔導書",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift1": {
+					"id": 603,
+					"name": "海香の魔導書",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"description": "あすなろ市の魔法少女であり、中学生にして売れっ子の小説家。＠一軒家にかずみ、牧カオルと共に暮らしている。＠執筆に行き詰ると、ストレス解消に料理、そして買い物をするという習慣がある。＠ちなみに、小説はパソコンで書いている。",
+				"school": "―",
+				"designer": "平松正樹/天杉貴志",
+				"voiceActor": "内田彩",
+				"openDate": "2017/11/20 15:10:00",
+				"charaMessageList": [
+					{
+						"charaNo": 4012,
+						"messageId": 6,
+						"message": "よろしくて？…さあ、存分にお買いあれ！"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 7,
+						"message": "ここにいるというの…？この…神浜市に…"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 8,
+						"message": "かずみ！カオル！…一体、どこにいるの…！"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 9,
+						"message": "あなた…神浜市の魔法少女…なの？"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 10,
+						"message": "作家は壁に当たった時ほど冷静にならなきゃ"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 11,
+						"message": "次の展開…私ならこう組み立てるわ"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 12,
+						"message": "そんな物語…私は認めない！"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 43,
+						"message": "悪い出来ではないわね"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 44,
+						"message": "ひとまず筆を置きましょうか"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 45,
+						"message": "筋書通りの終わり方ね"
+					},
+					{
+						"charaNo": 4012,
+						"messageId": 46,
+						"message": "当然の結末ね"
+					}
+				]
+			},
+			"cardList": [
+				{
+					"cardId": 40123,
+					"card": {
+						"cardId": 40123,
+						"charaNo": 4012,
+						"miniCharaNo": 401200,
+						"magiaCharaNo": 401200,
+						"cardName": "御崎 海香",
+						"rank": "RANK_3",
+						"attributeId": "WATER",
+						"initialType": "HEAL",
+						"growthType": "BALANCE",
+						"attack": 1197,
+						"defense": 1557,
+						"hp": 4147,
+						"rateGainMpAtk": 1000,
+						"rateGainMpDef": 1200,
+						"magiaId": 40123,
+						"cardMagia": {
+							"id": 40123,
+							"groupId": 1014,
+							"name": "イクス・フィーレ",
+							"shortDescription": "敵全体にダメージ[Ⅱ] ＆ HP 回復(全)",
+							"artId1": 100300102,
+							"art1": {
+								"artId": 100300102,
+								"verbCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 3100,
+								"growPoint": 100
+							},
+							"artId2": 200300403,
+							"art2": {
+								"artId": 200300403,
+								"verbCode": "HEAL",
+								"effectCode": "HP",
+								"targetId": "ALL",
+								"effectValue": 175,
+								"growPoint": 20
+							}
+						},
+						"skillId": 40123,
+						"cardSkill": {
+							"id": 40123,
+							"groupId": 1078,
+							"name": "読めたわ！仕掛けるわよ！",
+							"shortDescription": "HP回復[Ⅴ] & ダメージカット[Ⅴ]",
+							"artId1": 200400405,
+							"art1": {
+								"artId": 200400405,
+								"verbCode": "HEAL",
+								"effectCode": "HP",
+								"targetId": "CONNECT",
+								"effectValue": 400,
+								"growPoint": 20
+							},
+							"artId2": 610406205,
+							"art2": {
+								"artId": 610406205,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DAMAGE_DOWN",
+								"targetId": "CONNECT",
+								"effectValue": 500,
+								"enableTurn": 1,
+								"growPoint": 25,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_H",
+						"commandType4": "CHARGE",
+						"commandType5": "CHARGE",
+						"illustrator": "天杉貴志",
+						"cardCustomize": {
+							"cardId": 40123,
+							"giftId1": 602,
+							"gift1": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum1": 1,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 40,
+							"giftId2": 602,
+							"gift2": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum2": 1,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 60,
+							"giftId3": 602,
+							"gift3": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum3": 1,
+							"bonusCode3": "HP",
+							"bonusNum3": 50,
+							"giftId4": 602,
+							"gift4": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 1,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 50,
+							"giftId5": 602,
+							"gift5": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 1,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 30,
+							"giftId6": 602,
+							"gift6": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum6": 1,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 50
+						}
+					}
+				},
+				{
+					"cardId": 40124,
+					"card": {
+						"cardId": 40124,
+						"charaNo": 4012,
+						"miniCharaNo": 401200,
+						"magiaCharaNo": 401200,
+						"cardName": "御崎 海香",
+						"rank": "RANK_4",
+						"attributeId": "WATER",
+						"initialType": "HEAL",
+						"growthType": "BALANCE",
+						"attack": 1411,
+						"defense": 1846,
+						"hp": 4905,
+						"rateGainMpAtk": 1000,
+						"rateGainMpDef": 1200,
+						"magiaId": 40124,
+						"cardMagia": {
+							"id": 40124,
+							"groupId": 1014,
+							"name": "イクス・フィーレ",
+							"shortDescription": "敵全体にダメージ[Ⅳ] ＆ 状態異常解除(全) ＆ HP回復(全)",
+							"artId1": 100300104,
+							"art1": {
+								"artId": 100300104,
+								"verbCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 3300,
+								"growPoint": 100
+							},
+							"artId2": 200301000,
+							"art2": {
+								"artId": 200301000,
+								"verbCode": "REVOKE",
+								"effectCode": "BAD",
+								"targetId": "ALL",
+								"growPoint": 0
+							},
+							"artId3": 200300405,
+							"art3": {
+								"artId": 200300405,
+								"verbCode": "HEAL",
+								"effectCode": "HP",
+								"targetId": "ALL",
+								"effectValue": 200,
+								"growPoint": 20
+							}
+						},
+						"skillId": 40124,
+						"cardSkill": {
+							"id": 40124,
+							"groupId": 1078,
+							"name": "読めたわ！仕掛けるわよ！",
+							"shortDescription": "HP回復[Ⅶ] & ダメージカット[Ⅶ]",
+							"artId1": 200400407,
+							"art1": {
+								"artId": 200400407,
+								"verbCode": "HEAL",
+								"effectCode": "HP",
+								"targetId": "CONNECT",
+								"effectValue": 450,
+								"growPoint": 20
+							},
+							"artId2": 610406207,
+							"art2": {
+								"artId": 610406207,
+								"verbCode": "CONDITION_GOOD",
+								"effectCode": "DAMAGE_DOWN",
+								"targetId": "CONNECT",
+								"effectValue": 600,
+								"enableTurn": 1,
+								"growPoint": 25,
+								"probability": 1000
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "MPUP",
+						"commandType3": "RANGE_H",
+						"commandType4": "CHARGE",
+						"commandType5": "CHARGE",
+						"illustrator": "天杉貴志",
+						"cardCustomize": {
+							"cardId": 40124,
+							"giftId1": 602,
+							"gift1": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum1": 1,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 50,
+							"giftId2": 602,
+							"gift2": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum2": 1,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 70,
+							"giftId3": 602,
+							"gift3": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum3": 1,
+							"bonusCode3": "HP",
+							"bonusNum3": 60,
+							"giftId4": 602,
+							"gift4": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum4": 1,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 60,
+							"giftId5": 602,
+							"gift5": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 1,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 40,
+							"giftId6": 602,
+							"gift6": {
+								"id": 602,
+								"name": "海香の覚醒書",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum6": 1,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 60
+						}
+					}
+				}
+			]
+		},
+		{
+			"charaId": 4013,
+			"chara": {
+				"id": 4013,
+				"name": "牧 カオル",
+				"kana": "まき かおる",
+				"attributeId": "FIRE",
+				"attackType": 1,
+				"initialType": "BALANCE",
+				"growthType": "HP",
+				"enemyFlg": false,
+				"saleItemId": "PRISM",
+				"saleItem": {
+					"itemCode": "PRISM",
+					"name": "マギアチップ",
+					"shortDescription": "マギアチップ",
+					"description": "ショップで特別なアイテムと交換することができるアイテム",
+					"canUse": false,
+					"isSellable": false,
+					"treasureChestColor": "GOLD",
+					"unit": "個",
+					"price": 0,
+					"sortKey": 0
+				},
+				"defaultCardId": 40133,
+				"defaultCard": {
+					"cardId": 40133,
+					"charaNo": 4013,
+					"miniCharaNo": 401300,
+					"magiaCharaNo": 401300,
+					"cardName": "牧 カオル",
+					"rank": "RANK_3",
+					"attributeId": "FIRE",
+					"initialType": "BALANCE",
+					"growthType": "HP",
+					"attack": 1389,
+					"defense": 1402,
+					"hp": 4459,
+					"rateGainMpAtk": 900,
+					"rateGainMpDef": 900,
+					"magiaId": 40133,
+					"cardMagia": {
+						"id": 40133,
+						"groupId": 1012,
+						"name": "パラ・ディ・キャノーネ",
+						"shortDescription": "敵単体にダメージ[Ⅲ] ＆ 攻撃力UP(全/3T)",
+						"artId1": 100000103,
+						"art1": {
+							"artId": 100000103,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 6400,
+							"growPoint": 100
+						},
+						"artId2": 330301103,
+						"art2": {
+							"artId": 330301103,
+							"verbCode": "BUFF",
+							"effectCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 200,
+							"enableTurn": 3,
+							"growPoint": 25
+						}
+					},
+					"skillId": 40133,
+					"cardSkill": {
+						"id": 40133,
+						"groupId": 1085,
+						"name": "あんたを置いて行けるか!!",
+						"shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅴ]",
+						"artId1": 310401105,
+						"art1": {
+							"artId": 310401105,
+							"verbCode": "BUFF",
+							"effectCode": "ATTACK",
+							"targetId": "CONNECT",
+							"effectValue": 300,
+							"enableTurn": 1,
+							"growPoint": 25
+						},
+						"artId2": 310401205,
+						"art2": {
+							"artId": 310401205,
+							"verbCode": "BUFF",
+							"effectCode": "DEFENSE",
+							"targetId": "CONNECT",
+							"effectValue": 750,
+							"enableTurn": 1,
+							"growPoint": 25
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "RANGE_V",
+					"commandType3": "RANGE_H",
+					"commandType4": "CHARGE",
+					"commandType5": "CHARGE",
+					"illustrator": "天杉貴志",
+					"cardCustomize": {
+						"cardId": 40133,
+						"giftId1": 113,
+						"gift1": {
+							"id": 113,
+							"name": "フレイムオーブ＋＋",
+							"attributeId": "FIRE",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum1": 4,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 50,
+						"giftId2": 112,
+						"gift2": {
+							"id": 112,
+							"name": "フレイムオーブ＋",
+							"attributeId": "FIRE",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum2": 7,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 50,
+						"giftId3": 111,
+						"gift3": {
+							"id": 111,
+							"name": "フレイムオーブ",
+							"attributeId": "FIRE",
+							"rank": 1,
+							"rankGift": "RANK_1",
+							"price": 500
+						},
+						"giftNum3": 9,
+						"bonusCode3": "HP",
+						"bonusNum3": 50,
+						"giftId4": 303,
+						"gift4": {
+							"id": 303,
+							"name": "立ち耳の包装紙",
+							"rank": 1,
+							"rankGift": "RANK_1",
+							"price": 3000
+						},
+						"giftNum4": 8,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 30,
+						"giftId5": 504,
+						"gift5": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum5": 3,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 50,
+						"giftId6": 551,
+						"gift6": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum6": 2,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 50
+					}
+				},
+				"evolutionCardId1": 40134,
+				"evolutionCard1": {
+					"cardId": 40134,
+					"charaNo": 4013,
+					"miniCharaNo": 401300,
+					"magiaCharaNo": 401300,
+					"cardName": "牧 カオル",
+					"rank": "RANK_4",
+					"attributeId": "FIRE",
+					"initialType": "BALANCE",
+					"growthType": "HP",
+					"attack": 1726,
+					"defense": 1743,
+					"hp": 5542,
+					"rateGainMpAtk": 900,
+					"rateGainMpDef": 900,
+					"magiaId": 40134,
+					"cardMagia": {
+						"id": 40134,
+						"groupId": 1012,
+						"name": "パラ・ディ・キャノーネ",
+						"shortDescription": "敵単体にダメージ[Ⅴ] ＆ 攻撃力UP ＆ Charge後ダメージUP(全/3T)",
+						"artId1": 100000105,
+						"art1": {
+							"artId": 100000105,
+							"verbCode": "ATTACK",
+							"targetId": "TARGET",
+							"effectValue": 6800,
+							"growPoint": 100
+						},
+						"artId2": 330301105,
+						"art2": {
+							"artId": 330301105,
+							"verbCode": "BUFF",
+							"effectCode": "ATTACK",
+							"targetId": "ALL",
+							"effectValue": 250,
+							"enableTurn": 3,
+							"growPoint": 25
+						},
+						"artId3": 330301705,
+						"art3": {
+							"artId": 330301705,
+							"verbCode": "BUFF",
+							"effectCode": "CHARGE",
+							"targetId": "ALL",
+							"effectValue": 200,
+							"enableTurn": 3,
+							"growPoint": 25
+						}
+					},
+					"skillId": 40134,
+					"cardSkill": {
+						"id": 40134,
+						"groupId": 1085,
+						"name": "あんたを置いて行けるか!!",
+						"shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅶ]",
+						"artId1": 310401107,
+						"art1": {
+							"artId": 310401107,
+							"verbCode": "BUFF",
+							"effectCode": "ATTACK",
+							"targetId": "CONNECT",
+							"effectValue": 350,
+							"enableTurn": 1,
+							"growPoint": 25
+						},
+						"artId2": 310401207,
+						"art2": {
+							"artId": 310401207,
+							"verbCode": "BUFF",
+							"effectCode": "DEFENSE",
+							"targetId": "CONNECT",
+							"effectValue": 900,
+							"enableTurn": 1,
+							"growPoint": 25
+						}
+					},
+					"commandType1": "MPUP",
+					"commandType2": "RANGE_V",
+					"commandType3": "RANGE_H",
+					"commandType4": "CHARGE",
+					"commandType5": "CHARGE",
+					"illustrator": "天杉貴志",
+					"cardCustomize": {
+						"cardId": 40134,
+						"giftId1": 551,
+						"gift1": {
+							"id": 551,
+							"name": "レインボーオーブ",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 10000
+						},
+						"giftNum1": 3,
+						"bonusCode1": "ATTACK",
+						"bonusNum1": 60,
+						"giftId2": 113,
+						"gift2": {
+							"id": 113,
+							"name": "フレイムオーブ＋＋",
+							"attributeId": "FIRE",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 2000
+						},
+						"giftNum2": 6,
+						"bonusCode2": "DEFENSE",
+						"bonusNum2": 60,
+						"giftId3": 112,
+						"gift3": {
+							"id": 112,
+							"name": "フレイムオーブ＋",
+							"attributeId": "FIRE",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 1000
+						},
+						"giftNum3": 12,
+						"bonusCode3": "HP",
+						"bonusNum3": 60,
+						"giftId4": 305,
+						"gift4": {
+							"id": 305,
+							"name": "屋上の鍵",
+							"rank": 1,
+							"rankGift": "RANK_1",
+							"price": 1000
+						},
+						"giftNum4": 12,
+						"bonusCode4": "ACCEL",
+						"bonusNum4": 40,
+						"giftId5": 404,
+						"gift5": {
+							"id": 404,
+							"name": "オウルのバケツ",
+							"rank": 2,
+							"rankGift": "RANK_2",
+							"price": 3000
+						},
+						"giftNum5": 8,
+						"bonusCode5": "BLAST",
+						"bonusNum5": 60,
+						"giftId6": 504,
+						"gift6": {
+							"id": 504,
+							"name": "リュトンのリボン",
+							"rank": 3,
+							"rankGift": "RANK_3",
+							"price": 5000
+						},
+						"giftNum6": 6,
+						"bonusCode6": "CHARGE",
+						"bonusNum6": 60
+					}
+				},
+				"firstMagiaGiftId1": 211,
+				"firstMagiaGiftNum1": 4,
+				"firstMagiaGiftId2": 301,
+				"firstMagiaGiftNum2": 4,
+				"firstMagiaGiftId3": 212,
+				"firstMagiaGiftNum3": 2,
+				"firstMagiaGiftId4": 404,
+				"firstMagiaGiftNum4": 2,
+				"secondMagiaGiftId1": 211,
+				"secondMagiaGiftNum1": 6,
+				"secondMagiaGiftId2": 303,
+				"secondMagiaGiftNum2": 6,
+				"secondMagiaGiftId3": 212,
+				"secondMagiaGiftNum3": 4,
+				"secondMagiaGiftId4": 404,
+				"secondMagiaGiftNum4": 4,
+				"secondMagiaGiftId5": 213,
+				"secondMagiaGiftNum5": 2,
+				"secondMagiaGiftId6": 504,
+				"secondMagiaGiftNum6": 2,
+				"thirdMagiaGiftId1": 211,
+				"thirdMagiaGiftNum1": 8,
+				"thirdMagiaGiftId2": 305,
+				"thirdMagiaGiftNum2": 8,
+				"thirdMagiaGiftId3": 212,
+				"thirdMagiaGiftNum3": 6,
+				"thirdMagiaGiftId4": 404,
+				"thirdMagiaGiftNum4": 6,
+				"thirdMagiaGiftId5": 213,
+				"thirdMagiaGiftNum5": 4,
+				"thirdMagiaGiftId6": 504,
+				"thirdMagiaGiftNum6": 4,
+				"fourthMagiaGiftId1": 211,
+				"fourthMagiaGiftNum1": 10,
+				"fourthMagiaGiftId2": 302,
+				"fourthMagiaGiftNum2": 10,
+				"fourthMagiaGiftId3": 212,
+				"fourthMagiaGiftNum3": 8,
+				"fourthMagiaGiftId4": 504,
+				"fourthMagiaGiftNum4": 4,
+				"fourthMagiaGiftId5": 213,
+				"fourthMagiaGiftNum5": 6,
+				"fourthMagiaGiftId6": 554,
+				"fourthMagiaGiftNum6": 6,
+				"firstMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"firstMagiaGift2": {
+					"id": 301,
+					"name": "燕尾の羽",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"firstMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"firstMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"secondMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"secondMagiaGift2": {
+					"id": 303,
+					"name": "立ち耳の包装紙",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 3000
+				},
+				"secondMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"secondMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"secondMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"secondMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"thirdMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"thirdMagiaGift2": {
+					"id": 305,
+					"name": "屋上の鍵",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"thirdMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"thirdMagiaGift4": {
+					"id": 404,
+					"name": "オウルのバケツ",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 3000
+				},
+				"thirdMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"thirdMagiaGift6": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift1": {
+					"id": 211,
+					"name": "フレイムブック",
+					"attributeId": "FIRE",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 500
+				},
+				"fourthMagiaGift2": {
+					"id": 302,
+					"name": "鏡の招待状",
+					"rank": 1,
+					"rankGift": "RANK_1",
+					"price": 1000
+				},
+				"fourthMagiaGift3": {
+					"id": 212,
+					"name": "フレイムブック＋",
+					"attributeId": "FIRE",
+					"rank": 2,
+					"rankGift": "RANK_2",
+					"price": 1000
+				},
+				"fourthMagiaGift4": {
+					"id": 504,
+					"name": "リュトンのリボン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"fourthMagiaGift5": {
+					"id": 213,
+					"name": "フレイムブック＋＋",
+					"attributeId": "FIRE",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 2000
+				},
+				"fourthMagiaGift6": {
+					"id": 554,
+					"name": "屋上のバルーン",
+					"rank": 3,
+					"rankGift": "RANK_3",
+					"price": 5000
+				},
+				"description": "あすなろ市の魔法少女。＠普段はサッカープレイヤーであり、『将来は全日本で10番を背負う』と語れるほど、その実力はかなりのもの。＠魔法少女としても、そのフィジカル面の強さを活かした戦い方が得意。＠ユニフォームは夏でも長袖。",
+				"school": "―",
+				"designer": "平松正樹/天杉貴志",
+				"voiceActor": "田所あずさ",
+				"openDate": "2017/11/20 15:10:00",
+				"charaMessageList": [
+					{
+						"charaNo": 4013,
+						"messageId": 6,
+						"message": "よっしゃー！ナイスシュート！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 7,
+						"message": "ちなみに、ユニは夏でも長袖ね！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 8,
+						"message": "どこに行ったんだ…かずみ…海香…！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 9,
+						"message": "あたし？あたしがやってるのはサッカーだよ"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 10,
+						"message": "シュート決めなきゃ勝てないもんね…！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 11,
+						"message": "外さないよ…これが最高の一本だ！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 12,
+						"message": "こんな所で…足を止めちゃいられないんだ！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 43,
+						"message": "正々堂々と試合終了！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 44,
+						"message": "この勝ちは大きい！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 45,
+						"message": "熱い戦いだったね！"
+					},
+					{
+						"charaNo": 4013,
+						"messageId": 46,
+						"message": "課題だらけの勝利だなぁ…"
+					}
+				]
+			},
+			"cardList": [
+				{
+					"cardId": 40133,
+					"card": {
+						"cardId": 40133,
+						"charaNo": 4013,
+						"miniCharaNo": 401300,
+						"magiaCharaNo": 401300,
+						"cardName": "牧 カオル",
+						"rank": "RANK_3",
+						"attributeId": "FIRE",
+						"initialType": "BALANCE",
+						"growthType": "HP",
+						"attack": 1389,
+						"defense": 1402,
+						"hp": 4459,
+						"rateGainMpAtk": 900,
+						"rateGainMpDef": 900,
+						"magiaId": 40133,
+						"cardMagia": {
+							"id": 40133,
+							"groupId": 1012,
+							"name": "パラ・ディ・キャノーネ",
+							"shortDescription": "敵単体にダメージ[Ⅲ] ＆ 攻撃力UP(全/3T)",
+							"artId1": 100000103,
+							"art1": {
+								"artId": 100000103,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 6400,
+								"growPoint": 100
+							},
+							"artId2": 330301103,
+							"art2": {
+								"artId": 330301103,
+								"verbCode": "BUFF",
+								"effectCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 200,
+								"enableTurn": 3,
+								"growPoint": 25
+							}
+						},
+						"skillId": 40133,
+						"cardSkill": {
+							"id": 40133,
+							"groupId": 1085,
+							"name": "あんたを置いて行けるか!!",
+							"shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅴ]",
+							"artId1": 310401105,
+							"art1": {
+								"artId": 310401105,
+								"verbCode": "BUFF",
+								"effectCode": "ATTACK",
+								"targetId": "CONNECT",
+								"effectValue": 300,
+								"enableTurn": 1,
+								"growPoint": 25
+							},
+							"artId2": 310401205,
+							"art2": {
+								"artId": 310401205,
+								"verbCode": "BUFF",
+								"effectCode": "DEFENSE",
+								"targetId": "CONNECT",
+								"effectValue": 750,
+								"enableTurn": 1,
+								"growPoint": 25
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "RANGE_V",
+						"commandType3": "RANGE_H",
+						"commandType4": "CHARGE",
+						"commandType5": "CHARGE",
+						"illustrator": "天杉貴志",
+						"cardCustomize": {
+							"cardId": 40133,
+							"giftId1": 113,
+							"gift1": {
+								"id": 113,
+								"name": "フレイムオーブ＋＋",
+								"attributeId": "FIRE",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum1": 4,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 50,
+							"giftId2": 112,
+							"gift2": {
+								"id": 112,
+								"name": "フレイムオーブ＋",
+								"attributeId": "FIRE",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum2": 7,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 50,
+							"giftId3": 111,
+							"gift3": {
+								"id": 111,
+								"name": "フレイムオーブ",
+								"attributeId": "FIRE",
+								"rank": 1,
+								"rankGift": "RANK_1",
+								"price": 500
+							},
+							"giftNum3": 9,
+							"bonusCode3": "HP",
+							"bonusNum3": 50,
+							"giftId4": 303,
+							"gift4": {
+								"id": 303,
+								"name": "立ち耳の包装紙",
+								"rank": 1,
+								"rankGift": "RANK_1",
+								"price": 3000
+							},
+							"giftNum4": 8,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 30,
+							"giftId5": 504,
+							"gift5": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum5": 3,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 50,
+							"giftId6": 551,
+							"gift6": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum6": 2,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 50
+						}
+					}
+				},
+				{
+					"cardId": 40134,
+					"card": {
+						"cardId": 40134,
+						"charaNo": 4013,
+						"miniCharaNo": 401300,
+						"magiaCharaNo": 401300,
+						"cardName": "牧 カオル",
+						"rank": "RANK_4",
+						"attributeId": "FIRE",
+						"initialType": "BALANCE",
+						"growthType": "HP",
+						"attack": 1726,
+						"defense": 1743,
+						"hp": 5542,
+						"rateGainMpAtk": 900,
+						"rateGainMpDef": 900,
+						"magiaId": 40134,
+						"cardMagia": {
+							"id": 40134,
+							"groupId": 1012,
+							"name": "パラ・ディ・キャノーネ",
+							"shortDescription": "敵単体にダメージ[Ⅴ] ＆ 攻撃力UP ＆ Charge後ダメージUP(全/3T)",
+							"artId1": 100000105,
+							"art1": {
+								"artId": 100000105,
+								"verbCode": "ATTACK",
+								"targetId": "TARGET",
+								"effectValue": 6800,
+								"growPoint": 100
+							},
+							"artId2": 330301105,
+							"art2": {
+								"artId": 330301105,
+								"verbCode": "BUFF",
+								"effectCode": "ATTACK",
+								"targetId": "ALL",
+								"effectValue": 250,
+								"enableTurn": 3,
+								"growPoint": 25
+							},
+							"artId3": 330301705,
+							"art3": {
+								"artId": 330301705,
+								"verbCode": "BUFF",
+								"effectCode": "CHARGE",
+								"targetId": "ALL",
+								"effectValue": 200,
+								"enableTurn": 3,
+								"growPoint": 25
+							}
+						},
+						"skillId": 40134,
+						"cardSkill": {
+							"id": 40134,
+							"groupId": 1085,
+							"name": "あんたを置いて行けるか!!",
+							"shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅶ]",
+							"artId1": 310401107,
+							"art1": {
+								"artId": 310401107,
+								"verbCode": "BUFF",
+								"effectCode": "ATTACK",
+								"targetId": "CONNECT",
+								"effectValue": 350,
+								"enableTurn": 1,
+								"growPoint": 25
+							},
+							"artId2": 310401207,
+							"art2": {
+								"artId": 310401207,
+								"verbCode": "BUFF",
+								"effectCode": "DEFENSE",
+								"targetId": "CONNECT",
+								"effectValue": 900,
+								"enableTurn": 1,
+								"growPoint": 25
+							}
+						},
+						"commandType1": "MPUP",
+						"commandType2": "RANGE_V",
+						"commandType3": "RANGE_H",
+						"commandType4": "CHARGE",
+						"commandType5": "CHARGE",
+						"illustrator": "天杉貴志",
+						"cardCustomize": {
+							"cardId": 40134,
+							"giftId1": 551,
+							"gift1": {
+								"id": 551,
+								"name": "レインボーオーブ",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 10000
+							},
+							"giftNum1": 3,
+							"bonusCode1": "ATTACK",
+							"bonusNum1": 60,
+							"giftId2": 113,
+							"gift2": {
+								"id": 113,
+								"name": "フレイムオーブ＋＋",
+								"attributeId": "FIRE",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 2000
+							},
+							"giftNum2": 6,
+							"bonusCode2": "DEFENSE",
+							"bonusNum2": 60,
+							"giftId3": 112,
+							"gift3": {
+								"id": 112,
+								"name": "フレイムオーブ＋",
+								"attributeId": "FIRE",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 1000
+							},
+							"giftNum3": 12,
+							"bonusCode3": "HP",
+							"bonusNum3": 60,
+							"giftId4": 305,
+							"gift4": {
+								"id": 305,
+								"name": "屋上の鍵",
+								"rank": 1,
+								"rankGift": "RANK_1",
+								"price": 1000
+							},
+							"giftNum4": 12,
+							"bonusCode4": "ACCEL",
+							"bonusNum4": 40,
+							"giftId5": 404,
+							"gift5": {
+								"id": 404,
+								"name": "オウルのバケツ",
+								"rank": 2,
+								"rankGift": "RANK_2",
+								"price": 3000
+							},
+							"giftNum5": 8,
+							"bonusCode5": "BLAST",
+							"bonusNum5": 60,
+							"giftId6": 504,
+							"gift6": {
+								"id": 504,
+								"name": "リュトンのリボン",
+								"rank": 3,
+								"rankGift": "RANK_3",
+								"price": 5000
+							},
+							"giftNum6": 6,
+							"bonusCode6": "CHARGE",
+							"bonusNum6": 60
+						}
+					}
+				}
+			]
 		}
 	]
 }

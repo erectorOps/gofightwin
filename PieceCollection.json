@@ -7202,6 +7202,555 @@
 			},
 			"description": "不思議といつまで経っても気が付かない＠いつも彼女が追い求めている視線は、別モノを見つめる今このときこそ、＠彼女に注がれているというのに＠交差するばかりの想いだけれど、それこそが彼女たちの絶妙なバランス",
 			"openDate": "2017/11/10 15:10:00"
+		},
+		{
+			"pieceId": 1139,
+			"pieceType": "SKILL",
+			"pieceName": "グランマのイチゴリゾット",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "4011",
+			"charaList": [
+				{
+					"charaId": 4011,
+					"name": "かずみ"
+				}
+			],
+			"attack": 0,
+			"defense": 462,
+			"hp": 462,
+			"skillId": 113900,
+			"pieceSkill": {
+				"id": 113900,
+				"groupId": 1096,
+				"name": "スラッシュダウン[Ⅸ]",
+				"intervalTurn": 6,
+				"shortDescription": "与えるダメージDOWN[Ⅸ](敵単/1T)",
+				"messageId": 72,
+				"artId1": 410002209,
+				"art1": {
+					"artId": 410002209,
+					"verbCode": "DEBUFF",
+					"effectCode": "DAMAGE",
+					"targetId": "TARGET",
+					"effectValue": 450,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 113901,
+			"pieceSkill2": {
+				"id": 113901,
+				"groupId": 1096,
+				"name": "スラッシュダウン[Ⅹ]",
+				"intervalTurn": 5,
+				"shortDescription": "与えるダメージDOWN[Ⅹ](敵単/1T)",
+				"messageId": 72,
+				"artId1": 410002210,
+				"art1": {
+					"artId": 410002210,
+					"verbCode": "DEBUFF",
+					"effectCode": "DAMAGE",
+					"targetId": "TARGET",
+					"effectValue": 500,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "特別な日はイチゴリゾット、それが彼女の決まりだった＠たとえ記憶がからっぽで、自分が何者かさえ見失いそうでも…＠グランマ直伝のレシピは、その手が覚えている＠グランマは彼女の中から、絶対にいなくなったりしない",
+			"illustrator": "mepo",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1140,
+			"pieceType": "ABILITY",
+			"pieceName": "転校生は帰国子女！",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 421,
+			"defense": 0,
+			"hp": 381,
+			"skillId": 114000,
+			"pieceSkill": {
+				"id": 114000,
+				"groupId": 1119,
+				"name": "ウェポン・アデプト[Ⅱ]",
+				"shortDescription": "ダメージアップ状態[Ⅱ]",
+				"artId1": 690206102,
+				"art1": {
+					"artId": 690206102,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_UP",
+					"targetId": "SELF",
+					"effectValue": 100,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 114001,
+			"pieceSkill2": {
+				"id": 114001,
+				"groupId": 1119,
+				"name": "ウェポン・アデプト[Ⅲ]",
+				"shortDescription": "ダメージアップ状態[Ⅲ]",
+				"artId1": 690206103,
+				"art1": {
+					"artId": 690206103,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_UP",
+					"targetId": "SELF",
+					"effectValue": 150,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "（決して絶望で終わらせたりしない。＠あの子に、あの子たちに、託されたものがたくさんあるから。＠そのためにわたしは、魔法少女になったんだから…！）＠「チャオ、みなさん。かずみです。よろしくお願いします！」",
+			"illustrator": "天杉貴志",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1141,
+			"pieceType": "SKILL",
+			"pieceName": "七つのほしぞら",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "4012",
+			"charaList": [
+				{
+					"charaId": 4012,
+					"name": "御崎 海香"
+				}
+			],
+			"attack": 0,
+			"defense": 422,
+			"hp": 502,
+			"skillId": 114100,
+			"pieceSkill": {
+				"id": 114100,
+				"groupId": 1095,
+				"name": "ウィークポイント[Ⅴ]",
+				"intervalTurn": 6,
+				"shortDescription": "防御力DOWN[Ⅸ] & 状態異常耐性DOWN[Ⅷ](敵単/1T)",
+				"messageId": 72,
+				"artId1": 410002109,
+				"art1": {
+					"artId": 410002109,
+					"verbCode": "DEBUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "TARGET",
+					"effectValue": 450,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"artId2": 410002408,
+				"art2": {
+					"artId": 410002408,
+					"verbCode": "DEBUFF",
+					"effectCode": "RESIST",
+					"targetId": "TARGET",
+					"effectValue": 225,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 114101,
+			"pieceSkill2": {
+				"id": 114101,
+				"groupId": 1095,
+				"name": "ウィークポイント[Ⅵ]",
+				"intervalTurn": 5,
+				"shortDescription": "防御力DOWN[Ⅹ] & 状態異常耐性DOWN[Ⅸ](敵単/1T)",
+				"messageId": 72,
+				"artId1": 410002110,
+				"art1": {
+					"artId": 410002110,
+					"verbCode": "DEBUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "TARGET",
+					"effectValue": 500,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"artId2": 410002409,
+				"art2": {
+					"artId": 410002409,
+					"verbCode": "DEBUFF",
+					"effectCode": "RESIST",
+					"targetId": "TARGET",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "ちいさな想いを踏みにじられ、あの日、彼女の心は死んだ＠その後に出会った少女の言葉が、再び生きる勇気をくれた＠七人の仲間に見守られ、もういちど作家の道へと踏み出した＠彼女が選んだ題名は、“七つのほしぞら”",
+			"illustrator": "ma-sa",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1142,
+			"pieceType": "SKILL",
+			"pieceName": "ショッピングでスッキリ！",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 0,
+			"defense": 363,
+			"hp": 443,
+			"skillId": 114200,
+			"pieceSkill": {
+				"id": 114200,
+				"groupId": 1090,
+				"name": "アクセルアップ[Ⅴ]",
+				"intervalTurn": 6,
+				"shortDescription": "Accele MPUP[Ⅴ](自/1T)",
+				"messageId": 72,
+				"artId1": 310201605,
+				"art1": {
+					"artId": 310201605,
+					"verbCode": "BUFF",
+					"effectCode": "ACCEL",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 114201,
+			"pieceSkill2": {
+				"id": 114201,
+				"groupId": 1090,
+				"name": "アクセルアップ[Ⅵ]",
+				"intervalTurn": 5,
+				"shortDescription": "Accele MPUP[Ⅵ](自/1T)",
+				"messageId": 72,
+				"artId1": 310201606,
+				"art1": {
+					"artId": 310201606,
+					"verbCode": "BUFF",
+					"effectCode": "ACCEL",
+					"targetId": "SELF",
+					"effectValue": 225,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "「よくて？お金と命には賭けどころというものがあるの。＠そう…筆が止まったら、買い物でストレス解消！＠それが、中学生にして売れっ子作家“御崎海香”を維持する秘訣…＠さあ存分にお買いあれ!!」",
+			"illustrator": "天杉貴志",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1143,
+			"pieceType": "SKILL",
+			"pieceName": "カラダの傷とココロの傷",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "4013",
+			"charaList": [
+				{
+					"charaId": 4013,
+					"name": "牧 カオル"
+				}
+			],
+			"attack": 0,
+			"defense": 502,
+			"hp": 422,
+			"skillId": 114300,
+			"pieceSkill": {
+				"id": 114300,
+				"groupId": 1085,
+				"name": "アタックアップ[Ⅵ]",
+				"intervalTurn": 6,
+				"shortDescription": "攻撃力UP[Ⅵ](自/1T)",
+				"messageId": 72,
+				"artId1": 330201106,
+				"art1": {
+					"artId": 330201106,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 300,
+					"enableTurn": 3,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 114301,
+			"pieceSkill2": {
+				"id": 114301,
+				"groupId": 1085,
+				"name": "アタックアップ[Ⅶ]",
+				"intervalTurn": 5,
+				"shortDescription": "攻撃力UP[Ⅶ](自/1T)",
+				"messageId": 72,
+				"artId1": 330201107,
+				"art1": {
+					"artId": 330201107,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 350,
+					"enableTurn": 3,
+					"growPoint": 25
+				}
+			},
+			"description": "「もう、サッカーは無理だろうね…」再起不能のケガを負いながら＠彼女が気遣うのは、もうひとりの少女の気持ち＠人々の噂話は、自分を負傷させた相手の心をも切り刻む…＠心優しい彼女の想いは、そのことにだけ向けられていた",
+			"illustrator": "吟の筆",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1144,
+			"pieceType": "ABILITY",
+			"pieceName": "繋がる道を歩いてる",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 723,
+			"defense": 0,
+			"hp": 883,
+			"skillId": 114400,
+			"pieceSkill": {
+				"id": 114400,
+				"groupId": 1119,
+				"name": "繋がる道を歩いてる",
+				"shortDescription": "ダメージアップ＆ダメージカット & Another Daze最終Battleで大UP",
+				"artId1": 690206101,
+				"art1": {
+					"artId": 690206101,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_UP",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 100806,
+				"art2": {
+					"artId": 100806,
+					"verbCode": "OTHER",
+					"effectCode": "QUESTBATTLE_ATK",
+					"effectValue": 500000,
+					"parameter": 5008911
+				},
+				"artId3": 100807,
+				"art3": {
+					"artId": 100807,
+					"verbCode": "OTHER",
+					"effectCode": "QUESTBATTLE_DEF",
+					"effectValue": 1000000,
+					"parameter": 5008911
+				},
+				"artId4": 690206201,
+				"art4": {
+					"artId": 690206201,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_DOWN",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 114401,
+			"pieceSkill2": {
+				"id": 114401,
+				"groupId": 1119,
+				"name": "繋がる道を歩いてる",
+				"shortDescription": "ダメージアップ＆ダメージカット & Another Daze最終Battleで大UP",
+				"artId1": 690206101,
+				"art1": {
+					"artId": 690206101,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_UP",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 100806,
+				"art2": {
+					"artId": 100806,
+					"verbCode": "OTHER",
+					"effectCode": "QUESTBATTLE_ATK",
+					"effectValue": 500000,
+					"parameter": 5008911
+				},
+				"artId3": 100807,
+				"art3": {
+					"artId": 100807,
+					"verbCode": "OTHER",
+					"effectCode": "QUESTBATTLE_DEF",
+					"effectValue": 1000000,
+					"parameter": 5008911
+				},
+				"artId4": 690206201,
+				"art4": {
+					"artId": 690206201,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "DAMAGE_DOWN",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "『離れ離れになっても、わたしたちはきっとまた会える』＠そう思い続けて歩いていけば、今いるこの道が＠きっとふたりのいる場所に辿り着くはず…＠心と心が引き合って、道が、繋がっていくはず…",
+			"illustrator": "天杉貴志",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1145,
+			"pieceType": "ABILITY",
+			"pieceName": "その味はドラマティック!?",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 573,
+			"defense": 0,
+			"hp": 633,
+			"skillId": 114500,
+			"pieceSkill": {
+				"id": 114500,
+				"groupId": 1093,
+				"name": "クレバー・アデプト[Ⅲ]",
+				"shortDescription": "MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]",
+				"artId1": 390201903,
+				"art1": {
+					"artId": 390201903,
+					"verbCode": "BUFF",
+					"effectCode": "MP_GAIN",
+					"targetId": "SELF",
+					"effectValue": 100,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 690207901,
+				"art2": {
+					"artId": 690207901,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "MP_PLUS_WEAKED",
+					"targetId": "SELF",
+					"effectValue": 20,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"eventId": 1008,
+				"eventArtId1": 100801,
+				"eventArt1": {
+					"artId": 100801,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 1000,
+					"genericValue": "EVENT_SINGLERAID_1008_EXCHANGE_1"
+				},
+				"eventDescription": "＆メダル入手時＋1"
+			},
+			"skillId2": 114501,
+			"pieceSkill2": {
+				"id": 114501,
+				"groupId": 1093,
+				"name": "クレバー・アデプト[Ⅳ]",
+				"shortDescription": "MP獲得量UP[Ⅳ] & 弱点属性で攻撃されたときMPUP[Ⅱ]",
+				"artId1": 390201904,
+				"art1": {
+					"artId": 390201904,
+					"verbCode": "BUFF",
+					"effectCode": "MP_GAIN",
+					"targetId": "SELF",
+					"effectValue": 125,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 690207902,
+				"art2": {
+					"artId": 690207902,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "MP_PLUS_WEAKED",
+					"targetId": "SELF",
+					"effectValue": 30,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"eventId": 1008,
+				"eventArtId1": 100802,
+				"eventArt1": {
+					"artId": 100802,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 3000,
+					"genericValue": "EVENT_SINGLERAID_1008_EXCHANGE_1"
+				},
+				"eventDescription": "＆メダル入手時＋3"
+			},
+			"description": "小説家・御崎海香先生の知られざる執筆スタイル…＠それは…「行き詰ったら料理をしてストレス解消」！＠余人の口を挟ませずに黙々と作り上げるその料理は＠先生の作品ばりに、食べる者を感動させる美味しさだとか…!?",
+			"illustrator": "シソ",
+			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1146,
+			"pieceType": "SKILL",
+			"pieceName": "三人で、前へ",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 0,
+			"defense": 883,
+			"hp": 723,
+			"skillId": 114600,
+			"pieceSkill": {
+				"id": 114600,
+				"groupId": 1088,
+				"name": "マギアアップ[Ⅸ]",
+				"intervalTurn": 6,
+				"shortDescription": "マギアダメージUP[Ⅸ](自/1T)",
+				"messageId": 72,
+				"artId1": 310201409,
+				"art1": {
+					"artId": 310201409,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"eventId": 1008,
+				"eventArtId1": 100803,
+				"eventArt1": {
+					"artId": 100803,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 3000,
+					"genericValue": "EVENT_SINGLERAID_1008_EXCHANGE_1"
+				},
+				"eventDescription": "＆メダル入手時＋3"
+			},
+			"skillId2": 114601,
+			"pieceSkill2": {
+				"id": 114601,
+				"groupId": 1088,
+				"name": "マギアアップ[Ⅹ]",
+				"intervalTurn": 5,
+				"shortDescription": "マギアダメージUP[Ⅹ](自/1T)",
+				"messageId": 72,
+				"artId1": 310201410,
+				"art1": {
+					"artId": 310201410,
+					"verbCode": "BUFF",
+					"effectCode": "MAGIA",
+					"targetId": "SELF",
+					"effectValue": 275,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"eventId": 1008,
+				"eventArtId1": 100804,
+				"eventArt1": {
+					"artId": 100804,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 5000,
+					"genericValue": "EVENT_SINGLERAID_1008_EXCHANGE_1"
+				},
+				"eventDescription": "＆メダル入手時＋5"
+			},
+			"description": "うつむいて、いつまでも下を向くのはやめようよ＠そうしていても、自分の足元しか見えないよ…？＠顔を上げて、前を見て、恐れずに進んで行こうよ＠きっといつか、素敵な景色に出会えるから…！",
+			"illustrator": "こるり",
+			"openDate": "2017/11/20 15:10:00"
 		}
 	],
 	"campaignList": []
