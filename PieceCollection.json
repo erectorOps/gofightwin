@@ -7492,7 +7492,7 @@
 				}
 			},
 			"description": "「もう、サッカーは無理だろうね…」再起不能のケガを負いながら＠彼女が気遣うのは、もうひとりの少女の気持ち＠人々の噂話は、自分を負傷させた相手の心をも切り刻む…＠心優しい彼女の想いは、そのことにだけ向けられていた",
-			"illustrator": "吟の筆",
+			"illustrator": "都筑禰己",
 			"openDate": "2017/11/20 15:10:00"
 		},
 		{
@@ -7509,42 +7509,42 @@
 				"id": 114400,
 				"groupId": 1119,
 				"name": "繋がる道を歩いてる",
-				"shortDescription": "ダメージアップ＆ダメージカット & Another Daze最終Battleで大UP",
-				"artId1": 690206101,
+				"shortDescription": "ダメージアップ[Ⅴ]&HP自動回復[Ⅲ]＆Another Daze最終Battleで…",
+				"artId1": 690206105,
 				"art1": {
-					"artId": 690206101,
+					"artId": 690206105,
 					"verbCode": "CONDITION_GOOD",
 					"effectCode": "DAMAGE_UP",
 					"targetId": "SELF",
-					"effectValue": 50,
+					"effectValue": 250,
 					"growPoint": 25,
 					"probability": 1000
 				},
-				"artId2": 100806,
+				"artId2": 690207703,
 				"art2": {
+					"artId": 690207703,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "AUTO_HEAL",
+					"targetId": "SELF",
+					"effectValue": 40,
+					"growPoint": 10,
+					"probability": 1000
+				},
+				"artId3": 100806,
+				"art3": {
 					"artId": 100806,
 					"verbCode": "OTHER",
 					"effectCode": "QUESTBATTLE_ATK",
-					"effectValue": 500000,
+					"effectValue": 70000,
 					"parameter": 5008911
 				},
-				"artId3": 100807,
-				"art3": {
+				"artId4": 100807,
+				"art4": {
 					"artId": 100807,
 					"verbCode": "OTHER",
 					"effectCode": "QUESTBATTLE_DEF",
-					"effectValue": 1000000,
+					"effectValue": 100000,
 					"parameter": 5008911
-				},
-				"artId4": 690206201,
-				"art4": {
-					"artId": 690206201,
-					"verbCode": "CONDITION_GOOD",
-					"effectCode": "DAMAGE_DOWN",
-					"targetId": "SELF",
-					"effectValue": 50,
-					"growPoint": 25,
-					"probability": 1000
 				}
 			},
 			"skillId2": 114401,
@@ -7552,42 +7552,42 @@
 				"id": 114401,
 				"groupId": 1119,
 				"name": "繋がる道を歩いてる",
-				"shortDescription": "ダメージアップ＆ダメージカット & Another Daze最終Battleで大UP",
-				"artId1": 690206101,
+				"shortDescription": "ダメージアップ[Ⅵ]&HP自動回復[Ⅳ]＆Another Daze最終Battleで…",
+				"artId1": 690206106,
 				"art1": {
-					"artId": 690206101,
+					"artId": 690206106,
 					"verbCode": "CONDITION_GOOD",
 					"effectCode": "DAMAGE_UP",
 					"targetId": "SELF",
-					"effectValue": 50,
+					"effectValue": 300,
 					"growPoint": 25,
 					"probability": 1000
 				},
-				"artId2": 100806,
+				"artId2": 690207704,
 				"art2": {
+					"artId": 690207704,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "AUTO_HEAL",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 10,
+					"probability": 1000
+				},
+				"artId3": 100806,
+				"art3": {
 					"artId": 100806,
 					"verbCode": "OTHER",
 					"effectCode": "QUESTBATTLE_ATK",
-					"effectValue": 500000,
+					"effectValue": 70000,
 					"parameter": 5008911
 				},
-				"artId3": 100807,
-				"art3": {
+				"artId4": 100807,
+				"art4": {
 					"artId": 100807,
 					"verbCode": "OTHER",
 					"effectCode": "QUESTBATTLE_DEF",
-					"effectValue": 1000000,
+					"effectValue": 100000,
 					"parameter": 5008911
-				},
-				"artId4": 690206201,
-				"art4": {
-					"artId": 690206201,
-					"verbCode": "CONDITION_GOOD",
-					"effectCode": "DAMAGE_DOWN",
-					"targetId": "SELF",
-					"effectValue": 50,
-					"growPoint": 25,
-					"probability": 1000
 				}
 			},
 			"description": "『離れ離れになっても、わたしたちはきっとまた会える』＠そう思い続けて歩いていけば、今いるこの道が＠きっとふたりのいる場所に辿り着くはず…＠心と心が引き合って、道が、繋がっていくはず…",
@@ -7751,6 +7751,638 @@
 			"description": "うつむいて、いつまでも下を向くのはやめようよ＠そうしていても、自分の足元しか見えないよ…？＠顔を上げて、前を見て、恐れずに進んで行こうよ＠きっといつか、素敵な景色に出会えるから…！",
 			"illustrator": "こるり",
 			"openDate": "2017/11/20 15:10:00"
+		},
+		{
+			"pieceId": 1147,
+			"pieceType": "ABILITY",
+			"pieceName": "メモリアサーキット",
+			"attributeId": "ALL",
+			"rank": "RANK_2",
+			"attack": 0,
+			"defense": 0,
+			"hp": 0,
+			"skillId": 114700,
+			"pieceSkill": {
+				"id": 114700,
+				"groupId": 1085,
+				"name": "アタック・アデプト[Ⅰ]",
+				"shortDescription": "攻撃力UP[Ⅰ]",
+				"artId1": 390201101,
+				"art1": {
+					"artId": 390201101,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 114701,
+			"pieceSkill2": {
+				"id": 114701,
+				"groupId": 1085,
+				"name": "アタック・アデプト[Ⅰ]",
+				"shortDescription": "攻撃力UP[Ⅰ]",
+				"artId1": 390201101,
+				"art1": {
+					"artId": 390201101,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 50,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "【メモリア強化素材】かかえきれないもの、少しづつ噛み砕いて。呑み込めないもの、見なかったことにして。落としてしまったもの、なくしたことさえ気づかずに。大事だったはずのもの、時とともに罅割れ風化して。思い出だけを残して、ただ前に進む",
+			"openDate": "2017/11/30 15:10:00"
+		},
+		{
+			"pieceId": 1148,
+			"pieceType": "ABILITY",
+			"pieceName": "メモリアサーキット・コア",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 0,
+			"defense": 0,
+			"hp": 0,
+			"skillId": 114800,
+			"pieceSkill": {
+				"id": 114800,
+				"groupId": 1086,
+				"name": "ガード・アデプト[Ⅰ]",
+				"shortDescription": "防御力UP[Ⅰ]",
+				"artId1": 390201201,
+				"art1": {
+					"artId": 390201201,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 75,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 114801,
+			"pieceSkill2": {
+				"id": 114801,
+				"groupId": 1086,
+				"name": "ガード・アデプト[Ⅰ]",
+				"shortDescription": "防御力UP[Ⅰ]",
+				"artId1": 390201201,
+				"art1": {
+					"artId": 390201201,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 75,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "【メモリア強化素材】取り戻すことなんてもうできない。時とともに千々に砕け、記憶は輪郭を無くしていく。掌からするすると零れ落ちた思い出たちは、けれど静かな夜の粉雪のように、心の中心に降り積もる",
+			"openDate": "2017/11/30 15:10:00"
+		},
+		{
+			"pieceId": 1149,
+			"pieceType": "SKILL",
+			"pieceName": "月夜の宝物",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "1018",
+			"charaList": [
+				{
+					"charaId": 1018,
+					"name": "天音 月夜"
+				}
+			],
+			"attack": 0,
+			"defense": 463,
+			"hp": 463,
+			"skillId": 114900,
+			"pieceSkill": {
+				"id": 114900,
+				"groupId": 1161,
+				"name": "モノポライズドロー",
+				"intervalTurn": 5,
+				"shortDescription": "自分のDiscドロー",
+				"messageId": 70,
+				"artId1": 700211700,
+				"art1": {
+					"artId": 700211700,
+					"verbCode": "DRAW",
+					"effectCode": "CHARACTER",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 114901,
+			"pieceSkill2": {
+				"id": 114901,
+				"groupId": 1161,
+				"name": "モノポライズドロー",
+				"intervalTurn": 4,
+				"shortDescription": "自分のDiscドロー",
+				"messageId": 70,
+				"artId1": 700211700,
+				"art1": {
+					"artId": 700211700,
+					"verbCode": "DRAW",
+					"effectCode": "CHARACTER",
+					"targetId": "SELF",
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "ひどく懐かしく愛おしい。見つけたときからそうだった＠吹いてみれば心が温もり、音は風に乗って舞っていく＠音よキミはどこへ行くのか＠行く先はいつも決まっている。遠い私の妹のところへ",
+			"illustrator": "mepo",
+			"openDate": "2017/11/30 15:10:00"
+		},
+		{
+			"pieceId": 1150,
+			"pieceType": "SKILL",
+			"pieceName": "月咲の宝物",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "1019",
+			"charaList": [
+				{
+					"charaId": 1019,
+					"name": "天音 月咲"
+				}
+			],
+			"attack": 0,
+			"defense": 483,
+			"hp": 443,
+			"skillId": 115000,
+			"pieceSkill": {
+				"id": 115000,
+				"groupId": 1093,
+				"name": "モーラルアップ[Ⅸ]",
+				"intervalTurn": 8,
+				"shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
+				"messageId": 70,
+				"artId1": 310201909,
+				"art1": {
+					"artId": 310201909,
+					"verbCode": "BUFF",
+					"effectCode": "MP_GAIN",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 115001,
+			"pieceSkill2": {
+				"id": 115001,
+				"groupId": 1093,
+				"name": "モーラルアップ[Ⅹ]",
+				"intervalTurn": 7,
+				"shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
+				"messageId": 70,
+				"artId1": 310201910,
+				"art1": {
+					"artId": 310201910,
+					"verbCode": "BUFF",
+					"effectCode": "MP_GAIN",
+					"targetId": "SELF",
+					"effectValue": 275,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "離れると切なくなるから、いつも私の側にある＠いくらマジマジ眺めてみても、それは変わらぬただの笛＠笛よキミは何者なのか＠遠い姉との縁の架け橋",
+			"illustrator": "吟の筆",
+			"openDate": "2017/11/30 15:10:00"
+		},
+		{
+			"pieceId": 1151,
+			"pieceType": "SKILL",
+			"pieceName": "終わらない稽古",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 0,
+			"defense": 881,
+			"hp": 721,
+			"skillId": 115100,
+			"pieceSkill": {
+				"id": 115100,
+				"groupId": 1128,
+				"name": "ダイヴァージョン[Ⅷ]",
+				"intervalTurn": 6,
+				"shortDescription": "必ず挑発&防御力UP[Ⅷ](自/1T)",
+				"messageId": 70,
+				"artId1": 610207600,
+				"art1": {
+					"artId": 610207600,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "PROVOKE",
+					"targetId": "SELF",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"artId2": 310201208,
+				"art2": {
+					"artId": 310201208,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 600,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 115101,
+			"pieceSkill2": {
+				"id": 115101,
+				"groupId": 1128,
+				"name": "ダイヴァージョン[Ⅸ]",
+				"intervalTurn": 5,
+				"shortDescription": "必ず挑発&防御力UP[Ⅸ](自/1T)",
+				"messageId": 70,
+				"artId1": 610207600,
+				"art1": {
+					"artId": 610207600,
+					"verbCode": "CONDITION_GOOD",
+					"effectCode": "PROVOKE",
+					"targetId": "SELF",
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 1000
+				},
+				"artId2": 310201209,
+				"art2": {
+					"artId": 310201209,
+					"verbCode": "BUFF",
+					"effectCode": "DEFENSE",
+					"targetId": "SELF",
+					"effectValue": 675,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "「箏曲部の後は毛筆のお稽古、その後は確か華道が入っていて、お風呂＠を上がってからは、お婆さまに言われた古典文学を読んで、朝起きたら＠確かお料理の稽古を、って邪念は捨てるでございます！今は部員の皆さ＠まに六段の調を極めてもらわないと、今度の大会を切り抜けるには…」",
+			"openDate": "2017/11/30 15:10:00"
+		},
+		{
+			"pieceId": 1152,
+			"pieceType": "ABILITY",
+			"pieceName": "ここからはじまる物語",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 400,
+			"defense": 0,
+			"hp": 400,
+			"skillId": 115200,
+			"pieceSkill": {
+				"id": 115200,
+				"groupId": 1130,
+				"name": "ファスト・マナアップ",
+				"shortDescription": "自分のMPが10%溜まった状態でバトル開始",
+				"artId1": 790212200,
+				"art1": {
+					"artId": 790212200,
+					"verbCode": "INITIAL",
+					"effectCode": "MP",
+					"targetId": "SELF",
+					"effectValue": 100,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"skillId2": 115201,
+			"pieceSkill2": {
+				"id": 115201,
+				"groupId": 1130,
+				"name": "ファスト・マナアップ",
+				"shortDescription": "自分のMPが10%溜まった状態でバトル開始",
+				"artId1": 790212200,
+				"art1": {
+					"artId": 790212200,
+					"verbCode": "INITIAL",
+					"effectCode": "MP",
+					"targetId": "SELF",
+					"effectValue": 100,
+					"growPoint": 0,
+					"probability": 1000
+				}
+			},
+			"description": "消え去りたいと願ったこと。独りで仇を探し続けること。喪われた誇りを追い求めたこと。守るために孤独を選んだこと。そして…忘れ去られた大切な人のこと。何かをなくした私たちは、不思議な因果で結ばれ、この場所に集った。いまはもう新しい物語が動き始めている",
+			"illustrator": "蒼樹うめ",
+			"openDate": "2017/11/29 00:10:00"
+		},
+		{
+			"pieceId": 1153,
+			"pieceType": "SKILL",
+			"pieceName": "魔法少女VSシリーズ？",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"charaIds": "2500",
+			"charaList": [
+				{
+					"charaId": 2500,
+					"name": "ホーリーマミ"
+				}
+			],
+			"attack": 0,
+			"defense": 488,
+			"hp": 448,
+			"skillId": 115300,
+			"pieceSkill": {
+				"id": 115300,
+				"groupId": 1107,
+				"name": "バーンフロー[Ⅷ]",
+				"intervalTurn": 7,
+				"shortDescription": "確率でやけど[Ⅷ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510304708,
+				"art1": {
+					"artId": 510304708,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "BURN",
+					"targetId": "ALL",
+					"effectValue": 100,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 475
+				}
+			},
+			"skillId2": 115301,
+			"pieceSkill2": {
+				"id": 115301,
+				"groupId": 1107,
+				"name": "バーンフロー[Ⅹ]",
+				"intervalTurn": 6,
+				"shortDescription": "確率でやけど[Ⅹ](敵全/1T)",
+				"messageId": 72,
+				"artId1": 510304710,
+				"art1": {
+					"artId": 510304710,
+					"verbCode": "CONDITION_BAD",
+					"effectCode": "BURN",
+					"targetId": "ALL",
+					"effectValue": 100,
+					"enableTurn": 1,
+					"growPoint": 0,
+					"probability": 525
+				}
+			},
+			"description": "聖母性（マターナル・ピュア）に目覚めた完璧魔法聖女（パーフェクト＠セイントマギカ）。天啓により授かりし奇跡の力（ミラクルエナジー）＠で、新天地（かみはま）で絶対的勝利を贈呈（コネクト）する!?大聖離＠魂砲撃（ティロ・セントドッぺリオン）で撃滅（フィナーレ）よ！",
+			"openDate": "2017/12/15 15:10:00"
+		},
+		{
+			"pieceId": 1154,
+			"pieceType": "ABILITY",
+			"pieceName": "光、降り注いで",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 361,
+			"defense": 0,
+			"hp": 441,
+			"skillId": 115400,
+			"pieceSkill": {
+				"id": 115400,
+				"groupId": 1092,
+				"name": "ブラスト・アデプト[Ⅰ]",
+				"shortDescription": "Blast ダメージUP[Ⅰ]",
+				"artId1": 390201801,
+				"art1": {
+					"artId": 390201801,
+					"verbCode": "BUFF",
+					"effectCode": "BLAST",
+					"targetId": "SELF",
+					"effectValue": 150,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1010,
+				"eventArtId1": 101001,
+				"eventArt1": {
+					"artId": 101001,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 1000,
+					"genericValue": "EVENT_DAILYTOWER_1010_KEY"
+				},
+				"eventDescription": "＆カード入手時＋1"
+			},
+			"skillId2": 115401,
+			"pieceSkill2": {
+				"id": 115401,
+				"groupId": 1092,
+				"name": "ブラスト・アデプト[Ⅱ]",
+				"shortDescription": "Blast ダメージUP[Ⅱ]",
+				"artId1": 390201802,
+				"art1": {
+					"artId": 390201802,
+					"verbCode": "BUFF",
+					"effectCode": "BLAST",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"eventId": 1010,
+				"eventArtId1": 101002,
+				"eventArt1": {
+					"artId": 101002,
+					"verbCode": "OTHER",
+					"effectCode": "DROPADD",
+					"effectValue": 3000,
+					"genericValue": "EVENT_DAILYTOWER_1010_KEY"
+				},
+				"eventDescription": "＆カード入手時＋3"
+			},
+			"description": "あんなに大嫌いだったクリスマス＠あんなに理解できなかったクリスマス＠光の粒子が降り注いだ夜＠固く閉ざされた心は少しずつ開いていった",
+			"illustrator": "あずーる",
+			"openDate": "2017/12/15 15:10:00"
+		},
+		{
+			"pieceId": 1155,
+			"pieceType": "SKILL",
+			"pieceName": "聖女降臨",
+			"attributeId": "ALL",
+			"rank": "RANK_3",
+			"attack": 0,
+			"defense": 722,
+			"hp": 882,
+			"skillId": 115500,
+			"pieceSkill": {
+				"id": 115500,
+				"groupId": 1085,
+				"name": "スマイトアップ[Ⅶ]",
+				"intervalTurn": 6,
+				"shortDescription": "攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅵ] (自/1T)",
+				"messageId": 70,
+				"artId1": 310201107,
+				"art1": {
+					"artId": 310201107,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 350,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"artId2": 310201706,
+				"art2": {
+					"artId": 310201706,
+					"verbCode": "BUFF",
+					"effectCode": "CHARGE",
+					"targetId": "SELF",
+					"effectValue": 175,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"skillId2": 115501,
+			"pieceSkill2": {
+				"id": 115501,
+				"groupId": 1085,
+				"name": "スマイトアップ[Ⅷ]",
+				"intervalTurn": 5,
+				"shortDescription": "攻撃力UP[Ⅷ] & Charge後ダメージUP[Ⅶ] (自/1T)",
+				"messageId": 70,
+				"artId1": 310201108,
+				"art1": {
+					"artId": 310201108,
+					"verbCode": "BUFF",
+					"effectCode": "ATTACK",
+					"targetId": "SELF",
+					"effectValue": 400,
+					"enableTurn": 1,
+					"growPoint": 25
+				},
+				"artId2": 310201707,
+				"art2": {
+					"artId": 310201707,
+					"verbCode": "BUFF",
+					"effectCode": "CHARGE",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"enableTurn": 1,
+					"growPoint": 25
+				}
+			},
+			"description": "「世界が暗闇に染まれば光を灯し、世界が光だけなら影を与える＠こうして存在というものが生まれることが認識されるという救い＠私は魔法少女もそうでない人々にも光と影を与え続ける＠悲しみに彩られた人々は私の手によって解放されるのよ」",
+			"illustrator": "谷口淳一郎",
+			"openDate": "2017/12/15 15:10:00"
+		},
+		{
+			"pieceId": 1156,
+			"pieceType": "ABILITY",
+			"pieceName": "あたたかいクリスマス",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 801,
+			"defense": 0,
+			"hp": 801,
+			"skillId": 115600,
+			"pieceSkill": {
+				"id": 115600,
+				"groupId": 1091,
+				"name": "フルスウィング・アデプト[Ⅳ]",
+				"shortDescription": "Charge後ダメージUP[Ⅳ] & Blast ダメージUP[Ⅱ]",
+				"artId1": 390201704,
+				"art1": {
+					"artId": 390201704,
+					"verbCode": "BUFF",
+					"effectCode": "CHARGE",
+					"targetId": "SELF",
+					"effectValue": 125,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 390201802,
+				"art2": {
+					"artId": 390201802,
+					"verbCode": "BUFF",
+					"effectCode": "BLAST",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"skillId2": 115601,
+			"pieceSkill2": {
+				"id": 115601,
+				"groupId": 1091,
+				"name": "フルスウィング・アデプト[Ⅴ]",
+				"shortDescription": "Charge後ダメージUP[Ⅴ] & Blast ダメージUP[Ⅲ]",
+				"artId1": 390201705,
+				"art1": {
+					"artId": 390201705,
+					"verbCode": "BUFF",
+					"effectCode": "CHARGE",
+					"targetId": "SELF",
+					"effectValue": 150,
+					"growPoint": 25,
+					"probability": 1000
+				},
+				"artId2": 390201803,
+				"art2": {
+					"artId": 390201803,
+					"verbCode": "BUFF",
+					"effectCode": "BLAST",
+					"targetId": "SELF",
+					"effectValue": 250,
+					"growPoint": 25,
+					"probability": 1000
+				}
+			},
+			"description": "みんながワクワクして待っている年に一度の特別な日＠キミの家には、なにが届く？＠大切なのは物じゃないなんて、そんなことは言わないで＠ちゃんと気持ちも一緒に届けるから",
+			"illustrator": "蒼樹うめ",
+			"openDate": "2017/12/15 15:10:00"
+		},
+		{
+			"pieceId": 1158,
+			"pieceType": "ABILITY",
+			"pieceName": "みんな、あつまったよ",
+			"attributeId": "ALL",
+			"rank": "RANK_4",
+			"attack": 400,
+			"defense": 0,
+			"hp": 400,
+			"skillId": 115800,
+			"pieceSkill": {
+				"id": 115800,
+				"groupId": 1173,
+				"name": "エピソード・アデプト[Ⅱ]",
+				"shortDescription": "獲得エピソードポイントUP[Ⅱ]",
+				"artId1": 101006,
+				"art1": {
+					"artId": 101006,
+					"verbCode": "OTHER",
+					"effectCode": "EPISODE_UP",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 0
+				}
+			},
+			"skillId2": 115801,
+			"pieceSkill2": {
+				"id": 115801,
+				"groupId": 1173,
+				"name": "エピソード・アデプト[Ⅱ]",
+				"shortDescription": "獲得エピソードポイントUP[Ⅱ]",
+				"artId1": 101006,
+				"art1": {
+					"artId": 101006,
+					"verbCode": "OTHER",
+					"effectCode": "EPISODE_UP",
+					"targetId": "SELF",
+					"effectValue": 200,
+					"growPoint": 0
+				}
+			},
+			"description": "不思議な因果で結ばれて　少女たちは出会った＠巡り会うこともなく　幾度も繰り返す中で生まれた奇跡＠強い意志を持った少女たちは　物語の果てに向かう（ローソンコラボ記念）",
+			"illustrator": "シャフト",
+			"openDate": "2017/12/15 15:10:00"
 		}
 	],
 	"campaignList": []
