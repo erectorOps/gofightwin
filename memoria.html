@@ -205,6 +205,9 @@ function changeMagi(pieceId)
 		}
 		$("#mTarget").text(ttext);
 	}
+	else {
+		$("#mTarget").text("");
+	}
 
 	$("#mHp").text("{0} / [{1}]".format(piece.hp, maxLvParams.hp));	
 	$("#mAtk").text("{0} / [{1}]".format(piece.attack, maxLvParams.attack));
