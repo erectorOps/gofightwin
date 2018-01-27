@@ -49,10 +49,10 @@ $(function() {
 			var dat = new Date(lastModified);
 			$("#lastmodi").text("Memoria更新日時:"+dat.getFullYear()+"/"+('0'+(dat.getMonth()+1)).slice(-2)+"/"+('0'+dat.getDate()).slice(-2));
 		}
-		pieceList = data.pieceList;
+		pieceList = data;
 		var len = pieceList.length;
 		optupdate("NONE", "NONE");
-		
+		$('#cardid').change();
 	});
 	var ctx = $("#stat-graph")[0].getContext("2d");
 	statChart = new Chart(ctx, {

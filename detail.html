@@ -48,9 +48,10 @@ $(function() {
 			var dat = new Date(lastModified);
 			$("#lastmodi").text("Chara更新日時:"+dat.getFullYear()+"/"+('0'+(dat.getMonth()+1)).slice(-2)+"/"+('0'+dat.getDate()).slice(-2));
 		}
-		charaList = data.charaList;
+		charaList = data;
 		var len = charaList.length;
 		optupdate("NONE", "NONE");
+		$('#cardid').change();
 	});
 	var ctx = $("#stat-graph")[0].getContext("2d");
 	statChart = new Chart(ctx, {
@@ -126,9 +127,10 @@ function optupdate(seltype, selrare)
 
 function magilocation(e)
 {
-	var charaObj = getChara(parseInt(e));
-	if (charaObj != null)
+	var charaObj = getCharaRoot(parseInt(e));
+	if (charaObj != null && charaObj.chara != null)
 	{
+		charaObj = charaObj.chara;
 		var kakubtn = $("#kakusei");
 		kakubtn.empty();
 		var evLen = getEvoCount(charaObj);
@@ -152,14 +154,14 @@ function magilocation(e)
 	}
 }
 
-function getChara(charaId)
+function getCharaRoot(charaId)
 {
 	var len = charaList.length;
 	for (var i = 0; i < len; i++)
 	{
 		if (charaList[i].charaId == charaId)
 		{
-			return charaList[i].chara
+			return charaList[i]
 		}
 	}
 	return null;
@@ -182,6 +184,11 @@ function getEvolution(chara, evoCount)
 	if (evoCount == 0)
 		return chara.defaultCard;
 	return chara["evolutionCard"+evoCount];
+}
+
+function getCard(chara, cardid)
+{
+	return chara.cardList.filter(function(e, i) { return e.cardId == cardid; })[0].card;
 }
 
 function addCard(el, name, num)
@@ -209,8 +216,10 @@ function addCard(el, name, num)
 function changeMagi(charaId, evoCount)
 {
 	evoCount = parseInt(evoCount);
-	var chara = getChara(charaId);
+	var root = getCharaRoot(charaId);
+	var chara = root.chara;
 	var cone = getEvolution(chara, evoCount);
+	var card = getCard(root, cone.cardId);
 	
 	$(".inBorder tbody,h1,.desc").empty();
 	
@@ -232,8 +241,8 @@ function changeMagi(charaId, evoCount)
 	$("#mHp").text(cone.hp + " / " + maxLvParams.hp);	
 	$("#mAtk").text(cone.attack + " / " + maxLvParams.attack);
 	$("#mDef").text(cone.defense + " / " + maxLvParams.defense);
-	$("#mRGMA").text(cone.rateGainMpAtk);
-	$("#mRGMD").text(cone.rateGainMpDef);
+	$("#mRGMA").text(card.rateGainMpAtk);
+	$("#mRGMD").text(card.rateGainMpDef);
 
 	$("#mCharaDesc").html(chara.description.replace(/＠/g, "<br />"));
 	$("#mSchool").text(chara.school);
@@ -241,63 +250,63 @@ function changeMagi(charaId, evoCount)
 	$("#mVoice").text(chara.voiceActor);
 	
 	var mc = $("#mCards");
-	addCard(mc, cone.commandType1, 0);
-	addCard(mc, cone.commandType2, 1);
-	addCard(mc, cone.commandType3, 2);
-	addCard(mc, cone.commandType4, 3);
-	addCard(mc, cone.commandType5, 4);
+	addCard(mc, card.commandType1, 0);
+	addCard(mc, card.commandType2, 1);
+	addCard(mc, card.commandType3, 2);
+	addCard(mc, card.commandType4, 3);
+	addCard(mc, card.commandType5, 4);
 	
-	$("#mMagia").text(cone.cardMagia.name);
-	$("#mMagiaDesc").text(cone.cardMagia.shortDescription);
+	$("#mMagia").text(card.cardMagia.name);
+	$("#mMagiaDesc").text(card.cardMagia.shortDescription);
 	for (var n = 1; n < 10; n++) {
 		var art = "art" + n;
-		if (typeof cone.cardMagia[art] === 'undefined')
+		if (typeof card.cardMagia[art] === 'undefined')
 			break;
 		var trEl = $("<tr>").attr({"align":"center"});
-		$("<td>").text(cone.cardMagia[art].verbCode).appendTo(trEl);
-		$("<td>").text(cone.cardMagia[art].targetId).appendTo(trEl);
-		$("<td>").text(cone.cardMagia[art].effectValue).appendTo(trEl);
-		$("<td>").text(cone.cardMagia[art].growPoint).appendTo(trEl);
-		$("<td>").text(cone.cardMagia[art].effectCode).appendTo(trEl);
-		$("<td>").text(cone.cardMagia[art].probability).appendTo(trEl);
-		$("<td>").text(cone.cardMagia[art].enableTurn).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].verbCode).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].targetId).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].effectValue).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].growPoint).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].effectCode).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].probability).appendTo(trEl);
+		$("<td>").text(card.cardMagia[art].enableTurn).appendTo(trEl);
 		$("#mMagiaFlover tbody").append(trEl);
 	}
 
-	if (typeof cone.doppelCardMagia !== 'undefined')
+	if (typeof card.doppelCardMagia !== 'undefined')
 	{
-		$("#mDoppel").text(cone.doppelCardMagia.name);
-		$("#mDoppelDesc").text(cone.doppelCardMagia.shortDescription);
+		$("#mDoppel").text(card.doppelCardMagia.name);
+		$("#mDoppelDesc").text(card.doppelCardMagia.shortDescription);
 		for (var n = 1; n < 10; n++) {
 			var art = "art" + n;
-			if (typeof cone.doppelCardMagia[art] === 'undefined')
+			if (typeof card.doppelCardMagia[art] === 'undefined')
 				break;
 			var trEl = $("<tr>").attr({"align":"center"});
-			$("<td>").text(cone.doppelCardMagia[art].verbCode).appendTo(trEl);
-			$("<td>").text(cone.doppelCardMagia[art].targetId).appendTo(trEl);
-			$("<td>").text(cone.doppelCardMagia[art].effectValue).appendTo(trEl);
-			$("<td>").text(cone.doppelCardMagia[art].growPoint).appendTo(trEl);
-			$("<td>").text(cone.doppelCardMagia[art].effectCode).appendTo(trEl);
-			$("<td>").text(cone.doppelCardMagia[art].probability).appendTo(trEl);
-			$("<td>").text(cone.doppelCardMagia[art].enableTurn).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].verbCode).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].targetId).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].effectValue).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].growPoint).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].effectCode).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].probability).appendTo(trEl);
+			$("<td>").text(card.doppelCardMagia[art].enableTurn).appendTo(trEl);
 			$("#mDoppelFlover tbody").append(trEl);
 		}
 	}
 	
-	$("#mConn").text(cone.cardSkill.name);
-	$("#mConnDesc").text(cone.cardSkill.shortDescription);
+	$("#mConn").text(card.cardSkill.name);
+	$("#mConnDesc").text(card.cardSkill.shortDescription);
 	for (var n = 1; n < 10; n++) {
 		var art = "art" + n;
-		if (typeof cone.cardSkill[art] === 'undefined')
+		if (typeof card.cardSkill[art] === 'undefined')
 			break;
 		var trEl = $("<tr>").attr({"align":"center"});
-		$("<td>").text(cone.cardSkill[art].verbCode).appendTo(trEl);
-		$("<td>").text(cone.cardSkill[art].targetId).appendTo(trEl);
-		$("<td>").text(cone.cardSkill[art].effectValue).appendTo(trEl);
-		$("<td>").text(cone.cardSkill[art].growPoint).appendTo(trEl);
-		$("<td>").text(cone.cardSkill[art].effectCode).appendTo(trEl);
-		$("<td>").text(cone.cardSkill[art].probability).appendTo(trEl);
-		$("<td>").text(cone.cardSkill[art].enableTurn).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].verbCode).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].targetId).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].effectValue).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].growPoint).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].effectCode).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].probability).appendTo(trEl);
+		$("<td>").text(card.cardSkill[art].enableTurn).appendTo(trEl);
 		$("#mConnFlover tbody").append(trEl);
 	}
 	
