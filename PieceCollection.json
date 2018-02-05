@@ -8834,16 +8834,6 @@
         "targetId": "SELF",
         "growPoint": 0,
         "probability": 1000
-      },
-      "artId2": 310201609,
-      "art2": {
-        "artId": 310201609,
-        "verbCode": "BUFF",
-        "effectCode": "ACCEL",
-        "targetId": "SELF",
-        "effectValue": 300,
-        "enableTurn": 1,
-        "growPoint": 25
       }
     },
     "description": "同じメロディーを分かち合いながら静かに過ぎゆく時間の中で、＠淡い色をした感情が、彼女の胸を高鳴らせる＠「ありがとう、さやか」と、言ってくれるその言葉だけで十分だから、＠嬉しくて恥ずかしくて、これ以上何もできない自分がもどかしい",
@@ -8971,5 +8961,187 @@
     "description": "あたしはさ、自分の大切な人が幸せだったらそれでいいんだ。＠その人の笑顔を見るだけで、あたしまで笑顔になれるんだもん。＠だから、あたしは自分のためには戦わない。＠あたしだけは大切な人のために戦い続ける！",
     "illustrator": "谷口淳一郎",
     "openDate": "2018/01/22 15:10:00"
+  },
+  {
+    "pieceId": 1168,
+    "pieceType": "SKILL",
+    "pieceName": "お願い届けて！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 723,
+    "hp": 883,
+    "skillId": 116800,
+    "pieceSkill": {
+      "id": 116800,
+      "groupId": 1172,
+      "name": "アディクトスレイヤー[Ⅴ]",
+      "intervalTurn": 9,
+      "shortDescription": "ダメージアップ状態[Ⅴ]＆敵状態異常時ダメージUP[V](自/1T)",
+      "messageId": 70,
+      "artId1": 610206105,
+      "art1": {
+        "artId": 610206105,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 610214605,
+      "art2": {
+        "artId": 610214605,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP_BAD",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1014,
+      "eventArtId1": 101401,
+      "eventArt1": {
+        "artId": 101401,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1014_KEY"
+      },
+      "eventDescription": "＆板チョコ入手時＋3"
+    },
+    "skillId2": 116801,
+    "pieceSkill2": {
+      "id": 116801,
+      "groupId": 1172,
+      "name": "アディクトスレイヤー[Ⅵ]",
+      "intervalTurn": 8,
+      "shortDescription": "ダメージアップ状態[Ⅵ]＆敵状態異常時ダメージUP[Ⅵ](自/1T)",
+      "messageId": 70,
+      "artId1": 610206106,
+      "art1": {
+        "artId": 610206106,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 610214606,
+      "art2": {
+        "artId": 610214606,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP_BAD",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1014,
+      "eventArtId1": 101402,
+      "eventArt1": {
+        "artId": 101402,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_DAILYTOWER_1014_KEY"
+      },
+      "eventDescription": "＆板チョコ入手時＋7"
+    },
+    "description": "物心ついて恋をして、星が巡って巡り来る年に１度のバレンタイン＠淡い気持ちを抱いたまま、あとどれだけこの日を迎えられる？＠って、考えてしまうから、大切にしなくちゃいけない＠この日も想いもチョコレートも…だって…",
+    "illustrator": "茨乃",
+    "openDate": "2018/02/05 15:10:00"
+  },
+  {
+    "pieceId": 1169,
+    "pieceType": "ABILITY",
+    "pieceName": "初めての手作りチョコレート",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 632,
+    "defense": 0,
+    "hp": 572,
+    "skillId": 116900,
+    "pieceSkill": {
+      "id": 116900,
+      "groupId": 1086,
+      "name": "クライシスガード[Ⅲ]",
+      "shortDescription": "瀕死時防御力Up[Ⅲ] ＆ 防御力Up[Ⅱ]",
+      "artId1": 390203003,
+      "art1": {
+        "artId": 390203003,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201202,
+      "art2": {
+        "artId": 390201202,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1014,
+      "eventArtId1": 101403,
+      "eventArt1": {
+        "artId": 101403,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_DAILYTOWER_1014_KEY"
+      },
+      "eventDescription": "＆板チョコ入手時＋1"
+    },
+    "skillId2": 116901,
+    "pieceSkill2": {
+      "id": 116901,
+      "groupId": 1086,
+      "name": "クライシスガード[Ⅳ]",
+      "shortDescription": "瀕死時防御力Up[Ⅳ] ＆ 防御力Up[Ⅲ]",
+      "artId1": 390203004,
+      "art1": {
+        "artId": 390203004,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 500,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201203,
+      "art2": {
+        "artId": 390201203,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1014,
+      "eventArtId1": 101404,
+      "eventArt1": {
+        "artId": 101404,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 5000,
+        "genericValue": "EVENT_DAILYTOWER_1014_KEY"
+      },
+      "eventDescription": "＆板チョコ入手時＋5"
+    },
+    "description": "感謝の気持ちを込めてひとつひとつ＠ドキドキワクワクと、ちょっぴりの不安＠でも、大好きな人たちの喜ぶ顔が見たいから…＠大切な…大切な人たちは喜んでくれるかなぁ…？",
+    "illustrator": "ふゆの春秋",
+    "openDate": "2018/02/05 15:10:00"
   }
 ]
