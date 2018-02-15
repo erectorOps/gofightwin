@@ -7420,7 +7420,7 @@
             "id": 10184,
             "groupId": 1091,
             "name": "共に奏でるでございます",
-            "shortDescription": "Charge後ダメージUP[Ⅸ] & 確率でクリティカル[Ⅶ]",
+            "shortDescription": "Charge後ダメージUP[Ⅸ] & 確率でクリティカル[Ⅶ] & 月咲にコネクトで攻撃力UP",
             "artId1": 310401709,
             "art1": {
               "artId": 310401709,
@@ -7441,6 +7441,17 @@
               "enableTurn": 1,
               "growPoint": 0,
               "probability": 600
+            },
+            "artId3": 9056,
+            "art3": {
+              "artId": 9056,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "LIMITED",
+              "effectValue": 250,
+              "enableTurn": 1,
+              "growPoint": 25,
+              "limitedValue": "1019"
             }
           },
           "commandType1": "MPUP",
@@ -7596,7 +7607,7 @@
             "id": 10185,
             "groupId": 1091,
             "name": "共に奏でるでございます",
-            "shortDescription": "Charge後ダメージUP[ⅩⅠ] & 確率でクリティカル[Ⅸ]",
+            "shortDescription": "Charge後ダメージUP[ⅩⅠ] & 確率でクリティカル[Ⅸ] & 月咲にコネクトで攻撃力UP",
             "artId1": 310401711,
             "art1": {
               "artId": 310401711,
@@ -7617,6 +7628,17 @@
               "enableTurn": 1,
               "growPoint": 0,
               "probability": 700
+            },
+            "artId3": 9057,
+            "art3": {
+              "artId": 9057,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "LIMITED",
+              "effectValue": 300,
+              "enableTurn": 1,
+              "growPoint": 25,
+              "limitedValue": "1019"
             }
           },
           "commandType1": "MPUP",
@@ -26102,6 +26124,318 @@
     ]
   },
   {
+    "charaId": 3900,
+    "chara": {
+      "id": 3900,
+      "name": "黒",
+      "kana": "くろ",
+      "attributeId": "DARK",
+      "attackType": 3,
+      "initialType": "ATTACK",
+      "growthType": "DEFHP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 39001,
+      "defaultCard": {
+        "cardId": 39001,
+        "rank": "RANK_1",
+        "attributeId": "DARK",
+        "initialType": "ATTACK",
+        "growthType": "DEFHP",
+        "attack": 1190,
+        "defense": 935,
+        "hp": 2903,
+        "miniCharaNo": 390000,
+        "charaNo": 3900,
+        "cardName": "黒"
+      },
+      "firstMagiaGiftId1": 251,
+      "firstMagiaGiftNum1": 2,
+      "firstMagiaGiftId2": 301,
+      "firstMagiaGiftNum2": 2,
+      "secondMagiaGiftId1": 251,
+      "secondMagiaGiftNum1": 4,
+      "secondMagiaGiftId2": 303,
+      "secondMagiaGiftNum2": 4,
+      "secondMagiaGiftId3": 252,
+      "secondMagiaGiftNum3": 2,
+      "secondMagiaGiftId4": 401,
+      "secondMagiaGiftNum4": 2,
+      "thirdMagiaGiftId1": 251,
+      "thirdMagiaGiftNum1": 6,
+      "thirdMagiaGiftId2": 305,
+      "thirdMagiaGiftNum2": 6,
+      "thirdMagiaGiftId3": 252,
+      "thirdMagiaGiftNum3": 4,
+      "thirdMagiaGiftId4": 401,
+      "thirdMagiaGiftNum4": 4,
+      "thirdMagiaGiftId5": 253,
+      "thirdMagiaGiftNum5": 2,
+      "thirdMagiaGiftId6": 501,
+      "thirdMagiaGiftNum6": 2,
+      "fourthMagiaGiftId1": 251,
+      "fourthMagiaGiftNum1": 8,
+      "fourthMagiaGiftId2": 302,
+      "fourthMagiaGiftNum2": 8,
+      "fourthMagiaGiftId3": 252,
+      "fourthMagiaGiftNum3": 6,
+      "fourthMagiaGiftId4": 501,
+      "fourthMagiaGiftNum4": 2,
+      "fourthMagiaGiftId5": 253,
+      "fourthMagiaGiftNum5": 4,
+      "fourthMagiaGiftId6": 552,
+      "fourthMagiaGiftNum6": 4,
+      "firstMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 301,
+        "name": "燕尾の羽",
+        "rank": 1
+      },
+      "secondMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 401,
+        "name": "砂場の巻貝",
+        "rank": 2
+      },
+      "thirdMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 401,
+        "name": "砂場の巻貝",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 501,
+        "name": "砂場のシャベル",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 501,
+        "name": "砂場のシャベル",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 552,
+        "name": "立ち耳の綿",
+        "rank": 3
+      },
+      "description": "―",
+      "school": "―",
+      "designer": "ササギコウシ",
+      "voiceActor": "―",
+      "openDate": "2018/02/15 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 3900,
+          "messageId": 6,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 7,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 8,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 9,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 10,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 11,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 12,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 43,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 44,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 45,
+          "message": "…………"
+        },
+        {
+          "charaNo": 3900,
+          "messageId": 46,
+          "message": "…………"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 39001,
+        "card": {
+          "cardId": 39001,
+          "charaNo": 3900,
+          "miniCharaNo": 390000,
+          "magiaCharaNo": 390000,
+          "cardName": "黒",
+          "rank": "RANK_1",
+          "attributeId": "DARK",
+          "initialType": "ATTACK",
+          "growthType": "DEFHP",
+          "attack": 1190,
+          "defense": 935,
+          "hp": 2903,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 39001,
+          "cardMagia": {
+            "id": 39001,
+            "groupId": 1012,
+            "name": "黒の一閃",
+            "shortDescription": "敵単体にダメージ[Ⅰ] ",
+            "artId1": 100000101,
+            "art1": {
+              "artId": 100000101,
+              "verbCode": "ATTACK",
+              "targetId": "TARGET",
+              "effectValue": 6000,
+              "growPoint": 100
+            }
+          },
+          "skillId": 39001,
+          "cardSkill": {
+            "id": 39001,
+            "groupId": 1090,
+            "name": "…………",
+            "shortDescription": "Accele MPUP[Ⅱ]",
+            "artId1": 310401602,
+            "art1": {
+              "artId": 310401602,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "CONNECT",
+              "effectValue": 150,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 9058,
+            "art2": {
+              "artId": 9058,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "LIMITED",
+              "effectValue": 600,
+              "enableTurn": 1,
+              "growPoint": 25,
+              "limitedValue": "2003"
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_V",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "cardCustomize": {
+            "cardId": 39001,
+            "giftId2": 151,
+            "gift2": {
+              "id": 151,
+              "name": "ダークオーブ",
+              "attributeId": "DARK",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 500
+            },
+            "giftNum2": 2,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 10,
+            "giftId5": 301,
+            "gift5": {
+              "id": 301,
+              "name": "燕尾の羽",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum5": 2,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 10
+          },
+          "openDate": "2018/02/15 15:10:00"
+        }
+      }
+    ]
+  },
+  {
     "charaId": 4001,
     "chara": {
       "id": 4001,
@@ -29461,6 +29795,1085 @@
             "bonusCode6": "CHARGE",
             "bonusNum6": 60
           }
+        }
+      }
+    ]
+  },
+  {
+    "charaId": 4021,
+    "chara": {
+      "id": 4021,
+      "name": "タルト",
+      "kana": "たると",
+      "attributeId": "LIGHT",
+      "attackType": 1,
+      "initialType": "BALANCE",
+      "growthType": "ATKDEF",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 40214,
+      "defaultCard": {
+        "cardId": 40214,
+        "rank": "RANK_4",
+        "attributeId": "LIGHT",
+        "initialType": "BALANCE",
+        "growthType": "ATKDEF",
+        "attack": 1894,
+        "defense": 1913,
+        "hp": 5238,
+        "miniCharaNo": 402100,
+        "charaNo": 4021,
+        "cardName": "タルト"
+      },
+      "evolutionCardId1": 40215,
+      "evolutionCard1": {
+        "cardId": 40215,
+        "rank": "RANK_5",
+        "attributeId": "LIGHT",
+        "initialType": "BALANCE",
+        "growthType": "ATKDEF",
+        "attack": 2211,
+        "defense": 2233,
+        "hp": 6111,
+        "miniCharaNo": 402100,
+        "charaNo": 4021,
+        "cardName": "タルト"
+      },
+      "doppelCharaNo": 402100,
+      "doppel": {
+        "id": 402100,
+        "name": "浄火のドッペル",
+        "title": "その姿は、救国",
+        "description": "この感情の主は、不道徳とは無縁の純粋で善良な心をもつ。＠ドッペルの招きによって舞い降りる無数の十字架は、ただの十字架ではない。＠それは神性の否定を象徴する逆さ十字であり、その存在を感じた者は全て己の中にある罪が無限に吹き出し、みるみる内に浄化の炎に包まれて、やがて焼き尽くされてしまう。＠ドッペルはいかなる存在であろうとも罪を見つけ出し、白日の下に晒す。＠つまりは、この理不尽なる清浄を受け入れるしか選択肢はないのだ。",
+        "designer": "原案・監修：枡狐/蛙空",
+        "openDate": "2018/02/15 15:10:00"
+      },
+      "firstMagiaGiftId1": 241,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 306,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 242,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 554,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 243,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 502,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 241,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 304,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 242,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 405,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 243,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 505,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 241,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 302,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 242,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 404,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 243,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 504,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 241,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 306,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 242,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 505,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 243,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 552,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 306,
+        "name": "振子のネジ",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 554,
+        "name": "屋上のバルーン",
+        "rank": 3
+      },
+      "firstMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 502,
+        "name": "階段のモニュメント",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 304,
+        "name": "羊の角笛",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 505,
+        "name": "人工知能のコード",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 504,
+        "name": "リュトンのリボン",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 306,
+        "name": "振子のネジ",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 505,
+        "name": "人工知能のコード",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 552,
+        "name": "立ち耳の綿",
+        "rank": 3
+      },
+      "description": "現在は“ジャンヌ・ダルク”の名で知られる中世フランスの魔法少女。最愛の妹カトリーヌの死をきっかけに、崩壊寸前のフランスを救うべく立ち上がった。素朴で人を信じやすく、キューブ（キュゥべえ）を“天使様”と呼び慕っている。",
+      "school": "―",
+      "designer": "枡狐/蛙空",
+      "voiceActor": "堀江由衣",
+      "openDate": "2018/02/15 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 4021,
+          "messageId": 6,
+          "message": "奇跡ならもう起こってくださっています"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 7,
+          "message": "私は…この国を救うと誓いました"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 8,
+          "message": "私は私に出来ることを続けます"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 9,
+          "message": "なんだか街中も慌ただしいみたいですね"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 10,
+          "message": "…それも全ては私の力不足のせいです…"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 11,
+          "message": "進みます…たとえなにがあろうとも…"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 12,
+          "message": "私はへっちゃらです、無事でよかった"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 43,
+          "message": "ふぅ…勝ちました"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 44,
+          "message": "皆さん、無事ですか!?"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 45,
+          "message": "さぁ、進みましょう"
+        },
+        {
+          "charaNo": 4021,
+          "messageId": 46,
+          "message": "皆さんのおかげです"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 40214,
+        "card": {
+          "cardId": 40214,
+          "charaNo": 4021,
+          "miniCharaNo": 402100,
+          "magiaCharaNo": 402100,
+          "cardName": "タルト",
+          "rank": "RANK_4",
+          "attributeId": "LIGHT",
+          "initialType": "BALANCE",
+          "growthType": "ATKDEF",
+          "attack": 1894,
+          "defense": 1913,
+          "hp": 5238,
+          "rateGainMpAtk": 900,
+          "rateGainMpDef": 900,
+          "magiaId": 40214,
+          "cardMagia": {
+            "id": 40214,
+            "groupId": 1014,
+            "name": "ラ・リュミエール",
+            "shortDescription": "敵全体ダメージ[Ⅴ]  ＆ HP回復(全) ＆ 自身に呪い(1T)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 200300404,
+            "art2": {
+              "artId": 200300404,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "ALL",
+              "effectValue": 187,
+              "growPoint": 20
+            },
+            "artId3": 9059,
+            "art3": {
+              "artId": 9059,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "CURSE",
+              "targetId": "SELF",
+              "effectValue": 150,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 2000
+            }
+          },
+          "skillId": 40214,
+          "cardSkill": {
+            "id": 40214,
+            "groupId": 1085,
+            "name": "必ず守ってみせる！",
+            "shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅶ]",
+            "artId1": 310401107,
+            "art1": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 310401207,
+            "art2": {
+              "artId": 310401207,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "CONNECT",
+              "effectValue": 900,
+              "enableTurn": 1,
+              "growPoint": 25
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_V",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_H",
+          "commandType5": "CHARGE",
+          "illustrator": "枡狐/蛙空",
+          "cardCustomize": {
+            "cardId": 40214,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 143,
+            "gift2": {
+              "id": 143,
+              "name": "ライトオーブ＋＋",
+              "attributeId": "LIGHT",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 6,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 142,
+            "gift3": {
+              "id": 142,
+              "name": "ライトオーブ＋",
+              "attributeId": "LIGHT",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum3": 12,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 402,
+            "gift4": {
+              "id": 402,
+              "name": "南京錠の鎖",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 40,
+            "giftId5": 505,
+            "gift5": {
+              "id": 505,
+              "name": "人工知能のコード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 6,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 80,
+            "giftId6": 306,
+            "gift6": {
+              "id": 306,
+              "name": "振子のネジ",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          },
+          "openDate": "2018/02/15 15:10:00"
+        }
+      },
+      {
+        "cardId": 40215,
+        "card": {
+          "cardId": 40215,
+          "charaNo": 4021,
+          "miniCharaNo": 402100,
+          "magiaCharaNo": 402100,
+          "cardName": "タルト",
+          "rank": "RANK_5",
+          "attributeId": "LIGHT",
+          "initialType": "BALANCE",
+          "growthType": "ATKDEF",
+          "attack": 2211,
+          "defense": 2233,
+          "hp": 6111,
+          "rateGainMpAtk": 900,
+          "rateGainMpDef": 900,
+          "magiaId": 40215,
+          "cardMagia": {
+            "id": 40215,
+            "groupId": 1014,
+            "name": "ラ・リュミエール",
+            "shortDescription": "敵全体ダメージ[Ⅶ] ＆ HP回復(全) ＆ 攻撃力UP(全/3T)＆ 自身に呪い(1T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 200300406,
+            "art2": {
+              "artId": 200300406,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "ALL",
+              "effectValue": 212,
+              "growPoint": 20
+            },
+            "artId3": 330301107,
+            "art3": {
+              "artId": 330301107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 9059,
+            "art4": {
+              "artId": 9059,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "CURSE",
+              "targetId": "SELF",
+              "effectValue": 150,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 2000
+            }
+          },
+          "doppelMagiaId": 40218,
+          "doppelCardMagia": {
+            "id": 40218,
+            "groupId": 1014,
+            "name": "浄火のドッペル",
+            "shortDescription": "敵全体ダメージ[Ⅸ]  ＆ HP回復(全) ＆ 攻撃力UP(全/3T)　",
+            "artId1": 190402181,
+            "art1": {
+              "artId": 190402181,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 200300408,
+            "art2": {
+              "artId": 200300408,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "ALL",
+              "effectValue": 237,
+              "growPoint": 20
+            },
+            "artId3": 330301109,
+            "art3": {
+              "artId": 330301109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 350,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "skillId": 40215,
+          "cardSkill": {
+            "id": 40215,
+            "groupId": 1085,
+            "name": "必ず守ってみせる！",
+            "shortDescription": "攻撃力UP[Ⅸ] ＆ 防御力UP[Ⅸ]",
+            "artId1": 310401109,
+            "art1": {
+              "artId": 310401109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 310401209,
+            "art2": {
+              "artId": 310401209,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "CONNECT",
+              "effectValue": 1050,
+              "enableTurn": 1,
+              "growPoint": 25
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_V",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_H",
+          "commandType5": "CHARGE",
+          "illustrator": "枡狐/蛙空",
+          "cardCustomize": {
+            "cardId": 40215,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 70,
+            "giftId2": 143,
+            "gift2": {
+              "id": 143,
+              "name": "ライトオーブ＋＋",
+              "attributeId": "LIGHT",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 70,
+            "giftId3": 142,
+            "gift3": {
+              "id": 142,
+              "name": "ライトオーブ＋",
+              "attributeId": "LIGHT",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum3": 15,
+            "bonusCode3": "HP",
+            "bonusNum3": 70,
+            "giftId4": 501,
+            "gift4": {
+              "id": 501,
+              "name": "砂場のシャベル",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 10,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 50,
+            "giftId5": 552,
+            "gift5": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 90,
+            "giftId6": 303,
+            "gift6": {
+              "id": 303,
+              "name": "立ち耳の包装紙",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 3000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          },
+          "openDate": "2018/02/15 15:10:00"
+        }
+      }
+    ]
+  },
+  {
+    "charaId": 4023,
+    "chara": {
+      "id": 4023,
+      "name": "メリッサ",
+      "kana": "めりっさ",
+      "attributeId": "WATER",
+      "attackType": 1,
+      "initialType": "MAGIA",
+      "growthType": "HP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 40233,
+      "defaultCard": {
+        "cardId": 40233,
+        "rank": "RANK_3",
+        "attributeId": "WATER",
+        "initialType": "MAGIA",
+        "growthType": "HP",
+        "attack": 1543,
+        "defense": 1175,
+        "hp": 3782,
+        "miniCharaNo": 402300,
+        "charaNo": 4023,
+        "cardName": "メリッサ"
+      },
+      "evolutionCardId1": 40234,
+      "evolutionCard1": {
+        "cardId": 40234,
+        "rank": "RANK_4",
+        "attributeId": "WATER",
+        "initialType": "MAGIA",
+        "growthType": "HP",
+        "attack": 1967,
+        "defense": 1500,
+        "hp": 4823,
+        "miniCharaNo": 402300,
+        "charaNo": 4023,
+        "cardName": "メリッサ"
+      },
+      "firstMagiaGiftId1": 605,
+      "firstMagiaGiftNum1": 1,
+      "secondMagiaGiftId1": 605,
+      "secondMagiaGiftNum1": 2,
+      "thirdMagiaGiftId1": 605,
+      "thirdMagiaGiftNum1": 3,
+      "fourthMagiaGiftId1": 605,
+      "fourthMagiaGiftNum1": 5,
+      "firstMagiaGift1": {
+        "id": 605,
+        "name": "メリッサの錬金薬",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 605,
+        "name": "メリッサの錬金薬",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 605,
+        "name": "メリッサの錬金薬",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 605,
+        "name": "メリッサの錬金薬",
+        "rank": 3
+      },
+      "description": "タルトの身の周りの世話をするために従軍している、中世フランスの魔法少女。ジャンヌ・ダルクの戦友として知られる傭兵隊長“憤怒（ラ・イル）”の娘。普段は世話好きでおしとやかな少女だが、一度キレるとその怒りは誰にも止められないという。",
+      "school": "―",
+      "designer": "枡狐/蛙空",
+      "voiceActor": "加隈亜衣",
+      "openDate": "2018/02/15 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 4023,
+          "messageId": 6,
+          "message": "私は決めたんです…タルトの側にいると"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 7,
+          "message": "タルトもリズも、私の大切な友だちです"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 8,
+          "message": "あれが“乙女（ラ・ピュセル）”…まるで奇跡のよう"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 9,
+          "message": "飲み過ぎてはダメですよ、お父様！"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 10,
+          "message": "天使様を足蹴にするなんて、ダメですっ！"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 11,
+          "message": "いつか見てみたい…タルトの生まれた村を"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 12,
+          "message": "戦場に行くのは、怖くありません"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 43,
+          "message": "やりましたね！"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 44,
+          "message": "か、勝ちました…！"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 45,
+          "message": "はあ…よかったです…"
+        },
+        {
+          "charaNo": 4023,
+          "messageId": 46,
+          "message": "うそみたい…！"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 40233,
+        "card": {
+          "cardId": 40233,
+          "charaNo": 4023,
+          "miniCharaNo": 402300,
+          "magiaCharaNo": 402300,
+          "cardName": "メリッサ",
+          "rank": "RANK_3",
+          "attributeId": "WATER",
+          "initialType": "MAGIA",
+          "growthType": "HP",
+          "attack": 1543,
+          "defense": 1175,
+          "hp": 3782,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1200,
+          "magiaId": 40233,
+          "cardMagia": {
+            "id": 40233,
+            "groupId": 1012,
+            "name": "デザンテグラシオン",
+            "shortDescription": "敵単体ダメージ[Ⅳ] ＆ 防御力DOWN(敵単/3T)",
+            "artId1": 100000104,
+            "art1": {
+              "artId": 100000104,
+              "verbCode": "ATTACK",
+              "targetId": "TARGET",
+              "effectValue": 6600,
+              "growPoint": 100
+            },
+            "artId2": 430002103,
+            "art2": {
+              "artId": 430002103,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "TARGET",
+              "effectValue": 150,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "skillId": 40233,
+          "cardSkill": {
+            "id": 40233,
+            "groupId": 1090,
+            "name": "誰が欠けてもダメなんですっ！",
+            "shortDescription": "Accele MPUP[Ⅴ] & デバフ解除",
+            "artId1": 310401605,
+            "art1": {
+              "artId": 310401605,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "CONNECT",
+              "effectValue": 300,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 200400800,
+            "art2": {
+              "artId": 200400800,
+              "verbCode": "REVOKE",
+              "effectCode": "DEBUFF",
+              "targetId": "CONNECT",
+              "growPoint": 0
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "枡狐/蛙空",
+          "cardCustomize": {
+            "cardId": 40233,
+            "giftId1": 604,
+            "gift1": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum1": 1,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 604,
+            "gift2": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum2": 1,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 40,
+            "giftId3": 604,
+            "gift3": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum3": 1,
+            "bonusCode3": "HP",
+            "bonusNum3": 50,
+            "giftId4": 604,
+            "gift4": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 1,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 30,
+            "giftId5": 604,
+            "gift5": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 1,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 50,
+            "giftId6": 604,
+            "gift6": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 1,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          },
+          "openDate": "2018/02/15 15:10:00"
+        }
+      },
+      {
+        "cardId": 40234,
+        "card": {
+          "cardId": 40234,
+          "charaNo": 4023,
+          "miniCharaNo": 402300,
+          "magiaCharaNo": 402300,
+          "cardName": "メリッサ",
+          "rank": "RANK_4",
+          "attributeId": "WATER",
+          "initialType": "MAGIA",
+          "growthType": "HP",
+          "attack": 1967,
+          "defense": 1500,
+          "hp": 4823,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1200,
+          "magiaId": 40234,
+          "cardMagia": {
+            "id": 40234,
+            "groupId": 1012,
+            "name": "デザンテグラシオン",
+            "shortDescription": "敵単体ダメージ[Ⅵ] ＆ 防御力DOWN(敵単/3T) ＆ Accele MPUP(全/3T)",
+            "artId1": 100000106,
+            "art1": {
+              "artId": 100000106,
+              "verbCode": "ATTACK",
+              "targetId": "TARGET",
+              "effectValue": 7000,
+              "growPoint": 100
+            },
+            "artId2": 430002105,
+            "art2": {
+              "artId": 430002105,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "TARGET",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301605,
+            "art3": {
+              "artId": 330301605,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "skillId": 40234,
+          "cardSkill": {
+            "id": 40234,
+            "groupId": 1090,
+            "name": "誰が欠けてもダメなんですっ！",
+            "shortDescription": "Accele MPUP[Ⅶ] & デバフ解除",
+            "artId1": 310401607,
+            "art1": {
+              "artId": 310401607,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 200400800,
+            "art2": {
+              "artId": 200400800,
+              "verbCode": "REVOKE",
+              "effectCode": "DEBUFF",
+              "targetId": "CONNECT",
+              "growPoint": 0
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "枡狐/蛙空",
+          "cardCustomize": {
+            "cardId": 40234,
+            "giftId1": 604,
+            "gift1": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum1": 1,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 70,
+            "giftId2": 604,
+            "gift2": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum2": 1,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 604,
+            "gift3": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum3": 1,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 604,
+            "gift4": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 1,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 40,
+            "giftId5": 604,
+            "gift5": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 1,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 604,
+            "gift6": {
+              "id": 604,
+              "name": "メリッサの髪飾り",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 1,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 60
+          },
+          "openDate": "2018/02/15 15:10:00"
         }
       }
     ]

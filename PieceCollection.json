@@ -6866,6 +6866,7 @@
       }
     },
     "description": "「最近、ずっと劇の練習をしていたときのことを思い出すの。＠わたし、いつもひとりで漫画を描いてるからだと思うんだけど、＠みんなで練習をするのって、とっても新鮮で楽しかったのっ！＠…あっ、またみんな誘ったら劇をやってくれるかもしれないの！」",
+    "illustrator": "―",
     "openDate": "2017/10/30 15:10:00"
   },
   {
@@ -6936,6 +6937,7 @@
       }
     },
     "description": "「このときは、ちょうど出番だとは思わなかったしビックリしたけど、＠名前の通りマジカルな感じで、子どもたちも喜んでくれて良かったの！＠それより、終わったあとの方が大変だったの。子どもたちから本当に＠魔法が使えるのか、とか聞かれてはぐらかすしかなかったの…」",
+    "illustrator": "―",
     "openDate": "2017/10/30 15:10:00"
   },
   {
@@ -7200,6 +7202,7 @@
       "eventDescription": "＆ドリンク入手時＋7"
     },
     "description": "不思議といつまで経っても気が付かない＠いつも彼女が追い求めている視線は、別モノを見つめる今このときこそ、＠彼女に注がれているというのに＠交差するばかりの想いだけれど、それこそが彼女たちの絶妙なバランス",
+    "illustrator": "―",
     "openDate": "2017/11/10 15:10:00"
   },
   {
@@ -7795,6 +7798,7 @@
       }
     },
     "description": "【メモリア強化素材】かかえきれないもの、少しづつ噛み砕いて。呑み込めないもの、見なかったことにして。落としてしまったもの、なくしたことさえ気づかずに。大事だったはずのもの、時とともに罅割れ風化して。思い出だけを残して、ただ前に進む",
+    "illustrator": "―",
     "openDate": "2017/11/30 15:10:00"
   },
   {
@@ -7841,6 +7845,7 @@
       }
     },
     "description": "【メモリア強化素材】取り戻すことなんてもうできない。時とともに千々に砕け、記憶は輪郭を無くしていく。掌からするすると零れ落ちた思い出たちは、けれど静かな夜の粉雪のように、心の中心に降り積もる",
+    "illustrator": "―",
     "openDate": "2017/11/30 15:10:00"
   },
   {
@@ -8025,6 +8030,7 @@
       }
     },
     "description": "「箏曲部の後は毛筆のお稽古、その後は確か華道が入っていて、お風呂＠を上がってからは、お婆さまに言われた古典文学を読んで、朝起きたら＠確かお料理の稽古を、って邪念は捨てるでございます！今は部員の皆さ＠まに六段の調を極めてもらわないと、今度の大会を切り抜けるには…」",
+    "illustrator": "―",
     "openDate": "2017/11/30 15:10:00"
   },
   {
@@ -8131,6 +8137,7 @@
       }
     },
     "description": "聖母性（マターナル・ピュア）に目覚めた完璧魔法聖女（パーフェクト＠セイントマギカ）。天啓により授かりし奇跡の力（ミラクルエナジー）＠で、新天地（かみはま）で絶対的勝利を贈呈（コネクト）する!?大聖離＠魂砲撃（ティロ・セントドッぺリオン）で撃滅（フィナーレ）よ！",
+    "illustrator": "―",
     "openDate": "2017/12/15 15:10:00"
   },
   {
@@ -8531,6 +8538,7 @@
       }
     },
     "description": "「ねぇねぇ、ほむらちゃん＠やっぱり、晴れ着でおでかけって楽しいね！＠すっごく特別な日！って感じがするもん＠楽しい思い出たくさん作ろうね！」",
+    "illustrator": "―",
     "openDate": "2018/01/01 00:00:00"
   },
   {
@@ -8711,6 +8719,7 @@
       }
     },
     "description": "まどか「これが…『究極おみくじ』…ほむらちゃん、どう？」＠ほむら「えと…『巨大吉』だって。鹿目さんは？」＠まどか「私は『無限大吉』！ねぇ、せーので見せ合いっこしようよ」＠まどか＆ほむら「せーの！」",
+    "illustrator": "―",
     "openDate": "2018/01/01 00:00:00"
   },
   {
@@ -9071,7 +9080,7 @@
       "id": 116900,
       "groupId": 1086,
       "name": "クライシスガード[Ⅲ]",
-      "shortDescription": "瀕死時防御力Up[Ⅲ] ＆ 防御力Up[Ⅱ]",
+      "shortDescription": "瀕死時防御力UP[Ⅲ] ＆ 防御力UP[Ⅱ]",
       "artId1": 390203003,
       "art1": {
         "artId": 390203003,
@@ -9108,7 +9117,7 @@
       "id": 116901,
       "groupId": 1086,
       "name": "クライシスガード[Ⅳ]",
-      "shortDescription": "瀕死時防御力Up[Ⅳ] ＆ 防御力Up[Ⅲ]",
+      "shortDescription": "瀕死時防御力UP[Ⅳ] ＆ 防御力UP[Ⅲ]",
       "artId1": 390203004,
       "art1": {
         "artId": 390203004,
@@ -9143,5 +9152,356 @@
     "description": "感謝の気持ちを込めてひとつひとつ＠ドキドキワクワクと、ちょっぴりの不安＠でも、大好きな人たちの喜ぶ顔が見たいから…＠大切な…大切な人たちは喜んでくれるかなぁ…？",
     "illustrator": "ふゆの春秋",
     "openDate": "2018/02/05 15:10:00"
+  },
+  {
+    "pieceId": 1170,
+    "pieceType": "SKILL",
+    "pieceName": "エペ・ド・クロヴィス",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4021",
+    "charaList": [
+      {
+        "charaId": 4021,
+        "name": "タルト"
+      }
+    ],
+    "attack": 0,
+    "defense": 463,
+    "hp": 463,
+    "skillId": 117000,
+    "pieceSkill": {
+      "id": 117000,
+      "groupId": 1170,
+      "name": "カバーリング[Ⅸ]",
+      "intervalTurn": 8,
+      "shortDescription": "味方を必ずかばう(1T)",
+      "artId1": 610213300,
+      "art1": {
+        "artId": 610213300,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROTECT",
+        "targetId": "ONE",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 117001,
+    "pieceSkill2": {
+      "id": 117001,
+      "groupId": 1170,
+      "name": "カバーリング",
+      "intervalTurn": 7,
+      "shortDescription": "味方を必ずかばう(1T)",
+      "artId1": 610213300,
+      "art1": {
+        "artId": 610213300,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROTECT",
+        "targetId": "ONE",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "妹と同じ名を持つ聖人“カトリーヌ”の名を冠する教会で＠出会ったひとりの錬金術士＠彼女が授けたのは、魔力を帯びし建国の祖“クロヴィス”の剣＠連綿たる因果が、またひとつ紡がれる…",
+    "illustrator": "mepo",
+    "openDate": "2018/02/15 15:10:00"
+  },
+  {
+    "pieceId": 1171,
+    "pieceType": "ABILITY",
+    "pieceName": "乙女の決意",
+    "attributeId": "ALL",
+    "rank": "RANK_2",
+    "attack": 422,
+    "defense": 0,
+    "hp": 382,
+    "skillId": 117100,
+    "pieceSkill": {
+      "id": 117100,
+      "groupId": 1085,
+      "name": "アタックアップ・アデプト[Ⅱ]",
+      "shortDescription": "攻撃力UP[Ⅱ]",
+      "artId1": 390201102,
+      "art1": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 117101,
+    "pieceSkill2": {
+      "id": 117101,
+      "groupId": 1085,
+      "name": "アタックアップ・アデプト[Ⅲ]",
+      "shortDescription": "攻撃力UP[Ⅲ]",
+      "artId1": 390201103,
+      "art1": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「同じような悲劇を、もう誰にもあわせたくありません＠だから私…魔法少女になる＠どうか、この手に＠…フランスに光をもたらす力を！」",
+    "illustrator": "枡狐/蛙空",
+    "openDate": "2018/02/15 15:10:00"
+  },
+  {
+    "pieceId": 1174,
+    "pieceType": "ABILITY",
+    "pieceName": "天使様の軍旗",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 632,
+    "defense": 0,
+    "hp": 572,
+    "skillId": 117400,
+    "pieceSkill": {
+      "id": 117400,
+      "groupId": 1085,
+      "name": "リベンジ・アデプト[Ⅱ]",
+      "shortDescription": "弱点属性で攻撃されたときMPUP[Ⅱ]",
+      "artId1": 690207902,
+      "art1": {
+        "artId": 690207902,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "MP_PLUS_WEAKED",
+        "targetId": "SELF",
+        "effectValue": 30,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "eventId": 1015,
+      "eventArtId1": 101503,
+      "eventArt1": {
+        "artId": 101503,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_SINGLERAID_1015_EXCHANGE_1"
+      },
+      "eventDescription": "＆「聖女のメダル」入手時＋1"
+    },
+    "skillId2": 117401,
+    "pieceSkill2": {
+      "id": 117401,
+      "groupId": 1085,
+      "name": "リベンジ・アデプト[Ⅲ]",
+      "shortDescription": "弱点属性で攻撃されたときMPUP[Ⅲ]",
+      "artId1": 690207903,
+      "art1": {
+        "artId": 690207903,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "MP_PLUS_WEAKED",
+        "targetId": "SELF",
+        "effectValue": 40,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "eventId": 1015,
+      "eventArtId1": 101504,
+      "eventArt1": {
+        "artId": 101504,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 5000,
+        "genericValue": "EVENT_SINGLERAID_1015_EXCHANGE_1"
+      },
+      "eventDescription": "＆「聖女のメダル」入手時＋5"
+    },
+    "description": "キューブは、信じる者にしか見ることができない不思議な存在＠純粋なタルトは、その光輪こそが天使のあかしと信じ＠“天使様”の旗を掲げて戦場を馳せる＠タルトに心酔するメリッサもまた、同様…",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/02/15 15:10:00"
+  },
+  {
+    "pieceId": 1175,
+    "pieceType": "ABILITY",
+    "pieceName": "希望と絶望と",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "charaIds": "4023",
+    "charaList": [
+      {
+        "charaId": 4023,
+        "name": "メリッサ"
+      }
+    ],
+    "attack": 663,
+    "defense": 0,
+    "hp": 723,
+    "skillId": 117500,
+    "pieceSkill": {
+      "id": 117500,
+      "groupId": 1085,
+      "name": "希望と絶望と",
+      "shortDescription": "ダメージアップ[Ⅴ]&『時を超えて鳴らす鐘』最終Battleで…",
+      "artId1": 690206106,
+      "art1": {
+        "artId": 690206106,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201605,
+      "art2": {
+        "artId": 390201605,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 101505,
+      "art3": {
+        "artId": 101505,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_ATK",
+        "effectValue": 70000,
+        "parameter": 5015751
+      }
+    },
+    "skillId2": 117501,
+    "pieceSkill2": {
+      "id": 117501,
+      "groupId": 1085,
+      "name": "希望と絶望と",
+      "shortDescription": "ダメージアップ[Ⅴ]&『時を超えて鳴らす鐘』最終Battleで…",
+      "artId1": 690206107,
+      "art1": {
+        "artId": 690206107,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201606,
+      "art2": {
+        "artId": 390201606,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 101505,
+      "art3": {
+        "artId": 101505,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_ATK",
+        "effectValue": 70000,
+        "parameter": 5015751
+      }
+    },
+    "description": "「メリッサ！ダメよ前線に出てくるなんて！」＠無謀な行動に出た彼女を、魔法の矢が貫こうとしていた…＠目を開けた彼女が見たのは、自身をかばう“乙女”の背中＠次の瞬間…世界は、希望の光を失った",
+    "illustrator": "枡狐/蛙空",
+    "openDate": "2018/02/15 15:10:00"
+  },
+  {
+    "pieceId": 1177,
+    "pieceType": "SKILL",
+    "pieceName": "時を超えた援軍",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 803,
+    "hp": 803,
+    "skillId": 117700,
+    "pieceSkill": {
+      "id": 117700,
+      "groupId": 1085,
+      "name": "ペネトレイトアタック[Ⅸ]",
+      "intervalTurn": 9,
+      "shortDescription": "攻撃力UP[Ⅸ] & 確率で防御力無視[Ⅷ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201109,
+      "art1": {
+        "artId": 310201109,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 450,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 610206608,
+      "art2": {
+        "artId": 610206608,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DEFENSE_IGNORED",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 450
+      },
+      "eventId": 1015,
+      "eventArtId1": 101501,
+      "eventArt1": {
+        "artId": 101501,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_SINGLERAID_1015_EXCHANGE_1"
+      },
+      "eventDescription": "＆「聖女のメダル」入手時＋3"
+    },
+    "skillId2": 117701,
+    "pieceSkill2": {
+      "id": 117701,
+      "groupId": 1085,
+      "name": "ペネトレイトアタック[Ⅹ]",
+      "intervalTurn": 8,
+      "shortDescription": "攻撃力UP[Ⅹ] & 確率で防御力無視[Ⅸ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201110,
+      "art1": {
+        "artId": 310201110,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 610206609,
+      "art2": {
+        "artId": 610206609,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DEFENSE_IGNORED",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 500
+      },
+      "eventId": 1015,
+      "eventArtId1": 101502,
+      "eventArt1": {
+        "artId": 101502,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_SINGLERAID_1015_EXCHANGE_1"
+      },
+      "eventDescription": "＆「聖女のメダル」入手時＋7"
+    },
+    "description": "「どうしてこうなったのって言われると＠ややこしすぎて、説明できそうもないんだけど…＠元はと言えば…多分、みたまさんの勘違いから＠始まったんだと思う…」",
+    "illustrator": "―",
+    "openDate": "2018/02/15 15:10:00"
   }
 ]
