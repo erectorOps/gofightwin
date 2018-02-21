@@ -30030,7 +30030,7 @@
         {
           "charaNo": 4021,
           "messageId": 7,
-          "message": "私は…この国を救うと誓いました"
+          "message": "ようやくお会いすることができました"
         },
         {
           "charaNo": 4021,
@@ -30040,7 +30040,7 @@
         {
           "charaNo": 4021,
           "messageId": 9,
-          "message": "なんだか街中も慌ただしいみたいですね"
+          "message": "私が今、もっとも信じられるものを!!"
         },
         {
           "charaNo": 4021,
@@ -30050,7 +30050,7 @@
         {
           "charaNo": 4021,
           "messageId": 11,
-          "message": "進みます…たとえなにがあろうとも…"
+          "message": "天使様もそう私に教えてくださっています"
         },
         {
           "charaNo": 4021,
@@ -30445,6 +30445,644 @@
     ]
   },
   {
+    "charaId": 4022,
+    "chara": {
+      "id": 4022,
+      "name": "リズ",
+      "kana": "りず",
+      "attributeId": "DARK",
+      "attackType": 1,
+      "initialType": "ATTACK",
+      "growthType": "BALANCE",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 40224,
+      "defaultCard": {
+        "cardId": 40224,
+        "rank": "RANK_4",
+        "attributeId": "DARK",
+        "initialType": "ATTACK",
+        "growthType": "BALANCE",
+        "attack": 2052,
+        "defense": 1611,
+        "hp": 4997,
+        "miniCharaNo": 402200,
+        "charaNo": 4022,
+        "cardName": "リズ"
+      },
+      "evolutionCardId1": 40225,
+      "evolutionCard1": {
+        "cardId": 40225,
+        "rank": "RANK_5",
+        "attributeId": "DARK",
+        "initialType": "ATTACK",
+        "growthType": "BALANCE",
+        "attack": 2395,
+        "defense": 1881,
+        "hp": 5831,
+        "miniCharaNo": 402200,
+        "charaNo": 4022,
+        "cardName": "リズ"
+      },
+      "doppelCharaNo": 402200,
+      "doppel": {
+        "id": 402200,
+        "name": "妄執のドッペル",
+        "title": "その姿は、黒影",
+        "description": "この感情の主は、苦境に立たされても、他人を思う情の深さをもっている。＠光ある所に影があるのは、まさしく摂理といえるが、影に置かれた立場としては、決して光をその身に受けることができないもまた摂理。＠このドッペルは、眩いばかりの光に浴する英雄の傍らにあって、常に寄り添う影であり、本質を決して掴ませない闇そのものといえる。＠しかし、だからこそ光の存在は、より一層際立ってくる。＠両者は、摂理が結びつけた切っても切れない関係にある。",
+        "designer": "原案・監修：枡狐/蛙空",
+        "openDate": "2018/02/21 15:10:00"
+      },
+      "firstMagiaGiftId1": 251,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 303,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 252,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 552,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 253,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 503,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 251,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 305,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 252,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 404,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 253,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 502,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 251,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 304,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 252,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 405,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 253,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 505,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 251,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 303,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 252,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 502,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 253,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 553,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 552,
+        "name": "立ち耳の綿",
+        "rank": 3
+      },
+      "firstMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 502,
+        "name": "階段のモニュメント",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 304,
+        "name": "羊の角笛",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 505,
+        "name": "人工知能のコード",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 502,
+        "name": "階段のモニュメント",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "description": "タルトとふたりでフランスを救うべく立ち上がった、中世のイタリア出身のクールな魔法少女。“影”を操る魔法でタルトを支えつつ、百年戦争のさなか、フランス軍の前線で戦っている。当人はあまり口にしたがらないが、とある有名な軍人の子孫であるらしい。",
+      "school": "―",
+      "designer": "枡狐/蛙空",
+      "voiceActor": "小清水亜美",
+      "openDate": "2018/02/21 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 4022,
+          "messageId": 6,
+          "message": "これは、夢なんかじゃないわ"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 7,
+          "message": "キューブ…あなた天使だったの？"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 8,
+          "message": "しかし…ひどい柄の旗ね"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 9,
+          "message": "タルトは本当に、欲がない子よね"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 10,
+          "message": "私は傭兵よ…イタリアからフランスへ来たの"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 11,
+          "message": "“乙女”か…タルトはすごい人気ね"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 12,
+          "message": "この子で、間違いないのね？"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 43,
+          "message": "何とか勝てたようね"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 44,
+          "message": "こんなものかしら"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 45,
+          "message": "おごってはだめよ"
+        },
+        {
+          "charaNo": 4022,
+          "messageId": 46,
+          "message": "光を消させはしない"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 40224,
+        "card": {
+          "cardId": 40224,
+          "charaNo": 4022,
+          "miniCharaNo": 402200,
+          "magiaCharaNo": 402200,
+          "cardName": "リズ",
+          "rank": "RANK_4",
+          "attributeId": "DARK",
+          "initialType": "ATTACK",
+          "growthType": "BALANCE",
+          "attack": 2052,
+          "defense": 1611,
+          "hp": 4997,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 40224,
+          "cardMagia": {
+            "id": 40224,
+            "groupId": 1014,
+            "name": "ロンブル",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] ＆ MP回復(自)）＆ 確率で回避(自/1T）",
+            "artId1": 100300205,
+            "art1": {
+              "artId": 100300205,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "ALL",
+              "effectValue": 3150,
+              "growPoint": 100
+            },
+            "artId2": 200200504,
+            "art2": {
+              "artId": 200200504,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "SELF",
+              "effectValue": 275,
+              "growPoint": 10
+            },
+            "artId3": 610206805,
+            "art3": {
+              "artId": 610206805,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "SELF",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 300
+            }
+          },
+          "skillId": 40224,
+          "cardSkill": {
+            "id": 40224,
+            "groupId": 1134,
+            "name": "それにしても危なっかしいわね",
+            "shortDescription": "防御無視 ＆ 確率でクリティカル[Ⅶ]",
+            "artId1": 610406700,
+            "art1": {
+              "artId": 610406700,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DEFENSE_IGNORED",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId2": 610406307,
+            "art2": {
+              "artId": 610406307,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "CONNECT",
+              "effectValue": 2000,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 600
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_H",
+          "commandType5": "CHARGE",
+          "illustrator": "枡狐/蛙空",
+          "cardCustomize": {
+            "cardId": 40224,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 80,
+            "giftId2": 152,
+            "gift2": {
+              "id": 152,
+              "name": "ダークオーブ＋",
+              "attributeId": "DARK",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 12,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 40,
+            "giftId3": 153,
+            "gift3": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 6,
+            "bonusCode3": "HP",
+            "bonusNum3": 50,
+            "giftId4": 505,
+            "gift4": {
+              "id": 505,
+              "name": "人工知能のコード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 553,
+            "gift5": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 302,
+            "gift6": {
+              "id": 302,
+              "name": "鏡の招待状",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          },
+          "openDate": "2018/02/21 15:10:00"
+        }
+      },
+      {
+        "cardId": 40225,
+        "card": {
+          "cardId": 40225,
+          "charaNo": 4022,
+          "miniCharaNo": 402200,
+          "magiaCharaNo": 402200,
+          "cardName": "リズ",
+          "rank": "RANK_5",
+          "attributeId": "DARK",
+          "initialType": "ATTACK",
+          "growthType": "BALANCE",
+          "attack": 2395,
+          "defense": 1881,
+          "hp": 5831,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 40225,
+          "cardMagia": {
+            "id": 40225,
+            "groupId": 1014,
+            "name": "ロンブル",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] ＆ MP回復(自)  & 確率で回避(自/1T)",
+            "artId1": 100300207,
+            "art1": {
+              "artId": 100300207,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "ALL",
+              "effectValue": 3350,
+              "growPoint": 100
+            },
+            "artId2": 200200506,
+            "art2": {
+              "artId": 200200506,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "SELF",
+              "effectValue": 325,
+              "growPoint": 10
+            },
+            "artId3": 610206807,
+            "art3": {
+              "artId": 610206807,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "SELF",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 400
+            }
+          },
+          "doppelMagiaId": 40228,
+          "doppelCardMagia": {
+            "id": 40228,
+            "groupId": 1014,
+            "name": "妄執のドッペル",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] ＆ MP回復(自)  & 必ず回避(自/1T)",
+            "artId1": 190402281,
+            "art1": {
+              "artId": 190402281,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "ALL",
+              "effectValue": 7810,
+              "growPoint": 220
+            },
+            "artId2": 200200508,
+            "art2": {
+              "artId": 200200508,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "SELF",
+              "effectValue": 375,
+              "growPoint": 10
+            },
+            "artId3": 610206900,
+            "art3": {
+              "artId": 610206900,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "SELF",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 40225,
+          "cardSkill": {
+            "id": 40225,
+            "groupId": 1134,
+            "name": "それにしても危なっかしいわね",
+            "shortDescription": "防御無視 ＆ 確率でクリティカル[Ⅸ]",
+            "artId1": 610406700,
+            "art1": {
+              "artId": 610406700,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DEFENSE_IGNORED",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId2": 610406309,
+            "art2": {
+              "artId": 610406309,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "CONNECT",
+              "effectValue": 2000,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 700
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_H",
+          "commandType5": "CHARGE",
+          "illustrator": "枡狐/蛙空",
+          "cardCustomize": {
+            "cardId": 40225,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 90,
+            "giftId2": 152,
+            "gift2": {
+              "id": 152,
+              "name": "ダークオーブ＋",
+              "attributeId": "DARK",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 15,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 153,
+            "gift3": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 554,
+            "gift4": {
+              "id": 554,
+              "name": "屋上のバルーン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 502,
+            "gift5": {
+              "id": 502,
+              "name": "階段のモニュメント",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 306,
+            "gift6": {
+              "id": 306,
+              "name": "振子のネジ",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          },
+          "openDate": "2018/02/21 15:10:00"
+        }
+      }
+    ]
+  },
+  {
     "charaId": 4023,
     "chara": {
       "id": 4023,
@@ -30531,7 +31169,7 @@
         {
           "charaNo": 4023,
           "messageId": 8,
-          "message": "あれが“乙女（ラ・ピュセル）”…まるで奇跡のよう"
+          "message": "あれが“乙女”…まるで奇跡のよう"
         },
         {
           "charaNo": 4023,

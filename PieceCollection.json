@@ -9173,7 +9173,7 @@
     "pieceSkill": {
       "id": 117000,
       "groupId": 1170,
-      "name": "カバーリング[Ⅸ]",
+      "name": "カバーリング",
       "intervalTurn": 8,
       "shortDescription": "味方を必ずかばう(1T)",
       "artId1": 610213300,
@@ -9257,6 +9257,155 @@
     "openDate": "2018/02/15 15:10:00"
   },
   {
+    "pieceId": 1172,
+    "pieceType": "SKILL",
+    "pieceName": "ふたつの誓い",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4022",
+    "charaList": [
+      {
+        "charaId": 4022,
+        "name": "リズ"
+      }
+    ],
+    "attack": 0,
+    "defense": 443,
+    "hp": 483,
+    "skillId": 117200,
+    "pieceSkill": {
+      "id": 117200,
+      "groupId": 1134,
+      "name": "インビジブルアクセル[Ⅵ]",
+      "intervalTurn": 6,
+      "shortDescription": "回避無効&Accele MPUP[Ⅷ](自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 310201608,
+      "art2": {
+        "artId": 310201608,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 275,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 117201,
+    "pieceSkill2": {
+      "id": 117201,
+      "groupId": 1134,
+      "name": "インビジブルアクセル[Ⅶ]",
+      "intervalTurn": 5,
+      "shortDescription": "回避無効&Accele MPUP[Ⅸ](自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 310201609,
+      "art2": {
+        "artId": 310201609,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "かけがえのない命を贄として、運命の歯車は動きはじめた＠そしてふたりの少女が、ひとつの墓前に誓いを捧げる＠ひとりは、必ずこの国を救うことを＠ひとりは、そんな彼女を必ず守り助けることを…",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/02/21 15:10:00"
+  },
+  {
+    "pieceId": 1173,
+    "pieceType": "SKILL",
+    "pieceName": "寄り添う影と光",
+    "attributeId": "ALL",
+    "rank": "RANK_2",
+    "attack": 0,
+    "defense": 362,
+    "hp": 442,
+    "skillId": 117300,
+    "pieceSkill": {
+      "id": 117300,
+      "groupId": 1134,
+      "name": "バトルセンス",
+      "intervalTurn": 9,
+      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 610208200,
+      "art2": {
+        "artId": 610208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 117301,
+    "pieceSkill2": {
+      "id": 117301,
+      "groupId": 1134,
+      "name": "バトルセンス",
+      "intervalTurn": 8,
+      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 610208200,
+      "art2": {
+        "artId": 610208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「決して消させはしない＠幾度もの涙と過ちを越えて、ようやく出会えた最後の希望＠それがタルトだから＠彼女は旅路の果てに、ようやく出会えた希望の光だから」",
+    "illustrator": "枡狐/蛙空",
+    "openDate": "2018/02/21 15:10:00"
+  },
+  {
     "pieceId": 1174,
     "pieceType": "ABILITY",
     "pieceName": "天使様の軍旗",
@@ -9268,7 +9417,7 @@
     "skillId": 117400,
     "pieceSkill": {
       "id": 117400,
-      "groupId": 1085,
+      "groupId": 1132,
       "name": "リベンジ・アデプト[Ⅱ]",
       "shortDescription": "弱点属性で攻撃されたときMPUP[Ⅱ]",
       "artId1": 690207902,
@@ -9295,7 +9444,7 @@
     "skillId2": 117401,
     "pieceSkill2": {
       "id": 117401,
-      "groupId": 1085,
+      "groupId": 1132,
       "name": "リベンジ・アデプト[Ⅲ]",
       "shortDescription": "弱点属性で攻撃されたときMPUP[Ⅲ]",
       "artId1": 690207903,
@@ -9344,22 +9493,22 @@
       "id": 117500,
       "groupId": 1085,
       "name": "希望と絶望と",
-      "shortDescription": "ダメージアップ[Ⅴ]&『時を超えて鳴らす鐘』最終Battleで…",
-      "artId1": 690206106,
+      "shortDescription": "MP獲得量UP[Ⅴ]&マギアダメージUP[Ⅶ]&『時を超えて鳴らす鐘』最終Battleで…",
+      "artId1": 390201906,
       "art1": {
-        "artId": 690206106,
-        "verbCode": "CONDITION_GOOD",
-        "effectCode": "DAMAGE_UP",
+        "artId": 390201906,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
         "targetId": "SELF",
-        "effectValue": 300,
+        "effectValue": 175,
         "growPoint": 25,
         "probability": 1000
       },
-      "artId2": 390201605,
+      "artId2": 390201407,
       "art2": {
-        "artId": 390201605,
+        "artId": 390201407,
         "verbCode": "BUFF",
-        "effectCode": "ACCEL",
+        "effectCode": "MAGIA",
         "targetId": "SELF",
         "effectValue": 200,
         "growPoint": 25,
@@ -9370,7 +9519,15 @@
         "artId": 101505,
         "verbCode": "OTHER",
         "effectCode": "QUESTBATTLE_ATK",
-        "effectValue": 70000,
+        "effectValue": 30000,
+        "parameter": 5015751
+      },
+      "artId4": 101506,
+      "art4": {
+        "artId": 101506,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_DEF",
+        "effectValue": 30000,
         "parameter": 5015751
       }
     },
@@ -9379,24 +9536,24 @@
       "id": 117501,
       "groupId": 1085,
       "name": "希望と絶望と",
-      "shortDescription": "ダメージアップ[Ⅴ]&『時を超えて鳴らす鐘』最終Battleで…",
-      "artId1": 690206107,
+      "shortDescription": "MP獲得量UP[Ⅴ]&マギアダメージUP[Ⅸ]&『時を超えて鳴らす鐘』最終Battleで…",
+      "artId1": 390201906,
       "art1": {
-        "artId": 690206107,
-        "verbCode": "CONDITION_GOOD",
-        "effectCode": "DAMAGE_UP",
+        "artId": 390201906,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
         "targetId": "SELF",
-        "effectValue": 350,
+        "effectValue": 175,
         "growPoint": 25,
         "probability": 1000
       },
-      "artId2": 390201606,
+      "artId2": 390201409,
       "art2": {
-        "artId": 390201606,
+        "artId": 390201409,
         "verbCode": "BUFF",
-        "effectCode": "ACCEL",
+        "effectCode": "MAGIA",
         "targetId": "SELF",
-        "effectValue": 225,
+        "effectValue": 250,
         "growPoint": 25,
         "probability": 1000
       },
@@ -9405,13 +9562,108 @@
         "artId": 101505,
         "verbCode": "OTHER",
         "effectCode": "QUESTBATTLE_ATK",
-        "effectValue": 70000,
+        "effectValue": 30000,
+        "parameter": 5015751
+      },
+      "artId4": 101506,
+      "art4": {
+        "artId": 101506,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_DEF",
+        "effectValue": 30000,
         "parameter": 5015751
       }
     },
     "description": "「メリッサ！ダメよ前線に出てくるなんて！」＠無謀な行動に出た彼女を、魔法の矢が貫こうとしていた…＠目を開けた彼女が見たのは、自身をかばう“乙女”の背中＠次の瞬間…世界は、希望の光を失った",
     "illustrator": "枡狐/蛙空",
     "openDate": "2018/02/15 15:10:00"
+  },
+  {
+    "pieceId": 1176,
+    "pieceType": "ABILITY",
+    "pieceName": "第3の魔法少女",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 843,
+    "defense": 0,
+    "hp": 763,
+    "skillId": 117600,
+    "pieceSkill": {
+      "id": 117600,
+      "groupId": 1091,
+      "name": "フルスロットル・アデプト[Ⅳ]",
+      "shortDescription": "Charge後ダメージUP[Ⅳ] & Accele MPUP[Ⅱ]",
+      "artId1": 390201604,
+      "art1": {
+        "artId": 390201604,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 175,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201702,
+      "art2": {
+        "artId": 390201702,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1015,
+      "eventArtId1": 101501,
+      "eventArt1": {
+        "artId": 101501,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_SINGLERAID_1015_EXCHANGE_1"
+      },
+      "eventDescription": "＆「聖女のメダル」入手時＋3"
+    },
+    "skillId2": 117601,
+    "pieceSkill2": {
+      "id": 117601,
+      "groupId": 1091,
+      "name": "フルスロットル・アデプト[Ⅴ]",
+      "shortDescription": "Charge後ダメージUP[Ⅴ] & Accele MPUP[Ⅲ]",
+      "artId1": 390201605,
+      "art1": {
+        "artId": 390201605,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201703,
+      "art2": {
+        "artId": 390201703,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1015,
+      "eventArtId1": 101502,
+      "eventArt1": {
+        "artId": 101502,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_SINGLERAID_1015_EXCHANGE_1"
+      },
+      "eventDescription": "＆「聖女のメダル」入手時＋7"
+    },
+    "description": "「タルトの進む道はこの国のみんなにとって＠希望の光になるんだって…そう思ったから＠たとえ…この先にどんな運命が待っていようとも＠私も魔法少女として共に戦います！」",
+    "illustrator": "―",
+    "openDate": "2018/02/21 15:10:00"
   },
   {
     "pieceId": 1177,
