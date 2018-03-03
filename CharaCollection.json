@@ -4008,6 +4008,688 @@
     ]
   },
   {
+    "charaId": 1008,
+    "chara": {
+      "id": 1008,
+      "name": "アリナ・グレイ",
+      "kana": "ありな・ぐれい",
+      "attributeId": "TIMBER",
+      "attackType": 1,
+      "initialType": "ATTACK",
+      "growthType": "ATKHP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 10084,
+      "defaultCard": {
+        "cardId": 10084,
+        "rank": "RANK_4",
+        "attributeId": "TIMBER",
+        "initialType": "ATTACK",
+        "growthType": "ATKHP",
+        "attack": 2139,
+        "defense": 1580,
+        "hp": 4881,
+        "miniCharaNo": 100800,
+        "charaNo": 1008,
+        "cardName": "アリナ・グレイ"
+      },
+      "evolutionCardId1": 10085,
+      "evolutionCard1": {
+        "cardId": 10085,
+        "rank": "RANK_5",
+        "attributeId": "TIMBER",
+        "initialType": "ATTACK",
+        "growthType": "ATKHP",
+        "attack": 2428,
+        "defense": 1790,
+        "hp": 5510,
+        "miniCharaNo": 100800,
+        "charaNo": 1008,
+        "cardName": "アリナ・グレイ"
+      },
+      "doppelCharaNo": 100800,
+      "doppel": {
+        "id": 100800,
+        "name": "熱病のドッペル",
+        "title": "その姿は、チューブ",
+        "description": "この感情の主は自身のドッペルの美しさに見惚れているが、このドッペルには真の姿が隠されていることをまだ知らない。主の背中側にあるドッペル本体から流れ出る病原テンペラと呼ばれる絵の具を固めて偽りの巨大な容姿を作り上げ相手を攻撃する。その際に人間体は絵の具の中に埋もれて完全に表からは見えなくなるため、ドッペルでありながら魔女のような出で立ちを誇る。主はドッペルの外観を確認することが出来ないものの、曰く\"内側から見ても素晴らしい\"らしい。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "openDate": "2018/03/02 15:10:00"
+      },
+      "firstMagiaGiftId1": 231,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 301,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 232,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 406,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 233,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 506,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 231,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 302,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 232,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 406,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 233,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 553,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 231,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 305,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 232,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 406,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 233,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 506,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 231,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 304,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 232,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 506,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 233,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 552,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 231,
+        "name": "フォレストブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 301,
+        "name": "燕尾の羽",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 232,
+        "name": "フォレストブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 233,
+        "name": "フォレストブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 506,
+        "name": "キュレーターのフード",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 231,
+        "name": "フォレストブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 232,
+        "name": "フォレストブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 233,
+        "name": "フォレストブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 231,
+        "name": "フォレストブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 232,
+        "name": "フォレストブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 233,
+        "name": "フォレストブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 506,
+        "name": "キュレーターのフード",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 231,
+        "name": "フォレストブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 304,
+        "name": "羊の角笛",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 232,
+        "name": "フォレストブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 506,
+        "name": "キュレーターのフード",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 233,
+        "name": "フォレストブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 552,
+        "name": "立ち耳の綿",
+        "rank": 3
+      },
+      "description": "魔女化のない世界を作ろうとしている魔法少女。生と死というテーマに取り憑かれた天才芸術家で、スランプ時は自分を題材にしたこともある。自身の目的こそが至上で努力を惜しまない彼女は、魔女を最高のアートにすることを夢見ている。",
+      "school": "栄総合学園",
+      "designer": "蒼樹うめ",
+      "voiceActor": "竹達彩奈",
+      "openDate": "2018/03/02 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 1008,
+          "messageId": 6,
+          "message": "アリナは見たい、ベストアートを…！"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 7,
+          "message": "フールガールの好きな漫画もフールだヨネ…"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 8,
+          "message": "ちがう…これじゃない…これじゃない！"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 9,
+          "message": "最後の作品は自分って決めてるんだヨネ"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 10,
+          "message": "シット…生きてるなんて…"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 11,
+          "message": "アリナはアリナのスランプを認めないカラ！"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 12,
+          "message": "自分にウソをつくとかデッドライフだヨネ"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 43,
+          "message": "ふぅ…エキサイトしちゃった"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 44,
+          "message": "はぁ…アリナ的に飽きちゃったカモ…"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 45,
+          "message": "もうこんなのクセになっちゃうヨネ"
+        },
+        {
+          "charaNo": 1008,
+          "messageId": 46,
+          "message": "アリナの作品になる価値もないんですケド"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 10084,
+        "card": {
+          "cardId": 10084,
+          "charaNo": 1008,
+          "miniCharaNo": 100800,
+          "magiaCharaNo": 100800,
+          "cardName": "アリナ・グレイ",
+          "rank": "RANK_4",
+          "attributeId": "TIMBER",
+          "initialType": "ATTACK",
+          "growthType": "ATKHP",
+          "attack": 2139,
+          "defense": 1580,
+          "hp": 4881,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 10084,
+          "cardMagia": {
+            "id": 10084,
+            "groupId": 1014,
+            "name": "Nine Phases",
+            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 攻撃力UP(自/2T) ＆ 確率でクリティカル(自/2T)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 320201105,
+            "art2": {
+              "artId": 320201105,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "SELF",
+              "effectValue": 250,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 9088,
+            "art3": {
+              "artId": 9088,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "SELF",
+              "effectValue": 2000,
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 400
+            }
+          },
+          "skillId": 10084,
+          "cardSkill": {
+            "id": 10084,
+            "groupId": 1085,
+            "name": "アリナの作品に溶けて",
+            "shortDescription": "攻撃力UP [Ⅶ] & 必ず幻惑 & 必ず毒",
+            "artId1": 310401107,
+            "art1": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610411100,
+            "art2": {
+              "artId": 610411100,
+              "verbCode": "ENCHANT",
+              "effectCode": "BLINDNESS",
+              "targetId": "CONNECT",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 610410100,
+            "art3": {
+              "artId": 610410100,
+              "verbCode": "ENCHANT",
+              "effectCode": "POISON",
+              "targetId": "CONNECT",
+              "effectValue": 50,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_H",
+          "commandType5": "CHARGE",
+          "illustrator": "蒼樹うめ",
+          "cardCustomize": {
+            "cardId": 10084,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 80,
+            "giftId2": 132,
+            "gift2": {
+              "id": 132,
+              "name": "フォレストオーブ＋",
+              "attributeId": "TIMBER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 12,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 40,
+            "giftId3": 133,
+            "gift3": {
+              "id": 133,
+              "name": "フォレストオーブ＋＋",
+              "attributeId": "TIMBER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 6,
+            "bonusCode3": "HP",
+            "bonusNum3": 50,
+            "giftId4": 506,
+            "gift4": {
+              "id": 506,
+              "name": "キュレーターのフード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 552,
+            "gift5": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 301,
+            "gift6": {
+              "id": 301,
+              "name": "燕尾の羽",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 10085,
+        "card": {
+          "cardId": 10085,
+          "charaNo": 1008,
+          "miniCharaNo": 100800,
+          "magiaCharaNo": 100800,
+          "cardName": "アリナ・グレイ",
+          "rank": "RANK_5",
+          "attributeId": "TIMBER",
+          "initialType": "ATTACK",
+          "growthType": "ATKHP",
+          "attack": 2428,
+          "defense": 1790,
+          "hp": 5510,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 10085,
+          "cardMagia": {
+            "id": 10085,
+            "groupId": 1014,
+            "name": "Nine Phases",
+            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 攻撃力UP(自/2T) ＆ 確率でクリティカル(自/2T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 320201107,
+            "art2": {
+              "artId": 320201107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "SELF",
+              "effectValue": 350,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 9089,
+            "art3": {
+              "artId": 9089,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "SELF",
+              "effectValue": 2000,
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 700
+            }
+          },
+          "doppelMagiaId": 10088,
+          "doppelCardMagia": {
+            "id": 10088,
+            "groupId": 1014,
+            "name": "熱病のドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ず毒(敵全/3T) ＆ 攻撃力UP(自/2T) ＆ クリティカル(自/2T)",
+            "artId1": 190100881,
+            "art1": {
+              "artId": 190100881,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 530304600,
+            "art2": {
+              "artId": 530304600,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "POISON",
+              "targetId": "ALL",
+              "effectValue": 50,
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 320201109,
+            "art3": {
+              "artId": 320201109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "SELF",
+              "effectValue": 450,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId4": 620206400,
+            "art4": {
+              "artId": 620206400,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "SELF",
+              "effectValue": 2000,
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 10085,
+          "cardSkill": {
+            "id": 10085,
+            "groupId": 1085,
+            "name": "アリナの作品に溶けて",
+            "shortDescription": "攻撃力UP [Ⅷ] & 必ず幻惑 & 必ず毒 & 確率でスタン",
+            "artId1": 310401108,
+            "art1": {
+              "artId": 310401108,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 375,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610411100,
+            "art2": {
+              "artId": 610411100,
+              "verbCode": "ENCHANT",
+              "effectCode": "BLINDNESS",
+              "targetId": "CONNECT",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 610410100,
+            "art3": {
+              "artId": 610410100,
+              "verbCode": "ENCHANT",
+              "effectCode": "POISON",
+              "targetId": "CONNECT",
+              "effectValue": 50,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 9084,
+            "art4": {
+              "artId": 9084,
+              "verbCode": "ENCHANT",
+              "effectCode": "STUN",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 350
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_H",
+          "commandType5": "CHARGE",
+          "illustrator": "ササギコウシ",
+          "cardCustomize": {
+            "cardId": 10085,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 90,
+            "giftId2": 132,
+            "gift2": {
+              "id": 132,
+              "name": "フォレストオーブ＋",
+              "attributeId": "TIMBER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 15,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 133,
+            "gift3": {
+              "id": 133,
+              "name": "フォレストオーブ＋＋",
+              "attributeId": "TIMBER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 554,
+            "gift4": {
+              "id": 554,
+              "name": "屋上のバルーン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 506,
+            "gift5": {
+              "id": 506,
+              "name": "キュレーターのフード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 406,
+            "gift6": {
+              "id": 406,
+              "name": "スタッフのキースイッチ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          }
+        }
+      }
+    ]
+  },
+  {
     "charaId": 1009,
     "chara": {
       "id": 1009,
@@ -13996,6 +14678,29 @@
         "charaNo": 3003,
         "cardName": "都 ひなの"
       },
+      "evolutionCardId3": 30035,
+      "evolutionCard3": {
+        "cardId": 30035,
+        "rank": "RANK_5",
+        "attributeId": "TIMBER",
+        "initialType": "SUPPORT",
+        "growthType": "ATKDEF",
+        "attack": 1781,
+        "defense": 1762,
+        "hp": 6305,
+        "miniCharaNo": 300301,
+        "charaNo": 3003,
+        "cardName": "都 ひなの"
+      },
+      "doppelCharaNo": 300300,
+      "doppel": {
+        "id": 300300,
+        "name": "軽忽のドッペル",
+        "title": "その姿は、スモッグ",
+        "description": "この感情の主は長くなった脚にご満悦。＠その長い右足は内部を沸騰させ、左足は凝結による化学反応でそれぞれ上半身を構成する新たなガスを製造している。またガスで出来た体は物理攻撃にも強い耐性を誇るが、溢れるその毒性で周囲を巻き込んでしまうのがたまにキズ。＠ひとたびこのドッペルが現れると、その周囲は敵味方問わず強烈な毒に侵されてしまい主といえどもガスマスクの着用なくしては耐えられないだろう。また、このドッペルは好奇心が強く、珍しい魔女や魔物には目がない。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "openDate": "2018/03/02 15:10:00"
+      },
       "firstMagiaGiftId1": 231,
       "firstMagiaGiftNum1": 3,
       "firstMagiaGiftId2": 305,
@@ -14645,6 +15350,202 @@
             "bonusCode6": "CHARGE",
             "bonusNum6": 60
           }
+        }
+      },
+      {
+        "cardId": 30035,
+        "card": {
+          "cardId": 30035,
+          "charaNo": 3003,
+          "miniCharaNo": 300301,
+          "magiaCharaNo": 300300,
+          "cardName": "都 ひなの",
+          "rank": "RANK_5",
+          "attributeId": "TIMBER",
+          "initialType": "SUPPORT",
+          "growthType": "ATKDEF",
+          "attack": 1781,
+          "defense": 1762,
+          "hp": 6305,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 30035,
+          "cardMagia": {
+            "id": 30035,
+            "groupId": 1014,
+            "name": "アトモ・アラビアート",
+            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 必ず毒(敵全/3T) ＆ 必ずスタン(敵全/1T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 530304600,
+            "art2": {
+              "artId": 530304600,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "POISON",
+              "targetId": "ALL",
+              "effectValue": 50,
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 510304200,
+            "art3": {
+              "artId": 510304200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "ALL",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "doppelMagiaId": 30038,
+          "doppelCardMagia": {
+            "id": 30038,
+            "groupId": 1014,
+            "name": "軽忽のドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ず毒(敵全/3T) ＆ 必ずスタン(敵全/1T)",
+            "artId1": 190300381,
+            "art1": {
+              "artId": 190300381,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 530304600,
+            "art2": {
+              "artId": 530304600,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "POISON",
+              "targetId": "ALL",
+              "effectValue": 50,
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 510304200,
+            "art3": {
+              "artId": 510304200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "ALL",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 30035,
+          "cardSkill": {
+            "id": 30035,
+            "groupId": 1087,
+            "name": "共同研究の成果発表だ！",
+            "shortDescription": "与えるダメージUP[Ⅹ] ＆ 必ず毒",
+            "artId1": 310401310,
+            "art1": {
+              "artId": 310401310,
+              "verbCode": "BUFF",
+              "effectCode": "DAMAGE",
+              "targetId": "CONNECT",
+              "effectValue": 425,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610410100,
+            "art2": {
+              "artId": 610410100,
+              "verbCode": "ENCHANT",
+              "effectCode": "POISON",
+              "targetId": "CONNECT",
+              "effectValue": 50,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_H",
+          "commandType3": "RANGE_V",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "cardCustomize": {
+            "cardId": 30035,
+            "giftId1": 132,
+            "gift1": {
+              "id": 132,
+              "name": "フォレストオーブ＋",
+              "attributeId": "TIMBER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 133,
+            "gift2": {
+              "id": 133,
+              "name": "フォレストオーブ＋＋",
+              "attributeId": "TIMBER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 90,
+            "giftId4": 402,
+            "gift4": {
+              "id": 402,
+              "name": "南京錠の鎖",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum4": 15,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 50,
+            "giftId5": 553,
+            "gift5": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 552,
+            "gift6": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 8,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 70
+          },
+          "openDate": "2018/03/02 15:10:00"
         }
       }
     ]
@@ -30780,7 +31681,7 @@
           "skillId": 40224,
           "cardSkill": {
             "id": 40224,
-            "groupId": 1134,
+            "groupId": 1123,
             "name": "それにしても危なっかしいわね",
             "shortDescription": "防御無視 ＆ 確率でクリティカル[Ⅶ]",
             "artId1": 610406700,
@@ -30975,7 +31876,7 @@
           "skillId": 40225,
           "cardSkill": {
             "id": 40225,
-            "groupId": 1134,
+            "groupId": 1123,
             "name": "それにしても危なっかしいわね",
             "shortDescription": "防御無視 ＆ 確率でクリティカル[Ⅸ]",
             "artId1": 610406700,

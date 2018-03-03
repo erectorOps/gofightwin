@@ -9491,7 +9491,7 @@
     "skillId": 117500,
     "pieceSkill": {
       "id": 117500,
-      "groupId": 1085,
+      "groupId": 1093,
       "name": "希望と絶望と",
       "shortDescription": "MP獲得量UP[Ⅴ]&マギアダメージUP[Ⅶ]&『時を超えて鳴らす鐘』最終Battleで…",
       "artId1": 390201906,
@@ -9534,7 +9534,7 @@
     "skillId2": 117501,
     "pieceSkill2": {
       "id": 117501,
-      "groupId": 1085,
+      "groupId": 1093,
       "name": "希望と絶望と",
       "shortDescription": "MP獲得量UP[Ⅴ]&マギアダメージUP[Ⅸ]&『時を超えて鳴らす鐘』最終Battleで…",
       "artId1": 390201906,
@@ -9755,5 +9755,177 @@
     "description": "「どうしてこうなったのって言われると＠ややこしすぎて、説明できそうもないんだけど…＠元はと言えば…多分、みたまさんの勘違いから＠始まったんだと思う…」",
     "illustrator": "―",
     "openDate": "2018/02/15 15:10:00"
+  },
+  {
+    "pieceId": 1178,
+    "pieceType": "SKILL",
+    "pieceName": "最後の作品：アリナの九相図",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "1008",
+    "charaList": [
+      {
+        "charaId": 1008,
+        "name": "アリナ・グレイ"
+      }
+    ],
+    "attack": 0,
+    "defense": 503,
+    "hp": 421,
+    "skillId": 117800,
+    "pieceSkill": {
+      "id": 117800,
+      "groupId": 1161,
+      "name": "モノポライズドロー",
+      "intervalTurn": 15,
+      "shortDescription": "自分のDiscドロー",
+      "messageId": 70,
+      "artId1": 700211700,
+      "art1": {
+        "artId": 700211700,
+        "verbCode": "DRAW",
+        "effectCode": "CHARACTER",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 117801,
+    "pieceSkill2": {
+      "id": 117801,
+      "groupId": 1161,
+      "name": "モノポライズドロー",
+      "intervalTurn": 13,
+      "shortDescription": "自分のDiscドロー",
+      "messageId": 70,
+      "artId1": 700211700,
+      "art1": {
+        "artId": 700211700,
+        "verbCode": "DRAW",
+        "effectCode": "CHARACTER",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "全てが色あせたなら、それは自分の色が失われたから＠このまま自分の色が無くなるのなら＠最後に全てを彩ろう＠自らを捧げて",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/03/02 15:10:00"
+  },
+  {
+    "pieceId": 1179,
+    "pieceType": "SKILL",
+    "pieceName": "興奮冷めて晴天",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 632,
+    "hp": 572,
+    "skillId": 117900,
+    "pieceSkill": {
+      "id": 117900,
+      "groupId": 1134,
+      "name": "ブルズアイ",
+      "intervalTurn": 6,
+      "shortDescription": "回避無効(自/3T)",
+      "artId1": 630208100,
+      "art1": {
+        "artId": 630208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 117901,
+    "pieceSkill2": {
+      "id": 117901,
+      "groupId": 1134,
+      "name": "ブルズアイ",
+      "intervalTurn": 5,
+      "shortDescription": "回避無効(自/3T)",
+      "artId1": 630208100,
+      "art1": {
+        "artId": 630208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「まさかフールガールが読んでる漫画をアリナが読むなんて…＠ホント、理由なんて分からないケド＠モノクロのはずなのに、カラーになって見えるワケ＠それは何故かって、アリナが一番よく分かってるんですケド」",
+    "illustrator": "竹花ノート",
+    "openDate": "2018/03/02 15:10:00"
+  },
+  {
+    "pieceId": 1180,
+    "pieceType": "ABILITY",
+    "pieceName": "芸術への姿勢",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 763,
+    "defense": 0,
+    "hp": 843,
+    "skillId": 118000,
+    "pieceSkill": {
+      "id": 118000,
+      "groupId": 1139,
+      "name": "ヴェノム・アーチザン[Ⅳ]",
+      "shortDescription": "毒無効 & 敵状態異常時ダメージUP[Ⅳ]",
+      "artId1": 690208600,
+      "art1": {
+        "artId": 690208600,
+        "verbCode": "IGNORE",
+        "effectCode": "POISON",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 610414604,
+      "art2": {
+        "artId": 610414604,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP_BAD",
+        "targetId": "CONNECT",
+        "effectValue": 325,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 118001,
+    "pieceSkill2": {
+      "id": 118001,
+      "groupId": 1139,
+      "name": "ヴェノム・アーチザン[Ⅴ]",
+      "shortDescription": "毒無効 & 敵状態異常時ダメージUP[Ⅴ]",
+      "artId1": 690208600,
+      "art1": {
+        "artId": 690208600,
+        "verbCode": "IGNORE",
+        "effectCode": "POISON",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 610414605,
+      "art2": {
+        "artId": 610414605,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP_BAD",
+        "targetId": "CONNECT",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「生の美、死の美、滅びの美、アリナのテーマは“アリナの美”＠アリナがゾックゾクしたものを、アリナは勝手に作るダケ＠見たいならみせてアゲル。そして、勝手にゾックゾクしちゃってヨネ＠きっとブレインがサイケデリックでブリリアントになるカラ」",
+    "illustrator": "谷口淳一郎",
+    "openDate": "2018/03/02 15:10:00"
   }
 ]
