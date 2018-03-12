@@ -3969,7 +3969,7 @@
       "groupId": 1103,
       "name": "チャーム・アイズ[Ⅸ]",
       "intervalTurn": 15,
-      "shortDescription": "魅了[Ⅸ](全/1T)",
+      "shortDescription": "魅了[Ⅸ](敵全/1T)",
       "messageId": 70,
       "artId1": 510303909,
       "art1": {
@@ -3988,7 +3988,7 @@
       "groupId": 1103,
       "name": "チャーム・アイズ[Ⅹ]",
       "intervalTurn": 13,
-      "shortDescription": "魅了[Ⅹ](全/1T)",
+      "shortDescription": "魅了[Ⅹ](敵全/1T)",
       "messageId": 70,
       "artId1": 510303910,
       "art1": {
@@ -9927,5 +9927,718 @@
     "description": "「生の美、死の美、滅びの美、アリナのテーマは“アリナの美”＠アリナがゾックゾクしたものを、アリナは勝手に作るダケ＠見たいならみせてアゲル。そして、勝手にゾックゾクしちゃってヨネ＠きっとブレインがサイケデリックでブリリアントになるカラ」",
     "illustrator": "谷口淳一郎",
     "openDate": "2018/03/02 15:10:00"
+  },
+  {
+    "pieceId": 1181,
+    "pieceType": "ABILITY",
+    "pieceName": "みんなに笑顔を！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 400,
+    "defense": 0,
+    "hp": 400,
+    "skillId": 118100,
+    "pieceSkill": {
+      "id": 118100,
+      "groupId": 1175,
+      "name": "カースチップ・アデプト[Ⅱ]",
+      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ]（クエストで獲得した宝箱、サポート装備分は適用されません）",
+      "artId1": 9096,
+      "art1": {
+        "artId": 9096,
+        "verbCode": "OTHER",
+        "effectCode": "GOLD_UP",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 0
+      }
+    },
+    "skillId2": 118101,
+    "pieceSkill2": {
+      "id": 118101,
+      "groupId": 1175,
+      "name": "カースチップ・アデプト[Ⅱ]",
+      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ]（クエストで獲得した宝箱、サポート装備分は適用されません）",
+      "artId1": 9096,
+      "art1": {
+        "artId": 9096,
+        "verbCode": "OTHER",
+        "effectCode": "GOLD_UP",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 0
+      }
+    },
+    "description": "毎日を楽しく過ごすために大事なのは、何よりも笑顔！＠笑顔が笑顔を呼べば、その輪はどんどん広がっていくはず！＠だから、今日も元気に笑顔で「いらっしゃいませー！」＠（ローソンコラボ記念）",
+    "illustrator": "シャフト",
+    "openDate": "2018/03/09 15:10:00"
+  },
+  {
+    "pieceId": 1182,
+    "pieceType": "SKILL",
+    "pieceName": "お帰りなさいませ！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 400,
+    "hp": 400,
+    "skillId": 118200,
+    "pieceSkill": {
+      "id": 118200,
+      "groupId": 1078,
+      "name": "キュアヒール[Ⅲ]",
+      "intervalTurn": 8,
+      "shortDescription": "HP回復[Ⅲ]",
+      "messageId": 70,
+      "artId1": 200200403,
+      "art1": {
+        "artId": 200200403,
+        "verbCode": "HEAL",
+        "effectCode": "HP",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "growPoint": 20
+      }
+    },
+    "skillId2": 118201,
+    "pieceSkill2": {
+      "id": 118201,
+      "groupId": 1078,
+      "name": "キュアヒール[Ⅲ]",
+      "intervalTurn": 7,
+      "shortDescription": "HP回復[Ⅲ]",
+      "messageId": 70,
+      "artId1": 200200403,
+      "art1": {
+        "artId": 200200403,
+        "verbCode": "HEAL",
+        "effectCode": "HP",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "growPoint": 20
+      }
+    },
+    "description": "コーヒー、コーラ、オレンジジュース、今日は何が飲みたい気分？＠パスタ、ピラフ、オムライス、今日は何が食べたい気分？＠ちょっと気持ちが沈んだときは、ちょこっと顔を覗かせて＠いつでも最高の笑顔でお出迎えするから（セガコラボカフェ記念）",
+    "illustrator": "シャフト",
+    "openDate": "2018/03/09 15:10:00"
+  },
+  {
+    "pieceId": 1183,
+    "pieceType": "SKILL",
+    "pieceName": "れいらのカギ",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3013",
+    "charaList": [
+      {
+        "charaId": 3013,
+        "name": "伊吹 れいら"
+      }
+    ],
+    "attack": 0,
+    "defense": 449,
+    "hp": 489,
+    "skillId": 118300,
+    "pieceSkill": {
+      "id": 118300,
+      "groupId": 1093,
+      "name": "モーラルアップ[Ⅸ]",
+      "intervalTurn": 7,
+      "shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201909,
+      "art1": {
+        "artId": 310201909,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 118301,
+    "pieceSkill2": {
+      "id": 118301,
+      "groupId": 1093,
+      "name": "モーラルアップ[Ⅹ]",
+      "intervalTurn": 6,
+      "shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201910,
+      "art1": {
+        "artId": 310201910,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 275,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "これは自分で買ったものでしょ…＠これはせいかからで…あ、これはみとからもらったもの！＠そんな感じでキーホルダーを全部つけた私の家のカギ！＠ちょっと大きいけど…カワイイからいっかな！",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1184,
+    "pieceType": "SKILL",
+    "pieceName": "秘密の熱血コレクション",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3014",
+    "charaList": [
+      {
+        "charaId": 3014,
+        "name": "桑水 せいか"
+      }
+    ],
+    "attack": 0,
+    "defense": 469,
+    "hp": 469,
+    "skillId": 118400,
+    "pieceSkill": {
+      "id": 118400,
+      "groupId": 1156,
+      "name": "アトリビュートドロー",
+      "intervalTurn": 8,
+      "shortDescription": "同じ属性ドロー",
+      "messageId": 70,
+      "artId1": 700211600,
+      "art1": {
+        "artId": 700211600,
+        "verbCode": "DRAW",
+        "effectCode": "ALIGNMENT",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 118401,
+    "pieceSkill2": {
+      "id": 118401,
+      "groupId": 1156,
+      "name": "アトリビュートドロー",
+      "intervalTurn": 7,
+      "shortDescription": "同じ属性ドロー",
+      "messageId": 70,
+      "artId1": 700211600,
+      "art1": {
+        "artId": 700211600,
+        "verbCode": "DRAW",
+        "effectCode": "ALIGNMENT",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "家族とれいらとみとしか知らない、私の密やかな趣味…＠それは…青春熱血スポ根好き！そして、これが私のコレクション！＠映画、ドラマ、小説、漫画、アニメ…もちろん、実際のスポーツも！＠どこかに私みたいな人がいたら、緊張せずに話せるかも…!?",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1185,
+    "pieceType": "SKILL",
+    "pieceName": "空想世界のスケッチ",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3015",
+    "charaList": [
+      {
+        "charaId": 3015,
+        "name": "相野 みと"
+      }
+    ],
+    "attack": 0,
+    "defense": 489,
+    "hp": 449,
+    "skillId": 118500,
+    "pieceSkill": {
+      "id": 118500,
+      "groupId": 1126,
+      "name": "チェイスアタック",
+      "intervalTurn": 7,
+      "shortDescription": "必ず追撃(自/1T)",
+      "messageId": 70,
+      "artId1": 610207300,
+      "art1": {
+        "artId": 610207300,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PURSUE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 118501,
+    "pieceSkill2": {
+      "id": 118501,
+      "groupId": 1126,
+      "name": "チェイスアタック",
+      "intervalTurn": 6,
+      "shortDescription": "必ず追撃(自/1T)＆マギアダメージUP[Ⅸ]",
+      "messageId": 70,
+      "artId1": 610207300,
+      "art1": {
+        "artId": 610207300,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PURSUE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 310201409,
+      "art2": {
+        "artId": 310201409,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "私ね、頭の中で色んな想像をするのが大好きなんだ～！＠楽しいし、自由だし、いつでもできるし！＠思いついた生き物とかは、ノートに絵を描いてるの！＠ほら、これ！見て見て！ちょっとした『みと動物園』でしょ？",
+    "illustrator": "ma-sa",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1186,
+    "pieceType": "SKILL",
+    "pieceName": "雨上がりの帰り道＜れいら＞",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 662,
+    "hp": 542,
+    "skillId": 118600,
+    "pieceSkill": {
+      "id": 118600,
+      "groupId": 1110,
+      "name": "シェイド・ストローク[Ⅵ]",
+      "intervalTurn": 7,
+      "shortDescription": "必ず暗闇(敵単/1T)＆攻撃力DOWN[Ⅵ](敵単/1T)",
+      "messageId": 72,
+      "artId1": 510005400,
+      "art1": {
+        "artId": 510005400,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "DARKNESS",
+        "targetId": "TARGET",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 410002006,
+      "art2": {
+        "artId": 410002006,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "TARGET",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 118601,
+    "pieceSkill2": {
+      "id": 118601,
+      "groupId": 1110,
+      "name": "シェイド・ストローク[Ⅶ]",
+      "intervalTurn": 6,
+      "shortDescription": "必ず暗闇(敵単/1T)＆攻撃力DOWN[Ⅶ](敵単/1T)",
+      "messageId": 72,
+      "artId1": 510005400,
+      "art1": {
+        "artId": 510005400,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "DARKNESS",
+        "targetId": "TARGET",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 410002007,
+      "art2": {
+        "artId": 410002007,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "TARGET",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "雨の日の帰り道、こういう時は決まって…＠ほら、みとが水たまりに飛び込んだ！そこを予想してガード！＠ふふ～！もう慣れっこだもんね！次は私もやってみようかな…!?＠それにしても、こういう時、自然に避けてるよね～、せいかは…！",
+    "illustrator": "ハノカゲ",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1187,
+    "pieceType": "ABILITY",
+    "pieceName": "雨上がりの帰り道＜せいか＞",
+    "attributeId": "ALL",
+    "rank": "RANK_2",
+    "attack": 423,
+    "defense": 0,
+    "hp": 383,
+    "skillId": 118700,
+    "pieceSkill": {
+      "id": 118700,
+      "groupId": 1141,
+      "name": "アンチ・カース[ⅩⅢ]",
+      "shortDescription": "確率で呪い無効[ⅩⅢ] ＆ 攻撃力UP[Ⅰ]",
+      "artId1": 9097,
+      "art1": {
+        "artId": 9097,
+        "verbCode": "IGNORE",
+        "effectCode": "CURSE",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 850
+      },
+      "artId2": 390201101,
+      "art2": {
+        "artId": 390201101,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 118701,
+    "pieceSkill2": {
+      "id": 118701,
+      "groupId": 1141,
+      "name": "アンチ・カース",
+      "shortDescription": "呪い無効 ＆ 攻撃力UP[Ⅱ]",
+      "artId1": 690208800,
+      "art1": {
+        "artId": 690208800,
+        "verbCode": "IGNORE",
+        "effectCode": "CURSE",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 390201102,
+      "art2": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "今朝から降り続いていた雨も、放課後にはようやく晴れて…＠うん、気持ちがいいな、雨上がりって…＠これで虹でも架かってたら…れいらとみとに言ってみようかな…＠『あの虹に向かって走ろうよ！』って…！青春っぽくないかな？",
+    "illustrator": "ハノカゲ",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1188,
+    "pieceType": "SKILL",
+    "pieceName": "雨上がりの帰り道＜みと＞",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 882,
+    "hp": 722,
+    "skillId": 118800,
+    "pieceSkill": {
+      "id": 118800,
+      "groupId": 1094,
+      "name": "クウェル・ブルーム[Ⅸ]",
+      "intervalTurn": 6,
+      "shortDescription": "攻撃力DOWN[Ⅸ] & 防御力DOWN[Ⅷ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302009,
+      "art1": {
+        "artId": 410302009,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "ALL",
+        "effectValue": 450,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 410302108,
+      "art2": {
+        "artId": 410302108,
+        "verbCode": "DEBUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "ALL",
+        "effectValue": 400,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "eventId": 1017,
+      "eventArtId1": 101703,
+      "eventArt1": {
+        "artId": 101703,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_BRANCH_1017_PART_1"
+      },
+      "eventArtId2": 101707,
+      "eventArt2": {
+        "artId": 101707,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_BRANCH_1017_PART_2"
+      },
+      "eventDescription": "＆木の実(青)入手時＋3＆木の実(茶)入手時+3"
+    },
+    "skillId2": 118801,
+    "pieceSkill2": {
+      "id": 118801,
+      "groupId": 1094,
+      "name": "クウェル・ブルーム[Ⅹ]",
+      "intervalTurn": 5,
+      "shortDescription": "攻撃力DOWN[Ⅹ] & 防御力DOWN[Ⅸ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302010,
+      "art1": {
+        "artId": 410302010,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "ALL",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 410302109,
+      "art2": {
+        "artId": 410302109,
+        "verbCode": "DEBUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "ALL",
+        "effectValue": 450,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "eventId": 1017,
+      "eventArtId1": 101704,
+      "eventArt1": {
+        "artId": 101704,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_BRANCH_1017_PART_1"
+      },
+      "eventArtId2": 101708,
+      "eventArt2": {
+        "artId": 101708,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_BRANCH_1017_PART_2"
+      },
+      "eventDescription": "＆木の実(青)入手時＋7＆木の実(茶)入手時+7"
+    },
+    "description": "雨の日って、ちょっと気分がしょんぼりって人、多いよね＠でも、こうやって…バッシャーン！＠水たまりに飛び込んだりすると、楽しいんだよ！＠足元？もちろんビシャビシャ！でも「やったぞー！」って気分！",
+    "illustrator": "ハノカゲ",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1189,
+    "pieceType": "SKILL",
+    "pieceName": "階段からこんにちは",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 543,
+    "hp": 663,
+    "skillId": 118900,
+    "pieceSkill": {
+      "id": 118900,
+      "groupId": 1121,
+      "name": "クリティカル・ストライク[Ⅳ]",
+      "intervalTurn": 6,
+      "shortDescription": "確率でクリティカル[Ⅳ](自/1T)",
+      "messageId": 70,
+      "artId1": 610206304,
+      "art1": {
+        "artId": 610206304,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 250
+      },
+      "eventId": 1017,
+      "eventArtId1": 101701,
+      "eventArt1": {
+        "artId": 101701,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_BRANCH_1017_PART_1"
+      },
+      "eventArtId2": 101705,
+      "eventArt2": {
+        "artId": 101705,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_BRANCH_1017_PART_2"
+      },
+      "eventDescription": "＆木の実(青)入手時＋1＆木の実(茶)入手時+1"
+    },
+    "skillId2": 118901,
+    "pieceSkill2": {
+      "id": 118901,
+      "groupId": 1121,
+      "name": "クリティカル・ストライク[Ⅴ]",
+      "intervalTurn": 5,
+      "shortDescription": "確率でクリティカル[Ⅴ](自/1T)",
+      "messageId": 70,
+      "artId1": 610206305,
+      "art1": {
+        "artId": 610206305,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 300
+      },
+      "eventId": 1017,
+      "eventArtId1": 101702,
+      "eventArt1": {
+        "artId": 101702,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 2000,
+        "genericValue": "EVENT_BRANCH_1017_PART_1"
+      },
+      "eventArtId2": 101706,
+      "eventArt2": {
+        "artId": 101706,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 2000,
+        "genericValue": "EVENT_BRANCH_1017_PART_2"
+      },
+      "eventDescription": "＆木の実(青)入手時＋2＆木の実(茶)入手時+2"
+    },
+    "description": "小さい頃から団地で一緒に暮らしているれいら、せいか、みと＠一緒にバタバタと階段を駆け上がったり駆け下りたり！＠あの頃は大きいと感じていた一段も、今では普通に足をかけている＠変わっていくこともあるけれど、三人は変わらず、今も友達…！",
+    "illustrator": "―",
+    "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1190,
+    "pieceType": "ABILITY",
+    "pieceName": "団地に差し込む陽差し",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 762,
+    "defense": 0,
+    "hp": 842,
+    "skillId": 119000,
+    "pieceSkill": {
+      "id": 119000,
+      "groupId": 1170,
+      "name": "Hカバーリング・アデプト[Ⅱ] ",
+      "shortDescription": "確率でかばう[Ⅱ] & 防御力UP[Ⅲ]",
+      "artId1": 690213202,
+      "art1": {
+        "artId": 690213202,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROTECT",
+        "targetId": "ONE",
+        "growPoint": 0,
+        "probability": 150
+      },
+      "artId2": 390201203,
+      "art2": {
+        "artId": 390201203,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1017,
+      "eventArtId1": 101703,
+      "eventArt1": {
+        "artId": 101703,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_BRANCH_1017_PART_1"
+      },
+      "eventArtId2": 101707,
+      "eventArt2": {
+        "artId": 101707,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_BRANCH_1017_PART_2"
+      },
+      "eventDescription": "＆木の実(青)入手時＋3＆木の実(茶)入手時+3"
+    },
+    "skillId2": 119001,
+    "pieceSkill2": {
+      "id": 119001,
+      "groupId": 1170,
+      "name": "Hカバーリング・アデプト[Ⅲ]",
+      "shortDescription": "確率でかばう[Ⅲ] & 防御力UP[Ⅳ]",
+      "artId1": 690213203,
+      "art1": {
+        "artId": 690213203,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROTECT",
+        "targetId": "ONE",
+        "growPoint": 0,
+        "probability": 200
+      },
+      "artId2": 390201204,
+      "art2": {
+        "artId": 390201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1017,
+      "eventArtId1": 101704,
+      "eventArt1": {
+        "artId": 101704,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_BRANCH_1017_PART_1"
+      },
+      "eventArtId2": 101708,
+      "eventArt2": {
+        "artId": 101708,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_BRANCH_1017_PART_2"
+      },
+      "eventDescription": "＆木の実(青)入手時＋7＆木の実(茶)入手時+7"
+    },
+    "description": "団地にある公園は、三人がいつも集まる場所＠学校帰りにおしゃべりしたり、時にはピクニックみたいなことも＠そういう時は、三人はゆっくりとした穏やかな時間を味わっている＠暖かい光を浴びながら、れいらが持ってきたお菓子を味わいつつ…",
+    "illustrator": "―",
+    "openDate": "2018/03/12 15:10:00"
   }
 ]
