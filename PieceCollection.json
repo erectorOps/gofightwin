@@ -9222,7 +9222,7 @@
     "pieceSkill": {
       "id": 117100,
       "groupId": 1085,
-      "name": "アタックアップ・アデプト[Ⅱ]",
+      "name": "アタック・アデプト[Ⅱ]",
       "shortDescription": "攻撃力UP[Ⅱ]",
       "artId1": 390201102,
       "art1": {
@@ -9239,7 +9239,7 @@
     "pieceSkill2": {
       "id": 117101,
       "groupId": 1085,
-      "name": "アタックアップ・アデプト[Ⅲ]",
+      "name": "アタック・アデプト[Ⅲ]",
       "shortDescription": "攻撃力UP[Ⅲ]",
       "artId1": 390201103,
       "art1": {
@@ -9942,7 +9942,7 @@
       "id": 118100,
       "groupId": 1175,
       "name": "カースチップ・アデプト[Ⅱ]",
-      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ]（クエストで獲得した宝箱、サポート装備分は適用されません）",
+      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ](クエストでのDROP分、サポート装備分は適用されません)",
       "artId1": 9096,
       "art1": {
         "artId": 9096,
@@ -9958,7 +9958,7 @@
       "id": 118101,
       "groupId": 1175,
       "name": "カースチップ・アデプト[Ⅱ]",
-      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ]（クエストで獲得した宝箱、サポート装備分は適用されません）",
+      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ](クエストでのDROP分、サポート装備分は適用されません)",
       "artId1": 9096,
       "art1": {
         "artId": 9096,
@@ -10640,5 +10640,203 @@
     "description": "団地にある公園は、三人がいつも集まる場所＠学校帰りにおしゃべりしたり、時にはピクニックみたいなことも＠そういう時は、三人はゆっくりとした穏やかな時間を味わっている＠暖かい光を浴びながら、れいらが持ってきたお菓子を味わいつつ…",
     "illustrator": "―",
     "openDate": "2018/03/12 15:10:00"
+  },
+  {
+    "pieceId": 1191,
+    "pieceType": "SKILL",
+    "pieceName": "夢は美術品の修復師",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3032",
+    "charaList": [
+      {
+        "charaId": 3032,
+        "name": "梢 麻友"
+      }
+    ],
+    "attack": 0,
+    "defense": 509,
+    "hp": 429,
+    "skillId": 119100,
+    "pieceSkill": {
+      "id": 119100,
+      "groupId": 1103,
+      "name": "チャーム",
+      "intervalTurn": 8,
+      "shortDescription": "必ず魅了(敵単/1T)",
+      "messageId": 72,
+      "artId1": 510004000,
+      "art1": {
+        "artId": 510004000,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CHARM",
+        "targetId": "TARGET",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 119101,
+    "pieceSkill2": {
+      "id": 119101,
+      "groupId": 1103,
+      "name": "チャーム",
+      "intervalTurn": 7,
+      "shortDescription": "必ず魅了(敵単/1T)",
+      "messageId": 72,
+      "artId1": 510004000,
+      "art1": {
+        "artId": 510004000,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CHARM",
+        "targetId": "TARGET",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "傷み霞んでしまった美術品を修復することは＠おぼろげな記憶を紐解くことに少しだけ似ている＠今はもういない父、ほとんど記憶にない父＠その背を追いながら少女は美術品の姿を取り戻していく",
+    "illustrator": "mepo",
+    "openDate": "2018/03/23 15:10:00"
+  },
+  {
+    "pieceId": 1192,
+    "pieceType": "ABILITY",
+    "pieceName": "真剣な顔だって出来ますよ？",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 802,
+    "defense": 0,
+    "hp": 802,
+    "skillId": 119200,
+    "pieceSkill": {
+      "id": 119200,
+      "groupId": 1129,
+      "name": "マナガイザー・アデプト[Ⅳ]",
+      "shortDescription": "HP自動回復[Ⅳ] & マギアダメージUP[Ⅲ]",
+      "messageId": 70,
+      "artId1": 690207704,
+      "art1": {
+        "artId": 690207704,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 390201403,
+      "art2": {
+        "artId": 390201403,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 119201,
+    "pieceSkill2": {
+      "id": 119201,
+      "groupId": 1129,
+      "name": "マナガイザー・アデプト[Ⅴ]",
+      "shortDescription": "HP自動回復[Ⅴ] & マギアダメージUP[Ⅳ]",
+      "messageId": 70,
+      "artId1": 690207705,
+      "art1": {
+        "artId": 690207705,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 60,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 390201404,
+      "art2": {
+        "artId": 390201404,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「普段は、莉愛ちゃんに『ほわほわしてる』とか＠『そんなんだから、変な男に付け込まれるのよ！』＠なんて言われる私だけれど、美術に向き合っているときだけは＠莉愛ちゃんもびっくりするほど真剣な顔なのだそうです」",
+    "illustrator": "植田亮",
+    "openDate": "2018/03/23 15:10:00"
+  },
+  {
+    "pieceId": 1193,
+    "pieceType": "SKILL",
+    "pieceName": "美術館でアルバイト",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 633,
+    "hp": 573,
+    "skillId": 119300,
+    "pieceSkill": {
+      "id": 119300,
+      "groupId": 1090,
+      "name": "アストラルライズ[Ⅳ] ",
+      "intervalTurn": 7,
+      "shortDescription": "Accele MPUP[Ⅳ] ＆ マギアダメージUP[Ⅲ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201604,
+      "art1": {
+        "artId": 330201604,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 175,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201403,
+      "art2": {
+        "artId": 330201403,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 119301,
+    "pieceSkill2": {
+      "id": 119301,
+      "groupId": 1090,
+      "name": "アストラルライズ[Ⅴ] ",
+      "intervalTurn": 6,
+      "shortDescription": "Accele MPUP[Ⅴ] ＆ マギアダメージUP[Ⅳ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201605,
+      "art1": {
+        "artId": 330201605,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201404,
+      "art2": {
+        "artId": 330201404,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "「…といった由来がある貴重な作品です。…ふぅ、噛まずに言えました」＠美術品に関わりたくて始めた美術館のアルバイト＠慣れないことも失敗してしまうこともあるけれど＠夢に近づくため、少女は与えられた仕事を今日も頑張る！",
+    "illustrator": "植田亮",
+    "openDate": "2018/03/23 15:10:00"
   }
 ]
