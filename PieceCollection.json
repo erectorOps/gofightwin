@@ -9943,9 +9943,9 @@
       "groupId": 1175,
       "name": "カースチップ・アデプト[Ⅱ]",
       "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ](クエストでのDROP分、サポート装備分は適用されません)",
-      "artId1": 9096,
+      "artId1": 700215902,
       "art1": {
-        "artId": 9096,
+        "artId": 700215902,
         "verbCode": "OTHER",
         "effectCode": "GOLD_UP",
         "targetId": "SELF",
@@ -9959,9 +9959,9 @@
       "groupId": 1175,
       "name": "カースチップ・アデプト[Ⅱ]",
       "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ](クエストでのDROP分、サポート装備分は適用されません)",
-      "artId1": 9096,
+      "artId1": 700215902,
       "art1": {
-        "artId": 9096,
+        "artId": 700215902,
         "verbCode": "OTHER",
         "effectCode": "GOLD_UP",
         "targetId": "SELF",
@@ -10838,5 +10838,284 @@
     "description": "「…といった由来がある貴重な作品です。…ふぅ、噛まずに言えました」＠美術品に関わりたくて始めた美術館のアルバイト＠慣れないことも失敗してしまうこともあるけれど＠夢に近づくため、少女は与えられた仕事を今日も頑張る！",
     "illustrator": "植田亮",
     "openDate": "2018/03/23 15:10:00"
+  },
+  {
+    "pieceId": 1194,
+    "pieceType": "ABILITY",
+    "pieceName": "幸せな音",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3020",
+    "charaList": [
+      {
+        "charaId": 3020,
+        "name": "眞尾 ひみか"
+      }
+    ],
+    "attack": 447,
+    "defense": 0,
+    "hp": 487,
+    "skillId": 119400,
+    "pieceSkill": {
+      "id": 119400,
+      "groupId": 1175,
+      "name": "カースチップ・アデプト[Ⅰ]",
+      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
+      "artId1": 700215901,
+      "art1": {
+        "artId": 700215901,
+        "verbCode": "OTHER",
+        "effectCode": "GOLD_UP",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 0
+      }
+    },
+    "skillId2": 119401,
+    "pieceSkill2": {
+      "id": 119401,
+      "groupId": 1175,
+      "name": "カースチップ・アデプト[Ⅱ]",
+      "shortDescription": "カースチップ(CC)の獲得量UP[Ⅱ](クエストでのDROP分、サポート装備分は適用されません)",
+      "artId1": 700215902,
+      "art1": {
+        "artId": 700215902,
+        "verbCode": "OTHER",
+        "effectCode": "GOLD_UP",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 0
+      }
+    },
+    "description": "チャリン…これは１円の音…チャリン…これは50円の音…＠チャリン…これは10円の音…チャリン…これは５円の音…＠チャリン…これは１円の音…チャリン…こ、これは…ご、500円の音!!＠ひみかには分かる。その些細な違いが",
+    "illustrator": "秘鷺悠弥",
+    "openDate": "2018/04/02 15:10:00"
+  },
+  {
+    "pieceId": 1195,
+    "pieceType": "ABILITY",
+    "pieceName": "眞尾家は今日もにぎやか",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 576,
+    "defense": 0,
+    "hp": 636,
+    "skillId": 119500,
+    "pieceSkill": {
+      "id": 119500,
+      "groupId": 1086,
+      "name": "ソリッド・アデプト[Ⅲ]",
+      "shortDescription": "防御力UP[Ⅲ] ＆ 状態異常耐性UP[Ⅱ]",
+      "artId1": 390201203,
+      "art1": {
+        "artId": 390201203,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201502,
+      "art2": {
+        "artId": 390201502,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 119501,
+    "pieceSkill2": {
+      "id": 119501,
+      "groupId": 1086,
+      "name": "ソリッド・アデプト[Ⅳ]",
+      "shortDescription": "防御力UP[Ⅳ] ＆ 状態異常耐性UP[Ⅲ]",
+      "artId1": 390201204,
+      "art1": {
+        "artId": 390201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201503,
+      "art2": {
+        "artId": 390201503,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「わぁい！いっちばーん!!いっただきまーす！」＠「あー！ずるい!!あたしだってお腹すいてるのに！」＠「はいはい、ケンカしない！すぐ焼けるから順番にねー」＠（先に食ったとか言えねぇ…）",
+    "illustrator": "PAPA",
+    "openDate": "2018/04/02 15:10:00"
+  },
+  {
+    "pieceId": 1196,
+    "pieceType": "ABILITY",
+    "pieceName": "スターライトパワー！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 724,
+    "defense": 0,
+    "hp": 884,
+    "skillId": 119600,
+    "pieceSkill": {
+      "id": 119600,
+      "groupId": 1121,
+      "name": "スターライトパワー！",
+      "shortDescription": "確率でクリティカル[Ⅲ]＆Charge後ダメージUP[Ⅲ]",
+      "artId1": 690206303,
+      "art1": {
+        "artId": 690206303,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "growPoint": 0,
+        "probability": 200
+      },
+      "artId2": 390201703,
+      "art2": {
+        "artId": 390201703,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1021,
+      "eventArtId1": 102101,
+      "eventArt1": {
+        "artId": 102101,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1021_KEY"
+      },
+      "eventDescription": "＆お悩みメール入手時＋3"
+    },
+    "skillId2": 119601,
+    "pieceSkill2": {
+      "id": 119601,
+      "groupId": 1121,
+      "name": "スターライトパワー！",
+      "shortDescription": "確率でクリティカル[Ⅳ]＆Charge後ダメージUP[Ⅳ]",
+      "artId1": 690206304,
+      "art1": {
+        "artId": 690206304,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "growPoint": 0,
+        "probability": 250
+      },
+      "artId2": 390201704,
+      "art2": {
+        "artId": 390201704,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1021,
+      "eventArtId1": 102102,
+      "eventArt1": {
+        "artId": 102102,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_DAILYTOWER_1021_KEY"
+      },
+      "eventDescription": "＆お悩みメール入手時＋7"
+    },
+    "description": "「宇宙に散らばる星々たち、わたしに力を貸して！（ピカーーーン！）＠キタキタキター！ゾディアックのひとつを担う蟹座の力が天上に！＠どんなものをも挟む勇気の化身！（ズシャーーーン！）＠まど…………キャンサーーーーーー！」",
+    "illustrator": "PAPA",
+    "openDate": "2018/04/02 15:10:00"
+  },
+  {
+    "pieceId": 1197,
+    "pieceType": "SKILL",
+    "pieceName": "天音姉妹の三女月練でござる",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 544,
+    "hp": 659,
+    "skillId": 119700,
+    "pieceSkill": {
+      "id": 119700,
+      "groupId": 1111,
+      "name": "天音姉妹の三女月練でござる",
+      "intervalTurn": 7,
+      "shortDescription": "確率で幻惑[8](敵単/1T)",
+      "messageId": 72,
+      "artId1": 9287,
+      "art1": {
+        "artId": 9287,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "BLINDNESS",
+        "targetId": "TARGET",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 80
+      },
+      "eventId": 1021,
+      "eventArtId1": 102103,
+      "eventArt1": {
+        "artId": 102103,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_DAILYTOWER_1021_KEY"
+      },
+      "eventDescription": "＆お悩みメール入手時＋1"
+    },
+    "skillId2": 119701,
+    "pieceSkill2": {
+      "id": 119701,
+      "groupId": 1111,
+      "name": "天音姉妹の三女月練でござる",
+      "intervalTurn": 6,
+      "shortDescription": "確率で幻惑[88](敵単/1T)",
+      "messageId": 72,
+      "artId1": 9288,
+      "art1": {
+        "artId": 9288,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "BLINDNESS",
+        "targetId": "TARGET",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 160
+      },
+      "eventId": 1021,
+      "eventArtId1": 102104,
+      "eventArt1": {
+        "artId": 102104,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1021_KEY"
+      },
+      "eventDescription": "＆お悩みメール入手時＋3"
+    },
+    "description": "「フェリシア…？知らねぇ…じゃなくて知らないでござる！＠オ…あたしは月練！月夜姉ちゃんと月咲姉ちゃんの妹でござる！＠姉妹の絆、篠笛には練り物がべったり！つくねだけに！でござる！＠ござるって付けとけばキャラ付けになるでござる！」",
+    "illustrator": "PAPA",
+    "openDate": "2018/04/02 15:10:00"
   }
 ]
