@@ -4978,7 +4978,6 @@
       "groupId": 1154,
       "name": "ジャミング・エッジ[Ⅱ]",
       "shortDescription": "攻撃時に確率でスキル不可(3T)を付与[Ⅱ]",
-      "messageId": 70,
       "artId1": 690211202,
       "art1": {
         "artId": 690211202,
@@ -4996,7 +4995,6 @@
       "groupId": 1154,
       "name": "ジャミング・エッジ[Ⅲ]",
       "shortDescription": "攻撃時に確率でスキル不可(3T)を付与[Ⅲ]",
-      "messageId": 70,
       "artId1": 690211203,
       "art1": {
         "artId": 690211203,
@@ -5554,7 +5552,6 @@
       "groupId": 1149,
       "name": "バーン・エッジ[Ⅲ]",
       "shortDescription": "攻撃時に確率でやけど(2T)を付与[Ⅲ]",
-      "messageId": 70,
       "artId1": 690210203,
       "art1": {
         "artId": 690210203,
@@ -5573,7 +5570,6 @@
       "groupId": 1149,
       "name": "バーン・エッジ[Ⅳ]",
       "shortDescription": "攻撃時に確率でやけど(2T)を付与[Ⅳ]",
-      "messageId": 70,
       "artId1": 690210204,
       "art1": {
         "artId": 690210204,
@@ -5821,7 +5817,6 @@
       "groupId": 1124,
       "name": "パリィ・アデプト[Ⅱ]",
       "shortDescription": "確率で回避[Ⅱ]",
-      "messageId": 70,
       "artId1": 690206802,
       "art1": {
         "artId": 690206802,
@@ -5838,7 +5833,6 @@
       "groupId": 1124,
       "name": "パリィ・アデプト[Ⅲ]",
       "shortDescription": "確率で回避[Ⅲ]",
-      "messageId": 70,
       "artId1": 690206803,
       "art1": {
         "artId": 690206803,
@@ -5977,7 +5971,6 @@
       "groupId": 1129,
       "name": "マナガイザー・アデプト[Ⅳ]",
       "shortDescription": "HP自動回復[Ⅳ] & マギアダメージUP[Ⅲ]",
-      "messageId": 70,
       "artId1": 690207704,
       "art1": {
         "artId": 690207704,
@@ -6023,7 +6016,6 @@
       "groupId": 1129,
       "name": "マナガイザー・アデプト[Ⅴ]",
       "shortDescription": "HP自動回復[Ⅴ] & マギアダメージUP[Ⅳ]",
-      "messageId": 70,
       "artId1": 690207705,
       "art1": {
         "artId": 690207705,
@@ -6171,7 +6163,6 @@
       "groupId": 1121,
       "name": "エスペランサ―・アデプト[Ⅲ]",
       "shortDescription": "確率でクリティカル[Ⅲ] & 攻撃力UP[Ⅲ] ",
-      "messageId": 70,
       "artId1": 690206303,
       "art1": {
         "artId": 690206303,
@@ -6209,7 +6200,6 @@
       "groupId": 1121,
       "name": "エスペランサ―・アデプト[Ⅳ]",
       "shortDescription": "確率でクリティカル[Ⅳ] & 攻撃力UP[Ⅳ]",
-      "messageId": 70,
       "artId1": 690206304,
       "art1": {
         "artId": 690206304,
@@ -10714,7 +10704,6 @@
       "groupId": 1129,
       "name": "マナガイザー・アデプト[Ⅳ]",
       "shortDescription": "HP自動回復[Ⅳ] & マギアダメージUP[Ⅲ]",
-      "messageId": 70,
       "artId1": 690207704,
       "art1": {
         "artId": 690207704,
@@ -10742,7 +10731,6 @@
       "groupId": 1129,
       "name": "マナガイザー・アデプト[Ⅴ]",
       "shortDescription": "HP自動回復[Ⅴ] & マギアダメージUP[Ⅳ]",
-      "messageId": 70,
       "artId1": 690207705,
       "art1": {
         "artId": 690207705,
@@ -11117,5 +11105,157 @@
     "description": "「フェリシア…？知らねぇ…じゃなくて知らないでござる！＠オ…あたしは月練！月夜姉ちゃんと月咲姉ちゃんの妹でござる！＠姉妹の絆、篠笛には練り物がべったり！つくねだけに！でござる！＠ござるって付けとけばキャラ付けになるでござる！」",
     "illustrator": "PAPA",
     "openDate": "2018/04/02 15:10:00"
+  },
+  {
+    "pieceId": 1198,
+    "pieceType": "ABILITY",
+    "pieceName": "暗闇の証明",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "1017",
+    "charaList": [
+      {
+        "charaId": 1017,
+        "name": "八雲 みたま"
+      }
+    ],
+    "attack": 406,
+    "defense": 0,
+    "hp": 406,
+    "skillId": 119800,
+    "pieceSkill": {
+      "id": 119800,
+      "groupId": 1130,
+      "name": "ファスト・マナアップ",
+      "shortDescription": "自分のMPが15%溜まった状態でバトル開始",
+      "artId1": 790213600,
+      "art1": {
+        "artId": 790213600,
+        "verbCode": "INITIAL",
+        "effectCode": "MP",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 119801,
+    "pieceSkill2": {
+      "id": 119801,
+      "groupId": 1130,
+      "name": "ファスト・マナアップ",
+      "shortDescription": "自分のMPが15%溜まった状態でバトル開始",
+      "artId1": 790213600,
+      "art1": {
+        "artId": 790213600,
+        "verbCode": "INITIAL",
+        "effectCode": "MP",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "目に映る桜のひとひらは、とても眩しくて、自分を誇らしくしてくれた＠目に映る桜のひとひらは、１年の戦いが始まる合図になった＠目に映る桜のひとひらは、裏切りの象徴となった＠節目に変わる個人の証明は、1年かけて暗闇へ誘う切符でしかなかった",
+    "illustrator": "mepo",
+    "openDate": "2018/04/13 15:10:00"
+  },
+  {
+    "pieceId": 1199,
+    "pieceType": "ABILITY",
+    "pieceName": "雫の旅の目的地は!?",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 543,
+    "defense": 0,
+    "hp": 663,
+    "skillId": 119900,
+    "pieceSkill": {
+      "id": 119900,
+      "groupId": 1145,
+      "name": "チャーム・エッジ[Ⅰ]",
+      "shortDescription": "攻撃時に確率で魅了(1T)を付与[Ⅰ]",
+      "artId1": 690209401,
+      "art1": {
+        "artId": 690209401,
+        "verbCode": "ENCHANT",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 100
+      }
+    },
+    "skillId2": 119901,
+    "pieceSkill2": {
+      "id": 119901,
+      "groupId": 1145,
+      "name": "チャーム・エッジ[Ⅱ]",
+      "shortDescription": "攻撃時に確率で魅了(1T)を付与[Ⅱ]",
+      "artId1": 690209402,
+      "art1": {
+        "artId": 690209402,
+        "verbCode": "ENCHANT",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 150
+      }
+    },
+    "description": "あやか「きまったーッ!!今回ダーツが当ったのは、なななんとぉッ！」＠みたま「恐山ねぇ～。ここが雫ちゃんの探し求めている場所かもっ」＠雫「あの…だいぶ前に行ってきたけど、ここも違う気がして…」＠あやか「さすが雫ちゃん！まるで沈めて３日目の地引き網だよ！」",
+    "illustrator": "赤井てら",
+    "openDate": "2018/04/13 15:10:00"
+  },
+  {
+    "pieceId": 1200,
+    "pieceType": "SKILL",
+    "pieceName": "生まれながらのわたしは…",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 766,
+    "hp": 846,
+    "skillId": 120000,
+    "pieceSkill": {
+      "id": 120000,
+      "groupId": 1101,
+      "name": "ブラストブレイク[Ⅸ]",
+      "intervalTurn": 6,
+      "shortDescription": "Blast ダメージDOWN[Ⅸ](敵単/3T)",
+      "messageId": 72,
+      "artId1": 430002709,
+      "art1": {
+        "artId": 430002709,
+        "verbCode": "DEBUFF",
+        "effectCode": "BLAST",
+        "targetId": "TARGET",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 120001,
+    "pieceSkill2": {
+      "id": 120001,
+      "groupId": 1101,
+      "name": "ブラストブレイク[Ⅹ]",
+      "intervalTurn": 5,
+      "shortDescription": "Blast ダメージDOWN[Ⅹ](敵単/3T)",
+      "messageId": 72,
+      "artId1": 430002710,
+      "art1": {
+        "artId": 430002710,
+        "verbCode": "DEBUFF",
+        "effectCode": "BLAST",
+        "targetId": "TARGET",
+        "effectValue": 275,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "何をしても戦えず…誰かに頼ることでしか生きられず…＠願いが叶ったかどうかも分からぬまま…朽ちようとしていた…＠その耳に囁きかけるのは、救いの言葉か呪いの言葉か…＠「八雲みたま、アナタもまた那由多の呪いを願った魔法少女だね」",
+    "illustrator": "ちょこ庵",
+    "openDate": "2018/04/13 15:10:00"
   }
 ]
