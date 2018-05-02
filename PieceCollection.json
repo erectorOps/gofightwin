@@ -5379,7 +5379,7 @@
     "skillId2": 110901,
     "pieceSkill2": {
       "id": 110901,
-      "groupId": 1170,
+      "groupId": 0,
       "name": "カバーリング・アデプト[Ⅱ]",
       "shortDescription": "確率で味方をかばう[Ⅱ]",
       "artId1": 100305,
@@ -11257,5 +11257,707 @@
     "description": "何をしても戦えず…誰かに頼ることでしか生きられず…＠願いが叶ったかどうかも分からぬまま…朽ちようとしていた…＠その耳に囁きかけるのは、救いの言葉か呪いの言葉か…＠「八雲みたま、アナタもまた那由多の呪いを願った魔法少女だね」",
     "illustrator": "ちょこ庵",
     "openDate": "2018/04/13 15:10:00"
+  },
+  {
+    "pieceId": 1201,
+    "pieceType": "ABILITY",
+    "pieceName": "砕けてなお美しく",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3010",
+    "charaList": [
+      {
+        "charaId": 3010,
+        "name": "阿見 莉愛"
+      }
+    ],
+    "attack": 420,
+    "defense": 0,
+    "hp": 500,
+    "skillId": 120100,
+    "pieceSkill": {
+      "id": 120100,
+      "groupId": 1136,
+      "name": "アンチ・ファサネイト[Ⅷ]",
+      "shortDescription": "魅了無効 ＆ 確率で幻惑無効[Ⅷ]",
+      "artId1": 690208300,
+      "art1": {
+        "artId": 690208300,
+        "verbCode": "IGNORE",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 9096,
+      "art2": {
+        "artId": 9096,
+        "verbCode": "IGNORE",
+        "effectCode": "BLINDNESS",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 600
+      }
+    },
+    "skillId2": 120101,
+    "pieceSkill2": {
+      "id": 120101,
+      "groupId": 1136,
+      "name": "アンチ・ファサネイト",
+      "shortDescription": "魅了無効 ＆ 幻惑無効",
+      "artId1": 690208300,
+      "art1": {
+        "artId": 690208300,
+        "verbCode": "IGNORE",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690209100,
+      "art2": {
+        "artId": 690209100,
+        "verbCode": "IGNORE",
+        "effectCode": "BLINDNESS",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "届かない…どうしても届かない！＠どんなに努力を重ねても一番に届かなかった少女はもういない＠叩き割られた鏡に映るのは、絶世の美少女…＠砕けた鏡の中でさえ褪せない美しさを持った少女だ",
+    "illustrator": "飯田志穂",
+    "openDate": "2018/04/23 15:10:00"
+  },
+  {
+    "pieceId": 1202,
+    "pieceType": "SKILL",
+    "pieceName": "全ての視線は私のもの",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 663,
+    "hp": 543,
+    "skillId": 120200,
+    "pieceSkill": {
+      "id": 120200,
+      "groupId": 1103,
+      "name": "チャーム・アイズ[Ⅱ]",
+      "intervalTurn": 7,
+      "shortDescription": "確率で魅了[Ⅱ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510303902,
+      "art1": {
+        "artId": 510303902,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CHARM",
+        "targetId": "ALL",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 325
+      }
+    },
+    "skillId2": 120201,
+    "pieceSkill2": {
+      "id": 120201,
+      "groupId": 1103,
+      "name": "チャーム・アイズ[Ⅲ]",
+      "intervalTurn": 5,
+      "shortDescription": "確率で魅了[Ⅲ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510303903,
+      "art1": {
+        "artId": 510303903,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CHARM",
+        "targetId": "ALL",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 350
+      }
+    },
+    "description": "集まった人々がみつめるのはただひとり＠この美貌に歓声を、この気高さに喝采を＠舞い踊る光さえ弾いて輝くのはこの私！＠超絶美少女・阿見莉愛様ただひとり!!",
+    "illustrator": "ー",
+    "openDate": "2018/04/23 15:10:00"
+  },
+  {
+    "pieceId": 1203,
+    "pieceType": "ABILITY",
+    "pieceName": "竜真流師範代",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 722,
+    "defense": 0,
+    "hp": 882,
+    "skillId": 120300,
+    "pieceSkill": {
+      "id": 120300,
+      "groupId": 1125,
+      "name": "反撃攻勢[Ⅳ]",
+      "shortDescription": "確率でカウンター[Ⅳ] ＆ 確率で挑発[Ⅴ]",
+      "artId1": 690207004,
+      "art1": {
+        "artId": 690207004,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "growPoint": 0,
+        "probability": 250
+      },
+      "artId2": 690207505,
+      "art2": {
+        "artId": 690207505,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROVOKE",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 300
+      }
+    },
+    "skillId2": 120301,
+    "pieceSkill2": {
+      "id": 120301,
+      "groupId": 1125,
+      "name": "反撃攻勢[Ⅴ]",
+      "shortDescription": "確率でカウンター[Ⅴ] ＆ 確率で挑発[Ⅵ]",
+      "artId1": 690207005,
+      "art1": {
+        "artId": 690207005,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "growPoint": 0,
+        "probability": 300
+      },
+      "artId2": 690207506,
+      "art2": {
+        "artId": 690207506,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROVOKE",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 350
+      }
+    },
+    "description": "「伝統ある“竜真流”の師範代であるからには＠道場を守り、盛り上げていくことがつとめであり＠力あるものとして悪を討ち正義を成すことも私の使命＠悪行は許しません!!」",
+    "illustrator": "谷口淳一郎",
+    "openDate": "2018/04/23 15:10:00"
+  },
+  {
+    "pieceId": 1204,
+    "pieceType": "SKILL",
+    "pieceName": "おまじない",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4031",
+    "charaList": [
+      {
+        "charaId": 4031,
+        "name": "天乃 鈴音"
+      }
+    ],
+    "attack": 0,
+    "defense": 507,
+    "hp": 427,
+    "skillId": 120400,
+    "pieceSkill": {
+      "id": 120400,
+      "groupId": 1121,
+      "name": "クリティカル・ストライク",
+      "intervalTurn": 6,
+      "shortDescription": "必ずクリティカル(自/1T)",
+      "messageId": 70,
+      "artId1": 610206400,
+      "art1": {
+        "artId": 610206400,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 120401,
+    "pieceSkill2": {
+      "id": 120401,
+      "groupId": 1121,
+      "name": "クリティカル・ストライク",
+      "intervalTurn": 5,
+      "shortDescription": "必ずクリティカル(自/1T)",
+      "messageId": 70,
+      "artId1": 610206400,
+      "art1": {
+        "artId": 610206400,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "名前を書いてこのお守りにしまっておく＠そうすると、ずっと忘れずに一緒にいられる…＠あの人が教えてくれたおまじないを、私は今でもやっている＠それは、あの人を忘れないためでもあるから…",
+    "illustrator": "ma-sa",
+    "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1205,
+    "pieceType": "SKILL",
+    "pieceName": "負けない力を求めて",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4033",
+    "charaList": [
+      {
+        "charaId": 4033,
+        "name": "成見 亜里紗"
+      }
+    ],
+    "attack": 0,
+    "defense": 441,
+    "hp": 482,
+    "skillId": 120500,
+    "pieceSkill": {
+      "id": 120500,
+      "groupId": 1085,
+      "name": "ブルームライズ[Ⅳ]",
+      "intervalTurn": 6,
+      "shortDescription": "攻撃力UP[Ⅳ] ＆ 防御力UP[Ⅲ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201104,
+      "art1": {
+        "artId": 330201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201203,
+      "art2": {
+        "artId": 330201203,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 120501,
+    "pieceSkill2": {
+      "id": 120501,
+      "groupId": 1085,
+      "name": "ブルームライズ[Ⅴ]",
+      "intervalTurn": 5,
+      "shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅳ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201105,
+      "art1": {
+        "artId": 330201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201204,
+      "art2": {
+        "artId": 330201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "強い者が勝つ、弱い者は負ける…これは世の中のルールだ＠アタシは弱かったから、いつでも負ける側だった＠だから力が欲しかった…誰にも屈しない力が！＠やがて私が、ゲームオーバーになる前に…",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1206,
+    "pieceType": "ABILITY",
+    "pieceName": "魔女と狼と村人",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4034",
+    "charaList": [
+      {
+        "charaId": 4034,
+        "name": "詩音 千里"
+      }
+    ],
+    "attack": 480,
+    "defense": 0,
+    "hp": 440,
+    "skillId": 120600,
+    "pieceSkill": {
+      "id": 120600,
+      "groupId": 1154,
+      "name": "ジャマー・エッジ[Ⅴ]",
+      "shortDescription": "攻撃時に確率でスキル不可(1T)を付与[Ⅴ]",
+      "artId1": 691211205,
+      "art1": {
+        "artId": 691211205,
+        "verbCode": "ENCHANT",
+        "effectCode": "BAN_SKILL",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 300
+      }
+    },
+    "skillId2": 120601,
+    "pieceSkill2": {
+      "id": 120601,
+      "groupId": 1154,
+      "name": "ジャマー・エッジ[Ⅵ]",
+      "shortDescription": "攻撃時に確率でスキル不可(1T)を付与[Ⅵ]",
+      "artId1": 691211206,
+      "art1": {
+        "artId": 691211206,
+        "verbCode": "ENCHANT",
+        "effectCode": "BAN_SKILL",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 350
+      }
+    },
+    "description": "ある村を人に化けた狼が襲った時、心の優しい魔女が現れた＠魔女は村の窮地を救うが、村人たちは保身からこの魔女を追放する＠善意が悪意を駆逐するが、新たな悪意によって善意が駆逐された＠この魔女はいずこかで同じことをするのか、それとも…",
+    "illustrator": "mepo",
+    "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1207,
+    "pieceType": "ABILITY",
+    "pieceName": "アリサが掴んだ手",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 764,
+    "defense": 0,
+    "hp": 844,
+    "skillId": 120700,
+    "pieceSkill": {
+      "id": 120700,
+      "groupId": 1085,
+      "name": "アリサが掴んだ手",
+      "shortDescription": "攻撃力UP[Ⅴ]&防御力UP[Ⅴ]&『CROSS CONNECTION』最終ボスに…",
+      "artId1": 390201105,
+      "art1": {
+        "artId": 390201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201205,
+      "art2": {
+        "artId": 390201205,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 375,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 1023005,
+      "art3": {
+        "artId": 1023005,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_ATK",
+        "effectValue": 30000,
+        "parameter": 5023721
+      },
+      "artId4": 1023006,
+      "art4": {
+        "artId": 1023006,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_DEF",
+        "effectValue": 30000,
+        "parameter": 5023721
+      }
+    },
+    "skillId2": 120701,
+    "pieceSkill2": {
+      "id": 120701,
+      "groupId": 1085,
+      "name": "アリサが掴んだ手",
+      "shortDescription": "攻撃力UP[Ⅴ]&防御力UP[Ⅴ]&『CROSS CONNECTION』最終ボスに…",
+      "artId1": 390201105,
+      "art1": {
+        "artId": 390201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201205,
+      "art2": {
+        "artId": 390201205,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 375,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 1023005,
+      "art3": {
+        "artId": 1023005,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_ATK",
+        "effectValue": 30000,
+        "parameter": 5023721
+      },
+      "artId4": 1023006,
+      "art4": {
+        "artId": 1023006,
+        "verbCode": "OTHER",
+        "effectCode": "QUESTBATTLE_DEF",
+        "effectValue": 30000,
+        "parameter": 5023721
+      }
+    },
+    "description": "“願い”によって力を手に入れて、その力に酔いしれた＠周りを見渡すといつの間にか誰もいなくて、やっぱりひとりぼっち…＠何も変わらないと思っていた日々を救ってくれたのは＠手を差し伸べてくれたこの人だった…",
+    "illustrator": "GAN",
+    "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1208,
+    "pieceType": "SKILL",
+    "pieceName": "チサトが掴んだ手",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 573,
+    "hp": 633,
+    "skillId": 120800,
+    "pieceSkill": {
+      "id": 120800,
+      "groupId": 1135,
+      "name": "リジェクト・カウンター",
+      "intervalTurn": 8,
+      "shortDescription": "カウンター無効 & 攻撃力UP[Ⅴ](自/3T)",
+      "messageId": 70,
+      "artId1": 630208200,
+      "art1": {
+        "artId": 630208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 330201105,
+      "art2": {
+        "artId": 330201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 120801,
+    "pieceSkill2": {
+      "id": 120801,
+      "groupId": 1135,
+      "name": "リジェクト・カウンター",
+      "intervalTurn": 7,
+      "shortDescription": "カウンター無効 & 攻撃力UP[Ⅵ](自/3T)",
+      "messageId": 70,
+      "artId1": 630208200,
+      "art1": {
+        "artId": 630208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 330201106,
+      "art2": {
+        "artId": 330201106,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "“願い”によって壊れてしまった父さんを理想の父さんに変えた＠でもそれは、絵本作家の夢を父さんから奪うことでもあった＠人知れずその罪悪感で苦しんでいた私の心を軽くしてくれたのは＠手を繋ぐことができたこの人だった…",
+    "illustrator": "GAN",
+    "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1209,
+    "pieceType": "ABILITY",
+    "pieceName": "光と闇の狭間で振るう剣",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 766,
+    "defense": 0,
+    "hp": 846,
+    "skillId": 120900,
+    "pieceSkill": {
+      "id": 120900,
+      "groupId": 1085,
+      "name": "フルゲージオーバードライブ[Ⅳ]",
+      "shortDescription": "HP最大時攻撃力UP[Ⅳ] & 攻撃力UP[Ⅲ]",
+      "artId1": 390203104,
+      "art1": {
+        "artId": 390203104,
+        "verbCode": "BUFF_HPMAX",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201103,
+      "art2": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1023,
+      "eventArtId1": 1023001,
+      "eventArt1": {
+        "artId": 1023001,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_SINGLERAID_1023_EXCHANGE_1"
+      },
+      "eventDescription": "＆「すずねメダル」入手時＋3"
+    },
+    "skillId2": 120901,
+    "pieceSkill2": {
+      "id": 120901,
+      "groupId": 1085,
+      "name": "フルゲージオーバードライブ[Ⅴ]",
+      "shortDescription": "HP最大時攻撃力UP[Ⅴ] & 攻撃力UP[Ⅳ]",
+      "artId1": 390203105,
+      "art1": {
+        "artId": 390203105,
+        "verbCode": "BUFF_HPMAX",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201104,
+      "art2": {
+        "artId": 390201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1023,
+      "eventArtId1": 1023002,
+      "eventArt1": {
+        "artId": 1023002,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_SINGLERAID_1023_EXCHANGE_1"
+      },
+      "eventDescription": "＆「すずねメダル」入手時＋7"
+    },
+    "description": "少女の足下に見える夜の神浜市には、煌びやかな灯りが彩を加えている＠光と闇の交錯…それは人と人ではない者たちとの交錯のようだった＠少女は手に持つ刃をもって、常なるこの交錯を断とうとしている＠たとえ誰にも理解されることはなくても、彼女がそう決めたから…",
+    "illustrator": "ー",
+    "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1210,
+    "pieceType": "ABILITY",
+    "pieceName": "結局最後は…",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 603,
+    "defense": 0,
+    "hp": 603,
+    "skillId": 121000,
+    "pieceSkill": {
+      "id": 121000,
+      "groupId": 1091,
+      "name": "チャージ・アデプト[Ⅱ]",
+      "shortDescription": "Charge後ダメージUP[Ⅱ]",
+      "artId1": 390201702,
+      "art1": {
+        "artId": 390201702,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1023,
+      "eventArtId1": 1023003,
+      "eventArt1": {
+        "artId": 1023003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_SINGLERAID_1023_EXCHANGE_1"
+      },
+      "eventDescription": "＆「すずねメダル」入手時＋1"
+    },
+    "skillId2": 121001,
+    "pieceSkill2": {
+      "id": 121001,
+      "groupId": 1091,
+      "name": "チャージ・アデプト[Ⅲ]",
+      "shortDescription": "Charge後ダメージUP[Ⅲ]",
+      "artId1": 390201703,
+      "art1": {
+        "artId": 390201703,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1023,
+      "eventArtId1": 1023004,
+      "eventArt1": {
+        "artId": 1023004,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_SINGLERAID_1023_EXCHANGE_1"
+      },
+      "eventDescription": "＆「すずねメダル」入手時＋3"
+    },
+    "description": "「やっば！超美味しい！やっぱり買って正解でしょ！」＠「あのねアリサ…どーして我慢できないの!?」＠「いーじゃん、食べたかったから！…で、チサトは食べないの？」＠「…え？…それは…ん～…まぁ…一口だけもらっていい？」",
+    "illustrator": "ー",
+    "openDate": "2018/05/01 15:10:00"
   }
 ]
