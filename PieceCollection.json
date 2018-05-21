@@ -5379,7 +5379,7 @@
     "skillId2": 110901,
     "pieceSkill2": {
       "id": 110901,
-      "groupId": 0,
+      "groupId": 1170,
       "name": "カバーリング・アデプト[Ⅱ]",
       "shortDescription": "確率で味方をかばう[Ⅱ]",
       "artId1": 100305,
@@ -11648,27 +11648,25 @@
     "skillId": 120700,
     "pieceSkill": {
       "id": 120700,
-      "groupId": 1085,
+      "groupId": 1138,
       "name": "アリサが掴んだ手",
-      "shortDescription": "攻撃力UP[Ⅴ]&防御力UP[Ⅴ]&『CROSS CONNECTION』最終ボスに…",
-      "artId1": 390201105,
+      "shortDescription": "拘束無効 & スタン無効 &『CROSS CONNECTION』最終ボスに…",
+      "artId1": 690208500,
       "art1": {
-        "artId": 390201105,
-        "verbCode": "BUFF",
-        "effectCode": "ATTACK",
+        "artId": 690208500,
+        "verbCode": "IGNORE",
+        "effectCode": "RESTRAINT",
         "targetId": "SELF",
-        "effectValue": 250,
-        "growPoint": 25,
+        "growPoint": 0,
         "probability": 1000
       },
-      "artId2": 390201205,
+      "artId2": 690208400,
       "art2": {
-        "artId": 390201205,
-        "verbCode": "BUFF",
-        "effectCode": "DEFENSE",
+        "artId": 690208400,
+        "verbCode": "IGNORE",
+        "effectCode": "STUN",
         "targetId": "SELF",
-        "effectValue": 375,
-        "growPoint": 25,
+        "growPoint": 0,
         "probability": 1000
       },
       "artId3": 1023005,
@@ -11691,27 +11689,25 @@
     "skillId2": 120701,
     "pieceSkill2": {
       "id": 120701,
-      "groupId": 1085,
+      "groupId": 1138,
       "name": "アリサが掴んだ手",
-      "shortDescription": "攻撃力UP[Ⅴ]&防御力UP[Ⅴ]&『CROSS CONNECTION』最終ボスに…",
-      "artId1": 390201105,
+      "shortDescription": "拘束無効 & スタン無効 &『CROSS CONNECTION』最終ボスに…",
+      "artId1": 690208500,
       "art1": {
-        "artId": 390201105,
-        "verbCode": "BUFF",
-        "effectCode": "ATTACK",
+        "artId": 690208500,
+        "verbCode": "IGNORE",
+        "effectCode": "RESTRAINT",
         "targetId": "SELF",
-        "effectValue": 250,
-        "growPoint": 25,
+        "growPoint": 0,
         "probability": 1000
       },
-      "artId2": 390201205,
+      "artId2": 690208400,
       "art2": {
-        "artId": 390201205,
-        "verbCode": "BUFF",
-        "effectCode": "DEFENSE",
+        "artId": 690208400,
+        "verbCode": "IGNORE",
+        "effectCode": "STUN",
         "targetId": "SELF",
-        "effectValue": 375,
-        "growPoint": 25,
+        "growPoint": 0,
         "probability": 1000
       },
       "artId3": 1023005,
@@ -11959,5 +11955,341 @@
     "description": "「やっば！超美味しい！やっぱり買って正解でしょ！」＠「あのねアリサ…どーして我慢できないの!?」＠「いーじゃん、食べたかったから！…で、チサトは食べないの？」＠「…え？…それは…ん～…まぁ…一口だけもらっていい？」",
     "illustrator": "ー",
     "openDate": "2018/05/01 15:10:00"
+  },
+  {
+    "pieceId": 1212,
+    "pieceType": "SKILL",
+    "pieceName": "占い禁止令",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3037",
+    "charaList": [
+      {
+        "charaId": 3037,
+        "name": "安名 メル"
+      }
+    ],
+    "attack": 0,
+    "defense": 510,
+    "hp": 430,
+    "skillId": 121200,
+    "pieceSkill": {
+      "id": 121200,
+      "groupId": 1098,
+      "name": "クウェル・レジスト[Ⅱ]",
+      "intervalTurn": 6,
+      "shortDescription": "状態異常耐性DOWN[Ⅱ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302402,
+      "art1": {
+        "artId": 410302402,
+        "verbCode": "DEBUFF",
+        "effectCode": "RESIST",
+        "targetId": "ALL",
+        "effectValue": 75,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 121201,
+    "pieceSkill2": {
+      "id": 121201,
+      "groupId": 1098,
+      "name": "クウェル・レジスト[Ⅲ]",
+      "intervalTurn": 5,
+      "shortDescription": "状態異常耐性DOWN[Ⅲ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302403,
+      "art1": {
+        "artId": 410302403,
+        "verbCode": "DEBUFF",
+        "effectCode": "RESIST",
+        "targetId": "ALL",
+        "effectValue": 100,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "「ボクの生きがいは占い！ボクが魔法少女になったのだって！＠だからボクにとって占いはボク自身で、ボクのアイデンティティー！＠それなのに、それなのにどうして禁止になんてするんですか！＠っていうのも、今となっては良い思い出ですねっ！」",
+    "illustrator": "mepo",
+    "openDate": "2018/05/21 15:10:00"
+  },
+  {
+    "pieceId": 1213,
+    "pieceType": "SKILL",
+    "pieceName": "代わりに話してくれるもの",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3049",
+    "charaList": [
+      {
+        "charaId": 3049,
+        "name": "雪野 かなえ"
+      }
+    ],
+    "attack": 0,
+    "defense": 430,
+    "hp": 510,
+    "skillId": 121300,
+    "pieceSkill": {
+      "id": 121300,
+      "groupId": 1082,
+      "name": "リフレッシュ",
+      "intervalTurn": 4,
+      "shortDescription": "デバフ解除 & 状態異常解除(自)",
+      "messageId": 70,
+      "artId1": 200200800,
+      "art1": {
+        "artId": 200200800,
+        "verbCode": "REVOKE",
+        "effectCode": "DEBUFF",
+        "targetId": "SELF",
+        "growPoint": 0
+      },
+      "artId2": 200201000,
+      "art2": {
+        "artId": 200201000,
+        "verbCode": "REVOKE",
+        "effectCode": "BAD",
+        "targetId": "SELF",
+        "growPoint": 0
+      }
+    },
+    "skillId2": 121301,
+    "pieceSkill2": {
+      "id": 121301,
+      "groupId": 1082,
+      "name": "リフレッシュ",
+      "intervalTurn": 2,
+      "shortDescription": "デバフ解除 & 状態異常解除(自)",
+      "messageId": 70,
+      "artId1": 200200800,
+      "art1": {
+        "artId": 200200800,
+        "verbCode": "REVOKE",
+        "effectCode": "DEBUFF",
+        "targetId": "SELF",
+        "growPoint": 0
+      },
+      "artId2": 200201000,
+      "art2": {
+        "artId": 200201000,
+        "verbCode": "REVOKE",
+        "effectCode": "BAD",
+        "targetId": "SELF",
+        "growPoint": 0
+      }
+    },
+    "description": "「…………」＠静かに見据える先にあるものは、自分が変わった証＠１音、１音、指で弾いて音を空気に滑らせていくと、＠張り詰めていた心の弦も緩んで、気持ち良く音を立てている気がする",
+    "illustrator": "ma-sa",
+    "openDate": "2018/05/21 15:10:00"
+  },
+  {
+    "pieceId": 1214,
+    "pieceType": "SKILL",
+    "pieceName": "朝は運命の瞬間",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 878,
+    "hp": 721,
+    "skillId": 121400,
+    "pieceSkill": {
+      "id": 121400,
+      "groupId": 1097,
+      "name": "マギアダウン[Ⅹ]",
+      "intervalTurn": 7,
+      "shortDescription": "マギアダメージDOWN[Ⅹ](敵単/1T)",
+      "messageId": 72,
+      "artId1": 410002310,
+      "art1": {
+        "artId": 410002310,
+        "verbCode": "DEBUFF",
+        "effectCode": "MAGIA",
+        "targetId": "TARGET",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "eventId": 1025,
+      "eventArtId1": 1025001,
+      "eventArt1": {
+        "artId": 1025001,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 5000,
+        "genericValue": "EVENT_DAILYTOWER_1025_EXCHANGE_1"
+      },
+      "eventDescription": "＆「幽霊免許」入手時＋5"
+    },
+    "skillId2": 121401,
+    "pieceSkill2": {
+      "id": 121401,
+      "groupId": 1097,
+      "name": "マギアダウン[Ⅹ]",
+      "intervalTurn": 6,
+      "shortDescription": "マギアダメージDOWN[Ⅹ](敵単/1T)",
+      "messageId": 72,
+      "artId1": 410002310,
+      "art1": {
+        "artId": 410002310,
+        "verbCode": "DEBUFF",
+        "effectCode": "MAGIA",
+        "targetId": "TARGET",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "eventId": 1025,
+      "eventArtId1": 1025001,
+      "eventArt1": {
+        "artId": 1025001,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 5000,
+        "genericValue": "EVENT_DAILYTOWER_1025_EXCHANGE_1"
+      },
+      "eventDescription": "＆「幽霊免許」入手時＋5"
+    },
+    "description": "テーブルに置かれた５枚のカードは、その日を決める運命のカード＠開いたらもう最後、天国か地獄かは揺るがない結果として示される＠それでも彼女は止まらない、止まることができるはずもない＠なぜなら、安名メルは、占うために生まれた少女だから",
+    "openDate": "2018/05/21 15:10:00"
+  },
+  {
+    "pieceId": 1215,
+    "pieceType": "SKILL",
+    "pieceName": "穏やかな風",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 724,
+    "hp": 884,
+    "skillId": 121500,
+    "pieceSkill": {
+      "id": 121500,
+      "groupId": 1089,
+      "name": "レジストライズ[Ⅴ]",
+      "intervalTurn": 6,
+      "shortDescription": "状態異常耐性UP[Ⅴ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201505,
+      "art1": {
+        "artId": 330201505,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "eventId": 1025,
+      "eventArtId1": 1025002,
+      "eventArt1": {
+        "artId": 1025002,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 5000,
+        "genericValue": "EVENT_DAILYTOWER_1025_EXCHANGE_1"
+      },
+      "eventDescription": "＆「幽霊免許」入手時＋5"
+    },
+    "skillId2": 121501,
+    "pieceSkill2": {
+      "id": 121501,
+      "groupId": 1089,
+      "name": "レジストライズ[Ⅶ]",
+      "intervalTurn": 5,
+      "shortDescription": "状態異常耐性UP[Ⅶ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201507,
+      "art1": {
+        "artId": 330201507,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 500,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "eventId": 1025,
+      "eventArtId1": 1025003,
+      "eventArt1": {
+        "artId": 1025003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 10000,
+        "genericValue": "EVENT_DAILYTOWER_1025_EXCHANGE_1"
+      },
+      "eventDescription": "＆「幽霊免許」入手時＋10"
+    },
+    "description": "静かになった教室に飛びこんでくる風が、心地良く髪を撫でる＠黄昏は夜の喧騒や、魔女と争う茨への誘いではなくなったらしい＠証明している…この穏やかな心が証明しているから…＠だから振り払ってみせよう、どれだけ過去が追いかけてきても…",
+    "illustrator": "NOCO",
+    "openDate": "2018/05/21 15:10:00"
+  },
+  {
+    "pieceId": 1216,
+    "pieceType": "ABILITY",
+    "pieceName": "今は二人で見守って",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 574,
+    "defense": 0,
+    "hp": 634,
+    "skillId": 121600,
+    "pieceSkill": {
+      "id": 121600,
+      "groupId": 1086,
+      "name": "クライシスガード[Ⅱ]",
+      "shortDescription": "瀕死時防御力UP[Ⅱ] ＆ 防御力UP[Ⅱ]",
+      "artId1": 390203002,
+      "art1": {
+        "artId": 390203002,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201202,
+      "art2": {
+        "artId": 390201202,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 121601,
+    "pieceSkill2": {
+      "id": 121601,
+      "groupId": 1086,
+      "name": "クライシスガード[Ⅲ]",
+      "shortDescription": "瀕死時防御力UP[Ⅲ] ＆ 防御力UP[Ⅱ]",
+      "artId1": 390203003,
+      "art1": {
+        "artId": 390203003,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201202,
+      "art2": {
+        "artId": 390201202,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "（私が夢で見たふたり。一緒に居るはずがないのに、＠どうして並んで見えたのかしら…。分からないけど、なんだか＠しっくりと来るような気がする。かなえって余り主張しないから、＠メルに引っ張り回されるのが、目に浮かぶみたいだわ）",
+    "illustrator": "リン☆ユウ",
+    "openDate": "2018/05/21 15:10:00"
   }
 ]
