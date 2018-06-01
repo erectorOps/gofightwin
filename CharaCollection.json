@@ -9714,6 +9714,822 @@
     ]
   },
   {
+    "charaId": 1103,
+    "chara": {
+      "id": 1103,
+      "name": "ウワサの鶴乃",
+      "kana": "うわさの つるの",
+      "attributeId": "FIRE",
+      "attackType": 1,
+      "initialType": "ATTACK",
+      "growthType": "DEFHP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 11033,
+      "defaultCard": {
+        "cardId": 11033,
+        "rank": "RANK_3",
+        "attributeId": "FIRE",
+        "initialType": "ATTACK",
+        "growthType": "DEFHP",
+        "attack": 1588,
+        "defense": 1267,
+        "hp": 3936,
+        "miniCharaNo": 110300,
+        "charaNo": 1103,
+        "cardName": "ウワサの鶴乃"
+      },
+      "evolutionCardId1": 11034,
+      "evolutionCard1": {
+        "cardId": 11034,
+        "rank": "RANK_4",
+        "attributeId": "FIRE",
+        "initialType": "ATTACK",
+        "growthType": "DEFHP",
+        "attack": 1956,
+        "defense": 1556,
+        "hp": 4832,
+        "miniCharaNo": 110300,
+        "charaNo": 1103,
+        "cardName": "ウワサの鶴乃"
+      },
+      "evolutionCardId2": 11035,
+      "evolutionCard2": {
+        "cardId": 11035,
+        "rank": "RANK_5",
+        "attributeId": "FIRE",
+        "initialType": "ATTACK",
+        "growthType": "DEFHP",
+        "attack": 2168,
+        "defense": 1724,
+        "hp": 5352,
+        "miniCharaNo": 110301,
+        "charaNo": 1103,
+        "cardName": "ウワサの鶴乃"
+      },
+      "doppelCharaNo": 110300,
+      "doppel": {
+        "id": 110300,
+        "name": "団欒のドッペル",
+        "title": "その姿は、金華",
+        "description": "アラもう聞いた？誰から聞いた？＠団欒のドッペルのそのウワサ＠身内の欲望をたくさん叶える、ぷくぷく育ったおブタちゃん＠絢爛豪華なピカピカボディーは、身内の団欒を守り続ける、お金持ちのシンボルだ！＠けれど、この子の主さんは、あんまりこの子を気に入らず、プンスカポンの不満足＠見られるのは恥ずかしいって隠してるのは、神浜の中ではもっぱらのウワサ！＠ミチャイヤーン！",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "openDate": "2018/06/01 15:10:00"
+      },
+      "firstMagiaGiftId1": 211,
+      "firstMagiaGiftNum1": 4,
+      "firstMagiaGiftId2": 302,
+      "firstMagiaGiftNum2": 4,
+      "firstMagiaGiftId3": 212,
+      "firstMagiaGiftNum3": 2,
+      "firstMagiaGiftId4": 407,
+      "firstMagiaGiftNum4": 2,
+      "secondMagiaGiftId1": 211,
+      "secondMagiaGiftNum1": 6,
+      "secondMagiaGiftId2": 308,
+      "secondMagiaGiftNum2": 6,
+      "secondMagiaGiftId3": 212,
+      "secondMagiaGiftNum3": 4,
+      "secondMagiaGiftId4": 405,
+      "secondMagiaGiftNum4": 4,
+      "secondMagiaGiftId5": 213,
+      "secondMagiaGiftNum5": 2,
+      "secondMagiaGiftId6": 554,
+      "secondMagiaGiftNum6": 2,
+      "thirdMagiaGiftId1": 211,
+      "thirdMagiaGiftNum1": 8,
+      "thirdMagiaGiftId2": 303,
+      "thirdMagiaGiftNum2": 8,
+      "thirdMagiaGiftId3": 212,
+      "thirdMagiaGiftNum3": 6,
+      "thirdMagiaGiftId4": 406,
+      "thirdMagiaGiftNum4": 6,
+      "thirdMagiaGiftId5": 213,
+      "thirdMagiaGiftNum5": 4,
+      "thirdMagiaGiftId6": 506,
+      "thirdMagiaGiftNum6": 4,
+      "fourthMagiaGiftId1": 211,
+      "fourthMagiaGiftNum1": 10,
+      "fourthMagiaGiftId2": 302,
+      "fourthMagiaGiftNum2": 10,
+      "fourthMagiaGiftId3": 212,
+      "fourthMagiaGiftNum3": 8,
+      "fourthMagiaGiftId4": 405,
+      "fourthMagiaGiftNum4": 4,
+      "fourthMagiaGiftId5": 213,
+      "fourthMagiaGiftNum5": 6,
+      "fourthMagiaGiftId6": 507,
+      "fourthMagiaGiftNum6": 6,
+      "firstMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 407,
+        "name": "マスコットのタテガミ",
+        "rank": 2
+      },
+      "secondMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 554,
+        "name": "屋上のバルーン",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 506,
+        "name": "キュレーターのフード",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "fourthMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 507,
+        "name": "ビッグフェリスのタービン",
+        "rank": 3
+      },
+      "description": "キレーションランドのウワサ（キレートマスコット）と一体化した魔法少女。のんびりダラーっと楽しく過ごして、悩みを全て吹き飛ばせる遊園地を守ろうとしている。フードコートのメニューの発案では、他のウワサを驚かせた。",
+      "school": "神浜市立大附属学校",
+      "designer": "蒼樹うめ",
+      "voiceActor": "夏川椎菜",
+      "openDate": "2018/06/01 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 1103,
+          "messageId": 6,
+          "message": "キレーションランドにようこそー"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 7,
+          "message": "もう、みかづき荘には帰らなくてもいいかな"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 8,
+          "message": "お父さんには悪いけど…仕方無いよね…"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 9,
+          "message": "う～ん、メニューとグッズは何がいいかな…"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 10,
+          "message": "わたしとお揃いのたてがみ、欲しくない？"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 11,
+          "message": "ここなら頑張らなくてもね、幸せなんだよ"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 12,
+          "message": "よーっし、合体だーー！"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 43,
+          "message": "これでみんな退場したね！"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 44,
+          "message": "ただ、現状に身を委ねるだけだよー"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 45,
+          "message": "ほら、今からのんびりタイムだよ"
+        },
+        {
+          "charaNo": 1103,
+          "messageId": 46,
+          "message": "わたしの安心できる場所だから"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 11033,
+        "card": {
+          "cardId": 11033,
+          "charaNo": 1103,
+          "miniCharaNo": 110300,
+          "magiaCharaNo": 110300,
+          "cardName": "ウワサの鶴乃",
+          "rank": "RANK_3",
+          "attributeId": "FIRE",
+          "initialType": "ATTACK",
+          "growthType": "DEFHP",
+          "attack": 1588,
+          "defense": 1267,
+          "hp": 3936,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 11033,
+          "cardMagia": {
+            "id": 11033,
+            "groupId": 1014,
+            "name": "ウワサの炎扇斬舞",
+            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 攻撃力DOWN ＆ Accele MP DOWN(敵全/2T)",
+            "artId1": 100300103,
+            "art1": {
+              "artId": 100300103,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3200,
+              "growPoint": 100
+            },
+            "artId2": 420302002,
+            "art2": {
+              "artId": 420302002,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 100,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 9349,
+            "art3": {
+              "artId": 9349,
+              "verbCode": "DEBUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 2,
+              "growPoint": 0
+            }
+          },
+          "skillId": 11033,
+          "cardSkill": {
+            "id": 11033,
+            "groupId": 1085,
+            "name": "一緒にノンビリしよーよ",
+            "shortDescription": "攻撃力UP[Ⅳ]  & 確率で魅了",
+            "artId1": 310401104,
+            "art1": {
+              "artId": 310401104,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 275,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 9353,
+            "art2": {
+              "artId": 9353,
+              "verbCode": "ENCHANT",
+              "effectCode": "CHARM",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 500
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ー",
+          "cardCustomize": {
+            "cardId": 11033,
+            "giftId1": 113,
+            "gift1": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum1": 4,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 70,
+            "giftId2": 112,
+            "gift2": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 7,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 30,
+            "giftId3": 111,
+            "gift3": {
+              "id": 111,
+              "name": "フレイムオーブ",
+              "attributeId": "FIRE",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 500
+            },
+            "giftNum3": 9,
+            "bonusCode3": "HP",
+            "bonusNum3": 40,
+            "giftId4": 551,
+            "gift4": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum4": 2,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 50,
+            "giftId5": 501,
+            "gift5": {
+              "id": 501,
+              "name": "砂場のシャベル",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 3,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 50,
+            "giftId6": 407,
+            "gift6": {
+              "id": 407,
+              "name": "マスコットのタテガミ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000,
+              "openDate": "2018/05/14 15:10:00"
+            },
+            "giftNum6": 8,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 30
+          }
+        }
+      },
+      {
+        "cardId": 11034,
+        "card": {
+          "cardId": 11034,
+          "charaNo": 1103,
+          "miniCharaNo": 110300,
+          "magiaCharaNo": 110300,
+          "cardName": "ウワサの鶴乃",
+          "rank": "RANK_4",
+          "attributeId": "FIRE",
+          "initialType": "ATTACK",
+          "growthType": "DEFHP",
+          "attack": 1956,
+          "defense": 1556,
+          "hp": 4832,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 11034,
+          "cardMagia": {
+            "id": 11034,
+            "groupId": 1014,
+            "name": "ウワサの炎扇斬舞",
+            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 攻撃力DOWN ＆ Accele MP DOWN(敵全/2T)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 420302003,
+            "art2": {
+              "artId": 420302003,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 9350,
+            "art3": {
+              "artId": 9350,
+              "verbCode": "DEBUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 400,
+              "enableTurn": 2,
+              "growPoint": 0
+            }
+          },
+          "skillId": 11034,
+          "cardSkill": {
+            "id": 11034,
+            "groupId": 1085,
+            "name": "一緒にノンビリしよーよ",
+            "shortDescription": "攻撃力UP[Ⅵ]  & 確率で魅了",
+            "artId1": 310401106,
+            "art1": {
+              "artId": 310401106,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 325,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 9354,
+            "art2": {
+              "artId": 9354,
+              "verbCode": "ENCHANT",
+              "effectCode": "CHARM",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 650
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ぷにゃん",
+          "cardCustomize": {
+            "cardId": 11034,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 80,
+            "giftId2": 113,
+            "gift2": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 6,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 40,
+            "giftId3": 112,
+            "gift3": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum3": 12,
+            "bonusCode3": "HP",
+            "bonusNum3": 50,
+            "giftId4": 507,
+            "gift4": {
+              "id": 507,
+              "name": "ビッグフェリスのタービン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/05/21 15:10:00"
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 307,
+            "gift5": {
+              "id": 307,
+              "name": "子守の台座",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 401,
+            "gift6": {
+              "id": 401,
+              "name": "砂場の巻貝",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 11035,
+        "card": {
+          "cardId": 11035,
+          "charaNo": 1103,
+          "miniCharaNo": 110301,
+          "magiaCharaNo": 110300,
+          "cardName": "ウワサの鶴乃",
+          "rank": "RANK_5",
+          "attributeId": "FIRE",
+          "initialType": "ATTACK",
+          "growthType": "DEFHP",
+          "attack": 2168,
+          "defense": 1724,
+          "hp": 5352,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 11035,
+          "cardMagia": {
+            "id": 11035,
+            "groupId": 1014,
+            "name": "ウワサの炎扇斬舞",
+            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 攻撃力DOWN ＆ Accele MP DOWN(敵全/2T) & 必ず回避(自/1T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 420302004,
+            "art2": {
+              "artId": 420302004,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 9351,
+            "art3": {
+              "artId": 9351,
+              "verbCode": "DEBUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 500,
+              "enableTurn": 2,
+              "growPoint": 0
+            },
+            "artId4": 610206900,
+            "art4": {
+              "artId": 610206900,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "SELF",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "doppelMagiaId": 11038,
+          "doppelCardMagia": {
+            "id": 11038,
+            "groupId": 1014,
+            "name": "団欒のドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 攻撃力DOWN ＆ MP獲得量DOWN(敵全/2T) & 必ず回避(自/1T)",
+            "artId1": 190110381,
+            "art1": {
+              "artId": 190110381,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 420302006,
+            "art2": {
+              "artId": 420302006,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 9352,
+            "art3": {
+              "artId": 9352,
+              "verbCode": "DEBUFF",
+              "effectCode": "MP_GAIN",
+              "targetId": "ALL",
+              "effectValue": 800,
+              "enableTurn": 2,
+              "growPoint": 0
+            },
+            "artId4": 610206900,
+            "art4": {
+              "artId": 610206900,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "SELF",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 11035,
+          "cardSkill": {
+            "id": 11035,
+            "groupId": 1085,
+            "name": "一緒にノンビリしよーよ",
+            "shortDescription": "攻撃力UP[Ⅷ]  & 確率で魅了",
+            "artId1": 310401108,
+            "art1": {
+              "artId": 310401108,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 375,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 9355,
+            "art2": {
+              "artId": 9355,
+              "verbCode": "ENCHANT",
+              "effectCode": "CHARM",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 800
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_V",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ササギコウシ",
+          "cardCustomize": {
+            "cardId": 11035,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 90,
+            "giftId2": 113,
+            "gift2": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 112,
+            "gift3": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum3": 15,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 552,
+            "gift4": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 502,
+            "gift5": {
+              "id": 502,
+              "name": "階段のモニュメント",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 407,
+            "gift6": {
+              "id": 407,
+              "name": "マスコットのタテガミ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000,
+              "openDate": "2018/05/14 15:10:00"
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          }
+        }
+      }
+    ]
+  },
+  {
     "charaId": 2001,
     "chara": {
       "id": 2001,

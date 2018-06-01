@@ -12152,6 +12152,7 @@
       "eventDescription": "＆「幽霊免許」入手時＋5"
     },
     "description": "テーブルに置かれた５枚のカードは、その日を決める運命のカード＠開いたらもう最後、天国か地獄かは揺るがない結果として示される＠それでも彼女は止まらない、止まることができるはずもない＠なぜなら、安名メルは、占うために生まれた少女だから",
+    "illustrator": "ー",
     "openDate": "2018/05/21 15:10:00"
   },
   {
@@ -12291,5 +12292,217 @@
     "description": "（私が夢で見たふたり。一緒に居るはずがないのに、＠どうして並んで見えたのかしら…。分からないけど、なんだか＠しっくりと来るような気がする。かなえって余り主張しないから、＠メルに引っ張り回されるのが、目に浮かぶみたいだわ）",
     "illustrator": "リン☆ユウ",
     "openDate": "2018/05/21 15:10:00"
+  },
+  {
+    "pieceId": 1217,
+    "pieceType": "ABILITY",
+    "pieceName": "ノンビリの象徴",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "1103",
+    "charaList": [
+      {
+        "charaId": 1103,
+        "name": "ウワサの鶴乃"
+      }
+    ],
+    "attack": 421,
+    "defense": 0,
+    "hp": 501,
+    "skillId": 121700,
+    "pieceSkill": {
+      "id": 121700,
+      "groupId": 1090,
+      "name": "アストラル・アデプト[Ⅲ] ",
+      "shortDescription": "Accele MPUP[Ⅲ] ＆ マギアダメージUP[Ⅱ]",
+      "artId1": 390201603,
+      "art1": {
+        "artId": 390201603,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201402,
+      "art2": {
+        "artId": 390201402,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 121701,
+    "pieceSkill2": {
+      "id": 121701,
+      "groupId": 1090,
+      "name": "アストラル・アデプト[Ⅳ] ",
+      "shortDescription": "Accele MPUP[Ⅳ] ＆ マギアダメージUP[Ⅲ]",
+      "artId1": 390201604,
+      "art1": {
+        "artId": 390201604,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 175,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201403,
+      "art2": {
+        "artId": 390201403,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "うわさの中の遊園地、その中には定番名物メニューがある＠クツクツと煮えたアツアツの素材をホフホフしながらみんなで食べると＠どれだけイヤーな感情も、湯気と一緒にフワッと飛んでいく＠だけど、どうして鍋なのか？それは管理人にも分からないらしい",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/06/01 15:10:00"
+  },
+  {
+    "pieceId": 1218,
+    "pieceType": "SKILL",
+    "pieceName": "フューーージョン!!",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 726,
+    "hp": 886,
+    "skillId": 121800,
+    "pieceSkill": {
+      "id": 121800,
+      "groupId": 1092,
+      "name": "フルバースト[Ⅴ]",
+      "intervalTurn": 5,
+      "shortDescription": "Blast ダメージUP[Ⅴ] & Accele MPUP[Ⅴ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201805,
+      "art1": {
+        "artId": 310201805,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201605,
+      "art2": {
+        "artId": 310201605,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 121801,
+    "pieceSkill2": {
+      "id": 121801,
+      "groupId": 1092,
+      "name": "フルバースト[Ⅵ]",
+      "intervalTurn": 4,
+      "shortDescription": "Blast ダメージUP[Ⅵ] & Accele MPUP[Ⅵ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201806,
+      "art1": {
+        "artId": 310201806,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201606,
+      "art2": {
+        "artId": 310201606,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "この時の彼女には後悔はなかった＠かつて住んでいた家にも、かつて通っていた仲間たちの所も＠あるのはただ、新たな憩いの地を盛り上げること＠迷いはなかった、一切合切において…",
+    "illustrator": "ー",
+    "openDate": "2018/06/01 15:10:00"
+  },
+  {
+    "pieceId": 1219,
+    "pieceType": "ABILITY",
+    "pieceName": "想い、通い合わずに…",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 662,
+    "defense": 0,
+    "hp": 542,
+    "skillId": 121900,
+    "pieceSkill": {
+      "id": 121900,
+      "groupId": 1119,
+      "name": "アーマメント・アデプト[Ⅱ]",
+      "shortDescription": "ダメージアップ状態[Ⅱ] ＆ ダメージカット状態[Ⅱ]",
+      "artId1": 690206102,
+      "art1": {
+        "artId": 690206102,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690206202,
+      "art2": {
+        "artId": 690206202,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 121901,
+    "pieceSkill2": {
+      "id": 121901,
+      "groupId": 1119,
+      "name": "アーマメント・アデプト[Ⅲ]",
+      "shortDescription": "ダメージアップ状態[Ⅲ] ＆ ダメージカット状態[Ⅲ]",
+      "artId1": 690206103,
+      "art1": {
+        "artId": 690206103,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690206203,
+      "art2": {
+        "artId": 690206203,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "最強と自称する少女…偉業を成すと誓う少女…＠前向きで、明るくて、温かくて、元気をくれる＠決してめげずに、雨にも、風にも、打ち勝つ力を持っている＠そう思っていた。だから許せない。自分が許せない",
+    "illustrator": "ぷにゃん",
+    "openDate": "2018/06/01 15:10:00"
   }
 ]
