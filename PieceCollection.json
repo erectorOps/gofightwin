@@ -11341,27 +11341,8 @@
     "pieceSkill": {
       "id": 120200,
       "groupId": 1103,
-      "name": "チャーム・アイズ[Ⅱ]",
-      "intervalTurn": 7,
-      "shortDescription": "確率で魅了[Ⅱ](敵全/1T)",
-      "messageId": 72,
-      "artId1": 510303902,
-      "art1": {
-        "artId": 510303902,
-        "verbCode": "CONDITION_BAD",
-        "effectCode": "CHARM",
-        "targetId": "ALL",
-        "enableTurn": 1,
-        "growPoint": 0,
-        "probability": 325
-      }
-    },
-    "skillId2": 120201,
-    "pieceSkill2": {
-      "id": 120201,
-      "groupId": 1103,
       "name": "チャーム・アイズ[Ⅲ]",
-      "intervalTurn": 5,
+      "intervalTurn": 7,
       "shortDescription": "確率で魅了[Ⅲ](敵全/1T)",
       "messageId": 72,
       "artId1": 510303903,
@@ -11373,6 +11354,25 @@
         "enableTurn": 1,
         "growPoint": 0,
         "probability": 350
+      }
+    },
+    "skillId2": 120201,
+    "pieceSkill2": {
+      "id": 120201,
+      "groupId": 1103,
+      "name": "チャーム・アイズ[Ⅳ]",
+      "intervalTurn": 5,
+      "shortDescription": "確率で魅了[Ⅳ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510303904,
+      "art1": {
+        "artId": 510303904,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CHARM",
+        "targetId": "ALL",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 375
       }
     },
     "description": "集まった人々がみつめるのはただひとり＠この美貌に歓声を、この気高さに喝采を＠舞い踊る光さえ弾いて輝くのはこの私！＠超絶美少女・阿見莉愛様ただひとり!!",
@@ -12504,5 +12504,277 @@
     "description": "最強と自称する少女…偉業を成すと誓う少女…＠前向きで、明るくて、温かくて、元気をくれる＠決してめげずに、雨にも、風にも、打ち勝つ力を持っている＠そう思っていた。だから許せない。自分が許せない",
     "illustrator": "ぷにゃん",
     "openDate": "2018/06/01 15:10:00"
+  },
+  {
+    "pieceId": 1220,
+    "pieceType": "SKILL",
+    "pieceName": "交される遺志",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "1006",
+    "charaList": [
+      {
+        "charaId": 1006,
+        "name": "梓 みふゆ"
+      }
+    ],
+    "attack": 0,
+    "defense": 501,
+    "hp": 420,
+    "skillId": 122000,
+    "pieceSkill": {
+      "id": 122000,
+      "groupId": 1169,
+      "name": "ディスクシャッフル",
+      "intervalTurn": 8,
+      "shortDescription": "再度Discを引く",
+      "messageId": 70,
+      "artId1": 700212100,
+      "art1": {
+        "artId": 700212100,
+        "verbCode": "DRAW",
+        "effectCode": "AGAIN",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 122001,
+    "pieceSkill2": {
+      "id": 122001,
+      "groupId": 1169,
+      "name": "ディスクシャッフル",
+      "intervalTurn": 7,
+      "shortDescription": "再度Discを引く",
+      "messageId": 70,
+      "artId1": 700212100,
+      "art1": {
+        "artId": 700212100,
+        "verbCode": "DRAW",
+        "effectCode": "AGAIN",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "吹けば消えるような命…自分に課せられた宿命に気付いたとき＠心を委ねられる相手がいることに安らぎを感じた＠１枚１枚に綴られた気持ちは、その証＠今の本音、誰にも伝えていないこの遺志を、あなたに託します",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/06/08 15:10:00"
+  },
+  {
+    "pieceId": 1221,
+    "pieceType": "ABILITY",
+    "pieceName": "自責に包まれて",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 841,
+    "defense": 0,
+    "hp": 760,
+    "skillId": 122100,
+    "pieceSkill": {
+      "id": 122100,
+      "groupId": 1183,
+      "name": "メディエイト・アデプト[Ⅱ]",
+      "shortDescription": "スキル不可無効 & Accele MPUP[Ⅱ]",
+      "artId1": 690209200,
+      "art1": {
+        "artId": 690209200,
+        "verbCode": "IGNORE",
+        "effectCode": "BAN_SKILL",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 390201602,
+      "art2": {
+        "artId": 390201602,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 122101,
+    "pieceSkill2": {
+      "id": 122101,
+      "groupId": 1183,
+      "name": "メディエイト・アデプト[Ⅲ]",
+      "shortDescription": "スキル不可無効 & Accele MPUP[Ⅲ]",
+      "artId1": 690209200,
+      "art1": {
+        "artId": 690209200,
+        "verbCode": "IGNORE",
+        "effectCode": "BAN_SKILL",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 390201603,
+      "art2": {
+        "artId": 390201603,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「諦めていた普通の女の子として生きる夢＠だけど一瞬でも見てしまった、普通の女性として生きたい未来＠それだけで崩れてしまった、積み重ねた覚悟は、容易く崩れてしまった＠脆いワタシが重ねた罪は、どうやって購うべきでしょうか…」",
+    "illustrator": "谷口淳一郎",
+    "openDate": "2018/06/08 15:10:00"
+  },
+  {
+    "pieceId": 1222,
+    "pieceType": "SKILL",
+    "pieceName": "一翼を担う理由",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 571,
+    "hp": 630,
+    "skillId": 122200,
+    "pieceSkill": {
+      "id": 122200,
+      "groupId": 1111,
+      "name": "メズマライズ・ミラージュ[Ⅲ]",
+      "intervalTurn": 8,
+      "shortDescription": "確率で幻惑[Ⅲ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510305503,
+      "art1": {
+        "artId": 510305503,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "BLINDNESS",
+        "targetId": "ALL",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 350
+      }
+    },
+    "skillId2": 122201,
+    "pieceSkill2": {
+      "id": 122201,
+      "groupId": 1111,
+      "name": "メズマライズ・ミラージュ[Ⅳ]",
+      "intervalTurn": 6,
+      "shortDescription": "確率で幻惑[Ⅳ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510305504,
+      "art1": {
+        "artId": 510305504,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "BLINDNESS",
+        "targetId": "ALL",
+        "effectValue": 500,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 375
+      }
+    },
+    "description": "「夢を見ていた過去の自分はもう捨てましょう…＠今のワタシにできるのは、重ねた罪を購うこと＠それなら、ワタシは今、自分が出来うる事をして多くを救いたい…＠黒羽根のことも白羽根のことも、そしてやっちゃんのことも…」",
+    "illustrator": "ー",
+    "openDate": "2018/06/08 15:10:00"
+  },
+  {
+    "pieceId": 1223,
+    "pieceType": "ABILITY",
+    "pieceName": "東西の緊張",
+    "attributeId": "ALL",
+    "rank": "RANK_2",
+    "attack": 400,
+    "defense": 0,
+    "hp": 401,
+    "skillId": 122300,
+    "pieceSkill": {
+      "id": 122300,
+      "groupId": 1126,
+      "name": "チェイス・アデプト[Ⅱ]",
+      "shortDescription": "確率で追撃[Ⅱ]",
+      "artId1": 690207202,
+      "art1": {
+        "artId": 690207202,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PURSUE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "growPoint": 0,
+        "probability": 40
+      }
+    },
+    "skillId2": 122301,
+    "pieceSkill2": {
+      "id": 122301,
+      "groupId": 1126,
+      "name": "チェイス・アデプト[Ⅲ]",
+      "shortDescription": "確率で追撃[Ⅲ]",
+      "artId1": 690207203,
+      "art1": {
+        "artId": 690207203,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PURSUE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "growPoint": 0,
+        "probability": 50
+      }
+    },
+    "description": "「あの頃の神浜は、当時で６年間、戦ってきたワタシにとっても＠前代未聞の魔女の少なさでした。いたずらに被害を増やさないように＠東西で不可侵の協定を結んではいましたが、この時ばかりは＠さすがに空気が冷え切っていて嫌な汗をかいたものです…」",
+    "illustrator": "ー",
+    "openDate": "2018/06/08 15:10:00"
+  },
+  {
+    "pieceId": 1224,
+    "pieceType": "SKILL",
+    "pieceName": "東西の講和",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 841,
+    "hp": 760,
+    "skillId": 122400,
+    "pieceSkill": {
+      "id": 122400,
+      "groupId": 1134,
+      "name": "エイミング[Ⅵ]",
+      "intervalTurn": 5,
+      "shortDescription": "確率で回避無効[Ⅵ](自/1T)",
+      "messageId": 70,
+      "artId1": 610216206,
+      "art1": {
+        "artId": 610216206,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 500
+      }
+    },
+    "skillId2": 122401,
+    "pieceSkill2": {
+      "id": 122401,
+      "groupId": 1134,
+      "name": "エイミング",
+      "intervalTurn": 4,
+      "shortDescription": "回避無効(自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「どれだけ被害が出ないように努めていたとしても＠ワタシたち魔法少女にとって大切なのはグリーフシードです＠いくら手を結びあったとしても、我慢には限界があります＠この後も魔女の涸渇が続いていれば争いは酷くなっていたと思います」",
+    "illustrator": "ー",
+    "openDate": "2018/06/08 15:10:00"
   }
 ]

@@ -4008,6 +4008,642 @@
     ]
   },
   {
+    "charaId": 1006,
+    "chara": {
+      "id": 1006,
+      "name": "梓 みふゆ",
+      "kana": "あずさ みふゆ",
+      "attributeId": "DARK",
+      "attackType": 2,
+      "initialType": "SUPPORT",
+      "growthType": "ATKDEF",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 10064,
+      "defaultCard": {
+        "cardId": 10064,
+        "rank": "RANK_4",
+        "attributeId": "DARK",
+        "initialType": "SUPPORT",
+        "growthType": "ATKDEF",
+        "attack": 1724,
+        "defense": 1705,
+        "hp": 6102,
+        "miniCharaNo": 100600,
+        "charaNo": 1006,
+        "cardName": "梓 みふゆ"
+      },
+      "evolutionCardId1": 10065,
+      "evolutionCard1": {
+        "cardId": 10065,
+        "rank": "RANK_5",
+        "attributeId": "DARK",
+        "initialType": "SUPPORT",
+        "growthType": "ATKDEF",
+        "attack": 1954,
+        "defense": 1932,
+        "hp": 6915,
+        "miniCharaNo": 100600,
+        "charaNo": 1006,
+        "cardName": "梓 みふゆ"
+      },
+      "doppelCharaNo": 100600,
+      "doppel": {
+        "id": 100600,
+        "name": "生業のドッペル",
+        "title": "その姿は、鳥捕り",
+        "description": "この感情の主は現実を生きるため、この一体型ドッペルも含めたあらゆるちからを利用する。＠地面に落ちた自らの影から「白糖雁」と呼ばれる無数の鳥型手下を呼び出し相手を攻撃する。白糖雁はぶつかるだけで対象に甘味を認識させ、一度その味を知ってしまった者は中毒症状を引き起こす。その特性から少量を相手にぶつければ多少の嘘偽りなら許して貰える。舌と両腕がドッペルに変化するため、ドッペルを出している間は喋ることが出来ない。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "openDate": "2018/06/08 15:10:00"
+      },
+      "firstMagiaGiftId1": 251,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 305,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 252,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 403,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 253,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 505,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 251,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 308,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 252,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 406,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 253,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 553,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 251,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 303,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 252,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 405,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 253,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 503,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 251,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 308,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 252,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 406,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 253,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 555,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 505,
+        "name": "人工知能のコード",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 252,
+        "name": "ダークブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "fourthMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 555,
+        "name": "振子の重心",
+        "rank": 3
+      },
+      "description": "７年間、やちよのパートナーとして魔女と戦ってきたベテランの魔法少女。自身の魔力が衰えていることを実感してから、ひとりの女性としての幸福を得るために、マギウスの翼の幹部になった。優しいが心は弱く、判断を誤ることが間々ある。",
+      "school": "―",
+      "designer": "蒼樹うめ",
+      "voiceActor": "中原麻衣",
+      "openDate": "2018/06/08 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 1006,
+          "messageId": 6,
+          "message": "ワタシの罪はワタシが背負います"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 7,
+          "message": "ただ、普通の女性にワタシはなりたかった…"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 8,
+          "message": "ワタシの心も、やっちゃんの心も救います"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 9,
+          "message": "ん～ワタシ、お饅頭が食べたいなー"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 10,
+          "message": "やっちゃんの手紙は全て覚えていますよ"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 11,
+          "message": "どうですか？一緒にカフェで読書でも"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 12,
+          "message": "ベタ甘なドラマでもいいじゃないですか～"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 43,
+          "message": "みなさんが無事で良かったです"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 44,
+          "message": "昔なら、もう少し頑張れたんですが"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 45,
+          "message": "この勝利が自分の幻覚でないことを祈ります"
+        },
+        {
+          "charaNo": 1006,
+          "messageId": 46,
+          "message": "もう少し胸を張っていられそうですね"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 10064,
+        "card": {
+          "cardId": 10064,
+          "charaNo": 1006,
+          "miniCharaNo": 100600,
+          "magiaCharaNo": 100600,
+          "cardName": "梓 みふゆ",
+          "rank": "RANK_4",
+          "attributeId": "DARK",
+          "initialType": "SUPPORT",
+          "growthType": "ATKDEF",
+          "attack": 1724,
+          "defense": 1705,
+          "hp": 6102,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 10064,
+          "cardMagia": {
+            "id": 10064,
+            "groupId": 1014,
+            "name": "アサルトパラノイア",
+            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 確率で幻惑(敵全/1T) ＆ バフ解除(敵全)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 510305505,
+            "art2": {
+              "artId": 510305505,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "BLINDNESS",
+              "targetId": "ALL",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 400
+            },
+            "artId3": 200300700,
+            "art3": {
+              "artId": 200300700,
+              "verbCode": "REVOKE",
+              "effectCode": "BUFF",
+              "targetId": "ALL",
+              "growPoint": 0
+            }
+          },
+          "skillId": 10064,
+          "cardSkill": {
+            "id": 10064,
+            "groupId": 1090,
+            "name": "甘えたなんですから",
+            "shortDescription": "Accele MPUP[Ⅶ] & 必ず幻惑",
+            "artId1": 310401607,
+            "art1": {
+              "artId": 310401607,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610411100,
+            "art2": {
+              "artId": 610411100,
+              "verbCode": "ENCHANT",
+              "effectCode": "BLINDNESS",
+              "targetId": "CONNECT",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "MPUP",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "蒼樹うめ",
+          "cardCustomize": {
+            "cardId": 10064,
+            "giftId1": 152,
+            "gift1": {
+              "id": 152,
+              "name": "ダークオーブ＋",
+              "attributeId": "DARK",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 12,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 50,
+            "giftId2": 153,
+            "gift2": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 6,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 80,
+            "giftId4": 556,
+            "gift4": {
+              "id": 556,
+              "name": "子守の取っ手",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/05/07 16:00:00"
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 80,
+            "giftId5": 407,
+            "gift5": {
+              "id": 407,
+              "name": "マスコットのタテガミ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000,
+              "openDate": "2018/05/14 15:10:00"
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 40,
+            "giftId6": 304,
+            "gift6": {
+              "id": 304,
+              "name": "羊の角笛",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 10065,
+        "card": {
+          "cardId": 10065,
+          "charaNo": 1006,
+          "miniCharaNo": 100600,
+          "magiaCharaNo": 100600,
+          "cardName": "梓 みふゆ",
+          "rank": "RANK_5",
+          "attributeId": "DARK",
+          "initialType": "SUPPORT",
+          "growthType": "ATKDEF",
+          "attack": 1954,
+          "defense": 1932,
+          "hp": 6915,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 10065,
+          "cardMagia": {
+            "id": 10065,
+            "groupId": 1014,
+            "name": "アサルトパラノイア",
+            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 確率で幻惑(敵全/1T) ＆ バフ解除(敵全)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 510305511,
+            "art2": {
+              "artId": 510305511,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "BLINDNESS",
+              "targetId": "ALL",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 550
+            },
+            "artId3": 200300700,
+            "art3": {
+              "artId": 200300700,
+              "verbCode": "REVOKE",
+              "effectCode": "BUFF",
+              "targetId": "ALL",
+              "growPoint": 0
+            }
+          },
+          "doppelMagiaId": 10068,
+          "doppelCardMagia": {
+            "id": 10068,
+            "groupId": 1014,
+            "name": "生業のドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ず幻惑(敵全/2T) ＆ バフ解除(敵全)",
+            "artId1": 190100681,
+            "art1": {
+              "artId": 190100681,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 9356,
+            "art2": {
+              "artId": 9356,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "BLINDNESS",
+              "targetId": "ALL",
+              "effectValue": 500,
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 200300700,
+            "art3": {
+              "artId": 200300700,
+              "verbCode": "REVOKE",
+              "effectCode": "BUFF",
+              "targetId": "ALL",
+              "growPoint": 0
+            }
+          },
+          "skillId": 10065,
+          "cardSkill": {
+            "id": 10065,
+            "groupId": 1090,
+            "name": "甘えたなんですから",
+            "shortDescription": "Accele MPUP[Ⅸ] & 必ず幻惑",
+            "artId1": 310401609,
+            "art1": {
+              "artId": 310401609,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "CONNECT",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610411100,
+            "art2": {
+              "artId": 610411100,
+              "verbCode": "ENCHANT",
+              "effectCode": "BLINDNESS",
+              "targetId": "CONNECT",
+              "effectValue": 500,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "MPUP",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "蒼樹うめ",
+          "cardCustomize": {
+            "cardId": 10065,
+            "giftId1": 152,
+            "gift1": {
+              "id": 152,
+              "name": "ダークオーブ＋",
+              "attributeId": "DARK",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 153,
+            "gift2": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 90,
+            "giftId4": 501,
+            "gift4": {
+              "id": 501,
+              "name": "砂場のシャベル",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 90,
+            "giftId5": 507,
+            "gift5": {
+              "id": 507,
+              "name": "ビッグフェリスのタービン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/05/21 15:10:00"
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 50,
+            "giftId6": 307,
+            "gift6": {
+              "id": 307,
+              "name": "子守の台座",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          }
+        }
+      }
+    ]
+  },
+  {
     "charaId": 1008,
     "chara": {
       "id": 1008,
