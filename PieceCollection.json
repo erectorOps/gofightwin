@@ -12776,5 +12776,493 @@
     "description": "「どれだけ被害が出ないように努めていたとしても＠ワタシたち魔法少女にとって大切なのはグリーフシードです＠いくら手を結びあったとしても、我慢には限界があります＠この後も魔女の涸渇が続いていれば争いは酷くなっていたと思います」",
     "illustrator": "ー",
     "openDate": "2018/06/08 15:10:00"
+  },
+  {
+    "pieceId": 1225,
+    "pieceType": "ABILITY",
+    "pieceName": "お出かけは清楚な装いで",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 0,
+    "hp": 1600,
+    "skillId": 122500,
+    "pieceSkill": {
+      "id": 122500,
+      "groupId": 1129,
+      "name": "ニートネス・アデプト[Ⅰ]",
+      "shortDescription": "HP自動回復[Ⅰ] & 状態異常耐性UP[Ⅱ]",
+      "artId1": 690207701,
+      "art1": {
+        "artId": 690207701,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 20,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 390201502,
+      "art2": {
+        "artId": 390201502,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 122501,
+    "pieceSkill2": {
+      "id": 122501,
+      "groupId": 1129,
+      "name": "ニートネス・アデプト[Ⅱ]",
+      "shortDescription": "HP自動回復[Ⅱ] & 状態異常耐性UP[Ⅲ]",
+      "artId1": 690207702,
+      "art1": {
+        "artId": 690207702,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 30,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 390201503,
+      "art2": {
+        "artId": 390201503,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "真っ白なワンピースに身を包んで、お出かけしよう。＠汚しちゃったらどうしよう…なんて、ドキドキするけど、＠二人一緒なら、きっとどんなことでも楽しめちゃうよね。＠さあ、はぐれないように、迷わないように、ぎゅっと手を繋ごう",
+    "illustrator": "中村直人",
+    "openDate": "2018/06/18 15:10:00"
+  },
+  {
+    "pieceId": 1226,
+    "pieceType": "ABILITY",
+    "pieceName": "解放の導き手",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 726,
+    "defense": 0,
+    "hp": 886,
+    "skillId": 122600,
+    "pieceSkill": {
+      "id": 122600,
+      "groupId": 1151,
+      "name": "フォッグ・ブレイド[Ⅱ]",
+      "shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅱ]＆与えるダメージUP[Ⅲ]",
+      "artId1": 690210602,
+      "art1": {
+        "artId": 690210602,
+        "verbCode": "ENCHANT",
+        "effectCode": "FOG",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 150
+      },
+      "artId2": 390201303,
+      "art2": {
+        "artId": 390201303,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 122601,
+    "pieceSkill2": {
+      "id": 122601,
+      "groupId": 1151,
+      "name": "フォッグ・ブレイド[Ⅲ]",
+      "shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅲ]＆与えるダメージUP[Ⅳ]",
+      "artId1": 690210603,
+      "art1": {
+        "artId": 690210603,
+        "verbCode": "ENCHANT",
+        "effectCode": "FOG",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 200
+      },
+      "artId2": 390201304,
+      "art2": {
+        "artId": 390201304,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「心配することはないわ。私たちが信じる解放の先には、＠きっと魔法少女たちにとっての明るい未来が待っているから＠だから恐れないで、怖がらないで、安心してその身を委ねて＠私が必ずみんなの手を引いて、羽根のみんなを救いに導くから」",
+    "illustrator": "シャフト",
+    "openDate": "2018/06/18 15:10:00"
+  },
+  {
+    "pieceId": 1227,
+    "pieceType": "SKILL",
+    "pieceName": "解放への祈り",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 574,
+    "hp": 634,
+    "skillId": 122700,
+    "pieceSkill": {
+      "id": 122700,
+      "groupId": 1078,
+      "name": "キュアヒール[Ⅰ]",
+      "intervalTurn": 10,
+      "shortDescription": "HP回復[Ⅰ]",
+      "messageId": 70,
+      "artId1": 200200401,
+      "art1": {
+        "artId": 200200401,
+        "verbCode": "HEAL",
+        "effectCode": "HP",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 20
+      }
+    },
+    "skillId2": 122701,
+    "pieceSkill2": {
+      "id": 122701,
+      "groupId": 1078,
+      "name": "キュアヒール[Ⅰ]",
+      "intervalTurn": 8,
+      "shortDescription": "HP回復[Ⅰ]",
+      "messageId": 70,
+      "artId1": 200200401,
+      "art1": {
+        "artId": 200200401,
+        "verbCode": "HEAL",
+        "effectCode": "HP",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 20
+      }
+    },
+    "description": "祈りは彼方　悲しみと苦しみから放たれた　私たちの未来へ＠道のりはあと幾何か　そう遠くない未来に辿り付く＠だからみんなも祈りましょう　全ての魔法少女のために祈りましょう＠悲願を成せた喜びを　救われた喜びを　一緒に分かち合うために",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/06/18 15:10:00"
+  },
+  {
+    "pieceId": 1228,
+    "pieceType": "SKILL",
+    "pieceName": "重い制服",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "1016",
+    "charaList": [
+      {
+        "charaId": 1016,
+        "name": "和泉 十七夜"
+      }
+    ],
+    "attack": 0,
+    "defense": 447,
+    "hp": 487,
+    "skillId": 122800,
+    "pieceSkill": {
+      "id": 122800,
+      "groupId": 1134,
+      "name": "バトルセンス",
+      "intervalTurn": 6,
+      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 610208200,
+      "art2": {
+        "artId": 610208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 122801,
+    "pieceSkill2": {
+      "id": 122801,
+      "groupId": 1134,
+      "name": "バトルセンス",
+      "intervalTurn": 5,
+      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "messageId": 70,
+      "artId1": 610208100,
+      "art1": {
+        "artId": 610208100,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 610208200,
+      "art2": {
+        "artId": 610208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "少し解れた裾も、目に入る小さな汚れも、少しだけ薄くなった布も＠何人かの少女たちによって引継がれてきた証＠袖を通せば、自分の立場と町のことを、容易く全身で感じられる＠その重みは着る者に、自然と未来のことを考えさせる",
+    "illustrator": "スミカワ",
+    "openDate": "2018/06/25 15:10:00"
+  },
+  {
+    "pieceId": 1229,
+    "pieceType": "SKILL",
+    "pieceName": "越えられない溝",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 804,
+    "hp": 804,
+    "skillId": 122900,
+    "pieceSkill": {
+      "id": 122900,
+      "groupId": 1099,
+      "name": "クウェル・アストラル[Ⅸ]",
+      "intervalTurn": 6,
+      "shortDescription": "Accele MP DOWN[Ⅸ] & マギアダメージDOWN[Ⅵ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302509,
+      "art1": {
+        "artId": 410302509,
+        "verbCode": "DEBUFF",
+        "effectCode": "ACCEL",
+        "targetId": "ALL",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 410302306,
+      "art2": {
+        "artId": 410302306,
+        "verbCode": "DEBUFF",
+        "effectCode": "MAGIA",
+        "targetId": "ALL",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "eventId": 1028,
+      "eventArtId1": 1028001,
+      "eventArt1": {
+        "artId": 1028001,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1028_KEY"
+      },
+      "eventDescription": "＆「パフェ」入手時＋3"
+    },
+    "skillId2": 122901,
+    "pieceSkill2": {
+      "id": 122901,
+      "groupId": 1099,
+      "name": "クウェル・アストラル[Ⅹ]",
+      "intervalTurn": 5,
+      "shortDescription": "Accele MP DOWN[Ⅹ] & マギアダメージDOWN[Ⅶ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302510,
+      "art1": {
+        "artId": 410302510,
+        "verbCode": "DEBUFF",
+        "effectCode": "ACCEL",
+        "targetId": "ALL",
+        "effectValue": 275,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 410302307,
+      "art2": {
+        "artId": 410302307,
+        "verbCode": "DEBUFF",
+        "effectCode": "MAGIA",
+        "targetId": "ALL",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "eventId": 1028,
+      "eventArtId1": 1028002,
+      "eventArt1": {
+        "artId": 1028002,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_DAILYTOWER_1028_KEY"
+      },
+      "eventDescription": "＆「パフェ」入手時＋7"
+    },
+    "description": "それは次第に、人の想いに隔たりを作った…＠それは次第に、亀裂を生んでいった…＠それは次第に、人々を別れさせていった…＠強靱な心は時に乖離を生む。救いに縋らない者はひとりになった…",
+    "illustrator": "ー",
+    "openDate": "2018/06/25 15:10:00"
+  },
+  {
+    "pieceId": 1230,
+    "pieceType": "ABILITY",
+    "pieceName": "風変りなメイドさん",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 544,
+    "defense": 0,
+    "hp": 664,
+    "skillId": 123000,
+    "pieceSkill": {
+      "id": 123000,
+      "groupId": 1090,
+      "name": "アクセル・アデプト[Ⅰ]",
+      "shortDescription": "Accele MPUP[Ⅰ]",
+      "artId1": 390201601,
+      "art1": {
+        "artId": 390201601,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1028,
+      "eventArtId1": 1028003,
+      "eventArt1": {
+        "artId": 1028003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_DAILYTOWER_1028_KEY"
+      },
+      "eventDescription": "＆「パフェ」入手時＋1"
+    },
+    "skillId2": 123001,
+    "pieceSkill2": {
+      "id": 123001,
+      "groupId": 1090,
+      "name": "アクセル・アデプト[Ⅱ]",
+      "shortDescription": "Accele MPUP[Ⅱ]",
+      "artId1": 390201602,
+      "art1": {
+        "artId": 390201602,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1028,
+      "eventArtId1": 1028004,
+      "eventArt1": {
+        "artId": 1028004,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1028_KEY"
+      },
+      "eventDescription": "＆「パフェ」入手時＋3"
+    },
+    "description": "真新しいメイド服に身を包むのは駆けだしメイド十七夜＠クールな横顔、悠々とした動作、不遜ともとれる口調＠おおよそメイドさんらしからぬその態度＠しかし、その独特な雰囲気こそが人々を引き付ける",
+    "illustrator": "ー",
+    "openDate": "2018/06/25 15:10:00"
+  },
+  {
+    "pieceId": 1231,
+    "pieceType": "ABILITY",
+    "pieceName": "なぎたんにお任せ",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 604,
+    "defense": 0,
+    "hp": 604,
+    "skillId": 123100,
+    "pieceSkill": {
+      "id": 123100,
+      "groupId": 1092,
+      "name": "エリミネイト・アデプト[Ⅱ]",
+      "shortDescription": "Blast ダメージUP[Ⅱ] & マギアダメージUP[Ⅰ]",
+      "artId1": 390201802,
+      "art1": {
+        "artId": 390201802,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201401,
+      "art2": {
+        "artId": 390201401,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 123101,
+    "pieceSkill2": {
+      "id": 123101,
+      "groupId": 1092,
+      "name": "エリミネイト・アデプト[Ⅲ]",
+      "shortDescription": "Blast ダメージUP[Ⅲ] & マギアダメージUP[Ⅱ]",
+      "artId1": 390201803,
+      "art1": {
+        "artId": 390201803,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201402,
+      "art2": {
+        "artId": 390201402,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "ケンカの仲裁、紛失物の捜索、醤油染みの消し方etc…＠困り事なら、愛はなくとも筋は通す律儀なメイド＠「なぎたんにお任せ、だぞっ！ご主人」＠（しかし、この光はどこから降ってきているんだ？）",
+    "illustrator": "ー",
+    "openDate": "2018/06/25 15:10:00"
   }
 ]
