@@ -13264,5 +13264,92 @@
     "description": "ケンカの仲裁、紛失物の捜索、醤油染みの消し方etc…＠困り事なら、愛はなくとも筋は通す律儀なメイド＠「なぎたんにお任せ、だぞっ！ご主人」＠（しかし、この光はどこから降ってきているんだ？）",
     "illustrator": "ー",
     "openDate": "2018/06/25 15:10:00"
+  },
+  {
+    "pieceId": 1232,
+    "pieceType": "ABILITY",
+    "pieceName": "何度でも繰り返す",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 719,
+    "defense": 0,
+    "hp": 881,
+    "skillId": 123200,
+    "pieceSkill": {
+      "id": 123200,
+      "groupId": 1092,
+      "name": "オールディスク・アデプト[Ⅱ]",
+      "shortDescription": "Blast ダメージUP[Ⅱ] & Charge後ダメージUP[Ⅱ] & Accele MPUP[Ⅰ]",
+      "artId1": 390201802,
+      "art1": {
+        "artId": 390201802,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201702,
+      "art2": {
+        "artId": 390201702,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 390201601,
+      "art3": {
+        "artId": 390201601,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 123201,
+    "pieceSkill2": {
+      "id": 123201,
+      "groupId": 1092,
+      "name": "オールディスク・アデプト[Ⅲ]",
+      "shortDescription": "Blast ダメージUP[Ⅲ] & Charge後ダメージUP[Ⅱ] & Accele MPUP[Ⅱ]",
+      "artId1": 390201803,
+      "art1": {
+        "artId": 390201803,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201702,
+      "art2": {
+        "artId": 390201702,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 390201602,
+      "art3": {
+        "artId": 390201602,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「何度時間を繰り返しても、絶対に忘れないよ＠たったひとりで“ワルプルギスの夜”に挑んだ鹿目さんも＠魔力を使い果たして、魔女になってしまった鹿目さんも…＠あなたが信じた希望を、なかったことにさせたりしない」",
+    "illustrator": "ササギコウシ",
+    "openDate": "2018/07/06 15:10:00"
   }
 ]

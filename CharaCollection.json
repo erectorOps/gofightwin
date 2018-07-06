@@ -12149,6 +12149,16 @@
               "targetId": "CONNECT",
               "effectValue": 250,
               "growPoint": 10
+            },
+            "artId3": 9362,
+            "art3": {
+              "artId": 9362,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "LIMITED",
+              "effectValue": 50,
+              "growPoint": 10,
+              "limitedValue": "2003"
             }
           },
           "commandType1": "MPUP",
@@ -12340,6 +12350,16 @@
               "targetId": "CONNECT",
               "effectValue": 300,
               "growPoint": 10
+            },
+            "artId3": 9363,
+            "art3": {
+              "artId": 9363,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "LIMITED",
+              "effectValue": 80,
+              "growPoint": 10,
+              "limitedValue": "2003"
             }
           },
           "commandType1": "MPUP",
@@ -12449,6 +12469,29 @@
         "miniCharaNo": 200300,
         "charaNo": 2003,
         "cardName": "暁美 ほむら"
+      },
+      "evolutionCardId1": 20035,
+      "evolutionCard1": {
+        "cardId": 20035,
+        "rank": "RANK_5",
+        "attributeId": "DARK",
+        "initialType": "SUPPORT",
+        "growthType": "HP",
+        "attack": 1932,
+        "defense": 1911,
+        "hp": 7045,
+        "miniCharaNo": 200301,
+        "charaNo": 2003,
+        "cardName": "暁美 ほむら"
+      },
+      "doppelCharaNo": 200300,
+      "doppel": {
+        "id": 200300,
+        "name": "閉鎖回路のドッペル",
+        "title": "その姿は、此岸",
+        "description": "この感情の主は、時を超え幾度もの試行錯誤を繰り返す。＠因果を重ね続けるその姿は主とドッペルがほぼ全身に渡り一体化している。＠肌はガラスとなり表情も人形のように固定され、対象が沈黙するまで淡々と攻撃を続けるその様は他魔法少女と比べてもあまりに魔女に近い。＠時間砂を操る能力をもつ他、帽子に乗せた宇宙生物から重要度の低い情報ならば＠抜き取ることができ、地球上に存在する武器程度であれば時間砂を硬化させ再現する＠ことが可能。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "openDate": "2018/07/06 15:10:00"
       },
       "firstMagiaGiftId1": 251,
       "firstMagiaGiftNum1": 5,
@@ -12817,6 +12860,200 @@
             "bonusCode6": "CHARGE",
             "bonusNum6": 60
           }
+        }
+      },
+      {
+        "cardId": 20035,
+        "card": {
+          "cardId": 20035,
+          "charaNo": 2003,
+          "miniCharaNo": 200301,
+          "magiaCharaNo": 200300,
+          "cardName": "暁美 ほむら",
+          "rank": "RANK_5",
+          "attributeId": "DARK",
+          "initialType": "SUPPORT",
+          "growthType": "HP",
+          "attack": 1932,
+          "defense": 1911,
+          "hp": 7045,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 20035,
+          "cardMagia": {
+            "id": 20035,
+            "groupId": 1014,
+            "name": "時間止めスペシャル",
+            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ スキルクイック(全/3T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 630307800,
+            "art2": {
+              "artId": 630307800,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "SKILL_QUICK",
+              "targetId": "ALL",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "doppelMagiaId": 20038,
+          "doppelCardMagia": {
+            "id": 20038,
+            "groupId": 1014,
+            "name": "閉鎖回路のドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ スキルクイック(全/3T) ＆ MP回復(全)",
+            "artId1": 190200381,
+            "art1": {
+              "artId": 190200381,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8360,
+              "growPoint": 220
+            },
+            "artId2": 630307800,
+            "art2": {
+              "artId": 630307800,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "SKILL_QUICK",
+              "targetId": "ALL",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 200300501,
+            "art3": {
+              "artId": 200300501,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "ALL",
+              "effectValue": 125,
+              "growPoint": 10
+            }
+          },
+          "skillId": 20035,
+          "cardSkill": {
+            "id": 20035,
+            "groupId": 1124,
+            "name": "一緒に頑張ろうね！",
+            "shortDescription": "必ず回避 ＆ マギアダメージUP[Ⅲ]",
+            "artId1": 610406900,
+            "art1": {
+              "artId": 610406900,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId2": 310401403,
+            "art2": {
+              "artId": 310401403,
+              "verbCode": "BUFF",
+              "effectCode": "MAGIA",
+              "targetId": "CONNECT",
+              "effectValue": 200,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 9361,
+            "art3": {
+              "artId": 9361,
+              "verbCode": "BUFF",
+              "effectCode": "MAGIA",
+              "targetId": "LIMITED",
+              "effectValue": 75,
+              "enableTurn": 1,
+              "growPoint": 25,
+              "limitedValue": "2001,2004,2005,2006"
+            }
+          },
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_H",
+          "commandType3": "RANGE_V",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "illustrator": "ぷにゃん",
+          "cardCustomize": {
+            "cardId": 20035,
+            "giftId1": 152,
+            "gift1": {
+              "id": 152,
+              "name": "ダークオーブ＋",
+              "attributeId": "DARK",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 153,
+            "gift2": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 90,
+            "giftId4": 403,
+            "gift4": {
+              "id": 403,
+              "name": "絵馬の水引",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum4": 15,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 50,
+            "giftId5": 501,
+            "gift5": {
+              "id": 501,
+              "name": "砂場のシャベル",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 505,
+            "gift6": {
+              "id": 505,
+              "name": "人工知能のコード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 8,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 70
+          },
+          "openDate": "2018/07/06 15:10:00"
         }
       }
     ]
