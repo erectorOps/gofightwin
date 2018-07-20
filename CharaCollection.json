@@ -312,6 +312,9 @@
               "growPoint": 20
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -402,6 +405,9 @@
               "growPoint": 20
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -537,6 +543,9 @@
               "growPoint": 20
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -682,6 +691,9 @@
               "limitedValue": "1002"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -838,6 +850,7 @@
         "title": "その姿は、切符鋏",
         "description": "この感情の主はやがては自分も今まで見送った友を追って旅に出る日のことを夢想する。＠尾の先にぶら下げられたランタンに灯した火で様々な幻影を呼び出す他、尾のハサミで傷をつけられた者は遠くない未来に必ず大きな災いが訪れるという。＠長く魔法少女として生きた者、年齢の高い者のドッペルは正負の感情幅が少なくなってしまうことにより、このドッペルのように本体から分離しきれず一体化したような姿となる場合がある。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/01/15 15:10:00"
       },
       "firstMagiaGiftId1": 221,
@@ -1099,6 +1112,9 @@
               "probability": 400
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_H",
@@ -1249,6 +1265,9 @@
               "probability": 500
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_H",
@@ -1408,6 +1427,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_H",
@@ -1612,6 +1634,9 @@
               "limitedValue": "1001"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_H",
@@ -1769,6 +1794,7 @@
         "title": "その姿は、金華",
         "description": "この感情の主はこのドッペルの容姿に関してかなり不満を抱いている。＠また、主の奉仕によって偉業を成し遂げたいという思いとは異なり、無限の富を生み出すことで身内の欲望を際限なく叶え仮初の団欒だけを守ろうとするこのドッペルの性格に対しても不信感を持つ。＠主はこのドッペルが自身の崇高な目的とは真逆にあると考え、その俗悪な姿を誰にも知られたくないと思っているが、仮初であろうとも団欒の崩壊を防ぐにはいつかこのドッペルの力に頼らざるを得ない日が来るだろう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/11/30 15:10:00"
       },
       "firstMagiaGiftId1": 211,
@@ -2029,6 +2055,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -2178,6 +2207,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -2336,6 +2368,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -2548,6 +2583,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -2934,6 +2972,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -3074,6 +3115,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -3225,6 +3269,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -3619,6 +3666,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -3768,6 +3818,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -3926,6 +3979,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -4054,6 +4110,7 @@
         "title": "その姿は、鳥捕り",
         "description": "この感情の主は現実を生きるため、この一体型ドッペルも含めたあらゆるちからを利用する。＠地面に落ちた自らの影から「白糖雁」と呼ばれる無数の鳥型手下を呼び出し相手を攻撃する。白糖雁はぶつかるだけで対象に甘味を認識させ、一度その味を知ってしまった者は中毒症状を引き起こす。その特性から少量を相手にぶつければ多少の嘘偽りなら許して貰える。舌と両腕がドッペルに変化するため、ドッペルを出している間は喋ることが出来ない。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/06/08 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -4367,6 +4424,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -4561,6 +4621,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -4690,6 +4753,7 @@
         "title": "その姿は、チューブ",
         "description": "この感情の主は自身のドッペルの美しさに見惚れているが、このドッペルには真の姿が隠されていることをまだ知らない。主の背中側にあるドッペル本体から流れ出る病原テンペラと呼ばれる絵の具を固めて偽りの巨大な容姿を作り上げ相手を攻撃する。その際に人間体は絵の具の中に埋もれて完全に表からは見えなくなるため、ドッペルでありながら魔女のような出で立ちを誇る。主はドッペルの外観を確認することが出来ないものの、曰く\"内側から見ても素晴らしい\"らしい。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/03/02 15:10:00"
       },
       "firstMagiaGiftId1": 231,
@@ -5016,6 +5080,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -5244,6 +5311,9 @@
               "probability": 350
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -5371,7 +5441,8 @@
         "name": "変身のドッペル",
         "title": "その姿は、ガラス靴",
         "description": "この感情の主はその力を自身のため余すところなく行使する。＠このドッペルは主が持つ変身能力を何倍にも跳ね上げ、一定時間完全に自分を自分以外の誰か、本物よりも本物らしい理想の他者へと変質させることが出来る。＠しかしあまりに完璧なこの変身を多用すれば、やがて本来の自己の姿を見失ってしまうだろう。＠尚、このドッペルは主を主の理想とする他者の姿へと変身させるため、それが元来の他者とは多少違って見えてしまうことも間々ある。",
-        "designer": "原案・監修：劇団イヌカレー（泥犬）"
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true
       },
       "firstMagiaGiftId1": 221,
       "firstMagiaGiftNum1": 5,
@@ -5683,6 +5754,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -5885,6 +5959,9 @@
               "probability": 700
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -6011,7 +6088,8 @@
         "name": "自戒のドッペル",
         "title": "その姿は、ネイル",
         "description": "この感情の主は、その力が行きつく果てに、そこまで興味はない様子。＠このドッペルは、自らの巨大な指や周囲を飛び回る無数の指を操って攻撃する。＠その武器となる爪の全てには、丁寧なネイルが施してあり、ドッペルはネイルの具合を過剰なぐらい気にしている。褒めてあげると張り切るが、貶めると異常に落ち込んでしまい、自分を戒めて落ち込んでしまう。＠そうなると面倒なので、呼び出したら早く攻撃して貰った方が良い。",
-        "designer": "原案・監修：劇団イヌカレー（泥犬）"
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true
       },
       "firstMagiaGiftId1": 211,
       "firstMagiaGiftNum1": 5,
@@ -6323,6 +6401,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "CHARGE",
@@ -6526,6 +6607,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "CHARGE",
@@ -6923,6 +7007,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -7074,6 +7161,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -7201,6 +7291,7 @@
         "title": "その姿は、モートセーフ",
         "description": "この感情の主は臆病であるためにこのような頑強なドッペルを生み出した。＠失うことを恐れ、得ることに執着する。＠このドッペルは主同様手癖が悪くあらゆるものをかすめ取る。＠その対象は自身の仲間にすら及ぶだろう。＠一度手に入れたものは決して離さないがめつさを持ち非常に欲深い。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/10/30 15:10:00"
       },
       "firstMagiaGiftId1": 211,
@@ -7525,6 +7616,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -7749,6 +7843,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -8168,6 +8265,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -8329,6 +8429,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -8456,6 +8559,7 @@
         "title": "その姿は、竈獅子",
         "description": "この感情の主がもつ冷静さとは裏腹に、このドッペルは底知れぬ怒りに燃え全てを噛み砕き寸断する獅子の姿を持ち、一切の不当を許さず全ての不合理を解体する。＠その性格は苛烈そのもので、特に神浜在住というだけで即解体対象となってしまうため、発現時は味方を巻き込まないよう注意が必要となる。このドッペルを使い続ければ、些細な不平等も許せなくなってゆくだろう。＠主はこのちからを持て余しているが、獅子に半分同感している。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/06/25 15:10:00"
       },
       "firstMagiaGiftId1": 241,
@@ -8770,6 +8874,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -8966,6 +9073,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -9097,6 +9207,7 @@
         "title": "その姿は、花弁",
         "description": "この感情の主は、自分の環境を恨み、すべてを滅ぼそうとする。＠このドッペルは万物に等しく訪れる死を忘れず、舞い散る花弁ですべてを覆い隠し、白い手袋で少女たちを優雅にエスコートする。主と同様に直接的な攻撃方法は持たないが、万物の最期と共にあるその力はあまり恐ろしく、花弁で覆い隠したすべての魔力は朽ち果て、後には何も残らない。＠このドッペルを求めれば求めるほど、主の左腕はやがて完全に一体化するだろう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/04/13 15:10:00"
       },
       "firstMagiaGiftId1": 231,
@@ -9453,6 +9564,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -9722,6 +9836,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -9851,6 +9968,7 @@
         "title": "その姿は、テラリウム",
         "description": "この感情の主は、自身の機嫌や感情に囚われず、理解者たる自らの半身に依存する。このドッペルによって、自分たちを自分たち以外の全てから隔絶した二人に、この世のあらゆる変化は影響を及ぼすことはなく、この小さな半星に存在する二人は、お互いしか必要としない。＠このドッペルが出現することであらゆる物理現象と時間はシャットアウトされ、身の安全は保障されるが、その副作用として自分達以外の他者の記憶が消えていってしまう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/11/30 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -10167,6 +10285,9 @@
               "limitedValue": "1019"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -10354,6 +10475,9 @@
               "limitedValue": "1019"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -10761,6 +10885,9 @@
               "limitedValue": "1018"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -10909,6 +11036,9 @@
               "limitedValue": "1018"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -11051,6 +11181,7 @@
         "title": "その姿は、金華",
         "description": "アラもう聞いた？誰から聞いた？＠団欒のドッペルのそのウワサ＠身内の欲望をたくさん叶える、ぷくぷく育ったおブタちゃん＠絢爛豪華なピカピカボディーは、身内の団欒を守り続ける、お金持ちのシンボルだ！＠けれど、この子の主さんは、あんまりこの子を気に入らず、プンスカポンの不満足＠見られるのは恥ずかしいって隠してるのは、神浜の中ではもっぱらのウワサ！＠ミチャイヤーン！",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/06/01 15:10:00"
       },
       "firstMagiaGiftId1": 211,
@@ -11350,6 +11481,9 @@
               "probability": 500
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -11510,6 +11644,9 @@
               "probability": 650
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -11724,6 +11861,9 @@
               "probability": 800
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -11852,7 +11992,8 @@
         "name": "慈悲のドッペル",
         "title": "その姿は、救済",
         "description": "この感情の主は、万物を救おうと試みる。＠浮遊する巨大なソウルジェムに見えるこのドッペルが現れた時、周囲のものは全て＠このドッペルが生み出したものの体内に取り込まれ、体の自由を奪われる。＠その後、このドッペルが大きく浮上して光り輝くと、周囲一帯は光の矢に包まれることになる。＠その最中、感情の主は巨大なソウルジェムの中で眠り続けている。",
-        "designer": "原案・監修：劇団イヌカレー（泥犬）"
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true
       },
       "firstMagiaGiftId1": 241,
       "firstMagiaGiftNum1": 5,
@@ -12161,6 +12302,9 @@
               "limitedValue": "2003"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -12362,6 +12506,9 @@
               "limitedValue": "2003"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -12491,6 +12638,7 @@
         "title": "その姿は、此岸",
         "description": "この感情の主は、時を超え幾度もの試行錯誤を繰り返す。＠因果を重ね続けるその姿は主とドッペルがほぼ全身に渡り一体化している。＠肌はガラスとなり表情も人形のように固定され、対象が沈黙するまで淡々と攻撃を続けるその様は他魔法少女と比べてもあまりに魔女に近い。＠時間砂を操る能力をもつ他、帽子に乗せた宇宙生物から重要度の低い情報ならば＠抜き取ることができ、地球上に存在する武器程度であれば時間砂を硬化させ再現する＠ことが可能。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/07/06 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -12783,6 +12931,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -12976,6 +13127,9 @@
               "limitedValue": "2001,2004,2005,2006"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -13105,6 +13259,7 @@
         "title": "その姿は、人魚",
         "description": "この感情の主は年相応の恋に悩み、＠一人では背負いきれぬほど過酷な運命を選択した。＠そしてそのドッペルもまた恋を夢見ながら空中を自在に泳ぎ回り、＠主の為にがらんどうの体から音を奏でる。＠自身が発する音波にのせることで数多の剣を飛ばし操り攻撃できもするが、＠このドッペルを使い続ける限り＠胸に秘めたわだかまりから逃れることは出来ないだろう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/01/22 15:10:00"
       },
       "firstMagiaGiftId1": 221,
@@ -13421,6 +13576,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -13641,6 +13799,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -13768,7 +13929,8 @@
         "name": "ご招待のドッペル",
         "title": "その姿は、おめかし",
         "description": "この感情の主は、ドッペルを信用せず、普段通り戦い続ける。＠他と比べると非常に小柄であるこのドッペルは、頭上に位置するため、主にその姿を認識されることは滅多にない。＠意思の疎通が取れているかも怪しいため、主はいつもどおり戦い続けるが、このドッペルはそれを支援している。＠通常時のドッペルを見る限りは小ぶりで頼りないが、その蔦は相手を貫くだけの破壊力を十分に持ち合わせている。",
-        "designer": "原案・監修：劇団イヌカレー（泥犬）"
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true
       },
       "firstMagiaGiftId1": 231,
       "firstMagiaGiftNum1": 5,
@@ -14091,6 +14253,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -14306,6 +14471,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -14433,6 +14601,7 @@
         "title": "その姿は、武旦",
         "description": "この感情の主は、得体の知れないこのちからを全く信用しておらず、ドッペルから武器を拝借し自分自身の手で刃を振るう。＠主にとっては霧を操り幻を生み怪しげな催眠魔法を行使するこのドッペルの能力からして過去を思い起こさせるだけの忌々しいものでしかないが、それでも感情の底へしまい込んだかつての未練をこのドッペルは持っており胡散臭いと感じながらも出現後にある程度の攻撃の手伝いをすることは容認している。＠ちなみに、主を上にのせて走り回る燭台の部分とはためく着物のような部分はそれぞれ別固体らしくドッペルとしての本体は着物の方らしい。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/09/28 23:40:00"
       },
       "firstMagiaGiftId1": 211,
@@ -14738,6 +14907,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -14933,6 +15105,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -15061,6 +15236,7 @@
         "title": "その姿は、賀正",
         "description": "この感情の主はドッペルの内部でこれより始まる新たな年へと想いを馳せる。このドッペルは本年度における願いの全てをこの瞬間に集約し、慈悲の恵みとして相手へ与えてみせる。＠その一瞬に満たない命が夢見た願いの巨大さによって数億年もの時を経て繁栄した地上のあらゆる生命体は等しく圧し潰されるだろう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/12/31 15:10:00"
       },
       "firstMagiaGiftId1": 241,
@@ -15372,6 +15548,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -15584,6 +15763,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -16033,6 +16215,9 @@
               "limitedValue": "3020"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -16223,6 +16408,9 @@
               "limitedValue": "3020"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -16305,6 +16493,684 @@
     ]
   },
   {
+    "charaId": 2300,
+    "chara": {
+      "id": 2300,
+      "name": "暁美 ほむら",
+      "kana": "あけみ ほむら",
+      "title": "水着ver.",
+      "attributeId": "LIGHT",
+      "attackType": 0,
+      "initialType": "MAGIA",
+      "growthType": "HP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "defaultCardId": 23004,
+      "defaultCard": {
+        "cardId": 23004,
+        "rank": "RANK_4",
+        "attributeId": "LIGHT",
+        "initialType": "MAGIA",
+        "growthType": "HP",
+        "attack": 2025,
+        "defense": 1485,
+        "hp": 4852,
+        "miniCharaNo": 230000,
+        "charaNo": 2300,
+        "cardName": "暁美 ほむら"
+      },
+      "evolutionCardId1": 23005,
+      "evolutionCard1": {
+        "cardId": 23005,
+        "rank": "RANK_5",
+        "attributeId": "LIGHT",
+        "initialType": "MAGIA",
+        "growthType": "HP",
+        "attack": 2304,
+        "defense": 1682,
+        "hp": 5500,
+        "miniCharaNo": 230000,
+        "charaNo": 2300,
+        "cardName": "暁美 ほむら"
+      },
+      "doppelCharaNo": 230000,
+      "doppel": {
+        "id": 230000,
+        "name": "閉鎖回路のドッペル",
+        "title": "その姿は、此岸",
+        "description": "この感情の主は時を超えた試行錯誤の旅の途中、この浜辺へたどり着いた。夏の日差しに浮かれてか、その姿はあまりにバカンスじみている。＠麦わら帽子に確保した宇宙生物へアクセスして手に入れた謎技術により、ココナッツを撃ち出すヤシの木を生成し砲撃する。超音速のココナッツに被弾すればどんな魔女もただでは済まないが、ゲームシステム上ドッペルの攻撃は必ず当たるため狙われた際は諦めも肝心。＠また、なぜかヤシの木は高度な命中精度を誇り、むしろ普段より入念で執拗に相手単体目がけて撃ち込むことが可能となった。前向きな変化であると捉えて欲しい。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2018/07/20 15:10:00"
+      },
+      "firstMagiaGiftId1": 241,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 305,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 242,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 404,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 243,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 505,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 241,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 308,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 242,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 401,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 243,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 553,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 241,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 303,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 242,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 405,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 243,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 508,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 241,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 308,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 242,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 403,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 243,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 507,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 505,
+        "name": "人工知能のコード",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 401,
+        "name": "砂場の巻貝",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 508,
+        "name": "スピーカーのベル",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "fourthMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 507,
+        "name": "ビッグフェリスのタービン",
+        "rank": 3
+      },
+      "description": "友だちと一緒に夏休みを謳歌する魔法少女。普通の水着のように見えるが、魔法少女の衣装であり釣り竿が武器。釣りのセンスはあまりないが、仲間のためになると、どんな大物でも釣り上げる力を発揮する。",
+      "school": "見滝原中学校",
+      "designer": "蒼樹うめ",
+      "voiceActor": "斎藤千和",
+      "openDate": "2018/07/20 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 2300,
+          "messageId": 6,
+          "message": "きゃっ！な、波がこっちに…"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 7,
+          "message": "海の生物だと何が好きですか？"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 8,
+          "message": "うぅ…ビーチボールを顔で受けてしまって…"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 9,
+          "message": "海と言えば…うーん、なんでしょう？"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 10,
+          "message": "いろいろな釣り餌を用意してみました"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 11,
+          "message": "夜の海って、ちょっと怖いですね…"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 12,
+          "message": "波の音って素敵…ずっと聞いていたいな…"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 43,
+          "message": "餌だけ持っていかれるかと思いました…"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 44,
+          "message": "暑さに負けていられません！"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 45,
+          "message": "安定して釣れるようになりました！"
+        },
+        {
+          "charaNo": 2300,
+          "messageId": 46,
+          "message": "大物、無事釣れました！"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 23004,
+        "card": {
+          "cardId": 23004,
+          "charaNo": 2300,
+          "miniCharaNo": 230000,
+          "magiaCharaNo": 230000,
+          "cardName": "暁美 ほむら",
+          "rank": "RANK_4",
+          "attributeId": "LIGHT",
+          "initialType": "MAGIA",
+          "growthType": "HP",
+          "attack": 2025,
+          "defense": 1485,
+          "hp": 4852,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1200,
+          "magiaId": 23004,
+          "cardMagia": {
+            "id": 23004,
+            "groupId": 1012,
+            "name": "荒磯ドッペル一本釣りスペシャル",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅵ] & 必ずスタン(敵単/1T) & 耐える(自/1T)",
+            "artId1": 100000206,
+            "art1": {
+              "artId": 100000206,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "TARGET",
+              "effectValue": 5600,
+              "growPoint": 100
+            },
+            "artId2": 510004200,
+            "art2": {
+              "artId": 510004200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 610207400,
+            "art3": {
+              "artId": 610207400,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "GUTS",
+              "targetId": "SELF",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 23004,
+          "cardSkill": {
+            "id": 23004,
+            "groupId": 1124,
+            "name": "ふたりなら大物相手でも！",
+            "shortDescription": "必ず回避 & 攻撃力UP[Ⅶ]  & 確率でスキルクイック",
+            "artId1": 610406900,
+            "art1": {
+              "artId": 610406900,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId2": 310401107,
+            "art2": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 9364,
+            "art3": {
+              "artId": 9364,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "SKILL_QUICK",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 350
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "いもあん",
+          "cardCustomize": {
+            "cardId": 23004,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 70,
+            "giftId2": 142,
+            "gift2": {
+              "id": 142,
+              "name": "ライトオーブ＋",
+              "attributeId": "LIGHT",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 12,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 143,
+            "gift3": {
+              "id": 143,
+              "name": "ライトオーブ＋＋",
+              "attributeId": "LIGHT",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 6,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 556,
+            "gift4": {
+              "id": 556,
+              "name": "子守の取っ手",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/05/07 16:00:00"
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 403,
+            "gift5": {
+              "id": 403,
+              "name": "絵馬の水引",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 303,
+            "gift6": {
+              "id": 303,
+              "name": "立ち耳の包装紙",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 3000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 23005,
+        "card": {
+          "cardId": 23005,
+          "charaNo": 2300,
+          "miniCharaNo": 230000,
+          "magiaCharaNo": 230000,
+          "cardName": "暁美 ほむら",
+          "rank": "RANK_5",
+          "attributeId": "LIGHT",
+          "initialType": "MAGIA",
+          "growthType": "HP",
+          "attack": 2304,
+          "defense": 1682,
+          "hp": 5500,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1200,
+          "magiaId": 23005,
+          "cardMagia": {
+            "id": 23005,
+            "groupId": 1012,
+            "name": "荒磯ドッペル一本釣りスペシャル",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅷ] & 必ずスタン(敵単/1T) & 耐える(自/3T)",
+            "artId1": 100000208,
+            "art1": {
+              "artId": 100000208,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "TARGET",
+              "effectValue": 6000,
+              "growPoint": 100
+            },
+            "artId2": 510004200,
+            "art2": {
+              "artId": 510004200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 630207400,
+            "art3": {
+              "artId": 630207400,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "GUTS",
+              "targetId": "SELF",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "doppelMagiaId": 23008,
+          "doppelCardMagia": {
+            "id": 23008,
+            "groupId": 1012,
+            "name": "閉鎖回路のドッペル",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅹ] & 必ずスタン(敵単/1T) & 必ず暗闇(敵単/2T) & 耐える(自/3T)",
+            "artId1": 190230081,
+            "art1": {
+              "artId": 190230081,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "TARGET",
+              "effectValue": 14080,
+              "growPoint": 220
+            },
+            "artId2": 510004200,
+            "art2": {
+              "artId": 510004200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 9367,
+            "art3": {
+              "artId": 9367,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "DARKNESS",
+              "targetId": "TARGET",
+              "effectValue": 350,
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 630207400,
+            "art4": {
+              "artId": 630207400,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "GUTS",
+              "targetId": "SELF",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 23005,
+          "cardSkill": {
+            "id": 23005,
+            "groupId": 1124,
+            "name": "ふたりなら大物相手でも！",
+            "shortDescription": "必ず回避 & 攻撃力UP[Ⅸ]  & 確率でスキルクイック",
+            "artId1": 610406900,
+            "art1": {
+              "artId": 610406900,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "AVOID",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId2": 310401109,
+            "art2": {
+              "artId": 310401109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 9365,
+            "art3": {
+              "artId": 9365,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "SKILL_QUICK",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 550
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "いもあん",
+          "cardCustomize": {
+            "cardId": 23005,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 80,
+            "giftId2": 142,
+            "gift2": {
+              "id": 142,
+              "name": "ライトオーブ＋",
+              "attributeId": "LIGHT",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 15,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 143,
+            "gift3": {
+              "id": 143,
+              "name": "ライトオーブ＋＋",
+              "attributeId": "LIGHT",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 70,
+            "giftId4": 553,
+            "gift4": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 504,
+            "gift5": {
+              "id": 504,
+              "name": "リュトンのリボン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 308,
+            "gift6": {
+              "id": 308,
+              "name": "イキガミの毛玉",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000,
+              "openDate": "2018/04/23 15:10:00"
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          }
+        }
+      }
+    ]
+  },
+  {
     "charaId": 2500,
     "chara": {
       "id": 2500,
@@ -16351,6 +17217,7 @@
         "title": "その姿は、光輪",
         "description": "この感情の主は絶望の夜の果てで差し伸べられた救いにしがみつき、抱えきれぬ恐怖と不安を乗り越えるための新たな奇跡を手に入れた。また、その姿は主の精神面の変化によって従来とは違ったものへと変異し、この哀れなドッペルもまた主を救えるつもりでいる。＠ティロ・セントドッぺリオンとは心折れた少女達へ新たな希望を告げる祝砲である。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/12/15 15:10:00"
       },
       "firstMagiaGiftId1": 231,
@@ -16666,6 +17533,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -16843,6 +17713,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -17236,6 +18109,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -17385,6 +18261,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -17534,6 +18413,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -17937,6 +18819,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -18096,6 +18981,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -18266,6 +19154,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -18422,6 +19313,7 @@
         "title": "その姿は、スモッグ",
         "description": "この感情の主は長くなった脚にご満悦。＠その長い右足は内部を沸騰させ、左足は凝結による化学反応でそれぞれ上半身を構成する新たなガスを製造している。またガスで出来た体は物理攻撃にも強い耐性を誇るが、溢れるその毒性で周囲を巻き込んでしまうのがたまにキズ。＠ひとたびこのドッペルが現れると、その周囲は敵味方問わず強烈な毒に侵されてしまい主といえどもガスマスクの着用なくしては耐えられないだろう。また、このドッペルは好奇心が強く、珍しい魔女や魔物には目がない。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/03/02 15:10:00"
       },
       "firstMagiaGiftId1": 231,
@@ -18684,6 +19576,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -18835,6 +19730,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -18996,6 +19894,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -19192,6 +20093,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "RANGE_V",
@@ -19596,6 +20500,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -19756,6 +20663,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -19916,6 +20826,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -20323,6 +21236,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -20480,6 +21396,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -20874,6 +21793,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -21024,6 +21946,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -21185,6 +22110,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -21580,6 +22508,9 @@
               "probability": 400
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -21731,6 +22662,9 @@
               "probability": 500
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -21882,6 +22816,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -22275,6 +23212,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -22424,6 +23364,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -22583,6 +23526,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -22974,6 +23920,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -23121,6 +24070,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -23278,6 +24230,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -23698,6 +24653,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -23867,6 +24825,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -24258,6 +25219,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -24405,6 +25369,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -24560,6 +25527,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -24968,6 +25938,9 @@
               "probability": 500
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -25118,6 +26091,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -25537,6 +26513,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -25705,6 +26684,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -26139,6 +27121,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -26300,6 +27285,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -26471,6 +27459,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -26599,6 +27590,7 @@
         "title": "その姿は、外套",
         "description": "この感情の主は美しい友情を永遠のものにしたいと願っている。＠このドッペルはその体で包んだ物をひとつの塊になるまで圧縮することで答えた。圧縮された物体は水晶となり、数千年にわたり輝き続け決して砕けることはない。＠呼び出された際には主の感情を水晶に変えて攻撃するが、このちからを使い続けた者はその記憶すらもやがて水晶となり新たな記憶を持つことが出来なくなるだろう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/03/12 15:10:00"
       },
       "firstMagiaGiftId1": 231,
@@ -26923,6 +27915,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -27147,6 +28142,9 @@
               "probability": 700
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -27275,6 +28273,7 @@
         "title": "その姿は、殻",
         "description": "この感情の主は自身のドッペルのことを、自分が溜め込んでいる感情を発露してくれるものだと認識しているが、それが代償行動だと理解しているので、割り切れない気持ちで眺めている。＠このドッペルは、害を加えようとする者に抵抗感を示してトゲを出し、危険と認識すれば激しく攻撃を加えてくる。＠まれに、主の感情の高ぶりに合わせて爆発を引き起こすと、陶器とも金属とも違った強い強度をもつ殻が破られ、激しい魔力の波が辺りを包み込む。",
         "designer": "原案・監修：GAN",
+        "archive": true,
         "openDate": "2017/11/10 15:10:00"
       },
       "firstMagiaGiftId1": 241,
@@ -27581,6 +28580,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -27780,6 +28782,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -28188,6 +29193,9 @@
               "probability": 500
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -28346,6 +29354,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -28474,6 +29485,7 @@
         "title": "その姿は、絆",
         "description": "この感情の主は自分の奥底に眠っている本当の想いをドッペルによってがんじがらめにすることで、安心感を得ている。＠このドッペルは自分のエゴを球体に変え、家族の絆と柵を蛇の姿に変えてがんじがらめにし、無理やりその場に留めようとしている。球体は自由になりたいが、形を保っていられるのは、蛇に縛られているおかげでもある。無理に振りほどけば球体は弾け飛んで消えてしまうが、この感情の主は絶対にそれを許さない。",
         "designer": "原案・監修：PAPA",
+        "archive": true,
         "openDate": "2018/04/02 15:10:00"
       },
       "firstMagiaGiftId1": 211,
@@ -28789,6 +29801,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -28986,6 +30001,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -29394,6 +30412,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -29553,6 +30574,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -29681,6 +30705,7 @@
         "title": "その姿は、心電図",
         "description": "この感情の主は、強力な電気信号を駆使し相手の悪意を人格もろとも焼き尽くすこのドッペルの能力に恐怖を覚える一方で、これが殺害以外の方法で人間の悪意を根絶させることが出来る唯一の方法ではないかという誘惑に悩む。＠またこのドッペルは生死を司る力も持ち、その姿を現す時に主は一時的に精神が肉体と分離した幽体離脱状態となる。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/09/15 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -29987,6 +31012,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -30197,6 +31225,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -30325,6 +31356,7 @@
         "title": "その姿は、狐",
         "description": "この感情の主は様々な魔力を駆使し恨みある者達へ報復する。＠このドッペルは三つ首狐拳のドッペルのひとりで報復の写し。魔法に長け怪火を操り相手を幻惑する。＠例え水中であっても遺恨ある限りこの怪火が消えることはないだろう。＠ドッペルの出現中、主は理性を失い本能のままに行動しすさまじい跳躍力を発揮する。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2017/10/10 15:10:00"
       },
       "firstMagiaGiftId1": 221,
@@ -30638,6 +31670,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -30842,6 +31877,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -31251,6 +32289,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -31412,6 +32453,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -31808,6 +32852,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "CHARGE",
@@ -31959,6 +33006,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "CHARGE",
@@ -32120,6 +33170,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "CHARGE",
@@ -32519,6 +33572,9 @@
               "probability": 750
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -32670,6 +33726,9 @@
               "probability": 850
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -33064,6 +34123,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -33214,6 +34276,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -33374,6 +34439,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -33773,6 +34841,9 @@
               "probability": 550
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -33924,6 +34995,9 @@
               "probability": 650
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -34052,6 +35126,7 @@
         "title": "その姿は、撫子",
         "description": "この感情の主は相手を誑かすことによって心を操るこのドッペルの能力に戸惑い、これが自身の写しであることに思い悩む。＠このドッペルに裾を引かれたものはこのドッペルを愛さずにはいられない。こと異性に関しては死をも恐れぬ献身と絶対の従属を強制することができ、たとえ相手が同性であっても、その愛らしさに手を上げることは難しいだろう。＠しかし、この力の多用により自身への妄信的な虜を量産する行為は、いずれ身を滅ぼすことになる。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/03/23 15:10:00"
       },
       "firstMagiaGiftId1": 221,
@@ -34377,6 +35452,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -34585,6 +35663,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -35035,6 +36116,9 @@
               "probability": 800
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -35226,6 +36310,9 @@
               "probability": 800
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -35354,6 +36441,7 @@
         "title": "その姿は、ハチドリ",
         "description": "この感情の主はよく響く体を持ったこのドッペルを悪くないと思っている。＠このドッペルは如何なる材質であろうとも固形物であれば自身の歌声で共振させ破壊してしまう。また生物に対しても歌声で脳を揺らし超音波で振動させたクチバシと精密動作で心臓を一突きとしてしまえるだろう。",
         "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
         "openDate": "2018/05/21 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -35663,6 +36751,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -35850,6 +36941,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -36207,6 +37301,9 @@
               "limitedValue": "2003"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -36559,6 +37656,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -36707,6 +37807,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -36834,7 +37937,8 @@
         "name": "篭絡のドッペル",
         "title": "その姿は、針",
         "description": "この感情の主は、自身を救ってくれた恩人に対し、絶対的な忠誠を誓っている。＠ドッペルが穿つ針が貫くのは、何も対峙する敵のみに限ったことではない。＠主の運命すらも貫き、縫い付けてしまう。＠それはまさに、すべてを捧げ、命すらも委ねている恩人への忠誠心の表れであり、＠他者に依存することでしか己を保つことができない危うさを象徴している。＠針に鋭さが宿れば宿るほど縫い目は増え、容易に離れることはできない。＠しかし、それはまさに主の願望を表すことに他ならない。",
-        "designer": "原案・監修：ムラ黒江"
+        "designer": "原案・監修：ムラ黒江",
+        "archive": true
       },
       "firstMagiaGiftId1": 251,
       "firstMagiaGiftNum1": 5,
@@ -37158,6 +38262,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -37364,6 +38471,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -37759,6 +38869,9 @@
               "growPoint": 20
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -37906,6 +39019,9 @@
               "growPoint": 20
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -38034,6 +39150,7 @@
         "title": "その姿は、黒いコック",
         "description": "この感情の主は、食に対して人の何倍もの強い拘りをもつ。＠相手が魔法少女であろうと、魔女であろうと、お構いなし。手当たり次第になんでも調理し、自らの体内へと収めてしまう。＠まさに食欲そのものから生まれ出でし料理人であり、すべてを喰らいつくして無へと帰す暴食のドッペルである。＠テーブルの上の皿は、いつでも、何枚でも用意されている。戦いの場で席を同じくして、自らが供されることのないように…。",
         "designer": "原案・監修：平松正樹/天杉貴志",
+        "archive": true,
         "openDate": "2017/11/20 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -38336,6 +39453,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -38527,6 +39647,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -38808,6 +39931,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -38961,6 +40087,9 @@
               "probability": 1000
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -39367,6 +40496,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -39526,6 +40658,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -39654,6 +40789,7 @@
         "title": "その姿は、救国",
         "description": "この感情の主は、不道徳とは無縁の純粋で善良な心をもつ。＠ドッペルの招きによって舞い降りる無数の十字架は、ただの十字架ではない。＠それは神性の否定を象徴する逆さ十字であり、その存在を感じた者は全て己の中にある罪が無限に吹き出し、みるみる内に浄化の炎に包まれて、やがて焼き尽くされてしまう。＠ドッペルはいかなる存在であろうとも罪を見つけ出し、白日の下に晒す。＠つまりは、この理不尽なる清浄を受け入れるしか選択肢はないのだ。",
         "designer": "原案・監修：枡狐/蛙空",
+        "archive": true,
         "openDate": "2018/02/15 15:10:00"
       },
       "firstMagiaGiftId1": 241,
@@ -39967,6 +41103,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -40170,6 +41309,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_V",
@@ -40299,6 +41441,7 @@
         "title": "その姿は、黒影",
         "description": "この感情の主は、苦境に立たされても、他人を思う情の深さをもっている。＠光ある所に影があるのは、まさしく摂理といえるが、影に置かれた立場としては、決して光をその身に受けることができないもまた摂理。＠このドッペルは、眩いばかりの光に浴する英雄の傍らにあって、常に寄り添う影であり、本質を決して掴ませない闇そのものといえる。＠しかし、だからこそ光の存在は、より一層際立ってくる。＠両者は、摂理が結びつけた切っても切れない関係にある。",
         "designer": "原案・監修：枡狐/蛙空",
+        "archive": true,
         "openDate": "2018/02/21 15:10:00"
       },
       "firstMagiaGiftId1": 251,
@@ -40613,6 +41756,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -40808,6 +41954,9 @@
               "probability": 700
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -41089,6 +42238,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -41244,6 +42396,9 @@
               "growPoint": 0
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -41371,6 +42526,7 @@
         "title": "その姿は、カゲロウ",
         "description": "この感情の主は、炎を内に宿している。＠それは復讐心によって燃え上がる炎でもあり、恩人と繋いだ絆を示す炎でもある。＠だが、仇敵である魔女を滅ぼさんとするその火勢は、同時に苛烈なる運命を背負っている宿主をも焦がしている。形作られたカゲロウの姿は、まさにその命脈を表しているのだろうか。それ故か、連なる鈴から響き渡る音は、それを聴く者の魂にまで届く。＠炎の先に揺らめく景色の中に何を見ているのかは、操る彼女にしか分からない。",
         "designer": "原案・監修：GAN",
+        "archive": true,
         "openDate": "2018/05/01 15:10:00"
       },
       "firstMagiaGiftId1": 211,
@@ -41676,6 +42832,9 @@
               "probability": 600
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -41875,6 +43034,9 @@
               "probability": 700
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -42169,6 +43331,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -42344,6 +43509,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -42757,6 +43925,9 @@
               "limitedValue": "0"
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -42918,6 +44089,9 @@
               "growPoint": 25
             }
           },
+          "pieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
