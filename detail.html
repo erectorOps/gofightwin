@@ -221,7 +221,7 @@ function changeMagi(charaId, evoCount)
 	var cone = getEvolution(chara, evoCount);
 	var card = getCard(root, cone.cardId);
 	
-	$(".inBorder tbody,h1,.desc").empty();
+	$(".inBorder tbody,h1,.desc,#mExSkillType").empty();
 	
 	$("#mCards").empty();
 	$("#mName").text(cone.cardName);
@@ -310,6 +310,29 @@ function changeMagi(charaId, evoCount)
 		$("#mConnFlover tbody").append(trEl);
 	}
 	
+	var EXSK = (getEvoCount(chara) == (evoCount + 1))
+		? card.maxPieceSkillList.find(e => e.id == card.maxPieceSkillId1)
+		: card.pieceSkillList.find(e => e.id == card.pieceSkillId1);
+	if (EXSK) {
+		$("#mExSkill").text(EXSK.name);
+		$("#mExSkillType").text(EXSK.type);
+		$("#mExSkillDesc").text(EXSK.shortDescription);
+
+		for (var n = 1; n < 10; n++) {
+			var art = "art" + n;
+			if (typeof EXSK[art] === 'undefined')
+				break;
+			var trEl = $("<tr>").attr({"align":"center"});
+			$("<td>").text(EXSK[art].verbCode).appendTo(trEl);
+			$("<td>").text(EXSK[art].targetId).appendTo(trEl);
+			$("<td>").text(EXSK[art].effectValue).appendTo(trEl);
+			$("<td>").text(EXSK[art].growPoint).appendTo(trEl);
+			$("<td>").text(EXSK[art].effectCode).appendTo(trEl);
+			$("<td>").text(EXSK[art].probability).appendTo(trEl);
+			$("<td>").text(EXSK[art].enableTurn).appendTo(trEl);
+			$("#mExSkillFlover tbody").append(trEl);
+		}
+	}
 	var tbEl = $("#mStatus > tbody");
 	var chartData = [];
 	for (var lv = 1; lv <= maxLv; lv++)
@@ -437,7 +460,7 @@ function changeMagi(charaId, evoCount)
 				</tr>
 			</tbody>
 		</table>
-		<div id="mCharaDesc" class="inBorder" style="width:fit-content;border-width:1px !important;margin:5px 5px 5px 50px;padding:5px;">
+		<div id="mCharaDesc" class="inBorder" style="width:600px;border-width:1px !important;margin:5px 5px 5px 50px;padding:5px;">
 		</div>
 		<div id="mCards" style="position:relative; height:80px;margin:3px;"></div>
 		<div class="inBorder">
@@ -485,6 +508,27 @@ function changeMagi(charaId, evoCount)
 			<h1 id="mConn" style="font-size:16px;"></h1>
 			<div id="mConnDesc" class="desc"></div>
 			<table id="mConnFlover" cellspacing="3">
+				<thead>
+					<tr>
+						<th><b>効果</b></th>
+						<th><b>ターゲット</b></th>
+						<th><b>効果量</b></th>
+						<th><b>強化</b></th>
+						<th><b>状態変化</b></th>
+						<th><b>成功率</b></th>
+						<th><b>持続ターン</b></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="inBorder">
+			<div class="inHead">EXスキル</div>
+			<h1 id="mExSkill" style="font-size:16px;"></h1>
+			<div class="inHeadL"><span>タイプ</span><span id="mExSkillType"></span></div>
+			<div id="mExSkillDesc" class="desc"></div>
+			<table id="mExSkillFlover" cellspacing="3">
 				<thead>
 					<tr>
 						<th><b>効果</b></th>
