@@ -278,7 +278,7 @@
             "id": 10011,
             "groupId": 1014,
             "name": "ストラーダ・フトゥーロ",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 蘇生",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 蘇生",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -313,6 +313,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -371,7 +374,7 @@
             "id": 10012,
             "groupId": 1014,
             "name": "ストラーダ・フトゥーロ",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 蘇生",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 蘇生",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -406,6 +409,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -509,7 +515,7 @@
             "id": 10013,
             "groupId": 1014,
             "name": "ストラーダ・フトゥーロ",
-            "shortDescription": "敵全体にダメージ[Ⅱ] ＆ 蘇生",
+            "shortDescription": "敵全体にダメージ[Ⅱ] & 蘇生",
             "artId1": 100300102,
             "art1": {
               "artId": 100300102,
@@ -544,6 +550,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -647,7 +656,7 @@
             "id": 10014,
             "groupId": 1014,
             "name": "ストラーダ・フトゥーロ",
-            "shortDescription": "敵全体にダメージ[Ⅳ] ＆ 蘇生",
+            "shortDescription": "敵全体にダメージ[Ⅳ] & 蘇生",
             "artId1": 100300104,
             "art1": {
               "artId": 100300104,
@@ -670,7 +679,7 @@
             "id": 10014,
             "groupId": 1078,
             "name": "一緒にいるから大丈夫だよ",
-            "shortDescription": "HP回復[Ⅶ]＆やちよにコネクトでMP回復",
+            "shortDescription": "HP回復[Ⅶ] & やちよにコネクトでMP回復",
             "artId1": 200400407,
             "art1": {
               "artId": 200400407,
@@ -692,6 +701,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -1064,7 +1076,7 @@
             "id": 10022,
             "groupId": 1014,
             "name": "アブソリュート・レイン",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ Blast ダメージUP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & Blast ダメージUP(全/3T)",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -1089,7 +1101,7 @@
             "id": 10022,
             "groupId": 1092,
             "name": "道は照らしておくから",
-            "shortDescription": "Blast ダメージUP[Ⅲ] ＆ 確率でクリティカル[Ⅲ]",
+            "shortDescription": "Blast ダメージUP[Ⅲ] & 確率でクリティカル[Ⅲ]",
             "artId1": 310401803,
             "art1": {
               "artId": 310401803,
@@ -1113,6 +1125,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -1217,7 +1232,7 @@
             "id": 10023,
             "groupId": 1014,
             "name": "アブソリュート・レイン",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ Blast ダメージUP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & Blast ダメージUP(全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -1242,7 +1257,7 @@
             "id": 10023,
             "groupId": 1092,
             "name": "道は照らしておくから",
-            "shortDescription": "Blast ダメージUP[Ⅴ] ＆ 確率でクリティカル[Ⅴ]",
+            "shortDescription": "Blast ダメージUP[Ⅴ] & 確率でクリティカル[Ⅴ]",
             "artId1": 310401805,
             "art1": {
               "artId": 310401805,
@@ -1266,6 +1281,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -1369,7 +1387,7 @@
             "id": 10024,
             "groupId": 1014,
             "name": "アブソリュート・レイン",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ Blast ダメージUP(全/3T) ＆ 攻撃力UP(自/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & Blast ダメージUP(全/3T) & 攻撃力UP(自/3T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -1404,7 +1422,7 @@
             "id": 10024,
             "groupId": 1092,
             "name": "道は照らしておくから",
-            "shortDescription": "Blast ダメージUP[Ⅶ] ＆ 確率でクリティカル[Ⅶ]",
+            "shortDescription": "Blast ダメージUP[Ⅶ] & 確率でクリティカル[Ⅶ]",
             "artId1": 310401807,
             "art1": {
               "artId": 310401807,
@@ -1428,6 +1446,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -1531,7 +1552,7 @@
             "id": 10025,
             "groupId": 1014,
             "name": "アブソリュート・レイン",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ Blast ダメージUP(全/3T) ＆ 攻撃力UP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & Blast ダメージUP(全/3T) & 攻撃力UP(全/3T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -1566,7 +1587,7 @@
             "id": 10028,
             "groupId": 1014,
             "name": "モギリのドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ Blast ダメージUP(全/3T) ＆ 攻撃力UP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & Blast ダメージUP(全/3T) & 攻撃力UP(全/3T)",
             "artId1": 190100281,
             "art1": {
               "artId": 190100281,
@@ -1601,7 +1622,7 @@
             "id": 10025,
             "groupId": 1092,
             "name": "道は照らしておくから",
-            "shortDescription": "Blast ダメージUP[Ⅸ] ＆ 確率でクリティカル[Ⅸ] & いろはにコネクトでHP回復",
+            "shortDescription": "Blast ダメージUP[Ⅸ] & 確率でクリティカル[Ⅸ] & いろはにコネクトでHP回復",
             "artId1": 310401809,
             "art1": {
               "artId": 310401809,
@@ -1635,6 +1656,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -2008,7 +2032,7 @@
             "id": 10032,
             "groupId": 1014,
             "name": "炎扇斬舞",
-            "shortDescription": "敵全体にダメージ[Ⅱ] ＆ Blast ダメージUP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅱ] & Blast ダメージUP(全/3T)",
             "artId1": 100300102,
             "art1": {
               "artId": 100300102,
@@ -2033,7 +2057,7 @@
             "id": 10032,
             "groupId": 1092,
             "name": "出たとこ勝負で行こうよ！",
-            "shortDescription": "Blast ダメージUP[Ⅲ] ＆ 攻撃力UP[Ⅲ]",
+            "shortDescription": "Blast ダメージUP[Ⅲ] & 攻撃力UP[Ⅲ]",
             "artId1": 310401803,
             "art1": {
               "artId": 310401803,
@@ -2056,6 +2080,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -2160,7 +2187,7 @@
             "id": 10033,
             "groupId": 1014,
             "name": "炎扇斬舞",
-            "shortDescription": "敵全体にダメージ[Ⅳ] ＆ Blast ダメージUP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅳ] & Blast ダメージUP(全/3T)",
             "artId1": 100300104,
             "art1": {
               "artId": 100300104,
@@ -2185,7 +2212,7 @@
             "id": 10033,
             "groupId": 1092,
             "name": "出たとこ勝負で行こうよ！",
-            "shortDescription": "Blast ダメージUP[Ⅴ] ＆ 攻撃力UP[Ⅴ]",
+            "shortDescription": "Blast ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]",
             "artId1": 310401805,
             "art1": {
               "artId": 310401805,
@@ -2208,6 +2235,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -2311,7 +2341,7 @@
             "id": 10034,
             "groupId": 1014,
             "name": "炎扇斬舞",
-            "shortDescription": "敵全体にダメージ[Ⅵ] ＆ Blast ダメージUP ＆ Accele MPUP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅵ] & Blast ダメージUP & Accele MPUP(全/3T)",
             "artId1": 100300106,
             "art1": {
               "artId": 100300106,
@@ -2346,7 +2376,7 @@
             "id": 10034,
             "groupId": 1092,
             "name": "出たとこ勝負で行こうよ！",
-            "shortDescription": "Blast ダメージUP[Ⅶ] ＆ 攻撃力UP[Ⅶ]",
+            "shortDescription": "Blast ダメージUP[Ⅶ] & 攻撃力UP[Ⅶ]",
             "artId1": 310401807,
             "art1": {
               "artId": 310401807,
@@ -2369,6 +2399,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -2584,6 +2617,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -2934,7 +2970,7 @@
             "id": 10042,
             "groupId": 1014,
             "name": "フォルターゲフェングニス",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 防御力UP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 防御力UP(全/3T)",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -2973,6 +3009,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -3077,7 +3116,7 @@
             "id": 10043,
             "groupId": 1014,
             "name": "フォルターゲフェングニス",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 防御力UP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 防御力UP(全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -3116,6 +3155,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -3220,7 +3262,7 @@
             "id": 10044,
             "groupId": 1014,
             "name": "フォルターゲフェングニス",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 防御力UP(全/3T) ＆ ダメージカット(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 防御力UP(全/3T) & ダメージカット(全/3T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -3270,6 +3312,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -3406,6 +3451,30 @@
         "miniCharaNo": 100500,
         "charaNo": 1005,
         "cardName": "深月 フェリシア"
+      },
+      "evolutionCardId3": 10055,
+      "evolutionCard3": {
+        "cardId": 10055,
+        "rank": "RANK_5",
+        "attributeId": "DARK",
+        "initialType": "ATTACK",
+        "growthType": "ATKHP",
+        "attack": 2159,
+        "defense": 1645,
+        "hp": 5194,
+        "miniCharaNo": 100501,
+        "charaNo": 1005,
+        "cardName": "深月 フェリシア"
+      },
+      "doppelCharaNo": 100500,
+      "doppel": {
+        "id": 100500,
+        "name": "攪拌のドッペル",
+        "title": "その姿は、瞼",
+        "description": "この感情の主はこのドッペルが現れている間、深い眠りに落ち、このドッペルが知り得ることを主が目にすることはない。＠このドッペルは主が寝ているうち、虚ろな瞳から流れ出る泥涙で全ての不都合を覆い隠し塗り替えてしまう。＠現実を踏み砕くちからを必要としたとき、この写しは目を覚ますだろう。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2018/08/02 15:10:00"
       },
       "firstMagiaGiftId1": 251,
       "firstMagiaGiftNum1": 3,
@@ -3669,6 +3738,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -3819,6 +3891,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -3982,6 +4057,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_V",
           "commandType3": "RANGE_H",
@@ -4060,6 +4138,226 @@
             "bonusNum6": 60
           }
         }
+      },
+      {
+        "cardId": 10055,
+        "card": {
+          "cardId": 10055,
+          "charaNo": 1005,
+          "miniCharaNo": 100501,
+          "magiaCharaNo": 100500,
+          "cardName": "深月 フェリシア",
+          "rank": "RANK_5",
+          "attributeId": "DARK",
+          "initialType": "ATTACK",
+          "growthType": "ATKHP",
+          "attack": 2159,
+          "defense": 1645,
+          "hp": 5194,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 10055,
+          "cardMagia": {
+            "id": 10055,
+            "groupId": 1012,
+            "name": "ウルトラグレートビッグハンマー",
+            "shortDescription": "敵単体にダメージ[Ⅶ]&防御力DOWN&さらに防御力DOWN(敵単/3T)&確率で拘束(敵単/1T)",
+            "artId1": 100000107,
+            "art1": {
+              "artId": 100000107,
+              "verbCode": "ATTACK",
+              "targetId": "TARGET",
+              "effectValue": 7200,
+              "growPoint": 100
+            },
+            "artId2": 430002105,
+            "art2": {
+              "artId": 430002105,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "TARGET",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 430002105,
+            "art3": {
+              "artId": 430002105,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "TARGET",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 510004307,
+            "art4": {
+              "artId": 510004307,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "RESTRAINT",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 450
+            }
+          },
+          "doppelMagiaId": 10058,
+          "doppelCardMagia": {
+            "id": 10058,
+            "groupId": 1012,
+            "name": "攪拌のドッペル",
+            "shortDescription": "敵単体にダメージ[Ⅸ]&防御力DOWN&さらに防御力DOWN(敵単/3T)&必ず拘束(敵単/1T)",
+            "artId1": 190100581,
+            "art1": {
+              "artId": 190100581,
+              "verbCode": "ATTACK",
+              "targetId": "TARGET",
+              "effectValue": 16720,
+              "growPoint": 220
+            },
+            "artId2": 430002105,
+            "art2": {
+              "artId": 430002105,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "TARGET",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 430002105,
+            "art3": {
+              "artId": 430002105,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "TARGET",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 510004400,
+            "art4": {
+              "artId": 510004400,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "RESTRAINT",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 10055,
+          "cardSkill": {
+            "id": 10055,
+            "groupId": 1087,
+            "name": "ガツンと任せとけって！",
+            "shortDescription": "ダメージUP[Ⅸ] & カウンター無効",
+            "artId1": 310401309,
+            "art1": {
+              "artId": 310401309,
+              "verbCode": "BUFF",
+              "effectCode": "DAMAGE",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610408200,
+            "art2": {
+              "artId": 610408200,
+              "verbCode": "IGNORE",
+              "effectCode": "COUNTER",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_V",
+          "commandType3": "RANGE_H",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "illustrator": "鮠水ちか",
+          "cardCustomize": {
+            "cardId": 10055,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 90,
+            "giftId2": 152,
+            "gift2": {
+              "id": 152,
+              "name": "ダークオーブ＋",
+              "attributeId": "DARK",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 15,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 153,
+            "gift3": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 404,
+            "gift4": {
+              "id": 404,
+              "name": "オウルのバケツ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum4": 15,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 50,
+            "giftId5": 506,
+            "gift5": {
+              "id": 506,
+              "name": "キュレーターのフード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 554,
+            "gift6": {
+              "id": 554,
+              "name": "屋上のバルーン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 8,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 70
+          },
+          "openDate": "2018/08/02 15:10:00"
+        }
       }
     ]
   },
@@ -4075,6 +4373,7 @@
       "growthType": "ATKDEF",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10064,
       "defaultCard": {
         "cardId": 10064,
@@ -4367,7 +4666,7 @@
             "id": 10064,
             "groupId": 1014,
             "name": "アサルトパラノイア",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 確率で幻惑(敵全/1T) ＆ バフ解除(敵全)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 確率で幻惑(敵全/1T) & バフ解除(敵全)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -4425,6 +4724,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -4530,7 +4832,7 @@
             "id": 10065,
             "groupId": 1014,
             "name": "アサルトパラノイア",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 確率で幻惑(敵全/1T) ＆ バフ解除(敵全)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 確率で幻惑(敵全/1T) & バフ解除(敵全)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -4564,7 +4866,7 @@
             "id": 10068,
             "groupId": 1014,
             "name": "生業のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ず幻惑(敵全/2T) ＆ バフ解除(敵全)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 必ず幻惑(敵全/2T) & バフ解除(敵全)",
             "artId1": 190100681,
             "art1": {
               "artId": 190100681,
@@ -4622,6 +4924,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -4718,6 +5023,7 @@
       "growthType": "ATKHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10084,
       "defaultCard": {
         "cardId": 10084,
@@ -5010,7 +5316,7 @@
             "id": 10084,
             "groupId": 1014,
             "name": "Nine Phases",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 攻撃力UP(自/2T) ＆ 確率でクリティカル(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力UP(自/2T) & 確率でクリティカル(自/2T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -5081,6 +5387,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -5184,7 +5493,7 @@
             "id": 10085,
             "groupId": 1014,
             "name": "Nine Phases",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 攻撃力UP(自/2T) ＆ 確率でクリティカル(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP(自/2T) & 確率でクリティカル(自/2T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -5220,7 +5529,7 @@
             "id": 10088,
             "groupId": 1014,
             "name": "熱病のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ず毒(敵全/3T) ＆ 攻撃力UP(自/2T) ＆ クリティカル(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 必ず毒(敵全/3T) & 攻撃力UP(自/2T) & クリティカル(自/2T)",
             "artId1": 190100881,
             "art1": {
               "artId": 190100881,
@@ -5312,6 +5621,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -5407,6 +5719,7 @@
       "growthType": "ATKDEF",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10094,
       "defaultCard": {
         "cardId": 10094,
@@ -5697,7 +6010,7 @@
             "id": 10094,
             "groupId": 1012,
             "name": "インフィニットポセイドン",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ MP回復(自)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & MP回復(自)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -5721,7 +6034,7 @@
             "id": 10094,
             "groupId": 1085,
             "name": "仕方ないから手伝ってあげる",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ Accele MPUP[Ⅶ] ＆ 確率でクリティカル[Ⅶ]",
+            "shortDescription": "攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ] & 確率でクリティカル[Ⅶ]",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -5755,6 +6068,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -5858,7 +6174,7 @@
             "id": 10095,
             "groupId": 1012,
             "name": "インフィニットポセイドン",
-            "shortDescription": "敵単体にダメージ[Ⅶ] ＆ MP回復(自) ＆ Accele MPUP(自/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅶ] & MP回復(自) & Accele MPUP(自/3T)",
             "artId1": 100000107,
             "art1": {
               "artId": 100000107,
@@ -5892,7 +6208,7 @@
             "id": 10098,
             "groupId": 1012,
             "name": "変身のドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅸ] ＆ MP回復(自) ＆ Accele MPUP(自/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅸ] & MP回復(自) & Accele MPUP(自/3T)",
             "artId1": 190100981,
             "art1": {
               "artId": 190100981,
@@ -5926,7 +6242,7 @@
             "id": 10095,
             "groupId": 1085,
             "name": "仕方ないから手伝ってあげる",
-            "shortDescription": "攻撃力UP[Ⅸ] ＆ Accele MPUP[Ⅸ] ＆ 確率でクリティカル[Ⅸ]",
+            "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅸ] & 確率でクリティカル[Ⅸ]",
             "artId1": 310401109,
             "art1": {
               "artId": 310401109,
@@ -5960,6 +6276,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -6054,6 +6373,7 @@
       "growthType": "DEFHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10104,
       "defaultCard": {
         "cardId": 10104,
@@ -6344,7 +6664,7 @@
             "id": 10104,
             "groupId": 1012,
             "name": "エッジオブユニヴァース",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ Charge後ダメージUP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & Charge後ダメージUP(全/3T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -6369,7 +6689,7 @@
             "id": 10104,
             "groupId": 1085,
             "name": "おせっかいで何がわるい！",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ Charge後ダメージUP[Ⅶ] ＆ 防御無視",
+            "shortDescription": "攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅶ] & 防御無視",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -6402,6 +6722,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -6505,7 +6828,7 @@
             "id": 10105,
             "groupId": 1012,
             "name": "エッジオブユニヴァース",
-            "shortDescription": "敵単体にダメージ[Ⅶ]＆Charge後ダメージUP＆Blast ダメージUP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅶ]&Charge後ダメージUP&Blast ダメージUP(全/3T)",
             "artId1": 100000107,
             "art1": {
               "artId": 100000107,
@@ -6540,7 +6863,7 @@
             "id": 10108,
             "groupId": 1012,
             "name": "自戒のドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅸ]＆Charge後ダメージUP＆Blast ダメージUP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅸ]&Charge後ダメージUP&Blast ダメージUP(全/3T)",
             "artId1": 190101081,
             "art1": {
               "artId": 190101081,
@@ -6575,7 +6898,7 @@
             "id": 10105,
             "groupId": 1085,
             "name": "おせっかいで何がわるい！",
-            "shortDescription": "攻撃力UP[Ⅸ] ＆ Charge後ダメージUP[Ⅸ] ＆ 防御無視",
+            "shortDescription": "攻撃力UP[Ⅸ] & Charge後ダメージUP[Ⅸ] & 防御無視",
             "artId1": 310401109,
             "art1": {
               "artId": 310401109,
@@ -6608,6 +6931,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -6985,7 +7311,7 @@
             "id": 10113,
             "groupId": 1087,
             "name": "わ、私も頑張ります！",
-            "shortDescription": "与えるダメージUP[Ⅴ] ＆ MP獲得量UP[Ⅴ]",
+            "shortDescription": "与えるダメージUP[Ⅴ] & MP獲得量UP[Ⅴ]",
             "artId1": 310401305,
             "art1": {
               "artId": 310401305,
@@ -7008,6 +7334,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -7112,7 +7441,7 @@
             "id": 10114,
             "groupId": 1014,
             "name": "ジャッジメントアース",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅵ] ＆ 霧(敵全/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅵ] & 霧(敵全/3T)",
             "artId1": 100300206,
             "art1": {
               "artId": 100300206,
@@ -7139,7 +7468,7 @@
             "id": 10114,
             "groupId": 1087,
             "name": "わ、私も頑張ります！",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ MP獲得量UP[Ⅶ]",
+            "shortDescription": "与えるダメージUP[Ⅶ] & MP獲得量UP[Ⅶ]",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -7162,6 +7491,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -7256,6 +7588,7 @@
       "growthType": "ATKHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10124,
       "defaultCard": {
         "cardId": 10124,
@@ -7619,6 +7952,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "MPUP",
@@ -7844,6 +8180,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -8206,7 +8545,7 @@
             "id": 10133,
             "groupId": 1012,
             "name": "竜真閃光爪牙",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 必ず挑発(自/1T) ＆ HP自動回復(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 必ず挑発(自/1T) & HP自動回復(自/1T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -8242,7 +8581,7 @@
             "id": 10133,
             "groupId": 1128,
             "name": "助太刀つかまつる！",
-            "shortDescription": "必ず挑発 ＆ ダメージカット状態[Ⅴ]",
+            "shortDescription": "必ず挑発 & ダメージカット状態[Ⅴ]",
             "artId1": 610407600,
             "art1": {
               "artId": 610407600,
@@ -8266,6 +8605,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -8370,7 +8712,7 @@
             "id": 10134,
             "groupId": 1012,
             "name": "竜真閃光爪牙",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 必ず挑発(自/1T) ＆ HP自動回復(自/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 必ず挑発(自/1T) & HP自動回復(自/3T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -8406,7 +8748,7 @@
             "id": 10134,
             "groupId": 1128,
             "name": "助太刀つかまつる！",
-            "shortDescription": "必ず挑発 ＆ ダメージカット状態[Ⅶ]",
+            "shortDescription": "必ず挑発 & ダメージカット状態[Ⅶ]",
             "artId1": 610407600,
             "art1": {
               "artId": 610407600,
@@ -8430,6 +8772,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -8524,6 +8869,7 @@
       "growthType": "ATKDEF",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10164,
       "defaultCard": {
         "cardId": 10164,
@@ -8816,7 +9162,7 @@
             "id": 10164,
             "groupId": 1022,
             "name": "断罪の光芒",
-            "shortDescription": "ランダム5回 ダメージ[Ⅴ] ＆ 確率で回避無効(全/1T) & 確率でダメージカット(自/1T)",
+            "shortDescription": "ランダム5回 ダメージ[Ⅴ] & 確率で回避無効(全/1T) & 確率でダメージカット(自/1T)",
             "artId1": 101200105,
             "art1": {
               "artId": 101200105,
@@ -8875,6 +9221,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -8979,7 +9328,7 @@
             "id": 10165,
             "groupId": 1022,
             "name": "断罪の光芒",
-            "shortDescription": "ランダム5回 ダメージ[Ⅶ] ＆ 回避無効(全/1T) & 確率でダメージカット(自/1T) ",
+            "shortDescription": "ランダム5回 ダメージ[Ⅶ] & 回避無効(全/1T) & 確率でダメージカット(自/1T) ",
             "artId1": 101200107,
             "art1": {
               "artId": 101200107,
@@ -9015,7 +9364,7 @@
             "id": 10168,
             "groupId": 1022,
             "name": "解体のドッペル",
-            "shortDescription": "ランダム5回 ダメージ[Ⅷ] ＆ 回避無効(全/1T) & ダメージカット(自/1T) ",
+            "shortDescription": "ランダム5回 ダメージ[Ⅷ] & 回避無効(全/1T) & ダメージカット(自/1T) ",
             "artId1": 190101681,
             "art1": {
               "artId": 190101681,
@@ -9074,6 +9423,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -9172,6 +9524,7 @@
       "growthType": "BALANCE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10174,
       "defaultCard": {
         "cardId": 10174,
@@ -9464,7 +9817,7 @@
             "id": 10174,
             "groupId": 1014,
             "name": "絶対自壊演舞",
-            "shortDescription": "必ず呪い & 必ず毒 & 必ずマギア不可(敵全/1T) & 攻撃力UP(全/1T) ＆ 自身に呪い(1T)",
+            "shortDescription": "必ず呪い & 必ず毒 & 必ずマギア不可(敵全/1T) & 攻撃力UP(全/1T) & 自身に呪い(1T)",
             "artId1": 100316000,
             "art1": {
               "artId": 100316000,
@@ -9532,7 +9885,7 @@
             "id": 10174,
             "groupId": 1078,
             "name": "高くついても知らないわよぉ♪",
-            "shortDescription": "HP回復[Ⅶ] ＆ 敵状態異常時ダメージUP[Ⅶ] ＆ 防御力DOWN[Ⅴ]",
+            "shortDescription": "HP回復[Ⅶ] & 敵状態異常時ダメージUP[Ⅶ] & 防御力DOWN[Ⅴ]",
             "artId1": 200400407,
             "art1": {
               "artId": 200400407,
@@ -9565,6 +9918,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -9668,7 +10024,7 @@
             "id": 10175,
             "groupId": 1014,
             "name": "絶対自壊演舞",
-            "shortDescription": "必ず呪い & 必ず毒 & 必ずマギア不可(敵全/3T) & 攻撃力UP(全/3T) ＆ 自身に呪い(1T)",
+            "shortDescription": "必ず呪い & 必ず毒 & 必ずマギア不可(敵全/3T) & 攻撃力UP(全/3T) & 自身に呪い(1T)",
             "artId1": 100316000,
             "art1": {
               "artId": 100316000,
@@ -9736,7 +10092,7 @@
             "id": 10178,
             "groupId": 1014,
             "name": "メメントモリのドッペル",
-            "shortDescription": "必ず強化呪い & 必ず強化毒 & 必ずマギア不可(敵全/3T) & 攻撃力UP(全/3T) ＆ 自身に呪い(1T)",
+            "shortDescription": "必ず強化呪い & 必ず強化毒 & 必ずマギア不可(敵全/3T) & 攻撃力UP(全/3T) & 自身に呪い(1T)",
             "artId1": 100316000,
             "art1": {
               "artId": 100316000,
@@ -9804,7 +10160,7 @@
             "id": 10175,
             "groupId": 1078,
             "name": "高くついても知らないわよぉ♪",
-            "shortDescription": "HP回復[Ⅸ] ＆ 敵状態異常時ダメージUP[Ⅸ] ＆ 防御力DOWN[Ⅴ]",
+            "shortDescription": "HP回復[Ⅸ] & 敵状態異常時ダメージUP[Ⅸ] & 防御力DOWN[Ⅴ]",
             "artId1": 200400409,
             "art1": {
               "artId": 200400409,
@@ -9837,6 +10193,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -9933,6 +10292,7 @@
       "growthType": "ATKDEF",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 10184,
       "defaultCard": {
         "cardId": 10184,
@@ -10288,6 +10648,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "RANGE_H",
           "commandType3": "CHARGE",
@@ -10476,6 +10839,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -10864,7 +11230,7 @@
             "id": 10193,
             "groupId": 1079,
             "name": "これがウチらのハーモニー",
-            "shortDescription": "MP回復[Ⅳ] ＆ 月夜にコネクトすると さらにMP回復",
+            "shortDescription": "MP回復[Ⅳ] & 月夜にコネクトすると さらにMP回復",
             "artId1": 200400504,
             "art1": {
               "artId": 200400504,
@@ -10886,6 +11252,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -11015,7 +11384,7 @@
             "id": 10194,
             "groupId": 1079,
             "name": "これがウチらのハーモニー",
-            "shortDescription": "MP回復[Ⅵ] ＆ 月夜にコネクトすると さらにMP回復",
+            "shortDescription": "MP回復[Ⅵ] & 月夜にコネクトすると さらにMP回復",
             "artId1": 200400506,
             "art1": {
               "artId": 200400506,
@@ -11037,6 +11406,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -11115,6 +11487,697 @@
             "giftNum6": 12,
             "bonusCode6": "CHARGE",
             "bonusNum6": 40
+          }
+        }
+      }
+    ]
+  },
+  {
+    "charaId": 1101,
+    "chara": {
+      "id": 1101,
+      "name": "環 いろは",
+      "kana": "たまき いろは",
+      "title": "水着ver.",
+      "attributeId": "WATER",
+      "attackType": 1,
+      "initialType": "SUPPORT",
+      "growthType": "BALANCE",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
+      "defaultCardId": 11014,
+      "defaultCard": {
+        "cardId": 11014,
+        "rank": "RANK_4",
+        "attributeId": "WATER",
+        "initialType": "SUPPORT",
+        "growthType": "BALANCE",
+        "attack": 1765,
+        "defense": 1745,
+        "hp": 6310,
+        "miniCharaNo": 110100,
+        "charaNo": 1101,
+        "cardName": "環 いろは"
+      },
+      "evolutionCardId1": 11015,
+      "evolutionCard1": {
+        "cardId": 11015,
+        "rank": "RANK_5",
+        "attributeId": "WATER",
+        "initialType": "SUPPORT",
+        "growthType": "BALANCE",
+        "attack": 2004,
+        "defense": 1983,
+        "hp": 7162,
+        "miniCharaNo": 110100,
+        "charaNo": 1101,
+        "cardName": "環 いろは"
+      },
+      "doppelCharaNo": 110100,
+      "doppel": {
+        "id": 110100,
+        "name": "沈黙のドッペル",
+        "title": "その姿は、呼子鳥",
+        "description": "この感情の主は妹を捜しつつも、少しずつ自分を受け入れられるようになる道程にある。それに加えて夏の陽気に胸が弾んだだめ、少しはっちゃけた見た目になった。＠その心持ちはドッペルの服やマストに影響しているのが見て取れ、もはや主の一時の感情に振り回されている感じがする。詰まるところ表面だけ取り繕った姿である。＠海に特化して戦う事ができるものの、主が泳げないため器用なことはできず、ただ持てる力を使った強烈な攻撃で目の前の敵を屠ろうとする。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2018/08/08 15:10:00"
+      },
+      "firstMagiaGiftId1": 221,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 309,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 222,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 402,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 223,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 503,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 221,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 307,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 222,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 501,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 223,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 504,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 221,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 304,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 222,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 404,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 223,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 556,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 221,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 309,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 222,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 407,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 223,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 507,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 309,
+        "name": "ゴムの浮き輪",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 402,
+        "name": "南京錠の鎖",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 307,
+        "name": "子守の台座",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 501,
+        "name": "砂場のシャベル",
+        "rank": 3
+      },
+      "secondMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 504,
+        "name": "リュトンのリボン",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 304,
+        "name": "羊の角笛",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 556,
+        "name": "子守の取っ手",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 309,
+        "name": "ゴムの浮き輪",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 407,
+        "name": "マスコットのタテガミ",
+        "rank": 2
+      },
+      "fourthMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 507,
+        "name": "ビッグフェリスのタービン",
+        "rank": 3
+      },
+      "description": "友だちと一緒に夏休みを謳歌する魔法少女。この水着は魔法少女の衣装でありいつでも戦闘が可能。だが泳ぐのが苦手なので、水中戦に備えて浮き輪を武器にしている。緊急時は浮き輪をスクリューのように回転させて離脱も可能。",
+      "school": "神浜市立大附属学校",
+      "designer": "蒼樹うめ",
+      "voiceActor": "麻倉もも",
+      "openDate": "2018/08/08 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 1101,
+          "messageId": 6,
+          "message": "わ、私と浮き輪はセットなんです！"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 7,
+          "message": "無理だよ！この浮き輪、離せないんだもん！"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 8,
+          "message": "贅沢は言いません…せめて５メートルは！"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 9,
+          "message": "泳ぎだしたら頭真っ白になっちゃって…"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 10,
+          "message": "ふふ…魚って…すごいよね…ふふ…"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 11,
+          "message": "ああ、鶴乃ちゃん！手を握ってて～！"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 12,
+          "message": "ビート板があれば、私でも無敵です！"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 43,
+          "message": "一応…泳ぎ切れた…かな？"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 44,
+          "message": "泳ぎの方もどうにかならないかな…"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 45,
+          "message": "コツコツやっていかないとね！"
+        },
+        {
+          "charaNo": 1101,
+          "messageId": 46,
+          "message": "この手応え…今なら泳げるかも!?"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 11014,
+        "card": {
+          "cardId": 11014,
+          "charaNo": 1101,
+          "miniCharaNo": 110100,
+          "magiaCharaNo": 110100,
+          "cardName": "環 いろは",
+          "rank": "RANK_4",
+          "attributeId": "WATER",
+          "initialType": "SUPPORT",
+          "growthType": "BALANCE",
+          "attack": 1765,
+          "defense": 1745,
+          "hp": 6310,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 11014,
+          "cardMagia": {
+            "id": 11014,
+            "groupId": 1016,
+            "name": "これが今の私にできる泳ぎ方",
+            "shortDescription": "縦方向にダメージ[Ⅴ] & 防御力DOWN(敵縦/3T) & Accele MPUP(全/3T)",
+            "artId1": 100500105,
+            "art1": {
+              "artId": 100500105,
+              "verbCode": "ATTACK",
+              "targetId": "VERTICAL",
+              "effectValue": 5300,
+              "growPoint": 100
+            },
+            "artId2": 430302105,
+            "art2": {
+              "artId": 430302105,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301603,
+            "art3": {
+              "artId": 330301603,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "skillId": 11014,
+          "cardSkill": {
+            "id": 11014,
+            "groupId": 1092,
+            "name": "泳げないけどいいですか!?",
+            "shortDescription": "Blast ダメージUP[Ⅷ] & 防御力UP[Ⅷ] & 必ず霧",
+            "artId1": 310401808,
+            "art1": {
+              "artId": 310401808,
+              "verbCode": "BUFF",
+              "effectCode": "BLAST",
+              "targetId": "CONNECT",
+              "effectValue": 750,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 310401208,
+            "art2": {
+              "artId": 310401208,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "CONNECT",
+              "effectValue": 975,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610410700,
+            "art3": {
+              "artId": 610410700,
+              "verbCode": "ENCHANT",
+              "effectCode": "FOG",
+              "targetId": "CONNECT",
+              "effectValue": 250,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "一十九二",
+          "cardCustomize": {
+            "cardId": 11014,
+            "giftId1": 122,
+            "gift1": {
+              "id": 122,
+              "name": "アクアオーブ＋",
+              "attributeId": "WATER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 12,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 50,
+            "giftId2": 123,
+            "gift2": {
+              "id": 123,
+              "name": "アクアオーブ＋＋",
+              "attributeId": "WATER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 6,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 80,
+            "giftId4": 506,
+            "gift4": {
+              "id": 506,
+              "name": "キュレーターのフード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 303,
+            "gift5": {
+              "id": 303,
+              "name": "立ち耳の包装紙",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 3000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 309,
+            "gift6": {
+              "id": 309,
+              "name": "ゴムの浮き輪",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000,
+              "openDate": "2018/06/18 15:10:00"
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 11015,
+        "card": {
+          "cardId": 11015,
+          "charaNo": 1101,
+          "miniCharaNo": 110100,
+          "magiaCharaNo": 110100,
+          "cardName": "環 いろは",
+          "rank": "RANK_5",
+          "attributeId": "WATER",
+          "initialType": "SUPPORT",
+          "growthType": "BALANCE",
+          "attack": 2004,
+          "defense": 1983,
+          "hp": 7162,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 11015,
+          "cardMagia": {
+            "id": 11015,
+            "groupId": 1016,
+            "name": "これが今の私にできる泳ぎ方",
+            "shortDescription": "縦方向にダメージ[Ⅶ] & 防御力DOWN(敵縦/3T) & Accele MPUP(全/3T) & HP回復(全)",
+            "artId1": 100500107,
+            "art1": {
+              "artId": 100500107,
+              "verbCode": "ATTACK",
+              "targetId": "VERTICAL",
+              "effectValue": 5700,
+              "growPoint": 100
+            },
+            "artId2": 430302106,
+            "art2": {
+              "artId": 430302106,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "ALL",
+              "effectValue": 275,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301605,
+            "art3": {
+              "artId": 330301605,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 200300404,
+            "art4": {
+              "artId": 200300404,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "ALL",
+              "effectValue": 187,
+              "growPoint": 20
+            }
+          },
+          "doppelMagiaId": 11018,
+          "doppelCardMagia": {
+            "id": 11018,
+            "groupId": 1016,
+            "name": "沈黙のドッペル",
+            "shortDescription": "縦方向にダメージ[Ⅸ] & 防御力DOWN(敵縦/3T) & Accele MPUP(全/3T) & HP回復(全)",
+            "artId1": 190110181,
+            "art1": {
+              "artId": 190110181,
+              "verbCode": "ATTACK",
+              "targetId": "VERTICAL",
+              "effectValue": 12120,
+              "growPoint": 220
+            },
+            "artId2": 430302109,
+            "art2": {
+              "artId": 430302109,
+              "verbCode": "DEBUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "ALL",
+              "effectValue": 350,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301607,
+            "art3": {
+              "artId": 330301607,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 200300407,
+            "art4": {
+              "artId": 200300407,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "ALL",
+              "effectValue": 225,
+              "growPoint": 20
+            }
+          },
+          "skillId": 11015,
+          "cardSkill": {
+            "id": 11015,
+            "groupId": 1092,
+            "name": "泳げないけどいいですか!?",
+            "shortDescription": "Blast ダメージUP[Ⅹ] & 防御力UP[Ⅹ] & 必ず霧",
+            "artId1": 310401810,
+            "art1": {
+              "artId": 310401810,
+              "verbCode": "BUFF",
+              "effectCode": "BLAST",
+              "targetId": "CONNECT",
+              "effectValue": 850,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 310401210,
+            "art2": {
+              "artId": 310401210,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "CONNECT",
+              "effectValue": 1125,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610410700,
+            "art3": {
+              "artId": 610410700,
+              "verbCode": "ENCHANT",
+              "effectCode": "FOG",
+              "targetId": "CONNECT",
+              "effectValue": 250,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ぷにゃん",
+          "cardCustomize": {
+            "cardId": 11015,
+            "giftId1": 122,
+            "gift1": {
+              "id": 122,
+              "name": "アクアオーブ＋",
+              "attributeId": "WATER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 123,
+            "gift2": {
+              "id": 123,
+              "name": "アクアオーブ＋＋",
+              "attributeId": "WATER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 90,
+            "giftId4": 557,
+            "gift4": {
+              "id": 557,
+              "name": "イキガミの水瓶",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/06/18 15:10:00"
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 502,
+            "gift5": {
+              "id": 502,
+              "name": "階段のモニュメント",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 404,
+            "gift6": {
+              "id": 404,
+              "name": "オウルのバケツ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
           }
         }
       }
@@ -11424,7 +12487,7 @@
             "id": 11033,
             "groupId": 1014,
             "name": "ウワサの炎扇斬舞",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 攻撃力DOWN ＆ Accele MP DOWN(敵全/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 攻撃力DOWN & Accele MP DOWN(敵全/2T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -11482,6 +12545,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -11587,7 +12653,7 @@
             "id": 11034,
             "groupId": 1014,
             "name": "ウワサの炎扇斬舞",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 攻撃力DOWN ＆ Accele MP DOWN(敵全/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力DOWN & Accele MP DOWN(敵全/2T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -11645,6 +12711,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -11749,7 +12818,7 @@
             "id": 11035,
             "groupId": 1014,
             "name": "ウワサの炎扇斬舞",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 攻撃力DOWN ＆ Accele MP DOWN(敵全/2T) & 必ず回避(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力DOWN & Accele MP DOWN(敵全/2T) & 必ず回避(自/1T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -11794,7 +12863,7 @@
             "id": 11038,
             "groupId": 1014,
             "name": "団欒のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 攻撃力DOWN ＆ MP獲得量DOWN(敵全/2T) & 必ず回避(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力DOWN & MP獲得量DOWN(敵全/2T) & 必ず回避(自/1T)",
             "artId1": 190110381,
             "art1": {
               "artId": 190110381,
@@ -11862,6 +12931,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -11958,6 +13030,7 @@
       "growthType": "BALANCE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 20014,
       "defaultCard": {
         "cardId": 20014,
@@ -12248,7 +13321,7 @@
             "id": 20014,
             "groupId": 1014,
             "name": "プルウィア☆マギカ",
-            "shortDescription": "敵全体にダメージ[Ⅳ] ＆ MP回復(全)",
+            "shortDescription": "敵全体にダメージ[Ⅳ] & MP回復(全)",
             "artId1": 100300104,
             "art1": {
               "artId": 100300104,
@@ -12272,7 +13345,7 @@
             "id": 20014,
             "groupId": 1078,
             "name": "私が受け止めてあげるから",
-            "shortDescription": "HP回復[Ⅵ] ＆ MP回復[Ⅵ]",
+            "shortDescription": "HP回復[Ⅵ] & MP回復[Ⅵ]",
             "artId1": 200400406,
             "art1": {
               "artId": 200400406,
@@ -12303,6 +13376,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -12406,7 +13482,7 @@
             "id": 20015,
             "groupId": 1014,
             "name": "プルウィア☆マギカ",
-            "shortDescription": "敵全体にダメージ[Ⅵ] ＆ MP回復(全) ＆ダメージカット(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅵ] & MP回復(全) &ダメージカット(全/3T)",
             "artId1": 100300106,
             "art1": {
               "artId": 100300106,
@@ -12441,7 +13517,7 @@
             "id": 20018,
             "groupId": 1014,
             "name": "慈悲のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅷ] ＆ MP回復(全) ＆ ダメージカット(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅷ] & MP回復(全) & ダメージカット(全/3T)",
             "artId1": 190200181,
             "art1": {
               "artId": 190200181,
@@ -12476,7 +13552,7 @@
             "id": 20015,
             "groupId": 1078,
             "name": "私が受け止めてあげるから",
-            "shortDescription": "HP回復[Ⅷ] ＆ MP回復[Ⅷ]",
+            "shortDescription": "HP回復[Ⅷ] & MP回復[Ⅷ]",
             "artId1": 200400408,
             "art1": {
               "artId": 200400408,
@@ -12507,6 +13583,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -12894,7 +13973,7 @@
             "id": 20034,
             "groupId": 1014,
             "name": "時間止めスペシャル",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ スキルクイック(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & スキルクイック(全/3T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -12932,6 +14011,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -13035,7 +14117,7 @@
             "id": 20035,
             "groupId": 1014,
             "name": "時間止めスペシャル",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ スキルクイック(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & スキルクイック(全/3T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -13060,7 +14142,7 @@
             "id": 20038,
             "groupId": 1014,
             "name": "閉鎖回路のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ スキルクイック(全/3T) ＆ MP回復(全)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & スキルクイック(全/3T) & MP回復(全)",
             "artId1": 190200381,
             "art1": {
               "artId": 190200381,
@@ -13094,7 +14176,7 @@
             "id": 20035,
             "groupId": 1124,
             "name": "一緒に頑張ろうね！",
-            "shortDescription": "必ず回避 ＆ マギアダメージUP[Ⅲ]",
+            "shortDescription": "必ず回避 & マギアダメージUP[Ⅲ]",
             "artId1": 610406900,
             "art1": {
               "artId": 610406900,
@@ -13128,6 +14210,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -13224,6 +14309,7 @@
       "growthType": "ATTACK",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 20044,
       "defaultCard": {
         "cardId": 20044,
@@ -13516,7 +14602,7 @@
             "id": 20044,
             "groupId": 1012,
             "name": "プレスティッシモ・アジタート",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ サヴァイヴ(自/3T) ＆ 必ずクリティカル(自/2T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & サヴァイヴ(自/3T) & 必ずクリティカル(自/2T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -13553,7 +14639,7 @@
             "id": 20044,
             "groupId": 1129,
             "name": "ここであたしの出番でしょ！",
-            "shortDescription": "HP自動回復[Ⅶ](3T) ＆ 攻撃力UP[Ⅶ]",
+            "shortDescription": "HP自動回復[Ⅶ](3T) & 攻撃力UP[Ⅶ]",
             "artId1": 630407707,
             "art1": {
               "artId": 630407707,
@@ -13577,6 +14663,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -13680,7 +14769,7 @@
             "id": 20045,
             "groupId": 1012,
             "name": "プレスティッシモ・アジタート",
-            "shortDescription": "敵単体にダメージ[Ⅶ] ＆ サヴァイヴ ＆ 必ずクリティカル & 必ずカウンター(自/2T)",
+            "shortDescription": "敵単体にダメージ[Ⅶ] & サヴァイヴ & 必ずクリティカル & 必ずカウンター(自/2T)",
             "artId1": 100000107,
             "art1": {
               "artId": 100000107,
@@ -13728,7 +14817,7 @@
             "id": 20048,
             "groupId": 1012,
             "name": "恋慕のドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅸ] ＆ サヴァイヴ ＆ 必ずクリティカル & 必ずカウンター(自/2T)",
+            "shortDescription": "敵単体にダメージ[Ⅸ] & サヴァイヴ & 必ずクリティカル & 必ずカウンター(自/2T)",
             "artId1": 190200481,
             "art1": {
               "artId": 190200481,
@@ -13776,7 +14865,7 @@
             "id": 20045,
             "groupId": 1129,
             "name": "ここであたしの出番でしょ！",
-            "shortDescription": "HP自動回復[Ⅸ](3T) ＆ 攻撃力UP[Ⅸ]",
+            "shortDescription": "HP自動回復[Ⅸ](3T) & 攻撃力UP[Ⅸ]",
             "artId1": 630407709,
             "art1": {
               "artId": 630407709,
@@ -13800,6 +14889,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -13895,6 +14987,7 @@
       "growthType": "ATTACK",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 20054,
       "defaultCard": {
         "cardId": 20054,
@@ -14185,7 +15278,7 @@
             "id": 20054,
             "groupId": 1014,
             "name": "ティロ・フィナーレ",
-            "shortDescription": "敵全体にダメージ[Ⅵ] ＆ 拘束(敵全/1T) ＆ 自分防御DOWN(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅵ] & 拘束(敵全/1T) & 自分防御DOWN(自/1T)",
             "artId1": 100300106,
             "art1": {
               "artId": 100300106,
@@ -14220,7 +15313,7 @@
             "id": 20054,
             "groupId": 1087,
             "name": "ティロ・デュエット！",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ 必ず拘束 ＆ 必ずやけど",
+            "shortDescription": "与えるダメージUP[Ⅶ] & 必ず拘束 & 必ずやけど",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -14254,6 +15347,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -14356,7 +15452,7 @@
             "id": 20055,
             "groupId": 1014,
             "name": "ティロ・フィナーレ",
-            "shortDescription": "敵全体にダメージ[Ⅷ]＆拘束(敵全/1T)＆やけど(敵全/3T)＆防御DOWN(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅷ]&拘束(敵全/1T)&やけど(敵全/3T)&防御DOWN(自/1T)",
             "artId1": 100300108,
             "art1": {
               "artId": 100300108,
@@ -14402,7 +15498,7 @@
             "id": 20058,
             "groupId": 1014,
             "name": "ご招待のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅹ] ＆ 拘束(敵全/1T) ＆ やけど(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅹ] & 拘束(敵全/1T) & やけど(敵全/3T)",
             "artId1": 190200581,
             "art1": {
               "artId": 190200581,
@@ -14438,7 +15534,7 @@
             "id": 20055,
             "groupId": 1087,
             "name": "ティロ・デュエット！",
-            "shortDescription": "与えるダメージUP[Ⅸ] ＆ 必ず拘束 ＆ 必ずやけど",
+            "shortDescription": "与えるダメージUP[Ⅸ] & 必ず拘束 & 必ずやけど",
             "artId1": 310401309,
             "art1": {
               "artId": 310401309,
@@ -14472,6 +15568,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -14566,6 +15665,7 @@
       "growthType": "BALANCE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 20064,
       "defaultCard": {
         "cardId": 20064,
@@ -14858,7 +15958,7 @@
             "id": 20064,
             "groupId": 1014,
             "name": "盟神抉槍（くがたち）",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] ＆ 攻撃力UP(自/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] & 攻撃力UP(自/3T)",
             "artId1": 100300205,
             "art1": {
               "artId": 100300205,
@@ -14884,7 +15984,7 @@
             "id": 20064,
             "groupId": 1092,
             "name": "ったく、見てらんねーな",
-            "shortDescription": "Blast ダメージUP[Ⅶ]＆ダメージカット状態[Ⅶ]",
+            "shortDescription": "Blast ダメージUP[Ⅶ]&ダメージカット状態[Ⅶ]",
             "artId1": 310401807,
             "art1": {
               "artId": 310401807,
@@ -14908,6 +16008,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -15010,7 +16113,7 @@
             "id": 20065,
             "groupId": 1014,
             "name": "盟神抉槍（くがたち）",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] ＆ 攻撃力UP(自/3T)＆Blast ダメージUP(全/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & 攻撃力UP(自/3T)&Blast ダメージUP(全/3T)",
             "artId1": 100300207,
             "art1": {
               "artId": 100300207,
@@ -15046,7 +16149,7 @@
             "id": 20068,
             "groupId": 1014,
             "name": "自棄のドッペル",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] ＆ 攻撃力UP(自/3T)＆Blast ダメージUP(全/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & 攻撃力UP(自/3T)&Blast ダメージUP(全/3T)",
             "artId1": 190200681,
             "art1": {
               "artId": 190200681,
@@ -15082,7 +16185,7 @@
             "id": 20065,
             "groupId": 1092,
             "name": "ったく、見てらんねーな",
-            "shortDescription": "Blast ダメージUP[Ⅸ] ＆ダメージカット状態[Ⅸ]",
+            "shortDescription": "Blast ダメージUP[Ⅸ] &ダメージカット状態[Ⅸ]",
             "artId1": 310401809,
             "art1": {
               "artId": 310401809,
@@ -15106,6 +16209,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -15201,6 +16307,7 @@
       "growthType": "ATTACK",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 21004,
       "defaultCard": {
         "cardId": 21004,
@@ -15493,7 +16600,7 @@
             "id": 21004,
             "groupId": 1014,
             "name": "プルウィア☆ノイヤー",
-            "shortDescription": "敵全体にダメージ[Ⅴ] & MP回復(自)＆状態異常耐性UP(全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & MP回復(自)&状態異常耐性UP(全/1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -15527,7 +16634,7 @@
             "id": 21004,
             "groupId": 1078,
             "name": "いい1年にしようね！",
-            "shortDescription": "HP回復[Ⅶ] ＆ 与えるダメージUP[Ⅶ]",
+            "shortDescription": "HP回復[Ⅶ] & 与えるダメージUP[Ⅶ]",
             "artId1": 200400407,
             "art1": {
               "artId": 200400407,
@@ -15549,6 +16656,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -15652,7 +16762,7 @@
             "id": 21005,
             "groupId": 1014,
             "name": "プルウィア☆ノイヤー",
-            "shortDescription": "敵全体にダメージ[Ⅶ] & MP回復(自)＆状態異常耐性UP(全/1T) ＆ 必ず暗闇(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & MP回復(自)&状態異常耐性UP(全/1T) & 必ず暗闇(敵全/1T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -15697,7 +16807,7 @@
             "id": 21008,
             "groupId": 1014,
             "name": "慈悲のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] & MP回復(自)＆状態異常耐性UP(全/1T) ＆ 必ず暗闇(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & MP回復(自)&状態異常耐性UP(全/1T) & 必ず暗闇(敵全/1T)",
             "artId1": 190210081,
             "art1": {
               "artId": 190210081,
@@ -15742,7 +16852,7 @@
             "id": 21005,
             "groupId": 1078,
             "name": "いい1年にしようね！",
-            "shortDescription": "HP回復[Ⅸ] ＆ 与えるダメージUP[Ⅸ]",
+            "shortDescription": "HP回復[Ⅸ] & 与えるダメージUP[Ⅸ]",
             "artId1": 200400409,
             "art1": {
               "artId": 200400409,
@@ -15764,6 +16874,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -15838,6 +16951,897 @@
               "rank": 1,
               "rankGift": "RANK_1",
               "price": 1000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          }
+        }
+      }
+    ]
+  },
+  {
+    "charaId": 2101,
+    "chara": {
+      "id": 2101,
+      "name": "アルティメットまどか",
+      "kana": "あるてぃめっと まどか",
+      "attributeId": "LIGHT",
+      "attackType": 1,
+      "initialType": "ULTIMATE",
+      "growthType": "ATKDEF",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
+      "defaultCardId": 21014,
+      "defaultCard": {
+        "cardId": 21014,
+        "rank": "RANK_4",
+        "attributeId": "LIGHT",
+        "initialType": "ULTIMATE",
+        "growthType": "ATKDEF",
+        "attack": 1979,
+        "defense": 1728,
+        "hp": 6467,
+        "miniCharaNo": 210100,
+        "charaNo": 2101,
+        "cardName": "アルティメットまどか"
+      },
+      "evolutionCardId1": 21015,
+      "evolutionCard1": {
+        "cardId": 21015,
+        "rank": "RANK_5",
+        "attributeId": "LIGHT",
+        "initialType": "ULTIMATE",
+        "growthType": "ATKDEF",
+        "attack": 2245,
+        "defense": 1962,
+        "hp": 7341,
+        "miniCharaNo": 210100,
+        "charaNo": 2101,
+        "cardName": "アルティメットまどか"
+      },
+      "doppelCharaNo": 210100,
+      "doppel": {
+        "id": 210100,
+        "name": "上位のマギア",
+        "title": "ー",
+        "description": "ー",
+        "designer": "ー",
+        "archive": false,
+        "openDate": "2018/08/21 15:10:00"
+      },
+      "firstMagiaGiftId1": 241,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 305,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 242,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 403,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 243,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 552,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 241,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 304,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 242,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 402,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 243,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 553,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 241,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 303,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 242,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 403,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 243,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 554,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 241,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 301,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 242,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 503,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 243,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 553,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 552,
+        "name": "立ち耳の綿",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 304,
+        "name": "羊の角笛",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 402,
+        "name": "南京錠の鎖",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 554,
+        "name": "屋上のバルーン",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 301,
+        "name": "燕尾の羽",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "description": "過去と未来と現在から遍く宇宙の向こうまで、魔法少女たちを見守り続ける女神様。全ての魔法少女たちを知り尽くして祝福を授ける彼女には、知らないことは何もない。しかし彼女は、生まれてはじめて知らない魔法少女を見つけてしまった。",
+      "school": "―",
+      "designer": "蒼樹うめ",
+      "voiceActor": "悠木碧",
+      "openDate": "2018/08/21 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 2101,
+          "messageId": 6,
+          "message": "私もママのこと、パパのこと、大好きだから"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 7,
+          "message": "これがわたしの祈り…わたしの願い…"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 8,
+          "message": "わたしはほむらちゃんの側にいるよ"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 9,
+          "message": "わたし、みんなを迎えに行かないと！"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 10,
+          "message": "因果はすべて、わたしが受け止める！"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 11,
+          "message": "魔法少女はね、夢と希望を叶えるんだよ！"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 12,
+          "message": "みんな諦めないで、わたしが導くから！"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 43,
+          "message": "よかったぁ、みんな無事だよね？"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 44,
+          "message": "わたしは希望を捨てない"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 45,
+          "message": "絶望する必要はないんだよ"
+        },
+        {
+          "charaNo": 2101,
+          "messageId": 46,
+          "message": "もう、安心していいからね"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 21014,
+        "card": {
+          "cardId": 21014,
+          "charaNo": 2101,
+          "miniCharaNo": 210100,
+          "magiaCharaNo": 210100,
+          "cardName": "アルティメットまどか",
+          "rank": "RANK_4",
+          "attributeId": "LIGHT",
+          "initialType": "ULTIMATE",
+          "growthType": "ATKDEF",
+          "attack": 1979,
+          "defense": 1728,
+          "hp": 6467,
+          "rateGainMpAtk": 1100,
+          "rateGainMpDef": 1200,
+          "magiaId": 21014,
+          "cardMagia": {
+            "id": 21014,
+            "groupId": 1014,
+            "name": "もう絶望する必要なんてない！",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力UP & 全ディスク効果UP & ダメージカット(全/3T)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 330301105,
+            "art2": {
+              "artId": 330301105,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301801,
+            "art3": {
+              "artId": 330301801,
+              "verbCode": "BUFF",
+              "effectCode": "BLAST",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 330301703,
+            "art4": {
+              "artId": 330301703,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId5": 330301603,
+            "art5": {
+              "artId": 330301603,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId6": 630306203,
+            "art6": {
+              "artId": 630306203,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25,
+              "probability": 1000
+            }
+          },
+          "skillId": 21014,
+          "cardSkill": {
+            "id": 21014,
+            "groupId": 1087,
+            "name": "待たせちゃってごめんね",
+            "shortDescription": "与えるダメージUP[Ⅶ] & 状態異常耐性UP & 確率でサヴァイブ & 状態異常解除",
+            "artId1": 310401307,
+            "art1": {
+              "artId": 310401307,
+              "verbCode": "BUFF",
+              "effectCode": "DAMAGE",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 9366,
+            "art2": {
+              "artId": 9366,
+              "verbCode": "BUFF",
+              "effectCode": "RESIST",
+              "targetId": "CONNECT",
+              "effectValue": 1000,
+              "enableTurn": 1,
+              "growPoint": 0
+            },
+            "artId3": 9369,
+            "art3": {
+              "artId": 9369,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "SURVIVE",
+              "targetId": "CONNECT",
+              "effectValue": 200,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 700
+            },
+            "artId4": 200401000,
+            "art4": {
+              "artId": 200401000,
+              "verbCode": "REVOKE",
+              "effectCode": "BAD",
+              "targetId": "CONNECT",
+              "growPoint": 0
+            }
+          },
+          "pieceSkillId1": 21011,
+          "pieceSkillList": [
+            {
+              "id": 21011,
+              "groupId": 1129,
+              "name": "救済の祈り",
+              "type": "STARTUP",
+              "shortDescription": "クエスト開始時にHP自動回復[Ⅰ] & 状態異常耐性UP[Ⅰ](味全/∞)を発動",
+              "artId1": 190210101,
+              "art1": {
+                "artId": 190210101,
+                "verbCode": "CONDITION_GOOD",
+                "effectCode": "AUTO_HEAL",
+                "targetId": "ALL",
+                "effectValue": 20,
+                "enableTurn": 0,
+                "growPoint": 0,
+                "probability": 1000
+              },
+              "artId2": 190210102,
+              "art2": {
+                "artId": 190210102,
+                "verbCode": "BUFF",
+                "effectCode": "RESIST",
+                "targetId": "ALL",
+                "effectValue": 200,
+                "enableTurn": 0,
+                "growPoint": 0
+              }
+            }
+          ],
+          "maxPieceSkillId1": 21012,
+          "maxPieceSkillList": [
+            {
+              "id": 21012,
+              "groupId": 1129,
+              "name": "救済の祈り(最大解放)",
+              "type": "STARTUP",
+              "shortDescription": "クエスト開始時にHP自動回復[Ⅱ] & 状態異常耐性UP[Ⅲ](味全/∞)を発動",
+              "artId1": 190210103,
+              "art1": {
+                "artId": 190210103,
+                "verbCode": "CONDITION_GOOD",
+                "effectCode": "AUTO_HEAL",
+                "targetId": "ALL",
+                "effectValue": 30,
+                "enableTurn": 0,
+                "growPoint": 0,
+                "probability": 1000
+              },
+              "artId2": 190210104,
+              "art2": {
+                "artId": 190210104,
+                "verbCode": "BUFF",
+                "effectCode": "RESIST",
+                "targetId": "ALL",
+                "effectValue": 300,
+                "enableTurn": 0,
+                "growPoint": 0
+              }
+            }
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ササギコウシ",
+          "cardCustomize": {
+            "cardId": 21014,
+            "giftId1": 142,
+            "gift1": {
+              "id": 142,
+              "name": "ライトオーブ＋",
+              "attributeId": "LIGHT",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 12,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 50,
+            "giftId2": 551,
+            "gift2": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum2": 3,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 70,
+            "giftId3": 143,
+            "gift3": {
+              "id": 143,
+              "name": "ライトオーブ＋＋",
+              "attributeId": "LIGHT",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 6,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 553,
+            "gift4": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 403,
+            "gift5": {
+              "id": 403,
+              "name": "絵馬の水引",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 304,
+            "gift6": {
+              "id": 304,
+              "name": "羊の角笛",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 21015,
+        "card": {
+          "cardId": 21015,
+          "charaNo": 2101,
+          "miniCharaNo": 210100,
+          "magiaCharaNo": 210100,
+          "cardName": "アルティメットまどか",
+          "rank": "RANK_5",
+          "attributeId": "LIGHT",
+          "initialType": "ULTIMATE",
+          "growthType": "ATKDEF",
+          "attack": 2245,
+          "defense": 1962,
+          "hp": 7341,
+          "rateGainMpAtk": 1100,
+          "rateGainMpDef": 1200,
+          "magiaId": 21015,
+          "cardMagia": {
+            "id": 21015,
+            "groupId": 1014,
+            "name": "もう絶望する必要なんてない！",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 全ディスク効果UP & ダメージカット(全/3T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 330301107,
+            "art2": {
+              "artId": 330301107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301803,
+            "art3": {
+              "artId": 330301803,
+              "verbCode": "BUFF",
+              "effectCode": "BLAST",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 330301705,
+            "art4": {
+              "artId": 330301705,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId5": 330301605,
+            "art5": {
+              "artId": 330301605,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId6": 630306207,
+            "art6": {
+              "artId": 630306207,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "ALL",
+              "effectValue": 350,
+              "enableTurn": 3,
+              "growPoint": 25,
+              "probability": 1000
+            }
+          },
+          "doppelMagiaId": 21018,
+          "doppelCardMagia": {
+            "id": 21018,
+            "groupId": 1014,
+            "name": "みんな、いつまでも私と一緒だよ",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力UP & 全ディスク効果UP & ダメージカット(全/3T)",
+            "artId1": 190210181,
+            "art1": {
+              "artId": 190210181,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 330301109,
+            "art2": {
+              "artId": 330301109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 350,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 330301805,
+            "art3": {
+              "artId": 330301805,
+              "verbCode": "BUFF",
+              "effectCode": "BLAST",
+              "targetId": "ALL",
+              "effectValue": 350,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId4": 330301707,
+            "art4": {
+              "artId": 330301707,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId5": 330301607,
+            "art5": {
+              "artId": 330301607,
+              "verbCode": "BUFF",
+              "effectCode": "ACCEL",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId6": 630306209,
+            "art6": {
+              "artId": 630306209,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "ALL",
+              "effectValue": 400,
+              "enableTurn": 3,
+              "growPoint": 25,
+              "probability": 1000
+            }
+          },
+          "skillId": 21015,
+          "cardSkill": {
+            "id": 21015,
+            "groupId": 1087,
+            "name": "待たせちゃってごめんね",
+            "shortDescription": "与えるダメージUP[Ⅸ] & 状態異常耐性UP & サヴァイブ & 状態異常解除",
+            "artId1": 310401309,
+            "art1": {
+              "artId": 310401309,
+              "verbCode": "BUFF",
+              "effectCode": "DAMAGE",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 9366,
+            "art2": {
+              "artId": 9366,
+              "verbCode": "BUFF",
+              "effectCode": "RESIST",
+              "targetId": "CONNECT",
+              "effectValue": 1000,
+              "enableTurn": 1,
+              "growPoint": 0
+            },
+            "artId3": 610414701,
+            "art3": {
+              "artId": 610414701,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "SURVIVE",
+              "targetId": "CONNECT",
+              "effectValue": 200,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 200401000,
+            "art4": {
+              "artId": 200401000,
+              "verbCode": "REVOKE",
+              "effectCode": "BAD",
+              "targetId": "CONNECT",
+              "growPoint": 0
+            }
+          },
+          "pieceSkillId1": 21011,
+          "pieceSkillList": [
+            {
+              "id": 21011,
+              "groupId": 1129,
+              "name": "救済の祈り",
+              "type": "STARTUP",
+              "shortDescription": "クエスト開始時にHP自動回復[Ⅰ] & 状態異常耐性UP[Ⅰ](味全/∞)を発動",
+              "artId1": 190210101,
+              "art1": {
+                "artId": 190210101,
+                "verbCode": "CONDITION_GOOD",
+                "effectCode": "AUTO_HEAL",
+                "targetId": "ALL",
+                "effectValue": 20,
+                "enableTurn": 0,
+                "growPoint": 0,
+                "probability": 1000
+              },
+              "artId2": 190210102,
+              "art2": {
+                "artId": 190210102,
+                "verbCode": "BUFF",
+                "effectCode": "RESIST",
+                "targetId": "ALL",
+                "effectValue": 200,
+                "enableTurn": 0,
+                "growPoint": 0
+              }
+            }
+          ],
+          "maxPieceSkillId1": 21012,
+          "maxPieceSkillList": [
+            {
+              "id": 21012,
+              "groupId": 1129,
+              "name": "救済の祈り(最大解放)",
+              "type": "STARTUP",
+              "shortDescription": "クエスト開始時にHP自動回復[Ⅱ] & 状態異常耐性UP[Ⅲ](味全/∞)を発動",
+              "artId1": 190210103,
+              "art1": {
+                "artId": 190210103,
+                "verbCode": "CONDITION_GOOD",
+                "effectCode": "AUTO_HEAL",
+                "targetId": "ALL",
+                "effectValue": 30,
+                "enableTurn": 0,
+                "growPoint": 0,
+                "probability": 1000
+              },
+              "artId2": 190210104,
+              "art2": {
+                "artId": 190210104,
+                "verbCode": "BUFF",
+                "effectCode": "RESIST",
+                "targetId": "ALL",
+                "effectValue": 300,
+                "enableTurn": 0,
+                "growPoint": 0
+              }
+            }
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ササギコウシ",
+          "cardCustomize": {
+            "cardId": 21015,
+            "giftId1": 142,
+            "gift1": {
+              "id": 142,
+              "name": "ライトオーブ＋",
+              "attributeId": "LIGHT",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 551,
+            "gift2": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum2": 3,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 80,
+            "giftId3": 143,
+            "gift3": {
+              "id": 143,
+              "name": "ライトオーブ＋＋",
+              "attributeId": "LIGHT",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 70,
+            "giftId4": 554,
+            "gift4": {
+              "id": 554,
+              "name": "屋上のバルーン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 552,
+            "gift5": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 402,
+            "gift6": {
+              "id": 402,
+              "name": "南京錠の鎖",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
             },
             "giftNum6": 15,
             "bonusCode6": "CHARGE",
@@ -16127,7 +18131,7 @@
             "id": 21023,
             "groupId": 1012,
             "name": "まどカリバー",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 確率でスタン(敵単/1T) ＆ 必ず挑発(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 確率でスタン(敵単/1T) & 必ず挑発(自/1T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -16162,7 +18166,7 @@
             "id": 21023,
             "groupId": 1078,
             "name": "やることなくなっちゃったよ",
-            "shortDescription": "HP回復[Ⅶ] ＆ 攻撃力DOWN[Ⅴ] ＆ 防御力DOWN[Ⅴ]",
+            "shortDescription": "HP回復[Ⅶ] & 攻撃力DOWN[Ⅴ] & 防御力DOWN[Ⅴ]",
             "artId1": 200400407,
             "art1": {
               "artId": 200400407,
@@ -16216,6 +18220,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -16320,7 +18327,7 @@
             "id": 21024,
             "groupId": 1012,
             "name": "まどカリバー",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 確率でスタン(敵単/1T) ＆ 必ず挑発(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 確率でスタン(敵単/1T) & 必ず挑発(自/1T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -16355,7 +18362,7 @@
             "id": 21024,
             "groupId": 1078,
             "name": "やることなくなっちゃったよ",
-            "shortDescription": "HP回復[Ⅸ] ＆ 攻撃力DOWN[Ⅴ] ＆ 防御力DOWN[Ⅴ]",
+            "shortDescription": "HP回復[Ⅸ] & 攻撃力DOWN[Ⅴ] & 防御力DOWN[Ⅴ]",
             "artId1": 200400409,
             "art1": {
               "artId": 200400409,
@@ -16409,6 +18416,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -16505,6 +18515,7 @@
       "growthType": "HP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 23004,
       "defaultCard": {
         "cardId": 23004,
@@ -16868,6 +18879,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -17088,6 +19102,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -17182,6 +19199,7 @@
       "growthType": "DEFENSE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 25004,
       "defaultCard": {
         "cardId": 25004,
@@ -17491,7 +19509,7 @@
             "id": 25004,
             "groupId": 1172,
             "name": "救いの祈りをあなたに",
-            "shortDescription": "敵状態異常時ダメージUP[Ⅶ]＆攻撃力UP[Ⅶ] & 確率で霧 ＆ 状態異常解除",
+            "shortDescription": "敵状態異常時ダメージUP[Ⅶ]&攻撃力UP[Ⅶ] & 確率で霧 & 状態異常解除",
             "artId1": 610414607,
             "art1": {
               "artId": 610414607,
@@ -17534,6 +19552,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -17671,7 +19692,7 @@
             "id": 25005,
             "groupId": 1172,
             "name": "救いの祈りをあなたに",
-            "shortDescription": "敵状態異常時ダメージUP[Ⅸ]＆攻撃力UP[Ⅸ] & 確率で霧 ＆ 状態異常解除",
+            "shortDescription": "敵状態異常時ダメージUP[Ⅸ]&攻撃力UP[Ⅸ] & 確率で霧 & 状態異常解除",
             "artId1": 610414609,
             "art1": {
               "artId": 610414609,
@@ -17714,6 +19735,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -18062,7 +20086,7 @@
             "id": 30012,
             "groupId": 1012,
             "name": "ヤヨイコレクション",
-            "shortDescription": "敵単体にダメージ[Ⅰ] ＆ 必ず魅了(敵単/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅰ] & 必ず魅了(敵単/1T)",
             "artId1": 100000101,
             "art1": {
               "artId": 100000101,
@@ -18087,7 +20111,7 @@
             "id": 30012,
             "groupId": 1087,
             "name": "私たちのコラボデザイン！",
-            "shortDescription": "与えるダメージUP[Ⅲ] ＆ 必ず魅了",
+            "shortDescription": "与えるダメージUP[Ⅲ] & 必ず魅了",
             "artId1": 310401303,
             "art1": {
               "artId": 310401303,
@@ -18110,6 +20134,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -18214,7 +20241,7 @@
             "id": 30013,
             "groupId": 1019,
             "name": "ヤヨイコレクション",
-            "shortDescription": "ランダム2回　ダメージ[Ⅲ] ＆ 必ず魅了(敵単/1T)",
+            "shortDescription": "ランダム2回　ダメージ[Ⅲ] & 必ず魅了(敵単/1T)",
             "artId1": 100900103,
             "art1": {
               "artId": 100900103,
@@ -18239,7 +20266,7 @@
             "id": 30013,
             "groupId": 1087,
             "name": "私たちのコラボデザイン！",
-            "shortDescription": "与えるダメージUP[Ⅴ] ＆ 必ず魅了",
+            "shortDescription": "与えるダメージUP[Ⅴ] & 必ず魅了",
             "artId1": 310401305,
             "art1": {
               "artId": 310401305,
@@ -18262,6 +20289,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -18366,7 +20396,7 @@
             "id": 30014,
             "groupId": 1020,
             "name": "ヤヨイコレクション",
-            "shortDescription": "ランダム3回　ダメージ[Ⅴ] ＆ 必ず魅了(敵単/1T)",
+            "shortDescription": "ランダム3回　ダメージ[Ⅴ] & 必ず魅了(敵単/1T)",
             "artId1": 101000105,
             "art1": {
               "artId": 101000105,
@@ -18391,7 +20421,7 @@
             "id": 30014,
             "groupId": 1087,
             "name": "私たちのコラボデザイン！",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ 必ず魅了",
+            "shortDescription": "与えるダメージUP[Ⅶ] & 必ず魅了",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -18414,6 +20444,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -18762,7 +20795,7 @@
             "id": 30022,
             "groupId": 1012,
             "name": "ゴー！ファイト！ウィン！",
-            "shortDescription": "敵単体にダメージ[Ⅰ] ＆ 防御力UP ＆ 攻撃力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅰ] & 防御力UP & 攻撃力UP(全/3T)",
             "artId1": 100000101,
             "art1": {
               "artId": 100000101,
@@ -18797,7 +20830,7 @@
             "id": 30022,
             "groupId": 1085,
             "name": "ウィキャンドゥーイッ！",
-            "shortDescription": "攻撃力UP[Ⅳ] ＆ 防御UP[Ⅳ]",
+            "shortDescription": "攻撃力UP[Ⅳ] & 防御UP[Ⅳ]",
             "artId1": 310401104,
             "art1": {
               "artId": 310401104,
@@ -18820,6 +20853,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -18924,7 +20960,7 @@
             "id": 30023,
             "groupId": 1012,
             "name": "ゴー！ファイト！ウィン！",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 防御力UP ＆ 攻撃力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 防御力UP & 攻撃力UP(全/3T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -18959,7 +20995,7 @@
             "id": 30023,
             "groupId": 1085,
             "name": "ウィキャンドゥーイッ！",
-            "shortDescription": "攻撃力UP[Ⅵ] ＆ 防御UP[Ⅵ]",
+            "shortDescription": "攻撃力UP[Ⅵ] & 防御UP[Ⅵ]",
             "artId1": 310401106,
             "art1": {
               "artId": 310401106,
@@ -18982,6 +21018,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -19086,7 +21125,7 @@
             "id": 30024,
             "groupId": 1012,
             "name": "ゴー！ファイト！ウィン！",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 防御力UP ＆ 攻撃力UP ＆ ダメージカット(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 防御力UP & 攻撃力UP & ダメージカット(全/3T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -19132,7 +21171,7 @@
             "id": 30024,
             "groupId": 1085,
             "name": "ウィキャンドゥーイッ！",
-            "shortDescription": "攻撃力UP[Ⅷ] ＆ 防御UP[Ⅷ]",
+            "shortDescription": "攻撃力UP[Ⅷ] & 防御UP[Ⅷ]",
             "artId1": 310401108,
             "art1": {
               "artId": 310401108,
@@ -19155,6 +21194,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -19527,7 +21569,7 @@
             "id": 30032,
             "groupId": 1014,
             "name": "アトモ・アラビアート",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 確率で毒(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 確率で毒(敵全/3T)",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -19553,7 +21595,7 @@
             "id": 30032,
             "groupId": 1087,
             "name": "共同研究の成果発表だ！",
-            "shortDescription": "与えるダメージUP[Ⅳ] ＆ 必ず毒",
+            "shortDescription": "与えるダメージUP[Ⅳ] & 必ず毒",
             "artId1": 310401304,
             "art1": {
               "artId": 310401304,
@@ -19577,6 +21619,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -19681,7 +21726,7 @@
             "id": 30033,
             "groupId": 1014,
             "name": "アトモ・アラビアート",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 確率で毒(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 確率で毒(敵全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -19707,7 +21752,7 @@
             "id": 30033,
             "groupId": 1087,
             "name": "共同研究の成果発表だ！",
-            "shortDescription": "与えるダメージUP[Ⅵ] ＆ 必ず毒",
+            "shortDescription": "与えるダメージUP[Ⅵ] & 必ず毒",
             "artId1": 310401306,
             "art1": {
               "artId": 310401306,
@@ -19731,6 +21776,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -19835,7 +21883,7 @@
             "id": 30034,
             "groupId": 1014,
             "name": "アトモ・アラビアート",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 確率で毒(敵全/3T) ＆ 必ずスタン(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 確率で毒(敵全/3T) & 必ずスタン(敵全/1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -19871,7 +21919,7 @@
             "id": 30034,
             "groupId": 1087,
             "name": "共同研究の成果発表だ！",
-            "shortDescription": "与えるダメージUP[Ⅷ] ＆ 必ず毒",
+            "shortDescription": "与えるダメージUP[Ⅷ] & 必ず毒",
             "artId1": 310401308,
             "art1": {
               "artId": 310401308,
@@ -19895,6 +21943,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -19998,7 +22049,7 @@
             "id": 30035,
             "groupId": 1014,
             "name": "アトモ・アラビアート",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 必ず毒(敵全/3T) ＆ 必ずスタン(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 必ず毒(敵全/3T) & 必ずスタン(敵全/1T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -20034,7 +22085,7 @@
             "id": 30038,
             "groupId": 1014,
             "name": "軽忽のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ず毒(敵全/3T) ＆ 必ずスタン(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 必ず毒(敵全/3T) & 必ずスタン(敵全/1T)",
             "artId1": 190300381,
             "art1": {
               "artId": 190300381,
@@ -20070,7 +22121,7 @@
             "id": 30035,
             "groupId": 1087,
             "name": "共同研究の成果発表だ！",
-            "shortDescription": "与えるダメージUP[Ⅹ] ＆ 必ず毒",
+            "shortDescription": "与えるダメージUP[Ⅹ] & 必ず毒",
             "artId1": 310401310,
             "art1": {
               "artId": 310401310,
@@ -20094,6 +22145,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -20442,7 +22496,7 @@
             "id": 30042,
             "groupId": 1014,
             "name": "ナイトリゾルブ",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 必ず挑発(自/1T) ＆ 防御力UP(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 必ず挑発(自/1T) & 防御力UP(自/1T)",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -20477,7 +22531,7 @@
             "id": 30042,
             "groupId": 1086,
             "name": "私があなたを守るから！",
-            "shortDescription": "防御力UP[Ⅲ] ＆ ダメージカット状態[Ⅲ]",
+            "shortDescription": "防御力UP[Ⅲ] & ダメージカット状態[Ⅲ]",
             "artId1": 310401203,
             "art1": {
               "artId": 310401203,
@@ -20501,6 +22555,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -20605,7 +22662,7 @@
             "id": 30043,
             "groupId": 1014,
             "name": "ナイトリゾルブ",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 必ず挑発(自/1T) ＆ 防御力UP(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 必ず挑発(自/1T) & 防御力UP(自/1T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -20640,7 +22697,7 @@
             "id": 30043,
             "groupId": 1086,
             "name": "私があなたを守るから！",
-            "shortDescription": "防御力UP[Ⅴ] ＆ ダメージカット状態[Ⅴ]",
+            "shortDescription": "防御力UP[Ⅴ] & ダメージカット状態[Ⅴ]",
             "artId1": 310401205,
             "art1": {
               "artId": 310401205,
@@ -20664,6 +22721,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -20768,7 +22828,7 @@
             "id": 30044,
             "groupId": 1014,
             "name": "ナイトリゾルブ",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 必ず挑発(自/1T) ＆ 耐える(自/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 必ず挑発(自/1T) & 耐える(自/1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -20803,7 +22863,7 @@
             "id": 30044,
             "groupId": 1086,
             "name": "私があなたを守るから！",
-            "shortDescription": "防御力UP[Ⅶ] ＆ ダメージカット状態[Ⅶ]",
+            "shortDescription": "防御力UP[Ⅶ] & ダメージカット状態[Ⅶ]",
             "artId1": 310401207,
             "art1": {
               "artId": 310401207,
@@ -20827,6 +22887,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -21189,7 +23252,7 @@
             "id": 30053,
             "groupId": 1014,
             "name": "白椿",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 防御力DOWN(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 防御力DOWN(敵全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -21214,7 +23277,7 @@
             "id": 30053,
             "groupId": 1092,
             "name": "この策はいかがでしょうか？",
-            "shortDescription": "Blast ダメージUP[Ⅴ] ＆ 攻撃力UP[Ⅴ]",
+            "shortDescription": "Blast ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]",
             "artId1": 310401805,
             "art1": {
               "artId": 310401805,
@@ -21237,6 +23300,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -21341,7 +23407,7 @@
             "id": 30054,
             "groupId": 1014,
             "name": "白椿",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 防御力DOWN(敵全/3T) ＆ バフ解除(敵全)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 防御力DOWN(敵全/3T) & バフ解除(敵全)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -21374,7 +23440,7 @@
             "id": 30054,
             "groupId": 1092,
             "name": "この策はいかがでしょうか？",
-            "shortDescription": "Blast ダメージUP[Ⅶ] ＆ 攻撃力UP[Ⅶ]",
+            "shortDescription": "Blast ダメージUP[Ⅶ] & 攻撃力UP[Ⅶ]",
             "artId1": 310401807,
             "art1": {
               "artId": 310401807,
@@ -21397,6 +23463,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -21745,7 +23814,7 @@
             "id": 30062,
             "groupId": 1014,
             "name": "あーしのヤバめなハート",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 与えるダメージDOWN(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 与えるダメージDOWN(敵全/3T)",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -21770,7 +23839,7 @@
             "id": 30062,
             "groupId": 1087,
             "name": "あーしとドキドキしよ！",
-            "shortDescription": "与えるダメージUP[Ⅳ] ＆ 必ず幻惑",
+            "shortDescription": "与えるダメージUP[Ⅳ] & 必ず幻惑",
             "artId1": 310401304,
             "art1": {
               "artId": 310401304,
@@ -21794,6 +23863,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -21898,7 +23970,7 @@
             "id": 30063,
             "groupId": 1014,
             "name": "あーしのヤバめなハート",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 与えるダメージDOWN(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 与えるダメージDOWN(敵全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -21923,7 +23995,7 @@
             "id": 30063,
             "groupId": 1087,
             "name": "あーしとドキドキしよ！",
-            "shortDescription": "与えるダメージUP[Ⅵ] ＆ 必ず幻惑",
+            "shortDescription": "与えるダメージUP[Ⅵ] & 必ず幻惑",
             "artId1": 310401306,
             "art1": {
               "artId": 310401306,
@@ -21947,6 +24019,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -22051,7 +24126,7 @@
             "id": 30064,
             "groupId": 1014,
             "name": "あーしのヤバめなハート",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 与えるダメージDOWN(敵全/3T) ＆ 幻惑(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 与えるダメージDOWN(敵全/3T) & 幻惑(敵全/1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -22087,7 +24162,7 @@
             "id": 30064,
             "groupId": 1087,
             "name": "あーしとドキドキしよ！",
-            "shortDescription": "与えるダメージUP[Ⅷ] ＆ 必ず幻惑",
+            "shortDescription": "与えるダメージUP[Ⅷ] & 必ず幻惑",
             "artId1": 310401308,
             "art1": {
               "artId": 310401308,
@@ -22111,6 +24186,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -22459,7 +24537,7 @@
             "id": 30072,
             "groupId": 1019,
             "name": "ミリアドゥ・メーゼ",
-            "shortDescription": "ランダム2回　ダメージ[Ⅰ] ＆ クリティカル(全/3T)",
+            "shortDescription": "ランダム2回　ダメージ[Ⅰ] & クリティカル(全/3T)",
             "artId1": 100900101,
             "art1": {
               "artId": 100900101,
@@ -22485,7 +24563,7 @@
             "id": 30072,
             "groupId": 1087,
             "name": "私が繋げるから",
-            "shortDescription": "与えるダメージUP[Ⅲ] ＆ 確率で追撃[Ⅲ]",
+            "shortDescription": "与えるダメージUP[Ⅲ] & 確率で追撃[Ⅲ]",
             "artId1": 310401303,
             "art1": {
               "artId": 310401303,
@@ -22509,6 +24587,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -22613,7 +24694,7 @@
             "id": 30073,
             "groupId": 1019,
             "name": "ミリアドゥ・メーゼ",
-            "shortDescription": "ランダム2回　ダメージ[Ⅲ] ＆ クリティカル(全/3T)",
+            "shortDescription": "ランダム2回　ダメージ[Ⅲ] & クリティカル(全/3T)",
             "artId1": 100900103,
             "art1": {
               "artId": 100900103,
@@ -22639,7 +24720,7 @@
             "id": 30073,
             "groupId": 1087,
             "name": "私が繋げるから",
-            "shortDescription": "与えるダメージUP[Ⅴ] ＆ 確率で追撃[Ⅴ]",
+            "shortDescription": "与えるダメージUP[Ⅴ] & 確率で追撃[Ⅴ]",
             "artId1": 310401305,
             "art1": {
               "artId": 310401305,
@@ -22663,6 +24744,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -22767,7 +24851,7 @@
             "id": 30074,
             "groupId": 1021,
             "name": "ミリアドゥ・メーゼ",
-            "shortDescription": "ランダム4回　ダメージ[Ⅴ] ＆ クリティカル(全/3T)",
+            "shortDescription": "ランダム4回　ダメージ[Ⅴ] & クリティカル(全/3T)",
             "artId1": 101100105,
             "art1": {
               "artId": 101100105,
@@ -22793,7 +24877,7 @@
             "id": 30074,
             "groupId": 1087,
             "name": "私が繋げるから",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ 確率で追撃[Ⅶ]",
+            "shortDescription": "与えるダメージUP[Ⅶ] & 確率で追撃[Ⅶ]",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -22817,6 +24901,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -23165,7 +25252,7 @@
             "id": 30082,
             "groupId": 1012,
             "name": "巨拳連弾",
-            "shortDescription": "敵単体にダメージ[Ⅰ] ＆ Charge後ダメージUP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅰ] & Charge後ダメージUP(全/3T)",
             "artId1": 100000101,
             "art1": {
               "artId": 100000101,
@@ -23190,7 +25277,7 @@
             "id": 30082,
             "groupId": 1091,
             "name": "ボクと拳を重ねて！",
-            "shortDescription": "Charge後ダメージUP[Ⅲ] ＆ 攻撃力UP[Ⅲ]",
+            "shortDescription": "Charge後ダメージUP[Ⅲ] & 攻撃力UP[Ⅲ]",
             "artId1": 310401703,
             "art1": {
               "artId": 310401703,
@@ -23213,6 +25300,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -23317,7 +25407,7 @@
             "id": 30083,
             "groupId": 1012,
             "name": "巨拳連弾",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ Charge後ダメージUP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & Charge後ダメージUP(全/3T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -23342,7 +25432,7 @@
             "id": 30083,
             "groupId": 1091,
             "name": "ボクと拳を重ねて！",
-            "shortDescription": "Charge後ダメージUP[Ⅴ] ＆ 攻撃力UP[Ⅴ]",
+            "shortDescription": "Charge後ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]",
             "artId1": 310401705,
             "art1": {
               "artId": 310401705,
@@ -23365,6 +25455,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -23469,7 +25562,7 @@
             "id": 30084,
             "groupId": 1012,
             "name": "巨拳連弾",
-            "shortDescription": "敵単体にダメージ[Ⅴ]＆Charge後ダメージUP(全/3T)＆ダメージUP(自/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ]&Charge後ダメージUP(全/3T)&ダメージUP(自/3T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -23504,7 +25597,7 @@
             "id": 30084,
             "groupId": 1091,
             "name": "ボクと拳を重ねて！",
-            "shortDescription": "Charge後ダメージUP[Ⅶ] ＆ 攻撃力UP[Ⅶ]",
+            "shortDescription": "Charge後ダメージUP[Ⅶ] & 攻撃力UP[Ⅶ]",
             "artId1": 310401707,
             "art1": {
               "artId": 310401707,
@@ -23527,6 +25620,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -23875,7 +25971,7 @@
             "id": 30092,
             "groupId": 1016,
             "name": "激辛フルコース",
-            "shortDescription": "縦方向にダメージ[Ⅰ] ＆ HP回復(全)",
+            "shortDescription": "縦方向にダメージ[Ⅰ] & HP回復(全)",
             "artId1": 100500101,
             "art1": {
               "artId": 100500101,
@@ -23899,7 +25995,7 @@
             "id": 30092,
             "groupId": 1078,
             "name": "まなかが味を引き出します！",
-            "shortDescription": "HP回復[Ⅲ] ＆ 攻撃力UP[Ⅲ]",
+            "shortDescription": "HP回復[Ⅲ] & 攻撃力UP[Ⅲ]",
             "artId1": 200400403,
             "art1": {
               "artId": 200400403,
@@ -23921,6 +26017,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -24025,7 +26124,7 @@
             "id": 30093,
             "groupId": 1016,
             "name": "激辛フルコース",
-            "shortDescription": "縦方向にダメージ[Ⅱ] ＆ HP回復(全)",
+            "shortDescription": "縦方向にダメージ[Ⅱ] & HP回復(全)",
             "artId1": 100500102,
             "art1": {
               "artId": 100500102,
@@ -24049,7 +26148,7 @@
             "id": 30093,
             "groupId": 1078,
             "name": "まなかが味を引き出します！",
-            "shortDescription": "HP回復[Ⅴ] ＆ 攻撃力UP[Ⅴ]",
+            "shortDescription": "HP回復[Ⅴ] & 攻撃力UP[Ⅴ]",
             "artId1": 200400405,
             "art1": {
               "artId": 200400405,
@@ -24071,6 +26170,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -24175,7 +26277,7 @@
             "id": 30094,
             "groupId": 1016,
             "name": "激辛フルコース",
-            "shortDescription": "縦方向にダメージ[Ⅳ] ＆ HP回復(全) ＆ 攻撃力UP(全/3T)",
+            "shortDescription": "縦方向にダメージ[Ⅳ] & HP回復(全) & 攻撃力UP(全/3T)",
             "artId1": 100500104,
             "art1": {
               "artId": 100500104,
@@ -24209,7 +26311,7 @@
             "id": 30094,
             "groupId": 1078,
             "name": "まなかが味を引き出します！",
-            "shortDescription": "HP回復[Ⅶ] ＆ 攻撃力UP[Ⅶ]",
+            "shortDescription": "HP回復[Ⅶ] & 攻撃力UP[Ⅶ]",
             "artId1": 200400407,
             "art1": {
               "artId": 200400407,
@@ -24231,6 +26333,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -24594,7 +26699,7 @@
             "id": 30103,
             "groupId": 1012,
             "name": "ベラ・スピーナ",
-            "shortDescription": "敵単体に属性強化ダメージ[Ⅳ] ＆ 確率で魅了(敵単/1T) ＆  防御力DOWN(敵単/3T)",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅳ] & 確率で魅了(敵単/1T) &  防御力DOWN(敵単/3T)",
             "artId1": 100000204,
             "art1": {
               "artId": 100000204,
@@ -24630,7 +26735,7 @@
             "id": 30103,
             "groupId": 1087,
             "name": "私の美しさを見て励みなさい！",
-            "shortDescription": "与えるダメージUP[Ⅴ] ＆ 必ず暗闇",
+            "shortDescription": "与えるダメージUP[Ⅴ] & 必ず暗闇",
             "artId1": 310401305,
             "art1": {
               "artId": 310401305,
@@ -24654,6 +26759,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -24758,7 +26866,7 @@
             "id": 30104,
             "groupId": 1012,
             "name": "ベラ・スピーナ",
-            "shortDescription": "敵単体に属性強化ダメージ[Ⅵ] ＆ バフ解除(敵単) ＆ 必ず魅了(敵単/1T) ＆ 防御力DOWN(敵単/3T)",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅵ] & バフ解除(敵単) & 必ず魅了(敵単/1T) & 防御力DOWN(敵単/3T)",
             "artId1": 100000206,
             "art1": {
               "artId": 100000206,
@@ -24802,7 +26910,7 @@
             "id": 30104,
             "groupId": 1087,
             "name": "私の美しさを見て励みなさい！",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ 必ず暗闇",
+            "shortDescription": "与えるダメージUP[Ⅶ] & 必ず暗闇",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -24826,6 +26934,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -25174,7 +27285,7 @@
             "id": 30112,
             "groupId": 1012,
             "name": "煌道のページ",
-            "shortDescription": "敵単体にダメージ[Ⅰ] ＆ HP自動回復(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅰ] & HP自動回復(全/3T)",
             "artId1": 100000101,
             "art1": {
               "artId": 100000101,
@@ -25200,7 +27311,7 @@
             "id": 30112,
             "groupId": 1078,
             "name": "次のページへ進みましょう！",
-            "shortDescription": "HP回復[Ⅲ] ＆ 状態異常解除",
+            "shortDescription": "HP回復[Ⅲ] & 状態異常解除",
             "artId1": 200400403,
             "art1": {
               "artId": 200400403,
@@ -25220,6 +27331,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -25324,7 +27438,7 @@
             "id": 30113,
             "groupId": 1012,
             "name": "煌道のページ",
-            "shortDescription": "敵単体にダメージ[Ⅱ] ＆ HP自動回復(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅱ] & HP自動回復(全/3T)",
             "artId1": 100000102,
             "art1": {
               "artId": 100000102,
@@ -25350,7 +27464,7 @@
             "id": 30113,
             "groupId": 1078,
             "name": "次のページへ進みましょう！",
-            "shortDescription": "HP回復[Ⅴ] ＆ 状態異常解除",
+            "shortDescription": "HP回復[Ⅴ] & 状態異常解除",
             "artId1": 200400405,
             "art1": {
               "artId": 200400405,
@@ -25370,6 +27484,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -25474,7 +27591,7 @@
             "id": 30114,
             "groupId": 1012,
             "name": "煌道のページ",
-            "shortDescription": "敵単体にダメージ[Ⅳ] ＆ HP自動回復(全/3T) ＆ 状態異常解除(全)",
+            "shortDescription": "敵単体にダメージ[Ⅳ] & HP自動回復(全/3T) & 状態異常解除(全)",
             "artId1": 100000104,
             "art1": {
               "artId": 100000104,
@@ -25508,7 +27625,7 @@
             "id": 30114,
             "groupId": 1078,
             "name": "次のページへ進みましょう！",
-            "shortDescription": "HP回復[Ⅶ] ＆ 状態異常解除",
+            "shortDescription": "HP回復[Ⅶ] & 状態異常解除",
             "artId1": 200400407,
             "art1": {
               "artId": 200400407,
@@ -25528,6 +27645,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -25890,7 +28010,7 @@
             "id": 30123,
             "groupId": 1012,
             "name": "鷹影爪風斬",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 必ず回避(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 必ず回避(自/1T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -25915,7 +28035,7 @@
             "id": 30123,
             "groupId": 1124,
             "name": "助け合うのが組織の掟ヨ",
-            "shortDescription": "必ず回避 ＆ 確率でクリティカル[Ⅴ]",
+            "shortDescription": "必ず回避 & 確率でクリティカル[Ⅴ]",
             "artId1": 610406900,
             "art1": {
               "artId": 610406900,
@@ -25939,6 +28059,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -26043,7 +28166,7 @@
             "id": 30124,
             "groupId": 1020,
             "name": "鷹影爪風斬",
-            "shortDescription": "ランダム3回　ダメージ[Ⅴ] ＆ 必ず回避(自/1T)",
+            "shortDescription": "ランダム3回　ダメージ[Ⅴ] & 必ず回避(自/1T)",
             "artId1": 101000105,
             "art1": {
               "artId": 101000105,
@@ -26068,7 +28191,7 @@
             "id": 30124,
             "groupId": 1124,
             "name": "助け合うのが組織の掟ヨ",
-            "shortDescription": "必ず回避 ＆ 確率でクリティカル[Ⅶ]",
+            "shortDescription": "必ず回避 & 確率でクリティカル[Ⅶ]",
             "artId1": 610406900,
             "art1": {
               "artId": 610406900,
@@ -26092,6 +28215,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -26455,7 +28581,7 @@
             "id": 30133,
             "groupId": 1012,
             "name": "サークル・オブ・ファイア",
-            "shortDescription": "敵単体に属性強化ダメージ[Ⅲ] ＆ Charge後ダメージUP(全/3T)",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅲ] & Charge後ダメージUP(全/3T)",
             "artId1": 100000203,
             "art1": {
               "artId": 100000203,
@@ -26481,7 +28607,7 @@
             "id": 30133,
             "groupId": 1078,
             "name": "気持ちを結ぼう！",
-            "shortDescription": "HP回復[Ⅳ] ＆ 攻撃力UP[Ⅴ] ＆ 確率でやけど",
+            "shortDescription": "HP回復[Ⅳ] & 攻撃力UP[Ⅴ] & 確率でやけど",
             "artId1": 200400404,
             "art1": {
               "artId": 200400404,
@@ -26514,6 +28640,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -26618,7 +28747,7 @@
             "id": 30134,
             "groupId": 1012,
             "name": "サークル・オブ・ファイア",
-            "shortDescription": "敵単体に属性強化ダメージ[Ⅴ] ＆ Charge後ダメージUP(全/3T) ＆ 状態異常解除(全) ",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅴ] & Charge後ダメージUP(全/3T) & 状態異常解除(全) ",
             "artId1": 100000205,
             "art1": {
               "artId": 100000205,
@@ -26652,7 +28781,7 @@
             "id": 30134,
             "groupId": 1078,
             "name": "気持ちを結ぼう！",
-            "shortDescription": "HP回復[Ⅵ] ＆ 攻撃力UP[Ⅶ] ＆ 必ずやけど",
+            "shortDescription": "HP回復[Ⅵ] & 攻撃力UP[Ⅶ] & 必ずやけど",
             "artId1": 200400406,
             "art1": {
               "artId": 200400406,
@@ -26685,6 +28814,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -27062,7 +29194,7 @@
             "id": 30142,
             "groupId": 1014,
             "name": "サモン・ウェーブ",
-            "shortDescription": "敵全体にダメージ[Ⅰ] ＆ 確率で霧(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅰ] & 確率で霧(敵全/3T)",
             "artId1": 100300101,
             "art1": {
               "artId": 100300101,
@@ -27088,7 +29220,7 @@
             "id": 30142,
             "groupId": 1085,
             "name": "あの…その…私と…その…",
-            "shortDescription": "攻撃力UP[Ⅳ]＆Charge後ダメージUP[Ⅲ]＆確率で霧",
+            "shortDescription": "攻撃力UP[Ⅳ]&Charge後ダメージUP[Ⅲ]&確率で霧",
             "artId1": 310401104,
             "art1": {
               "artId": 310401104,
@@ -27122,6 +29254,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -27226,7 +29361,7 @@
             "id": 30143,
             "groupId": 1014,
             "name": "サモン・ウェーブ",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 必ず霧(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 必ず霧(敵全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -27252,7 +29387,7 @@
             "id": 30143,
             "groupId": 1085,
             "name": "あの…その…私と…その…",
-            "shortDescription": "攻撃力UP[Ⅵ]＆Charge後ダメージUP[Ⅴ]＆必ず霧",
+            "shortDescription": "攻撃力UP[Ⅵ]&Charge後ダメージUP[Ⅴ]&必ず霧",
             "artId1": 310401106,
             "art1": {
               "artId": 310401106,
@@ -27286,6 +29421,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -27390,7 +29528,7 @@
             "id": 30144,
             "groupId": 1014,
             "name": "サモン・ウェーブ",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 必ず霧(敵全/3T) ＆ Blast ダメージDOWN(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 必ず霧(敵全/3T) & Blast ダメージDOWN(敵全/3T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -27426,7 +29564,7 @@
             "id": 30144,
             "groupId": 1085,
             "name": "あの…その…私と…その…",
-            "shortDescription": "攻撃力UP[Ⅷ]＆Charge後ダメージUP[Ⅶ]＆必ず霧",
+            "shortDescription": "攻撃力UP[Ⅷ]&Charge後ダメージUP[Ⅶ]&必ず霧",
             "artId1": 310401108,
             "art1": {
               "artId": 310401108,
@@ -27460,6 +29598,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -27555,6 +29696,7 @@
       "growthType": "ATKHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30154,
       "defaultCard": {
         "cardId": 30154,
@@ -27847,7 +29989,7 @@
             "id": 30154,
             "groupId": 1012,
             "name": "ツキササルイバラノヤ",
-            "shortDescription": "敵単体にダメージ[Ⅴ]  ＆ 必ず挑発 ＆ 確率で回避(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ]  & 必ず挑発 & 確率で回避(自/1T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -27882,7 +30024,7 @@
             "id": 30154,
             "groupId": 1124,
             "name": "ふたりなら倍だよね～！",
-            "shortDescription": "確率で回避[Ⅶ]＆確率で挑発[Ⅶ]＆確率でクリティカル[Ⅶ]",
+            "shortDescription": "確率で回避[Ⅶ]&確率で挑発[Ⅶ]&確率でクリティカル[Ⅶ]",
             "artId1": 610406807,
             "art1": {
               "artId": 610406807,
@@ -27916,6 +30058,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -28019,7 +30164,7 @@
             "id": 30155,
             "groupId": 1012,
             "name": "ツキササルイバラノヤ",
-            "shortDescription": "敵単体にダメージ[Ⅶ]  ＆ 必ず挑発 ＆ 必ず回避(自/1T) ＆ 防御力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅶ]  & 必ず挑発 & 必ず回避(自/1T) & 防御力UP(全/3T)",
             "artId1": 100000107,
             "art1": {
               "artId": 100000107,
@@ -28064,7 +30209,7 @@
             "id": 30158,
             "groupId": 1012,
             "name": "包括のドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅸ]  ＆ 必ず挑発 ＆ 必ず回避(自/1T) ＆ 防御力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅸ]  & 必ず挑発 & 必ず回避(自/1T) & 防御力UP(全/3T)",
             "artId1": 190301581,
             "art1": {
               "artId": 190301581,
@@ -28109,7 +30254,7 @@
             "id": 30155,
             "groupId": 1124,
             "name": "ふたりなら倍だよね～！",
-            "shortDescription": "必ず回避＆確率で挑発[Ⅸ]＆確率でクリティカル[Ⅸ]",
+            "shortDescription": "必ず回避&確率で挑発[Ⅸ]&確率でクリティカル[Ⅸ]",
             "artId1": 610406900,
             "art1": {
               "artId": 610406900,
@@ -28143,6 +30288,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -28238,6 +30386,7 @@
       "growthType": "DEFENSE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30164,
       "defaultCard": {
         "cardId": 30164,
@@ -28583,6 +30732,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -28783,6 +30935,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -29145,7 +31300,7 @@
             "id": 30193,
             "groupId": 1012,
             "name": "ファン・ファン・ファン",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 防御力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 防御力UP(全/3T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -29170,7 +31325,7 @@
             "id": 30193,
             "groupId": 1127,
             "name": "任せて！これは鉄板だから！",
-            "shortDescription": "耐える ＆ 確率でクリティカル[Ⅴ]",
+            "shortDescription": "耐える & 確率でクリティカル[Ⅴ]",
             "artId1": 610407400,
             "art1": {
               "artId": 610407400,
@@ -29194,6 +31349,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -29298,7 +31456,7 @@
             "id": 30194,
             "groupId": 1012,
             "name": "ファン・ファン・ファン",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 防御力UP(全/3T) ＆ デバフ解除(全)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 防御力UP(全/3T) & デバフ解除(全)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -29331,7 +31489,7 @@
             "id": 30194,
             "groupId": 1127,
             "name": "任せて！これは鉄板だから！",
-            "shortDescription": "耐える ＆ 確率でクリティカル[Ⅶ]",
+            "shortDescription": "耐える & 確率でクリティカル[Ⅶ]",
             "artId1": 610407400,
             "art1": {
               "artId": 610407400,
@@ -29355,6 +31513,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -29450,6 +31611,7 @@
       "growthType": "ATTACK",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30204,
       "defaultCard": {
         "cardId": 30204,
@@ -29742,7 +31904,7 @@
             "id": 30204,
             "groupId": 1014,
             "name": "メテオ・フィスト",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ サヴァイヴ ＆ HP自動回復(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & サヴァイヴ & HP自動回復(自/2T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -29779,7 +31941,7 @@
             "id": 30204,
             "groupId": 1127,
             "name": "ギブアンドテイクですよ",
-            "shortDescription": "耐える(3T)＆ BlastダメージUP[Ⅶ]",
+            "shortDescription": "耐える(3T)& BlastダメージUP[Ⅶ]",
             "artId1": 9300,
             "art1": {
               "artId": 9300,
@@ -29802,6 +31964,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -29905,7 +32070,7 @@
             "id": 30205,
             "groupId": 1014,
             "name": "メテオ・フィスト",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ サヴァイヴ ＆ HP自動回復(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & サヴァイヴ & HP自動回復(自/2T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -29942,7 +32107,7 @@
             "id": 30208,
             "groupId": 1014,
             "name": "離散のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ サヴァイヴ ＆ HP自動回復(全/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & サヴァイヴ & HP自動回復(全/2T)",
             "artId1": 190302081,
             "art1": {
               "artId": 190302081,
@@ -29979,7 +32144,7 @@
             "id": 30205,
             "groupId": 1127,
             "name": "ギブアンドテイクですよ",
-            "shortDescription": "耐える(3T)＆ BlastダメージUP[Ⅸ] ",
+            "shortDescription": "耐える(3T)& BlastダメージUP[Ⅸ] ",
             "artId1": 9300,
             "art1": {
               "artId": 9300,
@@ -30002,6 +32167,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -30365,7 +32533,7 @@
             "id": 30233,
             "groupId": 1014,
             "name": "絶対ロックオン",
-            "shortDescription": "敵全体にダメージ[Ⅱ] ＆ BlastダメージUP(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅱ] & BlastダメージUP(全/3T)",
             "artId1": 100300102,
             "art1": {
               "artId": 100300102,
@@ -30390,7 +32558,7 @@
             "id": 30233,
             "groupId": 1134,
             "name": "恋する力！みせてあげる！",
-            "shortDescription": "回避無効＆ BlastダメージUP[Ⅵ]",
+            "shortDescription": "回避無効& BlastダメージUP[Ⅵ]",
             "artId1": 610408100,
             "art1": {
               "artId": 610408100,
@@ -30413,6 +32581,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -30517,7 +32688,7 @@
             "id": 30234,
             "groupId": 1014,
             "name": "絶対ロックオン",
-            "shortDescription": "敵全体にダメージ[Ⅳ] ＆ BlastダメージUP(全/3T) ＆ 回避無効(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅳ] & BlastダメージUP(全/3T) & 回避無効(全/3T)",
             "artId1": 100300104,
             "art1": {
               "artId": 100300104,
@@ -30552,7 +32723,7 @@
             "id": 30234,
             "groupId": 1134,
             "name": "恋する力！みせてあげる！",
-            "shortDescription": "回避無効＆ BlastダメージUP[Ⅷ]",
+            "shortDescription": "回避無効& BlastダメージUP[Ⅷ]",
             "artId1": 610408100,
             "art1": {
               "artId": 610408100,
@@ -30575,6 +32746,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -30670,6 +32844,7 @@
       "growthType": "BALANCE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30254,
       "defaultCard": {
         "cardId": 30254,
@@ -30962,7 +33137,7 @@
             "id": 30254,
             "groupId": 1067,
             "name": "ソウル・サルベーション",
-            "shortDescription": "敵単体にダメージ[Ⅵ]＆低HPほど威力UP＆回避(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅵ]&低HPほど威力UP&回避(自/1T)",
             "artId1": 100000306,
             "art1": {
               "artId": 100000306,
@@ -30989,7 +33164,7 @@
             "id": 30254,
             "groupId": 1126,
             "name": "私に続きを記させて",
-            "shortDescription": "ターゲット生存時に必ず追撃 ＆ 攻撃力UP[Ⅶ]",
+            "shortDescription": "ターゲット生存時に必ず追撃 & 攻撃力UP[Ⅶ]",
             "artId1": 610407300,
             "art1": {
               "artId": 610407300,
@@ -31013,6 +33188,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -31116,7 +33294,7 @@
             "id": 30255,
             "groupId": 1067,
             "name": "ソウル・サルベーション",
-            "shortDescription": "敵単体にダメージ[Ⅷ]＆低HPほど威力UP＆回避(自/1T)＆HP自動回復(自/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅷ]&低HPほど威力UP&回避(自/1T)&HP自動回復(自/3T)",
             "artId1": 100000308,
             "art1": {
               "artId": 100000308,
@@ -31154,7 +33332,7 @@
             "id": 30258,
             "groupId": 1067,
             "name": "電令のドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅹ]＆低HPほど威力UP＆回避(自/1T)＆HP自動回復(自/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅹ]&低HPほど威力UP&回避(自/1T)&HP自動回復(自/3T)",
             "artId1": 190302581,
             "art1": {
               "artId": 190302581,
@@ -31192,7 +33370,7 @@
             "id": 30255,
             "groupId": 1126,
             "name": "私に続きを記させて",
-            "shortDescription": "ターゲット生存時に必ず追撃 ＆ 攻撃力UP[Ⅸ] ＆ 必ず回避",
+            "shortDescription": "ターゲット生存時に必ず追撃 & 攻撃力UP[Ⅸ] & 必ず回避",
             "artId1": 610407300,
             "art1": {
               "artId": 610407300,
@@ -31226,6 +33404,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -31321,6 +33502,7 @@
       "growthType": "DEFHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30264,
       "defaultCard": {
         "cardId": 30264,
@@ -31613,7 +33795,7 @@
             "id": 30264,
             "groupId": 1014,
             "name": "バタフライ・テンペスト",
-            "shortDescription": "敵全体にダメージ[Ⅳ] ＆ HP自動回復(全/3T) ",
+            "shortDescription": "敵全体にダメージ[Ⅳ] & HP自動回復(全/3T) ",
             "artId1": 100300104,
             "art1": {
               "artId": 100300104,
@@ -31639,7 +33821,7 @@
             "id": 30264,
             "groupId": 1078,
             "name": "私に任せてもらえるかしら",
-            "shortDescription": "HP回復[Ⅵ]＆Accele MPUP[Ⅶ] & 攻撃力UP[Ⅶ] ",
+            "shortDescription": "HP回復[Ⅵ]&Accele MPUP[Ⅶ] & 攻撃力UP[Ⅶ] ",
             "artId1": 200400406,
             "art1": {
               "artId": 200400406,
@@ -31671,6 +33853,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -31774,7 +33959,7 @@
             "id": 30265,
             "groupId": 1014,
             "name": "バタフライ・テンペスト",
-            "shortDescription": "敵全体にダメージ[Ⅵ] ＆ HP自動回復(全/3T)  ＆  カウンター無効(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅵ] & HP自動回復(全/3T)  &  カウンター無効(全/3T)",
             "artId1": 100300106,
             "art1": {
               "artId": 100300106,
@@ -31810,7 +33995,7 @@
             "id": 30268,
             "groupId": 1014,
             "name": "報復のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅷ] ＆ HP自動回復(全/3T)  ＆  カウンター無効(全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅷ] & HP自動回復(全/3T)  &  カウンター無効(全/3T)",
             "artId1": 190302681,
             "art1": {
               "artId": 190302681,
@@ -31846,7 +34031,7 @@
             "id": 30265,
             "groupId": 1078,
             "name": "私に任せてもらえるかしら",
-            "shortDescription": "HP回復[Ⅷ]＆Accele MPUP[Ⅸ] & 攻撃力UP[Ⅸ]",
+            "shortDescription": "HP回復[Ⅷ]&Accele MPUP[Ⅸ] & 攻撃力UP[Ⅸ]",
             "artId1": 200400408,
             "art1": {
               "artId": 200400408,
@@ -31878,6 +34063,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -32241,7 +34429,7 @@
             "id": 30273,
             "groupId": 1014,
             "name": "サンダー・トレント",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 攻撃力DOWN(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 攻撃力DOWN(敵全/3T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -32266,7 +34454,7 @@
             "id": 30273,
             "groupId": 1087,
             "name": "完璧ー！一緒に仕留めるよ！",
-            "shortDescription": "与えるダメージUP[Ⅵ]＆必ず呪い",
+            "shortDescription": "与えるダメージUP[Ⅵ]&必ず呪い",
             "artId1": 310401306,
             "art1": {
               "artId": 310401306,
@@ -32290,6 +34478,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -32394,7 +34585,7 @@
             "id": 30274,
             "groupId": 1014,
             "name": "サンダー・トレント",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 攻撃力DOWN(敵全/3T) ＆ 必ず呪い(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力DOWN(敵全/3T) & 必ず呪い(敵全/1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -32430,7 +34621,7 @@
             "id": 30274,
             "groupId": 1087,
             "name": "完璧ー！一緒に仕留めるよ！",
-            "shortDescription": "与えるダメージUP[Ⅷ]＆必ず呪い",
+            "shortDescription": "与えるダメージUP[Ⅷ]&必ず呪い",
             "artId1": 310401308,
             "art1": {
               "artId": 310401308,
@@ -32454,6 +34645,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -32803,7 +34997,7 @@
             "id": 30282,
             "groupId": 1012,
             "name": "未確認飛行ファイヤー",
-            "shortDescription": "敵単体にダメージ[Ⅰ] ＆ やけど(敵単/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅰ] & やけど(敵単/1T)",
             "artId1": 100000101,
             "art1": {
               "artId": 100000101,
@@ -32853,6 +35047,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -32957,7 +35154,7 @@
             "id": 30283,
             "groupId": 1012,
             "name": "未確認飛行ファイヤー",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ やけど(敵単/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & やけど(敵単/1T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -33007,6 +35204,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -33111,7 +35311,7 @@
             "id": 30284,
             "groupId": 1012,
             "name": "未確認飛行ファイヤー",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ やけど(敵単/1T) & 攻撃力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & やけど(敵単/1T) & 攻撃力UP(全/3T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -33171,6 +35371,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -33533,7 +35736,7 @@
             "id": 30293,
             "groupId": 1012,
             "name": "インビジブル・アサシン",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 追撃(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 追撃(自/1T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -33573,6 +35776,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -33677,7 +35883,7 @@
             "id": 30294,
             "groupId": 1012,
             "name": "インビジブル・アサシン",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 追撃(自/1T) ＆ 回避(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 追撃(自/1T) & 回避(自/1T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -33727,6 +35933,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -34075,7 +36284,7 @@
             "id": 30302,
             "groupId": 1015,
             "name": "ピオニー・ブーケ",
-            "shortDescription": "横方向にダメージ[Ⅰ] ＆ HP回復(全)",
+            "shortDescription": "横方向にダメージ[Ⅰ] & HP回復(全)",
             "artId1": 100600101,
             "art1": {
               "artId": 100600101,
@@ -34099,7 +36308,7 @@
             "id": 30302,
             "groupId": 1151,
             "name": "こんなアレンジはどう？",
-            "shortDescription": "必ず霧 ＆ 必ず毒",
+            "shortDescription": "必ず霧 & 必ず毒",
             "artId1": 610410700,
             "art1": {
               "artId": 610410700,
@@ -34124,6 +36333,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -34228,7 +36440,7 @@
             "id": 30303,
             "groupId": 1015,
             "name": "ピオニー・ブーケ",
-            "shortDescription": "横方向にダメージ[Ⅱ] ＆ HP回復(全)",
+            "shortDescription": "横方向にダメージ[Ⅱ] & HP回復(全)",
             "artId1": 100600102,
             "art1": {
               "artId": 100600102,
@@ -34252,7 +36464,7 @@
             "id": 30303,
             "groupId": 1151,
             "name": "こんなアレンジはどう？",
-            "shortDescription": "必ず霧 ＆ 必ず毒",
+            "shortDescription": "必ず霧 & 必ず毒",
             "artId1": 610410700,
             "art1": {
               "artId": 610410700,
@@ -34277,6 +36489,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -34381,7 +36596,7 @@
             "id": 30304,
             "groupId": 1015,
             "name": "ピオニー・ブーケ",
-            "shortDescription": "横方向にダメージ[Ⅳ] ＆ HP回復(全) ＆ 防御力UP(全/3T)",
+            "shortDescription": "横方向にダメージ[Ⅳ] & HP回復(全) & 防御力UP(全/3T)",
             "artId1": 100600104,
             "art1": {
               "artId": 100600104,
@@ -34415,7 +36630,7 @@
             "id": 30304,
             "groupId": 1151,
             "name": "こんなアレンジはどう？",
-            "shortDescription": "必ず霧 ＆ 必ず毒",
+            "shortDescription": "必ず霧 & 必ず毒",
             "artId1": 610410700,
             "art1": {
               "artId": 610410700,
@@ -34440,6 +36655,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -34818,7 +37036,7 @@
             "id": 30313,
             "groupId": 1090,
             "name": "一緒なら大丈夫だよ！",
-            "shortDescription": "Accele MPUP[Ⅵ] ＆ 確率でクリティカル[Ⅵ]",
+            "shortDescription": "Accele MPUP[Ⅵ] & 確率でクリティカル[Ⅵ]",
             "artId1": 310401606,
             "art1": {
               "artId": 310401606,
@@ -34842,6 +37060,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -34946,7 +37167,7 @@
             "id": 30314,
             "groupId": 1014,
             "name": "キラ盛りビーム",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] ＆ 確率で魅了(敵全/1T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] & 確率で魅了(敵全/1T)",
             "artId1": 100300206,
             "art1": {
               "artId": 100300206,
@@ -34972,7 +37193,7 @@
             "id": 30314,
             "groupId": 1090,
             "name": "一緒なら大丈夫だよ！",
-            "shortDescription": "Accele MPUP[Ⅷ] ＆ 確率でクリティカル[Ⅷ]",
+            "shortDescription": "Accele MPUP[Ⅷ] & 確率でクリティカル[Ⅷ]",
             "artId1": 310401608,
             "art1": {
               "artId": 310401608,
@@ -34996,6 +37217,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -35091,6 +37315,7 @@
       "growthType": "DEFHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30324,
       "defaultCard": {
         "cardId": 30324,
@@ -35383,7 +37608,7 @@
             "id": 30324,
             "groupId": 1014,
             "name": "水彩レイン",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅵ]＆確率でスキル不可(敵全/1T)＆MP自動回復(全/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅵ]&確率でスキル不可(敵全/1T)&MP自動回復(全/3T)",
             "artId1": 100300206,
             "art1": {
               "artId": 100300206,
@@ -35421,7 +37646,7 @@
             "id": 30324,
             "groupId": 1087,
             "name": "側にいてくれますか？",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ MP回復[Ⅳ] ＆ Accele MPUP[Ⅲ]",
+            "shortDescription": "与えるダメージUP[Ⅶ] & MP回復[Ⅳ] & Accele MPUP[Ⅲ]",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -35453,6 +37678,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -35556,7 +37784,7 @@
             "id": 30325,
             "groupId": 1014,
             "name": "水彩レイン",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅷ] ＆ 必ずスキル不可(敵全/1T) ＆ MP自動回復(全/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅷ] & 必ずスキル不可(敵全/1T) & MP自動回復(全/3T)",
             "artId1": 100300208,
             "art1": {
               "artId": 100300208,
@@ -35594,7 +37822,7 @@
             "id": 30328,
             "groupId": 1014,
             "name": "寵愛のドッペル",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅹ] ＆ 必ず魅了(敵全/1T) ＆ MP自動回復(全/3T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅹ] & 必ず魅了(敵全/1T) & MP自動回復(全/3T)",
             "artId1": 190303281,
             "art1": {
               "artId": 190303281,
@@ -35632,7 +37860,7 @@
             "id": 30325,
             "groupId": 1087,
             "name": "側にいてくれますか？",
-            "shortDescription": "与えるダメージUP[Ⅸ] ＆ MP回復[Ⅵ] ＆ Accele MPUP[Ⅴ]",
+            "shortDescription": "与えるダメージUP[Ⅸ] & MP回復[Ⅵ] & Accele MPUP[Ⅴ]",
             "artId1": 310401309,
             "art1": {
               "artId": 310401309,
@@ -35664,6 +37892,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -36027,7 +38258,7 @@
             "id": 30373,
             "groupId": 1014,
             "name": "漆黒のアルカナ",
-            "shortDescription": "敵全体にダメージ[Ⅱ] ＆ 確率で毒(敵全/3T) ＆ 確率で暗闇・拘束・スキル不可(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅱ] & 確率で毒(敵全/3T) & 確率で暗闇・拘束・スキル不可(敵全/1T)",
             "artId1": 100300102,
             "art1": {
               "artId": 100300102,
@@ -36084,7 +38315,7 @@
             "id": 30373,
             "groupId": 1085,
             "name": "メルと運命を切り開くのです",
-            "shortDescription": "攻撃力UP[Ⅴ] ＆ 確率で回避無効 ＆ 確率でカウンター無効",
+            "shortDescription": "攻撃力UP[Ⅴ] & 確率で回避無効 & 確率でカウンター無効",
             "artId1": 310401105,
             "art1": {
               "artId": 310401105,
@@ -36117,6 +38348,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -36221,7 +38455,7 @@
             "id": 30374,
             "groupId": 1014,
             "name": "漆黒のアルカナ",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 確率で毒(敵全/3T) ＆ 確率で暗闇・拘束・スキル不可(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 確率で毒(敵全/3T) & 確率で暗闇・拘束・スキル不可(敵全/1T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -36278,7 +38512,7 @@
             "id": 30374,
             "groupId": 1085,
             "name": "メルと運命を切り開くのです",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ 確率で回避無効 ＆ 確率でカウンター無効",
+            "shortDescription": "攻撃力UP[Ⅶ] & 確率で回避無効 & 確率でカウンター無効",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -36311,6 +38545,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -36406,6 +38643,7 @@
       "growthType": "ATKHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 30494,
       "defaultCard": {
         "cardId": 30494,
@@ -36698,7 +38936,7 @@
             "id": 30494,
             "groupId": 1012,
             "name": "無思考",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 状態異常耐性UP(自/3T) ＆ デバフ解除(自)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 状態異常耐性UP(自/3T) & デバフ解除(自)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -36752,6 +38990,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -36855,7 +39096,7 @@
             "id": 30495,
             "groupId": 1012,
             "name": "無思考",
-            "shortDescription": "敵単体にダメージ[Ⅶ] ＆ 状態異常耐性UP(全/3T) ＆ デバフ解除(自)",
+            "shortDescription": "敵単体にダメージ[Ⅶ] & 状態異常耐性UP(全/3T) & デバフ解除(自)",
             "artId1": 100000107,
             "art1": {
               "artId": 100000107,
@@ -36888,7 +39129,7 @@
             "id": 30498,
             "groupId": 1012,
             "name": "共鳴りのドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅸ] ＆ 状態異常耐性UP(全/3T) ＆ デバフ解除(全)",
+            "shortDescription": "敵単体にダメージ[Ⅸ] & 状態異常耐性UP(全/3T) & デバフ解除(全)",
             "artId1": 190304981,
             "art1": {
               "artId": 190304981,
@@ -36942,6 +39183,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -37304,6 +39548,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_V",
@@ -37634,7 +39881,7 @@
             "id": 40013,
             "groupId": 1085,
             "name": "私の力が必要ですか？",
-            "shortDescription": "攻撃力UP[Ⅴ] ＆ Accele MPUP[Ⅴ]",
+            "shortDescription": "攻撃力UP[Ⅴ] & Accele MPUP[Ⅴ]",
             "artId1": 310401105,
             "art1": {
               "artId": 310401105,
@@ -37657,6 +39904,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -37761,7 +40011,7 @@
             "id": 40014,
             "groupId": 1014,
             "name": "オラクルレイ",
-            "shortDescription": "敵全体にダメージ[Ⅵ] ＆ MP回復(自)",
+            "shortDescription": "敵全体にダメージ[Ⅵ] & MP回復(自)",
             "artId1": 100300106,
             "art1": {
               "artId": 100300106,
@@ -37785,7 +40035,7 @@
             "id": 40014,
             "groupId": 1085,
             "name": "私の力が必要ですか？",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ Accele MPUP[Ⅶ]",
+            "shortDescription": "攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ]",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -37808,6 +40058,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -37903,6 +40156,7 @@
       "growthType": "BALANCE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 40024,
       "defaultCard": {
         "cardId": 40024,
@@ -38193,7 +40447,7 @@
             "id": 40024,
             "groupId": 1012,
             "name": "ヴァンパイアファング",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 必ず挑発(自/1T) ＆ 確率でカウンター(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 必ず挑発(自/1T) & 確率でカウンター(自/1T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -38229,7 +40483,7 @@
             "id": 40024,
             "groupId": 1125,
             "name": "これも織莉子のため",
-            "shortDescription": "必ずカウンター ＆ 必ず挑発 ＆ 防御力UP[Ⅴ]",
+            "shortDescription": "必ずカウンター & 必ず挑発 & 防御力UP[Ⅴ]",
             "artId1": 610407100,
             "art1": {
               "artId": 610407100,
@@ -38263,6 +40517,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -38366,7 +40623,7 @@
             "id": 40025,
             "groupId": 1012,
             "name": "ヴァンパイアファング",
-            "shortDescription": "敵単体にダメージ[Ⅶ] ＆ 必ず挑発(自/1T) ＆ 必ずカウンター(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅶ] & 必ず挑発(自/1T) & 必ずカウンター(自/1T)",
             "artId1": 100000107,
             "art1": {
               "artId": 100000107,
@@ -38402,7 +40659,7 @@
             "id": 40028,
             "groupId": 1012,
             "name": "篭絡のドッペル",
-            "shortDescription": "敵単体にダメージ[Ⅸ] ＆ 必ず挑発(自/1T) ＆ 必ずカウンター(自/1T)",
+            "shortDescription": "敵単体にダメージ[Ⅸ] & 必ず挑発(自/1T) & 必ずカウンター(自/1T)",
             "artId1": 190400281,
             "art1": {
               "artId": 190400281,
@@ -38438,7 +40695,7 @@
             "id": 40025,
             "groupId": 1125,
             "name": "これも織莉子のため",
-            "shortDescription": "必ずカウンター ＆ 必ず挑発 ＆ 防御力UP[Ⅶ]",
+            "shortDescription": "必ずカウンター & 必ず挑発 & 防御力UP[Ⅶ]",
             "artId1": 610407100,
             "art1": {
               "artId": 610407100,
@@ -38472,6 +40729,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -38834,7 +41094,7 @@
             "id": 40033,
             "groupId": 1012,
             "name": "リンクスインパクト",
-            "shortDescription": "敵単体にダメージ[Ⅱ] ＆ HP回復(全)",
+            "shortDescription": "敵単体にダメージ[Ⅱ] & HP回復(全)",
             "artId1": 100000102,
             "art1": {
               "artId": 100000102,
@@ -38870,6 +41130,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -38974,7 +41237,7 @@
             "id": 40034,
             "groupId": 1012,
             "name": "リンクスインパクト",
-            "shortDescription": "敵単体にダメージ[Ⅳ] ＆ HP回復(全) ＆ 状態異常耐性UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅳ] & HP回復(全) & 状態異常耐性UP(全/3T)",
             "artId1": 100000104,
             "art1": {
               "artId": 100000104,
@@ -39020,6 +41283,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -39115,6 +41381,7 @@
       "growthType": "DEFHP",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 40114,
       "defaultCard": {
         "cardId": 40114,
@@ -39456,6 +41723,9 @@
           "pieceSkillList": [
             
           ],
+          "maxPieceSkillList": [
+            
+          ],
           "commandType1": "MPUP",
           "commandType2": "MPUP",
           "commandType3": "RANGE_H",
@@ -39648,6 +41918,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -39885,7 +42158,7 @@
             "id": 40123,
             "groupId": 1014,
             "name": "イクス・フィーレ",
-            "shortDescription": "敵全体にダメージ[Ⅱ] ＆ HP 回復(全)",
+            "shortDescription": "敵全体にダメージ[Ⅱ] & HP 回復(全)",
             "artId1": 100300102,
             "art1": {
               "artId": 100300102,
@@ -39932,6 +42205,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -40033,7 +42309,7 @@
             "id": 40124,
             "groupId": 1014,
             "name": "イクス・フィーレ",
-            "shortDescription": "敵全体にダメージ[Ⅳ] ＆ 状態異常解除(全) ＆ HP回復(全)",
+            "shortDescription": "敵全体にダメージ[Ⅳ] & 状態異常解除(全) & HP回復(全)",
             "artId1": 100300104,
             "art1": {
               "artId": 100300104,
@@ -40088,6 +42364,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -40449,7 +42728,7 @@
             "id": 40133,
             "groupId": 1012,
             "name": "パラ・ディ・キャノーネ",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 攻撃力UP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 攻撃力UP(全/3T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -40474,7 +42753,7 @@
             "id": 40133,
             "groupId": 1085,
             "name": "あんたを置いて行けるか!!",
-            "shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅴ]",
+            "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅴ]",
             "artId1": 310401105,
             "art1": {
               "artId": 310401105,
@@ -40497,6 +42776,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -40601,7 +42883,7 @@
             "id": 40134,
             "groupId": 1012,
             "name": "パラ・ディ・キャノーネ",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 攻撃力UP ＆ Charge後ダメージUP(全/3T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 攻撃力UP & Charge後ダメージUP(全/3T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -40636,7 +42918,7 @@
             "id": 40134,
             "groupId": 1085,
             "name": "あんたを置いて行けるか!!",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅶ]",
+            "shortDescription": "攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -40659,6 +42941,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -40754,6 +43039,7 @@
       "growthType": "ATKDEF",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 40214,
       "defaultCard": {
         "cardId": 40214,
@@ -41046,7 +43332,7 @@
             "id": 40214,
             "groupId": 1014,
             "name": "ラ・リュミエール",
-            "shortDescription": "敵全体ダメージ[Ⅴ]  ＆ HP回復(全) ＆ 自身に呪い(1T)",
+            "shortDescription": "敵全体ダメージ[Ⅴ]  & HP回復(全) & 自身に呪い(1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -41081,7 +43367,7 @@
             "id": 40214,
             "groupId": 1085,
             "name": "必ず守ってみせる！",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅶ]",
+            "shortDescription": "攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -41104,6 +43390,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -41208,7 +43497,7 @@
             "id": 40215,
             "groupId": 1014,
             "name": "ラ・リュミエール",
-            "shortDescription": "敵全体ダメージ[Ⅶ] ＆ HP回復(全) ＆ 攻撃力UP(全/3T)＆ 自身に呪い(1T)",
+            "shortDescription": "敵全体ダメージ[Ⅶ] & HP回復(全) & 攻撃力UP(全/3T)& 自身に呪い(1T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -41253,7 +43542,7 @@
             "id": 40218,
             "groupId": 1014,
             "name": "浄火のドッペル",
-            "shortDescription": "敵全体ダメージ[Ⅸ]  ＆ HP回復(全) ＆ 攻撃力UP(全/3T)　",
+            "shortDescription": "敵全体ダメージ[Ⅸ]  & HP回復(全) & 攻撃力UP(全/3T)　",
             "artId1": 190402181,
             "art1": {
               "artId": 190402181,
@@ -41287,7 +43576,7 @@
             "id": 40215,
             "groupId": 1085,
             "name": "必ず守ってみせる！",
-            "shortDescription": "攻撃力UP[Ⅸ] ＆ 防御力UP[Ⅸ]",
+            "shortDescription": "攻撃力UP[Ⅸ] & 防御力UP[Ⅸ]",
             "artId1": 310401109,
             "art1": {
               "artId": 310401109,
@@ -41310,6 +43599,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -41406,6 +43698,7 @@
       "growthType": "BALANCE",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 40224,
       "defaultCard": {
         "cardId": 40224,
@@ -41698,7 +43991,7 @@
             "id": 40224,
             "groupId": 1014,
             "name": "ロンブル",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] ＆ MP回復(自)＆ 確率で回避(自/1T）",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] & MP回復(自)& 確率で回避(自/1T）",
             "artId1": 100300205,
             "art1": {
               "artId": 100300205,
@@ -41733,7 +44026,7 @@
             "id": 40224,
             "groupId": 1123,
             "name": "それにしても危なっかしいわね",
-            "shortDescription": "防御無視 ＆ 確率でクリティカル[Ⅶ]",
+            "shortDescription": "防御無視 & 確率でクリティカル[Ⅶ]",
             "artId1": 610406700,
             "art1": {
               "artId": 610406700,
@@ -41757,6 +44050,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -41861,7 +44157,7 @@
             "id": 40225,
             "groupId": 1014,
             "name": "ロンブル",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] ＆ MP回復(自)  & 確率で回避(自/1T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & MP回復(自)  & 確率で回避(自/1T)",
             "artId1": 100300207,
             "art1": {
               "artId": 100300207,
@@ -41896,7 +44192,7 @@
             "id": 40228,
             "groupId": 1014,
             "name": "妄執のドッペル",
-            "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] ＆ MP回復(自)  & 必ず回避(自/1T)",
+            "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & MP回復(自)  & 必ず回避(自/1T)",
             "artId1": 190402281,
             "art1": {
               "artId": 190402281,
@@ -41931,7 +44227,7 @@
             "id": 40225,
             "groupId": 1123,
             "name": "それにしても危なっかしいわね",
-            "shortDescription": "防御無視 ＆ 確率でクリティカル[Ⅸ]",
+            "shortDescription": "防御無視 & 確率でクリティカル[Ⅸ]",
             "artId1": 610406700,
             "art1": {
               "artId": 610406700,
@@ -41955,6 +44251,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -42193,7 +44492,7 @@
             "id": 40233,
             "groupId": 1012,
             "name": "デザンテグラシオン",
-            "shortDescription": "敵単体ダメージ[Ⅳ] ＆ 防御力DOWN(敵単/3T)",
+            "shortDescription": "敵単体ダメージ[Ⅳ] & 防御力DOWN(敵単/3T)",
             "artId1": 100000104,
             "art1": {
               "artId": 100000104,
@@ -42239,6 +44538,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -42341,7 +44643,7 @@
             "id": 40234,
             "groupId": 1012,
             "name": "デザンテグラシオン",
-            "shortDescription": "敵単体ダメージ[Ⅵ] ＆ 防御力DOWN(敵単/3T) ＆ Accele MPUP(全/3T)",
+            "shortDescription": "敵単体ダメージ[Ⅵ] & 防御力DOWN(敵単/3T) & Accele MPUP(全/3T)",
             "artId1": 100000106,
             "art1": {
               "artId": 100000106,
@@ -42397,6 +44699,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -42491,6 +44796,7 @@
       "growthType": "ATTACK",
       "enemyFlg": false,
       "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
       "defaultCardId": 40314,
       "defaultCard": {
         "cardId": 40314,
@@ -42783,7 +45089,7 @@
             "id": 40314,
             "groupId": 1014,
             "name": "受け継がれし炎",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 必ずやけど(敵全/3T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 必ずやけど(敵全/3T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -42809,7 +45115,7 @@
             "id": 40314,
             "groupId": 1087,
             "name": "今だけは私が…",
-            "shortDescription": "与えるダメージUP[Ⅶ] ＆ 確率でクリティカル[Ⅶ]",
+            "shortDescription": "与えるダメージUP[Ⅶ] & 確率でクリティカル[Ⅶ]",
             "artId1": 310401307,
             "art1": {
               "artId": 310401307,
@@ -42833,6 +45139,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -42936,7 +45245,7 @@
             "id": 40315,
             "groupId": 1014,
             "name": "受け継がれし炎",
-            "shortDescription": "敵全体にダメージ[Ⅶ] ＆ 必ずやけど(敵全/3T) ＆ 確率でクリティカル(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 必ずやけど(敵全/3T) & 確率でクリティカル(自/2T)",
             "artId1": 100300107,
             "art1": {
               "artId": 100300107,
@@ -42974,7 +45283,7 @@
             "id": 40318,
             "groupId": 1014,
             "name": "約束のドッペル",
-            "shortDescription": "敵全体にダメージ[Ⅸ] ＆ 必ずやけど(敵全/3T) ＆ 必ずクリティカル(自/2T)",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 必ずやけど(敵全/3T) & 必ずクリティカル(自/2T)",
             "artId1": 190403181,
             "art1": {
               "artId": 190403181,
@@ -43011,7 +45320,7 @@
             "id": 40315,
             "groupId": 1087,
             "name": "今だけは私が…",
-            "shortDescription": "与えるダメージUP[Ⅸ] ＆ 確率でクリティカル[Ⅸ]",
+            "shortDescription": "与えるダメージUP[Ⅸ] & 確率でクリティカル[Ⅸ]",
             "artId1": 310401309,
             "art1": {
               "artId": 310401309,
@@ -43035,6 +45344,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -43273,7 +45585,7 @@
             "id": 40333,
             "groupId": 1012,
             "name": "フルブースト・コンバット",
-            "shortDescription": "敵単体にダメージ[Ⅲ] ＆ 攻撃力UP ＆ 防御力UP(自/2T)",
+            "shortDescription": "敵単体にダメージ[Ⅲ] & 攻撃力UP & 防御力UP(自/2T)",
             "artId1": 100000103,
             "art1": {
               "artId": 100000103,
@@ -43309,7 +45621,7 @@
             "id": 40333,
             "groupId": 1085,
             "name": "ハンパな力じゃやられるよ",
-            "shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅴ]",
+            "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅴ]",
             "artId1": 310401105,
             "art1": {
               "artId": 310401105,
@@ -43332,6 +45644,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -43439,7 +45754,7 @@
             "id": 40334,
             "groupId": 1012,
             "name": "フルブースト・コンバット",
-            "shortDescription": "敵単体にダメージ[Ⅴ] ＆ 攻撃力UP ＆ 防御力UP(自/2T) & 確率でクリティカル(自/2T)",
+            "shortDescription": "敵単体にダメージ[Ⅴ] & 攻撃力UP & 防御力UP(自/2T) & 確率でクリティカル(自/2T)",
             "artId1": 100000105,
             "art1": {
               "artId": 100000105,
@@ -43487,7 +45802,7 @@
             "id": 40334,
             "groupId": 1085,
             "name": "ハンパな力じゃやられるよ",
-            "shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅶ]",
+            "shortDescription": "攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -43510,6 +45825,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -43877,7 +46195,7 @@
             "id": 40343,
             "groupId": 1014,
             "name": "エンフォースメント",
-            "shortDescription": "敵全体にダメージ[Ⅲ] ＆ 確率で拘束(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅲ] & 確率で拘束(敵全/1T)",
             "artId1": 100300103,
             "art1": {
               "artId": 100300103,
@@ -43902,7 +46220,7 @@
             "id": 40343,
             "groupId": 1085,
             "name": "一緒に更生させましょう",
-            "shortDescription": "攻撃力UP[Ⅵ] ＆ 確率でスキル不可",
+            "shortDescription": "攻撃力UP[Ⅵ] & 確率でスキル不可",
             "artId1": 310401106,
             "art1": {
               "artId": 310401106,
@@ -43926,6 +46244,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",
@@ -44031,7 +46352,7 @@
             "id": 40344,
             "groupId": 1014,
             "name": "エンフォースメント",
-            "shortDescription": "敵全体にダメージ[Ⅴ] ＆ 確率で拘束(敵全/1T)",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 確率で拘束(敵全/1T)",
             "artId1": 100300105,
             "art1": {
               "artId": 100300105,
@@ -44056,7 +46377,7 @@
             "id": 40344,
             "groupId": 1085,
             "name": "一緒に更生させましょう",
-            "shortDescription": "攻撃力UP[Ⅷ] ＆ 確率でスキル不可 ＆ Charge後ダメージUP[Ⅷ]",
+            "shortDescription": "攻撃力UP[Ⅷ] & 確率でスキル不可 & Charge後ダメージUP[Ⅷ]",
             "artId1": 310401108,
             "art1": {
               "artId": 310401108,
@@ -44090,6 +46411,9 @@
             }
           },
           "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
             
           ],
           "commandType1": "MPUP",

@@ -1970,7 +1970,7 @@
       "groupId": 1138,
       "name": "アンチ・バインド",
       "type": "ABILITY",
-      "shortDescription": "拘束無効 ＆ 防御力UP[Ⅰ]",
+      "shortDescription": "拘束無効 & 防御力UP[Ⅰ]",
       "artId1": 690208500,
       "art1": {
         "artId": 690208500,
@@ -1997,7 +1997,7 @@
       "groupId": 1138,
       "name": "アンチ・バインド",
       "type": "ABILITY",
-      "shortDescription": "拘束無効 ＆ 防御力UP[Ⅱ]",
+      "shortDescription": "拘束無効 & 防御力UP[Ⅱ]",
       "artId1": 690208500,
       "art1": {
         "artId": 690208500,
@@ -2287,7 +2287,7 @@
       "name": "ブルームアップ[Ⅶ]",
       "type": "SKILL",
       "intervalTurn": 7,
-      "shortDescription": "攻撃力UP[Ⅶ] ＆ 防御力UP[Ⅵ](自/1T)",
+      "shortDescription": "攻撃力UP[Ⅶ] & 防御力UP[Ⅵ](自/1T)",
       "messageId": 70,
       "artId1": 310201107,
       "art1": {
@@ -2317,7 +2317,7 @@
       "name": "ブルームアップ[Ⅷ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "攻撃力UP[Ⅷ] ＆ 防御力UP[Ⅶ](自/1T)",
+      "shortDescription": "攻撃力UP[Ⅷ] & 防御力UP[Ⅶ](自/1T)",
       "messageId": 70,
       "artId1": 310201108,
       "art1": {
@@ -2407,7 +2407,7 @@
       "name": "ソリッドアップ[Ⅶ]",
       "type": "SKILL",
       "intervalTurn": 7,
-      "shortDescription": "防御力UP[Ⅶ] ＆ 状態異常耐性UP[Ⅵ](自/1T)",
+      "shortDescription": "防御力UP[Ⅶ] & 状態異常耐性UP[Ⅵ](自/1T)",
       "messageId": 70,
       "artId1": 310201207,
       "art1": {
@@ -2437,7 +2437,7 @@
       "name": "ソリッドアップ[Ⅷ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "防御力UP[Ⅷ] ＆ 状態異常耐性UP[Ⅶ](自/1T)",
+      "shortDescription": "防御力UP[Ⅷ] & 状態異常耐性UP[Ⅶ](自/1T)",
       "messageId": 70,
       "artId1": 310201208,
       "art1": {
@@ -3029,7 +3029,7 @@
       "name": "エンハンス・アーマメント[Ⅶ]",
       "type": "SKILL",
       "intervalTurn": 7,
-      "shortDescription": "ダメージアップ状態[Ⅶ] ＆ ダメージカット状態[Ⅵ](自/1T)",
+      "shortDescription": "ダメージアップ状態[Ⅶ] & ダメージカット状態[Ⅵ](自/1T)",
       "messageId": 70,
       "artId1": 610206107,
       "art1": {
@@ -3061,7 +3061,7 @@
       "name": "エンハンス・アーマメント[Ⅷ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "ダメージアップ状態[Ⅷ] ＆ ダメージカット状態[Ⅶ](自/1T)",
+      "shortDescription": "ダメージアップ状態[Ⅷ] & ダメージカット状態[Ⅶ](自/1T)",
       "messageId": 70,
       "artId1": 610206108,
       "art1": {
@@ -3153,7 +3153,7 @@
       "name": "ブルームライズ[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅳ](自/3T)",
+      "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅳ](自/3T)",
       "messageId": 70,
       "artId1": 330201105,
       "art1": {
@@ -3183,7 +3183,7 @@
       "name": "ブルームライズ[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "攻撃力UP[Ⅵ] ＆ 防御力UP[Ⅴ](自/3T)",
+      "shortDescription": "攻撃力UP[Ⅵ] & 防御力UP[Ⅴ](自/3T)",
       "messageId": 70,
       "artId1": 330201106,
       "art1": {
@@ -3225,7 +3225,7 @@
       "name": "エンハンス・アーマメント[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "ダメージアップ状態[Ⅴ] ＆ ダメージカット状態[Ⅳ](自/3T)",
+      "shortDescription": "ダメージアップ状態[Ⅴ] & ダメージカット状態[Ⅳ](自/3T)",
       "messageId": 70,
       "artId1": 630206105,
       "art1": {
@@ -3257,7 +3257,7 @@
       "name": "エンハンス・アーマメント[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "ダメージアップ状態[Ⅵ] ＆ ダメージカット状態[Ⅴ](自/3T)",
+      "shortDescription": "ダメージアップ状態[Ⅵ] & ダメージカット状態[Ⅴ](自/3T)",
       "messageId": 70,
       "artId1": 630206106,
       "art1": {
@@ -3348,7 +3348,7 @@
       "groupId": 1129,
       "name": "リベレイト・アデプト[Ⅱ]",
       "type": "ABILITY",
-      "shortDescription": "HP自動回復[Ⅱ] ＆ 拘束無効",
+      "shortDescription": "HP自動回復[Ⅱ] & 拘束無効",
       "artId1": 690207702,
       "art1": {
         "artId": 690207702,
@@ -3375,7 +3375,7 @@
       "groupId": 1129,
       "name": "リベレイト・アデプト[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "HP自動回復[Ⅲ] ＆ 拘束無効",
+      "shortDescription": "HP自動回復[Ⅲ] & 拘束無効",
       "artId1": 690207703,
       "art1": {
         "artId": 690207703,
@@ -3415,7 +3415,7 @@
       "name": "イネヴィタブル・アデプト[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "確率でクリティカル[Ⅴ] ＆ 回避無効(自/3T)",
+      "shortDescription": "確率でクリティカル[Ⅴ] & 回避無効(自/3T)",
       "messageId": 70,
       "artId1": 630206305,
       "art1": {
@@ -3446,7 +3446,7 @@
       "name": "イネヴィタブル・アデプト[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "確率でクリティカル[Ⅵ] ＆ 回避無効(自/3T)",
+      "shortDescription": "確率でクリティカル[Ⅵ] & 回避無効(自/3T)",
       "messageId": 70,
       "artId1": 630206306,
       "art1": {
@@ -5517,7 +5517,7 @@
       "name": "チェイスアタック",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "必ず追撃(自/1T)＆マギアダメージUP[Ⅸ]",
+      "shortDescription": "必ず追撃(自/1T)&マギアダメージUP[Ⅸ]",
       "messageId": 70,
       "artId1": 610207300,
       "art1": {
@@ -5647,7 +5647,7 @@
       "name": "ガーディアン",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "瀕死の味方を必ずかばう＆HP自動回復[Ⅸ](自/1T)",
+      "shortDescription": "瀕死の味方を必ずかばう&HP自動回復[Ⅸ](自/1T)",
       "messageId": 70,
       "artId1": 611313500,
       "art1": {
@@ -7208,7 +7208,7 @@
       "type": "SKILL",
       "intervalTurn": 8,
       "shortDescription": "ダメージカット状態[Ⅶ](自/1T)",
-      "messageId": 72,
+      "messageId": 70,
       "artId1": 610206207,
       "art1": {
         "artId": 610206207,
@@ -7229,7 +7229,7 @@
       "type": "SKILL",
       "intervalTurn": 7,
       "shortDescription": "ダメージカット状態[Ⅷ](自/1T)",
-      "messageId": 72,
+      "messageId": 70,
       "artId1": 610206208,
       "art1": {
         "artId": 610206208,
@@ -7774,7 +7774,7 @@
       "groupId": 1119,
       "name": "繋がる道を歩いてる",
       "type": "ABILITY",
-      "shortDescription": "ダメージアップ[Ⅴ]&HP自動回復[Ⅲ]＆Another Daze最終Battleで…",
+      "shortDescription": "ダメージアップ[Ⅴ]&HP自動回復[Ⅲ]&Another Daze最終Battleで…",
       "artId1": 690206105,
       "art1": {
         "artId": 690206105,
@@ -7818,7 +7818,7 @@
       "groupId": 1119,
       "name": "繋がる道を歩いてる",
       "type": "ABILITY",
-      "shortDescription": "ダメージアップ[Ⅵ]&HP自動回復[Ⅳ]＆Another Daze最終Battleで…",
+      "shortDescription": "ダメージアップ[Ⅵ]&HP自動回復[Ⅳ]&Another Daze最終Battleで…",
       "artId1": 690206106,
       "art1": {
         "artId": 690206106,
@@ -8649,9 +8649,9 @@
       "name": "エピソード・アデプト[Ⅱ]",
       "type": "ABILITY",
       "shortDescription": "獲得エピソードポイントUP[Ⅱ]",
-      "artId1": 101006,
+      "artId1": 700216302,
       "art1": {
-        "artId": 101006,
+        "artId": 700216302,
         "verbCode": "OTHER",
         "effectCode": "EPISODE_UP",
         "targetId": "SELF",
@@ -8666,9 +8666,9 @@
       "name": "エピソード・アデプト[Ⅱ]",
       "type": "ABILITY",
       "shortDescription": "獲得エピソードポイントUP[Ⅱ]",
-      "artId1": 101006,
+      "artId1": 700216302,
       "art1": {
-        "artId": 101006,
+        "artId": 700216302,
         "verbCode": "OTHER",
         "effectCode": "EPISODE_UP",
         "targetId": "SELF",
@@ -8703,7 +8703,7 @@
       "name": "イモータリティ[Ⅰ] ",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "耐える ＆ HP自動回復[Ⅰ] (自/3T)",
+      "shortDescription": "耐える & HP自動回復[Ⅰ] (自/3T)",
       "messageId": 70,
       "artId1": 630207400,
       "art1": {
@@ -8734,7 +8734,7 @@
       "name": "イモータリティ[Ⅱ] ",
       "type": "SKILL",
       "intervalTurn": 7,
-      "shortDescription": "耐える ＆ HP自動回復[Ⅱ] (自/3T)",
+      "shortDescription": "耐える & HP自動回復[Ⅱ] (自/3T)",
       "messageId": 70,
       "artId1": 630207400,
       "art1": {
@@ -8778,7 +8778,7 @@
       "name": "アサルトダウン[Ⅸ] ",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "攻撃力DOWN[Ⅸ] ＆ 与えるダメージDOWN[Ⅷ](敵単/1T)",
+      "shortDescription": "攻撃力DOWN[Ⅸ] & 与えるダメージDOWN[Ⅷ](敵単/1T)",
       "messageId": 72,
       "artId1": 410002009,
       "art1": {
@@ -8808,7 +8808,7 @@
       "name": "アサルトダウン[Ⅹ]",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "攻撃力DOWN[Ⅹ] ＆ 与えるダメージDOWN[Ⅸ](敵単/1T)",
+      "shortDescription": "攻撃力DOWN[Ⅹ] & 与えるダメージDOWN[Ⅸ](敵単/1T)",
       "messageId": 72,
       "artId1": 410002010,
       "art1": {
@@ -8850,7 +8850,7 @@
       "groupId": 1153,
       "name": "メズマライズ・ブレイド[Ⅱ]",
       "type": "ABILITY",
-      "shortDescription": "攻撃時に確率で幻惑(1T)を付与[Ⅱ]＆与えるダメージUP[Ⅳ]",
+      "shortDescription": "攻撃時に確率で幻惑(1T)を付与[Ⅱ]&与えるダメージUP[Ⅳ]",
       "artId1": 690211002,
       "art1": {
         "artId": 690211002,
@@ -8879,7 +8879,7 @@
       "groupId": 1153,
       "name": "メズマライズ・ブレイド[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "攻撃時に確率で幻惑(1T)を付与[Ⅲ]＆与えるダメージUP[Ⅴ]",
+      "shortDescription": "攻撃時に確率で幻惑(1T)を付与[Ⅲ]&与えるダメージUP[Ⅴ]",
       "artId1": 690211003,
       "art1": {
         "artId": 690211003,
@@ -8921,7 +8921,7 @@
       "groupId": 1090,
       "name": "アストラル・アデプト[Ⅲ] ",
       "type": "ABILITY",
-      "shortDescription": "Accele MPUP[Ⅲ] ＆ マギアダメージUP[Ⅱ]",
+      "shortDescription": "Accele MPUP[Ⅲ] & マギアダメージUP[Ⅱ]",
       "artId1": 390201603,
       "art1": {
         "artId": 390201603,
@@ -8949,7 +8949,7 @@
       "groupId": 1090,
       "name": "アストラル・アデプト[Ⅳ] ",
       "type": "ABILITY",
-      "shortDescription": "Accele MPUP[Ⅳ] ＆ マギアダメージUP[Ⅲ]",
+      "shortDescription": "Accele MPUP[Ⅳ] & マギアダメージUP[Ⅲ]",
       "artId1": 390201604,
       "art1": {
         "artId": 390201604,
@@ -9038,7 +9038,7 @@
       "name": "インビジブルブラスト[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "回避無効 ＆ Blast ダメージUP[Ⅵ](自/1T)",
+      "shortDescription": "回避無効 & Blast ダメージUP[Ⅵ](自/1T)",
       "messageId": 70,
       "artId1": 610208100,
       "art1": {
@@ -9068,7 +9068,7 @@
       "name": "インビジブルブラスト[Ⅶ]",
       "type": "SKILL",
       "intervalTurn": 5,
-      "shortDescription": "回避無効 ＆ Blast ダメージUP[Ⅶ](自/1T)",
+      "shortDescription": "回避無効 & Blast ダメージUP[Ⅶ](自/1T)",
       "messageId": 70,
       "artId1": 610208100,
       "art1": {
@@ -9218,7 +9218,7 @@
       "name": "リジェネイト・シールド[Ⅲ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "HP自動回復[Ⅲ] ＆ ダメージカット状態[Ⅲ](自/3T)",
+      "shortDescription": "HP自動回復[Ⅲ] & ダメージカット状態[Ⅲ](自/3T)",
       "messageId": 70,
       "artId1": 630207703,
       "art1": {
@@ -9250,7 +9250,7 @@
       "name": "リジェネイト・シールド[Ⅳ]",
       "type": "SKILL",
       "intervalTurn": 5,
-      "shortDescription": "HP自動回復[Ⅳ] ＆ ダメージカット状態[Ⅳ](自/3T)",
+      "shortDescription": "HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)",
       "messageId": 70,
       "artId1": 630207704,
       "art1": {
@@ -9295,7 +9295,7 @@
       "name": "アディクトスレイヤー[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "ダメージアップ状態[Ⅴ]＆敵状態異常時ダメージUP[V](自/1T)",
+      "shortDescription": "ダメージアップ状態[Ⅴ]&敵状態異常時ダメージUP[V](自/1T)",
       "messageId": 70,
       "artId1": 610206105,
       "art1": {
@@ -9337,7 +9337,7 @@
       "name": "アディクトスレイヤー[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "ダメージアップ状態[Ⅵ]＆敵状態異常時ダメージUP[Ⅵ](自/1T)",
+      "shortDescription": "ダメージアップ状態[Ⅵ]&敵状態異常時ダメージUP[Ⅵ](自/1T)",
       "messageId": 70,
       "artId1": 610206106,
       "art1": {
@@ -9391,7 +9391,7 @@
       "groupId": 1086,
       "name": "クライシスガード[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "瀕死時防御力UP[Ⅲ] ＆ 防御力UP[Ⅱ]",
+      "shortDescription": "瀕死時防御力UP[Ⅲ] & 防御力UP[Ⅱ]",
       "artId1": 390203003,
       "art1": {
         "artId": 390203003,
@@ -9429,7 +9429,7 @@
       "groupId": 1086,
       "name": "クライシスガード[Ⅳ]",
       "type": "ABILITY",
-      "shortDescription": "瀕死時防御力UP[Ⅳ] ＆ 防御力UP[Ⅲ]",
+      "shortDescription": "瀕死時防御力UP[Ⅳ] & 防御力UP[Ⅲ]",
       "artId1": 390203004,
       "art1": {
         "artId": 390203004,
@@ -9668,7 +9668,7 @@
       "name": "バトルセンス",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "shortDescription": "回避無効&カウンター無効(自/1T)",
       "messageId": 70,
       "artId1": 610208100,
       "art1": {
@@ -9698,7 +9698,7 @@
       "name": "バトルセンス",
       "type": "SKILL",
       "intervalTurn": 8,
-      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "shortDescription": "回避無効&カウンター無効(自/1T)",
       "messageId": 70,
       "artId1": 610208100,
       "art1": {
@@ -10522,7 +10522,7 @@
       "name": "チェイスアタック",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "必ず追撃(自/1T)＆マギアダメージUP[Ⅸ]",
+      "shortDescription": "必ず追撃(自/1T)&マギアダメージUP[Ⅸ]",
       "messageId": 70,
       "artId1": 610207300,
       "art1": {
@@ -10566,7 +10566,7 @@
       "name": "シェイド・ストローク[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 7,
-      "shortDescription": "必ず暗闇(敵単/1T)＆攻撃力DOWN[Ⅵ](敵単/1T)",
+      "shortDescription": "必ず暗闇(敵単/1T)&攻撃力DOWN[Ⅵ](敵単/1T)",
       "messageId": 72,
       "artId1": 510005400,
       "art1": {
@@ -10597,7 +10597,7 @@
       "name": "シェイド・ストローク[Ⅶ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "必ず暗闇(敵単/1T)＆攻撃力DOWN[Ⅶ](敵単/1T)",
+      "shortDescription": "必ず暗闇(敵単/1T)&攻撃力DOWN[Ⅶ](敵単/1T)",
       "messageId": 72,
       "artId1": 510005400,
       "art1": {
@@ -10640,7 +10640,7 @@
       "groupId": 1141,
       "name": "アンチ・カース[ⅩⅢ]",
       "type": "ABILITY",
-      "shortDescription": "確率で呪い無効[ⅩⅢ] ＆ 攻撃力UP[Ⅰ]",
+      "shortDescription": "確率で呪い無効[ⅩⅢ] & 攻撃力UP[Ⅰ]",
       "artId1": 9097,
       "art1": {
         "artId": 9097,
@@ -10667,7 +10667,7 @@
       "groupId": 1141,
       "name": "アンチ・カース",
       "type": "ABILITY",
-      "shortDescription": "呪い無効 ＆ 攻撃力UP[Ⅱ]",
+      "shortDescription": "呪い無効 & 攻撃力UP[Ⅱ]",
       "artId1": 690208800,
       "art1": {
         "artId": 690208800,
@@ -11140,7 +11140,7 @@
       "name": "アストラルライズ[Ⅳ] ",
       "type": "SKILL",
       "intervalTurn": 7,
-      "shortDescription": "Accele MPUP[Ⅳ] ＆ マギアダメージUP[Ⅲ](自/3T)",
+      "shortDescription": "Accele MPUP[Ⅳ] & マギアダメージUP[Ⅲ](自/3T)",
       "messageId": 70,
       "artId1": 330201604,
       "art1": {
@@ -11170,7 +11170,7 @@
       "name": "アストラルライズ[Ⅴ] ",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "Accele MPUP[Ⅴ] ＆ マギアダメージUP[Ⅳ](自/3T)",
+      "shortDescription": "Accele MPUP[Ⅴ] & マギアダメージUP[Ⅳ](自/3T)",
       "messageId": 70,
       "artId1": 330201605,
       "art1": {
@@ -11266,7 +11266,7 @@
       "groupId": 1086,
       "name": "ソリッド・アデプト[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "防御力UP[Ⅲ] ＆ 状態異常耐性UP[Ⅱ]",
+      "shortDescription": "防御力UP[Ⅲ] & 状態異常耐性UP[Ⅱ]",
       "artId1": 390201203,
       "art1": {
         "artId": 390201203,
@@ -11294,7 +11294,7 @@
       "groupId": 1086,
       "name": "ソリッド・アデプト[Ⅳ]",
       "type": "ABILITY",
-      "shortDescription": "防御力UP[Ⅳ] ＆ 状態異常耐性UP[Ⅲ]",
+      "shortDescription": "防御力UP[Ⅳ] & 状態異常耐性UP[Ⅲ]",
       "artId1": 390201204,
       "art1": {
         "artId": 390201204,
@@ -11335,7 +11335,7 @@
       "groupId": 1121,
       "name": "スターライトパワー！",
       "type": "ABILITY",
-      "shortDescription": "確率でクリティカル[Ⅲ]＆Charge後ダメージUP[Ⅲ]",
+      "shortDescription": "確率でクリティカル[Ⅲ]&Charge後ダメージUP[Ⅲ]",
       "artId1": 690206303,
       "art1": {
         "artId": 690206303,
@@ -11373,7 +11373,7 @@
       "groupId": 1121,
       "name": "スターライトパワー！",
       "type": "ABILITY",
-      "shortDescription": "確率でクリティカル[Ⅳ]＆Charge後ダメージUP[Ⅳ]",
+      "shortDescription": "確率でクリティカル[Ⅳ]&Charge後ダメージUP[Ⅳ]",
       "artId1": 690206304,
       "art1": {
         "artId": 690206304,
@@ -11664,7 +11664,7 @@
       "groupId": 1136,
       "name": "アンチ・ファサネイト[Ⅷ]",
       "type": "ABILITY",
-      "shortDescription": "魅了無効 ＆ 確率で幻惑無効[Ⅷ]",
+      "shortDescription": "魅了無効 & 確率で幻惑無効[Ⅷ]",
       "artId1": 690208300,
       "art1": {
         "artId": 690208300,
@@ -11690,7 +11690,7 @@
       "groupId": 1136,
       "name": "アンチ・ファサネイト",
       "type": "ABILITY",
-      "shortDescription": "魅了無効 ＆ 幻惑無効",
+      "shortDescription": "魅了無効 & 幻惑無効",
       "artId1": 690208300,
       "art1": {
         "artId": 690208300,
@@ -11782,7 +11782,7 @@
       "groupId": 1125,
       "name": "反撃攻勢[Ⅳ]",
       "type": "ABILITY",
-      "shortDescription": "確率でカウンター[Ⅳ] ＆ 確率で挑発[Ⅴ]",
+      "shortDescription": "確率でカウンター[Ⅳ] & 確率で挑発[Ⅴ]",
       "artId1": 690207004,
       "art1": {
         "artId": 690207004,
@@ -11809,7 +11809,7 @@
       "groupId": 1125,
       "name": "反撃攻勢[Ⅴ]",
       "type": "ABILITY",
-      "shortDescription": "確率でカウンター[Ⅴ] ＆ 確率で挑発[Ⅵ]",
+      "shortDescription": "確率でカウンター[Ⅴ] & 確率で挑発[Ⅵ]",
       "artId1": 690207005,
       "art1": {
         "artId": 690207005,
@@ -11919,7 +11919,7 @@
       "name": "ブルームライズ[Ⅳ]",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "攻撃力UP[Ⅳ] ＆ 防御力UP[Ⅲ](自/3T)",
+      "shortDescription": "攻撃力UP[Ⅳ] & 防御力UP[Ⅲ](自/3T)",
       "messageId": 70,
       "artId1": 330201104,
       "art1": {
@@ -11949,7 +11949,7 @@
       "name": "ブルームライズ[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 5,
-      "shortDescription": "攻撃力UP[Ⅴ] ＆ 防御力UP[Ⅳ](自/3T)",
+      "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅳ](自/3T)",
       "messageId": 70,
       "artId1": 330201105,
       "art1": {
@@ -12653,7 +12653,7 @@
       "groupId": 1086,
       "name": "クライシスガード[Ⅱ]",
       "type": "ABILITY",
-      "shortDescription": "瀕死時防御力UP[Ⅱ] ＆ 防御力UP[Ⅱ]",
+      "shortDescription": "瀕死時防御力UP[Ⅱ] & 防御力UP[Ⅱ]",
       "artId1": 390203002,
       "art1": {
         "artId": 390203002,
@@ -12681,7 +12681,7 @@
       "groupId": 1086,
       "name": "クライシスガード[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "瀕死時防御力UP[Ⅲ] ＆ 防御力UP[Ⅱ]",
+      "shortDescription": "瀕死時防御力UP[Ⅲ] & 防御力UP[Ⅱ]",
       "artId1": 390203003,
       "art1": {
         "artId": 390203003,
@@ -12729,7 +12729,7 @@
       "groupId": 1090,
       "name": "アストラル・アデプト[Ⅲ] ",
       "type": "ABILITY",
-      "shortDescription": "Accele MPUP[Ⅲ] ＆ マギアダメージUP[Ⅱ]",
+      "shortDescription": "Accele MPUP[Ⅲ] & マギアダメージUP[Ⅱ]",
       "artId1": 390201603,
       "art1": {
         "artId": 390201603,
@@ -12757,7 +12757,7 @@
       "groupId": 1090,
       "name": "アストラル・アデプト[Ⅳ] ",
       "type": "ABILITY",
-      "shortDescription": "Accele MPUP[Ⅳ] ＆ マギアダメージUP[Ⅲ]",
+      "shortDescription": "Accele MPUP[Ⅳ] & マギアダメージUP[Ⅲ]",
       "artId1": 390201604,
       "art1": {
         "artId": 390201604,
@@ -12871,7 +12871,7 @@
       "groupId": 1119,
       "name": "アーマメント・アデプト[Ⅱ]",
       "type": "ABILITY",
-      "shortDescription": "ダメージアップ状態[Ⅱ] ＆ ダメージカット状態[Ⅱ]",
+      "shortDescription": "ダメージアップ状態[Ⅱ] & ダメージカット状態[Ⅱ]",
       "artId1": 690206102,
       "art1": {
         "artId": 690206102,
@@ -12899,7 +12899,7 @@
       "groupId": 1119,
       "name": "アーマメント・アデプト[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "ダメージアップ状態[Ⅲ] ＆ ダメージカット状態[Ⅲ]",
+      "shortDescription": "ダメージアップ状態[Ⅲ] & ダメージカット状態[Ⅲ]",
       "artId1": 690206103,
       "art1": {
         "artId": 690206103,
@@ -13291,7 +13291,7 @@
       "groupId": 1151,
       "name": "フォッグ・ブレイド[Ⅱ]",
       "type": "ABILITY",
-      "shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅱ]＆与えるダメージUP[Ⅲ]",
+      "shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅱ]&与えるダメージUP[Ⅲ]",
       "artId1": 690210602,
       "art1": {
         "artId": 690210602,
@@ -13320,7 +13320,7 @@
       "groupId": 1151,
       "name": "フォッグ・ブレイド[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅲ]＆与えるダメージUP[Ⅳ]",
+      "shortDescription": "攻撃時に確率で霧(3T)を付与[Ⅲ]&与えるダメージUP[Ⅳ]",
       "artId1": 690210603,
       "art1": {
         "artId": 690210603,
@@ -13421,7 +13421,7 @@
       "name": "バトルセンス",
       "type": "SKILL",
       "intervalTurn": 6,
-      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "shortDescription": "回避無効&カウンター無効(自/1T)",
       "messageId": 70,
       "artId1": 610208100,
       "art1": {
@@ -13451,7 +13451,7 @@
       "name": "バトルセンス",
       "type": "SKILL",
       "intervalTurn": 5,
-      "shortDescription": "回避無効＆カウンター無効(自/1T)",
+      "shortDescription": "回避無効&カウンター無効(自/1T)",
       "messageId": 70,
       "artId1": 610208100,
       "art1": {
@@ -13995,7 +13995,7 @@
       }
     },
     "description": "「この水着さ、一目見て気に入ったんだよね～」「いいんじゃねーの」＠「ホントにそう思ってんの～？」「思ってるって」＠「杏子、アイス食べるのに夢中じゃん！」「どうしたの？」＠「マミさん！あの…」「どうしたの？じっと見て…」「…反則だよ！」",
-    "illustrator": "ー",
+    "illustrator": "シャフト",
     "openDate": "2018/07/20 15:10:00"
   },
   {
@@ -14013,7 +14013,7 @@
       "groupId": 1143,
       "name": "アンチ・ダークネス",
       "type": "ABILITY",
-      "shortDescription": "暗闇無効 ＆ 状態異常耐性UP[Ⅰ]",
+      "shortDescription": "暗闇無効 & 状態異常耐性UP[Ⅰ]",
       "artId1": 690209000,
       "art1": {
         "artId": 690209000,
@@ -14040,7 +14040,7 @@
       "groupId": 1143,
       "name": "アンチ・ダークネス",
       "type": "ABILITY",
-      "shortDescription": "暗闇無効 ＆ 状態異常耐性UP[Ⅲ]",
+      "shortDescription": "暗闇無効 & 状態異常耐性UP[Ⅲ]",
       "artId1": 690209000,
       "art1": {
         "artId": 690209000,
@@ -14151,5 +14151,861 @@
     "description": "みんなで楽しくビーチバレー！…だと最初は思ってた…＠試合は徐々に白熱し、マミさんの超本気な強烈なスパイクが炸裂！＠その行き先は…ほむらの顔面!?焦るマミ！驚きで身動きできない一同！＠彼女の眼鏡は宙に舞い、夏の日差しに照らされてキラキラ輝いていた…",
     "illustrator": "ー",
     "openDate": "2018/07/20 15:10:00"
+  },
+  {
+    "pieceId": 1238,
+    "pieceType": "SKILL",
+    "pieceName": "心地のいい時間",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "1101",
+    "charaList": [
+      {
+        "charaId": 1101,
+        "name": "環 いろは 水着ver."
+      }
+    ],
+    "attack": 0,
+    "defense": 423,
+    "hp": 504,
+    "skillId": 123800,
+    "pieceSkill": {
+      "id": 123800,
+      "groupId": 1078,
+      "name": "ナーシングケア[Ⅲ]",
+      "type": "SKILL",
+      "intervalTurn": 9,
+      "shortDescription": "HP回復[Ⅲ] & MP回復[Ⅰ](自)",
+      "messageId": 70,
+      "artId1": 200200403,
+      "art1": {
+        "artId": 200200403,
+        "verbCode": "HEAL",
+        "effectCode": "HP",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "growPoint": 20
+      },
+      "artId2": 200200501,
+      "art2": {
+        "artId": 200200501,
+        "verbCode": "HEAL",
+        "effectCode": "MP",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 10
+      }
+    },
+    "skillId2": 123801,
+    "pieceSkill2": {
+      "id": 123801,
+      "groupId": 1078,
+      "name": "ナーシングケア[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "HP回復[Ⅳ] & MP回復[Ⅰ](自)",
+      "messageId": 70,
+      "artId1": 200200404,
+      "art1": {
+        "artId": 200200404,
+        "verbCode": "HEAL",
+        "effectCode": "HP",
+        "targetId": "SELF",
+        "effectValue": 375,
+        "growPoint": 20
+      },
+      "artId2": 200200501,
+      "art2": {
+        "artId": 200200501,
+        "verbCode": "HEAL",
+        "effectCode": "MP",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 10
+      }
+    },
+    "description": "照りつける日差しから逃れて、ちょっと休憩＠この時ばかりは浮き輪たちともちょっとお別れして＠静かに吹き抜ける風を感じながら、ゆっくりとした時間を味わう＠…あ、見て！あんなに大きな入道雲が広がってるよ！",
+    "illustrator": "スミカワ",
+    "openDate": "2018/08/08 15:10:00"
+  },
+  {
+    "pieceId": 1239,
+    "pieceType": "ABILITY",
+    "pieceName": "真夏の海のいろは！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 804,
+    "defense": 0,
+    "hp": 804,
+    "skillId": 123900,
+    "pieceSkill": {
+      "id": 123900,
+      "groupId": 1085,
+      "name": "グリッター・アデプト[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅲ]  & MP獲得量UP[Ⅱ]",
+      "artId1": 390201103,
+      "art1": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201902,
+      "art2": {
+        "artId": 390201902,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1032,
+      "eventArtId1": 1032003,
+      "eventArt1": {
+        "artId": 1032003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_BRANCH_1032_PART_1"
+      },
+      "eventArtId2": 1032007,
+      "eventArt2": {
+        "artId": 1032007,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_BRANCH_1032_PART_2"
+      },
+      "eventDescription": "＆貝殻(赤)入手時＋3＆貝殻(青)入手時+3"
+    },
+    "skillId2": 123901,
+    "pieceSkill2": {
+      "id": 123901,
+      "groupId": 1085,
+      "name": "グリッター・アデプト[Ⅳ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅳ]  & MP獲得量UP[Ⅳ]",
+      "artId1": 390201104,
+      "art1": {
+        "artId": 390201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201904,
+      "art2": {
+        "artId": 390201904,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1032,
+      "eventArtId1": 1032004,
+      "eventArt1": {
+        "artId": 1032004,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_BRANCH_1032_PART_1"
+      },
+      "eventArtId2": 1032008,
+      "eventArt2": {
+        "artId": 1032008,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_BRANCH_1032_PART_2"
+      },
+      "eventDescription": "＆貝殻(赤)入手時＋7＆貝殻(青)入手時+7"
+    },
+    "description": "お待たせしましたー、皆さん！ほらほら、見てください！＠麦わら帽子にウォーターガン…そしてマストアイテムの浮き輪！＠これが私のパーフェクトな海のスタイル！＠さー、思いっきり楽しんじゃうからねーっ！",
+    "illustrator": "ー",
+    "openDate": "2018/08/08 15:10:00"
+  },
+  {
+    "pieceId": 1240,
+    "pieceType": "SKILL",
+    "pieceName": "見よう見真似で…？",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 634,
+    "hp": 574,
+    "skillId": 124000,
+    "pieceSkill": {
+      "id": 124000,
+      "groupId": 1085,
+      "name": "アップリフト[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "攻撃力UP[Ⅳ] & 状態異常耐性UP[Ⅲ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201104,
+      "art1": {
+        "artId": 330201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 310201503,
+      "art2": {
+        "artId": 310201503,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 124001,
+    "pieceSkill2": {
+      "id": 124001,
+      "groupId": 1085,
+      "name": "アップリフト[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "攻撃力UP[Ⅴ] & 状態異常耐性UP[Ⅳ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201105,
+      "art1": {
+        "artId": 330201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 310201504,
+      "art2": {
+        "artId": 310201504,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "「ほらほら鶴乃～！食らいやがれー！」＠「あ～！やったなフェリシア～！」＠「（う、海では皆さんとこうやって遊ぶんですね…！）」＠この後、全力で水をかけまくり、ふたりからの反撃に遭うさなだった…",
+    "illustrator": "吟",
+    "openDate": "2018/08/08 15:10:00"
+  },
+  {
+    "pieceId": 1241,
+    "pieceType": "SKILL",
+    "pieceName": "宝物がここに",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 576,
+    "hp": 636,
+    "skillId": 124100,
+    "pieceSkill": {
+      "id": 124100,
+      "groupId": 1120,
+      "name": "エンハンス・シールド[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 9,
+      "shortDescription": "ダメージカット状態[Ⅴ](自/1T)",
+      "messageId": 70,
+      "artId1": 610206205,
+      "art1": {
+        "artId": 610206205,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1032,
+      "eventArtId1": 1032001,
+      "eventArt1": {
+        "artId": 1032001,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_BRANCH_1032_PART_1"
+      },
+      "eventArtId2": 1032005,
+      "eventArt2": {
+        "artId": 1032005,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_BRANCH_1032_PART_2"
+      },
+      "eventDescription": "＆貝殻(赤)入手時＋1＆貝殻(青)入手時+1"
+    },
+    "skillId2": 124101,
+    "pieceSkill2": {
+      "id": 124101,
+      "groupId": 1120,
+      "name": "エンハンス・シールド[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "ダメージカット状態[Ⅵ](自/1T)",
+      "messageId": 70,
+      "artId1": 610206206,
+      "art1": {
+        "artId": 610206206,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1032,
+      "eventArtId1": 1032002,
+      "eventArt1": {
+        "artId": 1032002,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 2000,
+        "genericValue": "EVENT_BRANCH_1032_PART_1"
+      },
+      "eventArtId2": 1032006,
+      "eventArt2": {
+        "artId": 1032006,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 2000,
+        "genericValue": "EVENT_BRANCH_1032_PART_2"
+      },
+      "eventDescription": "＆貝殻(赤)入手時＋2＆貝殻(青)入手時+2"
+    },
+    "description": "この写真の向こう側に、私の大切な宝物がある＠鮮やかな青い空、広い海、仲間たちの笑顔…＠みんなと過ごしたあの夏の旅の想い出は＠一生に一度だけの、かけがえのない記憶",
+    "illustrator": "ー",
+    "openDate": "2018/08/08 15:10:00"
+  },
+  {
+    "pieceId": 1243,
+    "pieceType": "ABILITY",
+    "pieceName": "ここで一息＜まどか・ほむら＞",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 728,
+    "defense": 0,
+    "hp": 888,
+    "skillId": 124300,
+    "pieceSkill": {
+      "id": 124300,
+      "groupId": 1141,
+      "name": "ヘブンリー・アデプト[Ⅰ]",
+      "type": "ABILITY",
+      "shortDescription": "呪い無効 & HP自動回復[Ⅰ]",
+      "artId1": 690208800,
+      "art1": {
+        "artId": 690208800,
+        "verbCode": "IGNORE",
+        "effectCode": "CURSE",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690207701,
+      "art2": {
+        "artId": 690207701,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 20,
+        "growPoint": 10,
+        "probability": 1000
+      }
+    },
+    "skillId2": 124301,
+    "pieceSkill2": {
+      "id": 124301,
+      "groupId": 1141,
+      "name": "ヘブンリー・アデプト[Ⅰ]",
+      "type": "ABILITY",
+      "shortDescription": "呪い無効 & HP自動回復[Ⅰ]",
+      "artId1": 690208800,
+      "art1": {
+        "artId": 690208800,
+        "verbCode": "IGNORE",
+        "effectCode": "CURSE",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690207701,
+      "art2": {
+        "artId": 690207701,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 20,
+        "growPoint": 10,
+        "probability": 1000
+      }
+    },
+    "description": "友達に誘われて訪れた場所は、陽だまりのぽかぽかとした空間＠こんなに素敵な場所があるなんて知らなかった！＠見滝原のみんなはもうすぐ到着するみたい＠ふたりでお迎えに行こう！（Tカードコラボ記念）",
+    "illustrator": "シャフト",
+    "openDate": "2018/08/08 15:10:00"
+  },
+  {
+    "pieceId": 1244,
+    "pieceType": "SKILL",
+    "pieceName": "ここで一息＜いろは・やちよ＞",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 727,
+    "hp": 887,
+    "skillId": 124400,
+    "pieceSkill": {
+      "id": 124400,
+      "groupId": 1090,
+      "name": "アクセルアップ[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "Accele MPUP[Ⅵ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201606,
+      "art1": {
+        "artId": 310201606,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 124401,
+    "pieceSkill2": {
+      "id": 124401,
+      "groupId": 1090,
+      "name": "アクセルアップ[Ⅶ]",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "Accele MPUP[Ⅶ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201607,
+      "art1": {
+        "artId": 310201607,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "偶然見つけた素敵な場所！＠手際良く紅茶とお菓子の準備をしたら＠とっておきの休憩スポットが完成！＠せっかくだから、友達をたくさん誘っちゃおう（Tカードコラボ記念）",
+    "illustrator": "シャフト",
+    "openDate": "2018/08/08 15:10:00"
+  },
+  {
+    "pieceId": 1245,
+    "pieceType": "SKILL",
+    "pieceName": "ほんの少しの本当の希望",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "2101",
+    "charaList": [
+      {
+        "charaId": 2101,
+        "name": "アルティメットまどか"
+      }
+    ],
+    "attack": 0,
+    "defense": 490,
+    "hp": 450,
+    "skillId": 124500,
+    "pieceSkill": {
+      "id": 124500,
+      "groupId": 1082,
+      "name": "カウンタラクト",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "デバフ解除(自)",
+      "messageId": 70,
+      "artId1": 200200800,
+      "art1": {
+        "artId": 200200800,
+        "verbCode": "REVOKE",
+        "effectCode": "DEBUFF",
+        "targetId": "SELF",
+        "growPoint": 0
+      }
+    },
+    "skillId2": 124501,
+    "pieceSkill2": {
+      "id": 124501,
+      "groupId": 1082,
+      "name": "カウンタラクト",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "デバフ解除(自)",
+      "messageId": 70,
+      "artId1": 200200800,
+      "art1": {
+        "artId": 200200800,
+        "verbCode": "REVOKE",
+        "effectCode": "DEBUFF",
+        "targetId": "SELF",
+        "growPoint": 0
+      }
+    },
+    "description": "黄昏時は悲しくない　決して虚しくもない＠髪に揺らめくこのリボンが、あなたを側に感じさせてくれるから＠みんなと一緒にいるあなた　だけど私はすぐそこにあなたを感じている＠“諦めるのはまだはやい”…そうだったね　だから私も諦めないよ",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/08/21 15:10:00"
+  },
+  {
+    "pieceId": 1246,
+    "pieceType": "ABILITY",
+    "pieceName": "生まれる光の中で",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 730,
+    "defense": 0,
+    "hp": 890,
+    "skillId": 124600,
+    "pieceSkill": {
+      "id": 124600,
+      "groupId": 1085,
+      "name": "インビジブル・アデプト[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅲ] & 確率で回避無効[ⅩⅠ]",
+      "artId1": 390201103,
+      "art1": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690216211,
+      "art2": {
+        "artId": 690216211,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 750
+      }
+    },
+    "skillId2": 124601,
+    "pieceSkill2": {
+      "id": 124601,
+      "groupId": 1085,
+      "name": "インビジブル・アデプト[Ⅳ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅳ] & 確率で回避無効[ⅩⅢ]",
+      "artId1": 390201104,
+      "art1": {
+        "artId": 390201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690216213,
+      "art2": {
+        "artId": 690216213,
+        "verbCode": "IGNORE",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 850
+      }
+    },
+    "description": "繰り返し紡いだ糸　ひとつの点に重なって＠重ねた約束と共に　数多を救う約束の光になる＠新たな幕開けは少女の闇　囁いた言葉が　少女を掬い上げた＠「あなたはわたしの、最高の友だちだったんだね」",
+    "illustrator": "星和貴 / 猫杜なな",
+    "openDate": "2018/08/21 15:10:00"
+  },
+  {
+    "pieceId": 1247,
+    "pieceType": "SKILL",
+    "pieceName": "絶望しない希望の光",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 890,
+    "hp": 730,
+    "skillId": 124700,
+    "pieceSkill": {
+      "id": 124700,
+      "groupId": 1095,
+      "name": "スナイピングマギア[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 10,
+      "shortDescription": "防御力DOWN[Ⅴ](敵単/1T) & マギアダメージUP[Ⅶ](自/1T)",
+      "messageId": 72,
+      "artId1": 410002105,
+      "art1": {
+        "artId": 410002105,
+        "verbCode": "DEBUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "TARGET",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201407,
+      "art2": {
+        "artId": 310201407,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 124701,
+    "pieceSkill2": {
+      "id": 124701,
+      "groupId": 1095,
+      "name": "スナイピングマギア[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "防御力DOWN[Ⅵ](敵単/1T) & マギアダメージUP[Ⅷ](自/1T)",
+      "messageId": 72,
+      "artId1": 410002106,
+      "art1": {
+        "artId": 410002106,
+        "verbCode": "DEBUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "TARGET",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201408,
+      "art2": {
+        "artId": 310201408,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "宇宙を作り出すほどの希望は＠宇宙を終わらせるほどの絶望をもたらす＠希望はいずれ絶望し、全てを呑み込む魔女となる＠それを滅ぼすのは、絶望することのない希望の光だ",
+    "illustrator": "星和貴 / 猫杜なな",
+    "openDate": "2018/08/21 15:10:00"
+  },
+  {
+    "pieceId": 1248,
+    "pieceType": "SKILL",
+    "pieceName": "希望へ",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 580,
+    "hp": 640,
+    "skillId": 124800,
+    "pieceSkill": {
+      "id": 124800,
+      "groupId": 1170,
+      "name": "ガーディアン・ソウル[Ⅷ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "瀕死の味方を確率でかばう[Ⅷ](自/3T)",
+      "messageId": 70,
+      "artId1": 631313408,
+      "art1": {
+        "artId": 631313408,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROTECT",
+        "targetId": "DYING",
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 450
+      }
+    },
+    "skillId2": 124801,
+    "pieceSkill2": {
+      "id": 124801,
+      "groupId": 1170,
+      "name": "ガーディアン・ソウル[Ⅹ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "瀕死の味方を確率でかばう[Ⅹ](自/3T)",
+      "messageId": 70,
+      "artId1": 631313410,
+      "art1": {
+        "artId": 631313410,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PROTECT",
+        "targetId": "DYING",
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 550
+      }
+    },
+    "description": "ひとりの少女の前に引かれた線…それは彼女の“願い”＠それを踏み越えた時、彼女はこの世界に別れを告げる＠数多の魔法少女を救うため、数多の因果を受け止めて＠やがて彼女は生まれ変わる…“希望”そのものへ",
+    "illustrator": "シャフト",
+    "openDate": "2018/08/21 15:10:00"
+  },
+  {
+    "pieceId": 1249,
+    "pieceType": "ABILITY",
+    "pieceName": "掌中のぬくもり",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 400,
+    "defense": 0,
+    "hp": 400,
+    "skillId": 124900,
+    "pieceSkill": {
+      "id": 124900,
+      "groupId": 1173,
+      "name": "ラック・アデプト[Ⅰ]",
+      "type": "ABILITY",
+      "shortDescription": "獲得エピソードP UP[Ⅰ] & CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
+      "artId1": 700216301,
+      "art1": {
+        "artId": 700216301,
+        "verbCode": "OTHER",
+        "effectCode": "EPISODE_UP",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 0
+      },
+      "artId2": 700215901,
+      "art2": {
+        "artId": 700215901,
+        "verbCode": "OTHER",
+        "effectCode": "GOLD_UP",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 0
+      }
+    },
+    "skillId2": 124901,
+    "pieceSkill2": {
+      "id": 124901,
+      "groupId": 1173,
+      "name": "ラック・アデプト[Ⅰ]",
+      "type": "ABILITY",
+      "shortDescription": "獲得エピソードP UP[Ⅰ] & CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
+      "artId1": 700216301,
+      "art1": {
+        "artId": 700216301,
+        "verbCode": "OTHER",
+        "effectCode": "EPISODE_UP",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 0
+      },
+      "artId2": 700215901,
+      "art2": {
+        "artId": 700215901,
+        "verbCode": "OTHER",
+        "effectCode": "GOLD_UP",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 0
+      }
+    },
+    "description": "重ねた手と手から伝わるぬくもりが教えてくれる＠大丈夫、私たちはひとりじゃないって＠そして、いつの日にか…＠このぬくもりが抱える不安全てを溶かしてくれますように",
+    "illustrator": "ー",
+    "openDate": "2018/08/21 15:10:00"
+  },
+  {
+    "pieceId": 1250,
+    "pieceType": "SKILL",
+    "pieceName": "女神様は静観している",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 400,
+    "hp": 400,
+    "skillId": 125000,
+    "pieceSkill": {
+      "id": 125000,
+      "groupId": 1129,
+      "name": "リジェネイト・バックラー[Ⅲ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "HP自動回復[Ⅲ] & ダメージカット状態[Ⅶ](自/1T)",
+      "messageId": 70,
+      "artId1": 610207703,
+      "art1": {
+        "artId": 610207703,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 40,
+        "enableTurn": 1,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 610206207,
+      "art2": {
+        "artId": 610206207,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 125001,
+    "pieceSkill2": {
+      "id": 125001,
+      "groupId": 1129,
+      "name": "リジェネイト・バックラー[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "HP自動回復[Ⅳ] & ダメージカット状態[Ⅷ](自/1T)",
+      "messageId": 70,
+      "artId1": 610207704,
+      "art1": {
+        "artId": 610207704,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "enableTurn": 1,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 610206208,
+      "art2": {
+        "artId": 610206208,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "みんなのことを知っているはずなのに、知らない＠起きていることは分かっているはずなのに、分からない＠このレコードはイレギュラー、特異点を持つ不思議な記録＠壊さないように消さないように、そのまま悪さはしないで",
+    "illustrator": "ー",
+    "openDate": "2018/08/21 15:10:00"
   }
 ]
