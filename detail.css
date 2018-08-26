@@ -115,7 +115,9 @@ div.inMidCaption {
     padding: 3px;
     border-radius: 5px 5px;
 }
-
+ruby {
+	font-size: 85%;
+}
 div.desc {
 	margin: 5px;
 }

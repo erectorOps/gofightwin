@@ -213,6 +213,20 @@ function addCard(el, name, num)
 			"z-index": 400-(num*70)}));
 }
 
+function printTarget(art)
+{
+	var ret = art.targetId;
+	if (art.targetId === "LIMITED" && "limitedValue" in art) {
+		ret = "<ruby>";
+		ret += art.limitedValue.split(",").map(function(_){ 
+			let n = getCharaRoot(parseInt(_));
+			return n ? n.chara.name + ("title" in n.chara ? "("+n.chara.title+")" : "") : _;
+		}).join();
+		ret += "<rp>(</rp><rt>LIMITED</rt><rp>)</rp></ruby>";
+	}
+	return ret;
+}
+
 function changeMagi(charaId, evoCount)
 {
 	evoCount = parseInt(evoCount);
@@ -224,7 +238,7 @@ function changeMagi(charaId, evoCount)
 	$(".inBorder tbody,h1,.desc,#mExSkillType").empty();
 	
 	$("#mCards").empty();
-	$("#mName").text(cone.cardName);
+	$("#mName").text(cone.cardName + ("title" in chara ? "("+chara.title+")" : ""));
 	var l = parseInt(cone.rank.substr(5));
 	var rareText = "";
 	for (var n = 0; n < l; n++)
@@ -264,7 +278,7 @@ function changeMagi(charaId, evoCount)
 			break;
 		var trEl = $("<tr>").attr({"align":"center"});
 		$("<td>").text(card.cardMagia[art].verbCode).appendTo(trEl);
-		$("<td>").text(card.cardMagia[art].targetId).appendTo(trEl);
+		$("<td>").html(printTarget(card.cardMagia[art])).appendTo(trEl);
 		$("<td>").text(card.cardMagia[art].effectValue).appendTo(trEl);
 		$("<td>").text(card.cardMagia[art].growPoint).appendTo(trEl);
 		$("<td>").text(card.cardMagia[art].effectCode).appendTo(trEl);
@@ -283,7 +297,7 @@ function changeMagi(charaId, evoCount)
 				break;
 			var trEl = $("<tr>").attr({"align":"center"});
 			$("<td>").text(card.doppelCardMagia[art].verbCode).appendTo(trEl);
-			$("<td>").text(card.doppelCardMagia[art].targetId).appendTo(trEl);
+			$("<td>").html(printTarget(card.doppelCardMagia[art])).appendTo(trEl);
 			$("<td>").text(card.doppelCardMagia[art].effectValue).appendTo(trEl);
 			$("<td>").text(card.doppelCardMagia[art].growPoint).appendTo(trEl);
 			$("<td>").text(card.doppelCardMagia[art].effectCode).appendTo(trEl);
@@ -301,7 +315,7 @@ function changeMagi(charaId, evoCount)
 			break;
 		var trEl = $("<tr>").attr({"align":"center"});
 		$("<td>").text(card.cardSkill[art].verbCode).appendTo(trEl);
-		$("<td>").text(card.cardSkill[art].targetId).appendTo(trEl);
+		$("<td>").html(printTarget(card.cardSkill[art])).appendTo(trEl);
 		$("<td>").text(card.cardSkill[art].effectValue).appendTo(trEl);
 		$("<td>").text(card.cardSkill[art].growPoint).appendTo(trEl);
 		$("<td>").text(card.cardSkill[art].effectCode).appendTo(trEl);
@@ -324,7 +338,7 @@ function changeMagi(charaId, evoCount)
 				break;
 			var trEl = $("<tr>").attr({"align":"center"});
 			$("<td>").text(EXSK[art].verbCode).appendTo(trEl);
-			$("<td>").text(EXSK[art].targetId).appendTo(trEl);
+			$("<td>").html(printTarget(EXSK[art])).appendTo(trEl);
 			$("<td>").text(EXSK[art].effectValue).appendTo(trEl);
 			$("<td>").text(EXSK[art].growPoint).appendTo(trEl);
 			$("<td>").text(EXSK[art].effectCode).appendTo(trEl);

@@ -236,6 +236,15 @@ function changeMagi(pieceId)
 		$("<td>").text(skill1[art].effectCode).appendTo(trEl);
 		$("<td>").text(skill1[art].probability).appendTo(trEl);
 		$("<td>").text(skill1[art].enableTurn).appendTo(trEl);
+		if ("parameter" in skill1[art]) {
+			if ( skill1[art].parameter < 10000) { // 恐らくキャラID
+				$("<td>").text(skill1[art].parameter + " (キャラID)").appendTo(trEl);
+			} else {
+				$("<td>").text(skill1[art].parameter + " (クエID)").appendTo(trEl);
+			}
+		} else {
+			$("<td>").appendTo(trEl);
+		}
 		$("#mSkill1Flover tbody").append(trEl);
 	});
 
@@ -258,6 +267,15 @@ function changeMagi(pieceId)
 		$("<td>").text(skill2[art].effectCode).appendTo(trEl);
 		$("<td>").text(skill2[art].probability).appendTo(trEl);
 		$("<td>").text(skill2[art].enableTurn).appendTo(trEl);
+		if ("parameter" in skill2[art]) {
+			if ( skill2[art].parameter < 10000) { // 恐らくキャラID
+				$("<td>").text(skill2[art].parameter + " (キャラID)").appendTo(trEl);
+			} else {
+				$("<td>").text(skill2[art].parameter + " (クエID)").appendTo(trEl);
+			}
+		} else {
+			$("<td>").appendTo(trEl);
+		}
 		$("#mSkill2Flover tbody").append(trEl);
 	});
 
@@ -394,6 +412,7 @@ function changeMagi(pieceId)
 						<th><b>状態変化</b></th>
 						<th><b>成功率</b></th>
 						<th><b>持続ターン</b></th>
+						<th><b>特殊引数</b></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -416,6 +435,7 @@ function changeMagi(pieceId)
 						<th><b>状態変化</b></th>
 						<th><b>成功率</b></th>
 						<th><b>持続ターン</b></th>
+						<th><b>特殊引数</b></th>
 					</tr>
 				</thead>
 				<tbody>
