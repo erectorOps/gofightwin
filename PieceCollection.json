@@ -1518,7 +1518,7 @@
     "pieceSkill": {
       "id": 103210,
       "groupId": 1095,
-      "name": "ディフェンスダウン[Ⅴ]",
+      "name": "ガードダウン[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 6,
       "shortDescription": "防御力DOWN[Ⅴ](敵単/1T)",
@@ -1538,7 +1538,7 @@
     "pieceSkill2": {
       "id": 103211,
       "groupId": 1095,
-      "name": "ディフェンスダウン[Ⅵ]",
+      "name": "ガードダウン[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 5,
       "shortDescription": "防御力DOWN[Ⅵ](敵単/1T)",
@@ -2476,7 +2476,7 @@
     "pieceSkill": {
       "id": 105200,
       "groupId": 1093,
-      "name": "モーラル・アデプト[Ⅲ]",
+      "name": "モラール・アデプト[Ⅲ]",
       "type": "ABILITY",
       "shortDescription": "MP獲得量UP[Ⅲ]",
       "artId1": 390201903,
@@ -2494,7 +2494,7 @@
     "pieceSkill2": {
       "id": 105201,
       "groupId": 1093,
-      "name": "モーラル・アデプト[Ⅳ]",
+      "name": "モラール・アデプト[Ⅳ]",
       "type": "ABILITY",
       "shortDescription": "MP獲得量UP[Ⅳ]",
       "artId1": 390201904,
@@ -3102,7 +3102,7 @@
     "pieceSkill": {
       "id": 106600,
       "groupId": 1129,
-      "name": "リジェネイト・アデプト[Ⅰ]",
+      "name": "リジェネレイト・アデプト[Ⅰ]",
       "type": "ABILITY",
       "shortDescription": "HP自動回復[Ⅰ]",
       "artId1": 690207701,
@@ -3120,7 +3120,7 @@
     "pieceSkill2": {
       "id": 106601,
       "groupId": 1129,
-      "name": "リジェネイト・アデプト[Ⅱ]",
+      "name": "リジェネレイト・アデプト[Ⅱ]",
       "type": "ABILITY",
       "shortDescription": "HP自動回復[Ⅱ]",
       "artId1": 690207702,
@@ -3412,7 +3412,7 @@
     "pieceSkill": {
       "id": 107110,
       "groupId": 1121,
-      "name": "イネヴィタブル・アデプト[Ⅴ]",
+      "name": "イネヴィタブル[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 9,
       "shortDescription": "確率でクリティカル[Ⅴ] & 回避無効(自/3T)",
@@ -3443,7 +3443,7 @@
     "pieceSkill2": {
       "id": 107111,
       "groupId": 1121,
-      "name": "イネヴィタブル・アデプト[Ⅵ]",
+      "name": "イネヴィタブル[Ⅵ]",
       "type": "SKILL",
       "intervalTurn": 8,
       "shortDescription": "確率でクリティカル[Ⅵ] & 回避無効(自/3T)",
@@ -3716,7 +3716,7 @@
     "pieceSkill": {
       "id": 107600,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅸ]",
+      "name": "モラールアップ[Ⅸ]",
       "type": "SKILL",
       "intervalTurn": 8,
       "shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
@@ -3736,7 +3736,7 @@
     "pieceSkill2": {
       "id": 107601,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅹ]",
+      "name": "モラールアップ[Ⅹ]",
       "type": "SKILL",
       "intervalTurn": 7,
       "shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
@@ -5361,14 +5361,14 @@
         "growPoint": 25,
         "probability": 1000
       },
-      "eventId": 1003,
-      "eventArtId1": 100306,
+      "eventId": 1035,
+      "eventArtId1": 1035001,
       "eventArt1": {
-        "artId": 100306,
+        "artId": 1035001,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 1000,
-        "genericValue": "EVENT_TOWER_1003_KEY"
+        "genericValue": "EVENT_TOWER_1035_KEY"
       },
       "eventDescription": "＆色鉛筆入手時＋1"
     },
@@ -5389,14 +5389,14 @@
         "growPoint": 25,
         "probability": 1000
       },
-      "eventId": 1003,
-      "eventArtId1": 100307,
+      "eventId": 1035,
+      "eventArtId1": 1035002,
       "eventArt1": {
-        "artId": 100307,
+        "artId": 1035002,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 2000,
-        "genericValue": "EVENT_TOWER_1003_KEY"
+        "genericValue": "EVENT_TOWER_1035_KEY"
       },
       "eventDescription": "＆色鉛筆入手時＋2"
     },
@@ -5430,14 +5430,14 @@
         "growPoint": 25,
         "probability": 1000
       },
-      "eventId": 1003,
-      "eventArtId1": 100308,
+      "eventId": 1035,
+      "eventArtId1": 1035003,
       "eventArt1": {
-        "artId": 100308,
+        "artId": 1035003,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 3000,
-        "genericValue": "EVENT_TOWER_1003_KEY"
+        "genericValue": "EVENT_TOWER_1035_KEY"
       },
       "eventDescription": "＆色鉛筆入手時＋3"
     },
@@ -5458,14 +5458,14 @@
         "growPoint": 25,
         "probability": 1000
       },
-      "eventId": 1003,
-      "eventArtId1": 100312,
+      "eventId": 1035,
+      "eventArtId1": 1035004,
       "eventArt1": {
-        "artId": 100312,
+        "artId": 1035004,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 7000,
-        "genericValue": "EVENT_TOWER_1003_KEY"
+        "genericValue": "EVENT_TOWER_1035_KEY"
       },
       "eventDescription": "＆色鉛筆入手時＋7"
     },
@@ -5629,14 +5629,14 @@
         "growPoint": 0,
         "probability": 1000
       },
-      "eventId": 1003,
-      "eventArtId1": 100307,
+      "eventId": 1035,
+      "eventArtId1": 1035002,
       "eventArt1": {
-        "artId": 100307,
+        "artId": 1035002,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 2000,
-        "genericValue": "EVENT_TOWER_1003_KEY"
+        "genericValue": "EVENT_TOWER_1035_KEY"
       },
       "eventDescription": "＆色鉛筆入手時＋2"
     },
@@ -5670,16 +5670,16 @@
         "growPoint": 10,
         "probability": 1000
       },
-      "eventId": 1003,
-      "eventArtId1": 100310,
+      "eventId": 1035,
+      "eventArtId1": 1035003,
       "eventArt1": {
-        "artId": 100310,
+        "artId": 1035003,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
-        "effectValue": 5000,
-        "genericValue": "EVENT_TOWER_1003_KEY"
+        "effectValue": 3000,
+        "genericValue": "EVENT_TOWER_1035_KEY"
       },
-      "eventDescription": "＆色鉛筆入手時＋5"
+      "eventDescription": "＆色鉛筆入手時＋3"
     },
     "description": "君を待っている間に見た夢は、どんな夢だっただろう？＠君にはまだ秘密にしておきたい、日記に書いたあの日の思い出？＠幸せな夢から覚めたって、悲しむことなんて何もない＠夢の続きはこれから、目の前にいる君とまた始めればいい",
     "illustrator": "一十九二",
@@ -5869,7 +5869,7 @@
     "pieceSkill": {
       "id": 111400,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅸ]",
+      "name": "モラールアップ[Ⅸ]",
       "type": "SKILL",
       "intervalTurn": 8,
       "shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
@@ -5889,7 +5889,7 @@
     "pieceSkill2": {
       "id": 111401,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅹ]",
+      "name": "モラールアップ[Ⅹ]",
       "type": "SKILL",
       "intervalTurn": 7,
       "shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
@@ -7272,14 +7272,14 @@
         "growPoint": 25,
         "probability": 1000
       },
-      "eventId": 1007,
-      "eventArtId1": 100701,
+      "eventId": 1036,
+      "eventArtId1": 1036001,
       "eventArt1": {
-        "artId": 100701,
+        "artId": 1036001,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 1000,
-        "genericValue": "EVENT_TOWER_1007_KEY"
+        "genericValue": "EVENT_TOWER_1036_KEY"
       },
       "eventDescription": "＆ドリンク入手時＋1"
     },
@@ -7300,14 +7300,14 @@
         "growPoint": 25,
         "probability": 1000
       },
-      "eventId": 1007,
-      "eventArtId1": 100702,
+      "eventId": 1036,
+      "eventArtId1": 1036002,
       "eventArt1": {
-        "artId": 100702,
+        "artId": 1036002,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 2000,
-        "genericValue": "EVENT_TOWER_1007_KEY"
+        "genericValue": "EVENT_TOWER_1036_KEY"
       },
       "eventDescription": "＆ドリンク入手時＋2"
     },
@@ -7343,14 +7343,14 @@
         "enableTurn": 1,
         "growPoint": 25
       },
-      "eventId": 1007,
-      "eventArtId1": 100702,
+      "eventId": 1036,
+      "eventArtId1": 1036002,
       "eventArt1": {
-        "artId": 100702,
+        "artId": 1036002,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 2000,
-        "genericValue": "EVENT_TOWER_1007_KEY"
+        "genericValue": "EVENT_TOWER_1036_KEY"
       },
       "eventDescription": "＆ドリンク入手時＋2"
     },
@@ -7373,16 +7373,16 @@
         "enableTurn": 1,
         "growPoint": 25
       },
-      "eventId": 1007,
-      "eventArtId1": 100705,
+      "eventId": 1036,
+      "eventArtId1": 1036003,
       "eventArt1": {
-        "artId": 100705,
+        "artId": 1036003,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
-        "effectValue": 5000,
-        "genericValue": "EVENT_TOWER_1007_KEY"
+        "effectValue": 3000,
+        "genericValue": "EVENT_TOWER_1036_KEY"
       },
-      "eventDescription": "＆ドリンク入手時＋5"
+      "eventDescription": "＆ドリンク入手時＋3"
     },
     "description": "そんなレアな表情が見られるのなら、また何度だって、＠お弁当を作りたいと思う。＠自信作を食べ終わったなら、ランチボックスは畳んでリュックの中へ。隣にあなたがいる分だけ…軽くなった荷物を背負って、またふたり歩いていこう",
     "illustrator": "かにぱんだ",
@@ -7414,14 +7414,14 @@
         "growPoint": 20,
         "probability": 1000
       },
-      "eventId": 1007,
-      "eventArtId1": 100703,
+      "eventId": 1036,
+      "eventArtId1": 1036003,
       "eventArt1": {
-        "artId": 100703,
+        "artId": 1036003,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
         "effectValue": 3000,
-        "genericValue": "EVENT_TOWER_1007_KEY"
+        "genericValue": "EVENT_TOWER_1036_KEY"
       },
       "eventDescription": "＆ドリンク入手時＋3"
     },
@@ -7442,16 +7442,16 @@
         "growPoint": 20,
         "probability": 1000
       },
-      "eventId": 1007,
-      "eventArtId1": 100707,
+      "eventId": 1036,
+      "eventArtId1": 1036004,
       "eventArt1": {
-        "artId": 100707,
+        "artId": 1036004,
         "verbCode": "OTHER",
         "effectCode": "DROPADD",
-        "effectValue": 7000,
-        "genericValue": "EVENT_TOWER_1007_KEY"
+        "effectValue": 5000,
+        "genericValue": "EVENT_TOWER_1036_KEY"
       },
-      "eventDescription": "＆ドリンク入手時＋7"
+      "eventDescription": "＆ドリンク入手時＋5"
     },
     "description": "不思議といつまで経っても気が付かない＠いつも彼女が追い求めている視線は、別モノを見つめる今このときこそ、＠彼女に注がれているというのに＠交差するばかりの想いだけれど、それこそが彼女たちの絶妙なバランス",
     "illustrator": "―",
@@ -8198,7 +8198,7 @@
     "pieceSkill": {
       "id": 115000,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅸ]",
+      "name": "モラールアップ[Ⅸ]",
       "type": "SKILL",
       "intervalTurn": 8,
       "shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
@@ -8218,7 +8218,7 @@
     "pieceSkill2": {
       "id": 115001,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅹ]",
+      "name": "モラールアップ[Ⅹ]",
       "type": "SKILL",
       "intervalTurn": 7,
       "shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
@@ -9215,7 +9215,7 @@
     "pieceSkill": {
       "id": 116700,
       "groupId": 1129,
-      "name": "リジェネイト・シールド[Ⅲ]",
+      "name": "リジェネレイト・シールド[Ⅲ]",
       "type": "SKILL",
       "intervalTurn": 6,
       "shortDescription": "HP自動回復[Ⅲ] & ダメージカット状態[Ⅲ](自/3T)",
@@ -9247,7 +9247,7 @@
     "pieceSkill2": {
       "id": 116701,
       "groupId": 1129,
-      "name": "リジェネイト・シールド[Ⅳ]",
+      "name": "リジェネレイト・シールド[Ⅳ]",
       "type": "SKILL",
       "intervalTurn": 5,
       "shortDescription": "HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)",
@@ -10380,7 +10380,7 @@
     "pieceSkill": {
       "id": 118300,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅸ]",
+      "name": "モラールアップ[Ⅸ]",
       "type": "SKILL",
       "intervalTurn": 7,
       "shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
@@ -10400,7 +10400,7 @@
     "pieceSkill2": {
       "id": 118301,
       "groupId": 1093,
-      "name": "モーラルアップ[Ⅹ]",
+      "name": "モラールアップ[Ⅹ]",
       "type": "SKILL",
       "intervalTurn": 6,
       "shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
@@ -10638,12 +10638,12 @@
     "pieceSkill": {
       "id": 118700,
       "groupId": 1141,
-      "name": "アンチ・カース[ⅩⅢ]",
+      "name": "アンチ・カース[XⅢ]",
       "type": "ABILITY",
-      "shortDescription": "確率で呪い無効[ⅩⅢ] & 攻撃力UP[Ⅰ]",
-      "artId1": 9097,
+      "shortDescription": "確率で呪い無効[XⅢ] & 攻撃力UP[Ⅰ]",
+      "artId1": 690208813,
       "art1": {
-        "artId": 9097,
+        "artId": 690208813,
         "verbCode": "IGNORE",
         "effectCode": "CURSE",
         "targetId": "SELF",
@@ -11764,7 +11764,7 @@
       }
     },
     "description": "集まった人々がみつめるのはただひとり＠この美貌に歓声を、この気高さに喝采を＠舞い踊る光さえ弾いて輝くのはこの私！＠超絶美少女・阿見莉愛様ただひとり!!",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/04/23 15:10:00"
   },
   {
@@ -12288,7 +12288,7 @@
       "eventDescription": "＆「すずねメダル」入手時＋7"
     },
     "description": "少女の足下に見える夜の神浜市には、煌びやかな灯りが彩を加えている＠光と闇の交錯…それは人と人ではない者たちとの交錯のようだった＠少女は手に持つ刃をもって、常なるこの交錯を断とうとしている＠たとえ誰にも理解されることはなくても、彼女がそう決めたから…",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/05/01 15:10:00"
   },
   {
@@ -12357,7 +12357,7 @@
       "eventDescription": "＆「すずねメダル」入手時＋3"
     },
     "description": "「やっば！超美味しい！やっぱり買って正解でしょ！」＠「あのねアリサ…どーして我慢できないの!?」＠「いーじゃん、食べたかったから！…で、チサトは食べないの？」＠「…え？…それは…ん～…まぁ…一口だけもらっていい？」",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/05/01 15:10:00"
   },
   {
@@ -12562,7 +12562,7 @@
       "eventDescription": "＆「幽霊免許」入手時＋5"
     },
     "description": "テーブルに置かれた５枚のカードは、その日を決める運命のカード＠開いたらもう最後、天国か地獄かは揺るがない結果として示される＠それでも彼女は止まらない、止まることができるはずもない＠なぜなら、安名メルは、占うために生まれた少女だから",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/05/21 15:10:00"
   },
   {
@@ -12853,7 +12853,7 @@
       }
     },
     "description": "この時の彼女には後悔はなかった＠かつて住んでいた家にも、かつて通っていた仲間たちの所も＠あるのはただ、新たな憩いの地を盛り上げること＠迷いはなかった、一切合切において…",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/01 15:10:00"
   },
   {
@@ -13102,7 +13102,7 @@
       }
     },
     "description": "「夢を見ていた過去の自分はもう捨てましょう…＠今のワタシにできるのは、重ねた罪を購うこと＠それなら、ワタシは今、自分が出来うる事をして多くを救いたい…＠黒羽根のことも白羽根のことも、そしてやっちゃんのことも…」",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/08 15:10:00"
   },
   {
@@ -13121,9 +13121,9 @@
       "name": "チェイス・アデプト[Ⅱ]",
       "type": "ABILITY",
       "shortDescription": "確率で追撃[Ⅱ]",
-      "artId1": 690207202,
+      "artId1": 690207201,
       "art1": {
-        "artId": 690207202,
+        "artId": 690207201,
         "verbCode": "CONDITION_GOOD",
         "effectCode": "PURSUE",
         "targetId": "SELF",
@@ -13139,9 +13139,9 @@
       "name": "チェイス・アデプト[Ⅲ]",
       "type": "ABILITY",
       "shortDescription": "確率で追撃[Ⅲ]",
-      "artId1": 690207203,
+      "artId1": 690207202,
       "art1": {
-        "artId": 690207203,
+        "artId": 690207202,
         "verbCode": "CONDITION_GOOD",
         "effectCode": "PURSUE",
         "targetId": "SELF",
@@ -13151,7 +13151,7 @@
       }
     },
     "description": "「あの頃の神浜は、当時で６年間、戦ってきたワタシにとっても＠前代未聞の魔女の少なさでした。いたずらに被害を増やさないように＠東西で不可侵の協定を結んではいましたが、この時ばかりは＠さすがに空気が冷え切っていて嫌な汗をかいたものです…」",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/08 15:10:00"
   },
   {
@@ -13204,7 +13204,7 @@
       }
     },
     "description": "「どれだけ被害が出ないように努めていたとしても＠ワタシたち魔法少女にとって大切なのはグリーフシードです＠いくら手を結びあったとしても、我慢には限界があります＠この後も魔女の涸渇が続いていれば争いは酷くなっていたと思います」",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/08 15:10:00"
   },
   {
@@ -13568,7 +13568,7 @@
       "eventDescription": "＆「パフェ」入手時＋7"
     },
     "description": "それは次第に、人の想いに隔たりを作った…＠それは次第に、亀裂を生んでいった…＠それは次第に、人々を別れさせていった…＠強靱な心は時に乖離を生む。救いに縋らない者はひとりになった…",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/25 15:10:00"
   },
   {
@@ -13637,7 +13637,7 @@
       "eventDescription": "＆「パフェ」入手時＋3"
     },
     "description": "真新しいメイド服に身を包むのは駆けだしメイド十七夜＠クールな横顔、悠々とした動作、不遜ともとれる口調＠おおよそメイドさんらしからぬその態度＠しかし、その独特な雰囲気こそが人々を引き付ける",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/25 15:10:00"
   },
   {
@@ -13706,7 +13706,7 @@
       }
     },
     "description": "ケンカの仲裁、紛失物の捜索、醤油染みの消し方etc…＠困り事なら、愛はなくとも筋は通す律儀なメイド＠「なぎたんにお任せ、だぞっ！ご主人」＠（しかし、この光はどこから降ってきているんだ？）",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/06/25 15:10:00"
   },
   {
@@ -13922,7 +13922,7 @@
       "eventDescription": "＆「記憶の頁」入手時＋7"
     },
     "description": "「えと…これ…どうかな？鹿目さん…」＠水着も日傘もサンダルもトータルでコーディネイト！＠思い切ってちょっと派手めでチャレンジしてみたほむら＠ちょっと冒険してみるのもいいかも…だって夏なんだし!?",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/07/20 15:10:00"
   },
   {
@@ -14062,7 +14062,7 @@
       }
     },
     "description": "浜辺の木陰で座りながら、ふたりで夏の空を見上げていた＠あたりは静かで、ただ、波の音だけが聞こえていた＠彼女はひときわ大きな雲を指さして笑っていた＠白馬だとか、アイスクリームだとかに見えると言って、笑っていた",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/07/20 15:10:00"
   },
   {
@@ -14149,7 +14149,7 @@
       "eventDescription": "＆「記憶の頁」入手時＋3"
     },
     "description": "みんなで楽しくビーチバレー！…だと最初は思ってた…＠試合は徐々に白熱し、マミさんの超本気な強烈なスパイクが炸裂！＠その行き先は…ほむらの顔面!?焦るマミ！驚きで身動きできない一同！＠彼女の眼鏡は宙に舞い、夏の日差しに照らされてキラキラ輝いていた…",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/07/20 15:10:00"
   },
   {
@@ -14330,7 +14330,7 @@
       "eventDescription": "＆貝殻(赤)入手時＋7＆貝殻(青)入手時+7"
     },
     "description": "お待たせしましたー、皆さん！ほらほら、見てください！＠麦わら帽子にウォーターガン…そしてマストアイテムの浮き輪！＠これが私のパーフェクトな海のスタイル！＠さー、思いっきり楽しんじゃうからねーっ！",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/08/08 15:10:00"
   },
   {
@@ -14494,7 +14494,7 @@
       "eventDescription": "＆貝殻(赤)入手時＋2＆貝殻(青)入手時+2"
     },
     "description": "この写真の向こう側に、私の大切な宝物がある＠鮮やかな青い空、広い海、仲間たちの笑顔…＠みんなと過ごしたあの夏の旅の想い出は＠一生に一度だけの、かけがえのない記憶",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/08/08 15:10:00"
   },
   {
@@ -14688,7 +14688,7 @@
       "groupId": 1085,
       "name": "インビジブル・アデプト[Ⅲ]",
       "type": "ABILITY",
-      "shortDescription": "攻撃力UP[Ⅲ] & 確率で回避無効[ⅩⅠ]",
+      "shortDescription": "攻撃力UP[Ⅲ] & 確率で回避無効[XⅠ]",
       "artId1": 390201103,
       "art1": {
         "artId": 390201103,
@@ -14715,7 +14715,7 @@
       "groupId": 1085,
       "name": "インビジブル・アデプト[Ⅳ]",
       "type": "ABILITY",
-      "shortDescription": "攻撃力UP[Ⅳ] & 確率で回避無効[ⅩⅢ]",
+      "shortDescription": "攻撃力UP[Ⅳ] & 確率で回避無効[XⅢ]",
       "artId1": 390201104,
       "art1": {
         "artId": 390201104,
@@ -14881,7 +14881,7 @@
       "groupId": 1173,
       "name": "ラック・アデプト[Ⅰ]",
       "type": "ABILITY",
-      "shortDescription": "獲得エピソードP UP[Ⅰ] & CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
+      "shortDescription": "獲得エピソードP UP[Ⅰ] ＆ CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
       "artId1": 700216301,
       "art1": {
         "artId": 700216301,
@@ -14907,7 +14907,7 @@
       "groupId": 1173,
       "name": "ラック・アデプト[Ⅰ]",
       "type": "ABILITY",
-      "shortDescription": "獲得エピソードP UP[Ⅰ] & CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
+      "shortDescription": "獲得エピソードP UP[Ⅰ] ＆ CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)",
       "artId1": 700216301,
       "art1": {
         "artId": 700216301,
@@ -14927,8 +14927,8 @@
         "growPoint": 0
       }
     },
-    "description": "重ねた手と手から伝わるぬくもりが教えてくれる＠大丈夫、私たちはひとりじゃないって＠そして、いつの日にか…＠このぬくもりが抱える不安全てを溶かしてくれますように",
-    "illustrator": "ー",
+    "description": "重ねた手と手から伝わるぬくもりが教えてくれる＠大丈夫、私たちはひとりじゃないって＠そして、いつの日にか…＠このぬくもりが抱える不安全てを溶かしてくれますように＠（一番くじ専用描きおろし）",
+    "illustrator": "―",
     "openDate": "2018/08/21 15:10:00"
   },
   {
@@ -14944,7 +14944,7 @@
     "pieceSkill": {
       "id": 125000,
       "groupId": 1129,
-      "name": "リジェネイト・バックラー[Ⅲ]",
+      "name": "リジェネレイト・バックラー[Ⅲ]",
       "type": "SKILL",
       "intervalTurn": 6,
       "shortDescription": "HP自動回復[Ⅲ] & ダメージカット状態[Ⅶ](自/1T)",
@@ -14976,7 +14976,7 @@
     "pieceSkill2": {
       "id": 125001,
       "groupId": 1129,
-      "name": "リジェネイト・バックラー[Ⅳ]",
+      "name": "リジェネレイト・バックラー[Ⅳ]",
       "type": "SKILL",
       "intervalTurn": 5,
       "shortDescription": "HP自動回復[Ⅳ] & ダメージカット状態[Ⅷ](自/1T)",
@@ -15005,7 +15005,850 @@
       }
     },
     "description": "みんなのことを知っているはずなのに、知らない＠起きていることは分かっているはずなのに、分からない＠このレコードはイレギュラー、特異点を持つ不思議な記録＠壊さないように消さないように、そのまま悪さはしないで",
-    "illustrator": "ー",
+    "illustrator": "―",
     "openDate": "2018/08/21 15:10:00"
+  },
+  {
+    "pieceId": 1251,
+    "pieceType": "SKILL",
+    "pieceName": "もうひとつのストーリー",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 400,
+    "hp": 400,
+    "skillId": 125100,
+    "pieceSkill": {
+      "id": 125100,
+      "groupId": 1085,
+      "name": "ブルームアップ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅳ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201105,
+      "art1": {
+        "artId": 310201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201204,
+      "art2": {
+        "artId": 310201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 125101,
+    "pieceSkill2": {
+      "id": 125101,
+      "groupId": 1085,
+      "name": "ブルームアップ[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "攻撃力UP[Ⅵ] & 防御力UP[Ⅴ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201106,
+      "art1": {
+        "artId": 310201106,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201205,
+      "art2": {
+        "artId": 310201205,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 375,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "それは、願いと奇跡の物語＠神浜と見滝原、過去と未来、希望と絶望…そして救い＠いくつもの出会い、いくつもの因果が紡がれ、重なり合うたびに＠つながってゆく、もうひとつのストーリー（コミカライズ記念）",
+    "illustrator": "富士フジノ",
+    "openDate": "2018/08/24 18:00:00"
+  },
+  {
+    "pieceId": 1252,
+    "pieceType": "ABILITY",
+    "pieceName": "あーし×4",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 700,
+    "defense": 0,
+    "hp": 880,
+    "skillId": 125200,
+    "pieceSkill": {
+      "id": 125200,
+      "groupId": 1086,
+      "name": "フルゲージ・シールド[Ⅴ]",
+      "type": "ABILITY",
+      "shortDescription": "HP最大時防御力UP[Ⅴ] & ダメージカット状態[Ⅱ]",
+      "artId1": 390203205,
+      "art1": {
+        "artId": 390203205,
+        "verbCode": "BUFF_HPMAX",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 500,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 690206202,
+      "art2": {
+        "artId": 690206202,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 125201,
+    "pieceSkill2": {
+      "id": 125201,
+      "groupId": 1086,
+      "name": "フルゲージ・シールド[Ⅷ]",
+      "type": "ABILITY",
+      "shortDescription": "HP最大時防御力UP[Ⅷ] & ダメージカット状態[Ⅲ]",
+      "artId1": 390203208,
+      "art1": {
+        "artId": 390203208,
+        "verbCode": "BUFF_HPMAX",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 690206203,
+      "art2": {
+        "artId": 690206203,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "しーあの人4はのるいにここりまつ…しーあとしーあとしーあとしーあ＠！しだしーあ！ょしでるが上り盛くない違間、ばれま集がちたしーあ＠！しいなかしるすィテーパでちたしーあらたしーそ、しーよ＠！しるえ歌で人4、歌なき好のしーあ、しーいもケオラカらたしーそ",
+    "illustrator": "斜文",
+    "openDate": "2018/08/27 15:10:00"
+  },
+  {
+    "pieceId": 1253,
+    "pieceType": "SKILL",
+    "pieceName": "コピーのふたり",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 570,
+    "hp": 631,
+    "skillId": 125300,
+    "pieceSkill": {
+      "id": 125300,
+      "groupId": 1106,
+      "name": "ポイズン[Ⅹ]",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "確率で毒[Ⅹ] (敵単/3T)",
+      "messageId": 72,
+      "artId1": 530004510,
+      "art1": {
+        "artId": 530004510,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "POISON",
+        "targetId": "TARGET",
+        "effectValue": 50,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 525
+      }
+    },
+    "skillId2": 125301,
+    "pieceSkill2": {
+      "id": 125301,
+      "groupId": 1106,
+      "name": "ポイズン",
+      "type": "SKILL",
+      "intervalTurn": 4,
+      "shortDescription": "必ず毒(敵単/3T)",
+      "messageId": 72,
+      "artId1": 530004600,
+      "art1": {
+        "artId": 530004600,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "POISON",
+        "targetId": "TARGET",
+        "effectValue": 50,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「？かるか分、とこな事大番一で女少法魔、前お…ナレ！しぉよい」＠「…ぉよいならか分、ナレ…んゃちでえか?!とこな事大」＠「！けてれ入合気！合気、よだ合気…るやてえ教あゃじ…！くたっ」＠「！～ぁないいコッカ、んゃちでえか、もてしにれそ！んう、う」",
+    "illustrator": "―",
+    "openDate": "2018/08/27 15:10:00"
+  },
+  {
+    "pieceId": 1254,
+    "pieceType": "SKILL",
+    "pieceName": "この世界で生きていく",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 765,
+    "hp": 844,
+    "skillId": 125400,
+    "pieceSkill": {
+      "id": 125400,
+      "groupId": 1126,
+      "name": "ファントム・スタブ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 10,
+      "shortDescription": "確率で追撃[Ⅴ](自/3T) & 防御力DOWN[Ⅲ](敵全/3T)",
+      "messageId": 70,
+      "artId1": 430302103,
+      "art1": {
+        "artId": 430302103,
+        "verbCode": "DEBUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "ALL",
+        "effectValue": 100,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 630207205,
+      "art2": {
+        "artId": 630207205,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PURSUE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 180
+      },
+      "eventId": 1035,
+      "eventArtId1": 1035003,
+      "eventArt1": {
+        "artId": 1035003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_TOWER_1035_KEY"
+      },
+      "eventDescription": "＆色鉛筆入手時＋3"
+    },
+    "skillId2": 125401,
+    "pieceSkill2": {
+      "id": 125401,
+      "groupId": 1126,
+      "name": "ファントム・スタブ[Ⅶ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "確率で追撃[Ⅶ](自/3T) & 防御力DOWN[Ⅳ](敵全/3T)",
+      "messageId": 70,
+      "artId1": 430302104,
+      "art1": {
+        "artId": 430302104,
+        "verbCode": "DEBUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "ALL",
+        "effectValue": 125,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 630207207,
+      "art2": {
+        "artId": 630207207,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "PURSUE",
+        "targetId": "SELF",
+        "effectValue": 800,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 210
+      },
+      "eventId": 1035,
+      "eventArtId1": 1035004,
+      "eventArt1": {
+        "artId": 1035004,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_TOWER_1035_KEY"
+      },
+      "eventDescription": "＆色鉛筆入手時＋7"
+    },
+    "description": "終わりのない悪意と悲しみで、色を失くしたこの世界＠それでも僕は、ここで生きていく＠この世界に、彩りと輝きを取り戻すために＠僕に希望を照らしてくれた、君と一緒に",
+    "illustrator": "さくら小春(QP:flapper)",
+    "openDate": "2018/09/10 15:10:00"
+  },
+  {
+    "pieceId": 1255,
+    "pieceType": "ABILITY",
+    "pieceName": "大切な人を守る力",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 724,
+    "defense": 0,
+    "hp": 886,
+    "skillId": 125500,
+    "pieceSkill": {
+      "id": 125500,
+      "groupId": 1086,
+      "name": "クライシス・シールド[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "瀕死時防御力UP[Ⅱ] & 防御力UP[Ⅲ] & ダメージカット状態[Ⅱ]",
+      "artId1": 390203002,
+      "art1": {
+        "artId": 390203002,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201203,
+      "art2": {
+        "artId": 390201203,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 690206202,
+      "art3": {
+        "artId": 690206202,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1036,
+      "eventArtId1": 1036003,
+      "eventArt1": {
+        "artId": 1036003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_TOWER_1036_KEY"
+      },
+      "eventDescription": "＆ドリンク入手時＋3"
+    },
+    "skillId2": 125501,
+    "pieceSkill2": {
+      "id": 125501,
+      "groupId": 1086,
+      "name": "クライシス・シールド[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "瀕死時防御力UP[Ⅲ] & 防御力UP[Ⅳ] & ダメージカット状態[Ⅲ]",
+      "artId1": 390203003,
+      "art1": {
+        "artId": 390203003,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390201204,
+      "art2": {
+        "artId": 390201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId3": 690206203,
+      "art3": {
+        "artId": 690206203,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_DOWN",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "eventId": 1036,
+      "eventArtId1": 1036005,
+      "eventArt1": {
+        "artId": 1036005,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_TOWER_1036_KEY"
+      },
+      "eventDescription": "＆ドリンク入手時＋7"
+    },
+    "description": "戦いを望んだわけじゃなかった＠ただ家族を取り戻したかっただけ…＠でも、この力を得たこと、もう戸惑わない＠この力で、家族を、大切な人たちを守ってみせる",
+    "illustrator": "GAN",
+    "openDate": "2018/09/18 15:10:00"
+  },
+  {
+    "pieceId": 1257,
+    "pieceType": "SKILL",
+    "pieceName": "文房具という名の凶器",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4041",
+    "charaList": [
+      {
+        "charaId": 4041,
+        "name": "戦場ヶ原 ひたぎ"
+      }
+    ],
+    "attack": 0,
+    "defense": 512,
+    "hp": 432,
+    "skillId": 125700,
+    "pieceSkill": {
+      "id": 125700,
+      "groupId": 1119,
+      "name": "エンチャントウェポン[Ⅶ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "ダメージアップ状態[Ⅶ] (自/1T)",
+      "messageId": 70,
+      "artId1": 610206107,
+      "art1": {
+        "artId": 610206107,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 125701,
+    "pieceSkill2": {
+      "id": 125701,
+      "groupId": 1119,
+      "name": "エンチャントウェポン[Ⅷ]",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "ダメージアップ状態[Ⅷ] (自/1T)",
+      "messageId": 70,
+      "artId1": 610206108,
+      "art1": {
+        "artId": 610206108,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "文房具は決して、人を傷つけるための道具ではない＠しかしあまりに大量に携行すれば、凶器の様相を帯びる＠四次元空間に格納されていたかのような、無数の文房具＠HBの鉛筆の先端は、もちろん鋭利に研ぎ澄まされている",
+    "illustrator": "かにぱんだ",
+    "openDate": "2018/09/25 15:10:00"
+  },
+  {
+    "pieceId": 1258,
+    "pieceType": "ABILITY",
+    "pieceName": "趣味、帽子集め",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4044",
+    "charaList": [
+      {
+        "charaId": 4044,
+        "name": "千石 撫子"
+      }
+    ],
+    "attack": 427,
+    "defense": 0,
+    "hp": 507,
+    "skillId": 125800,
+    "pieceSkill": {
+      "id": 125800,
+      "groupId": 1142,
+      "name": "スネークビジョン[XⅡ]",
+      "type": "ABILITY",
+      "shortDescription": "霧無効 & 暗闇無効 & 確率で魅了無効[XⅡ]",
+      "artId1": 690208900,
+      "art1": {
+        "artId": 690208900,
+        "verbCode": "IGNORE",
+        "effectCode": "FOG",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690209000,
+      "art2": {
+        "artId": 690209000,
+        "verbCode": "IGNORE",
+        "effectCode": "DARKNESS",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId3": 690208312,
+      "art3": {
+        "artId": 690208312,
+        "verbCode": "IGNORE",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 800
+      }
+    },
+    "skillId2": 125801,
+    "pieceSkill2": {
+      "id": 125801,
+      "groupId": 1142,
+      "name": "スネークビジョン",
+      "type": "ABILITY",
+      "shortDescription": "霧無効 & 暗闇無効 & 魅了無効",
+      "artId1": 690208900,
+      "art1": {
+        "artId": 690208900,
+        "verbCode": "IGNORE",
+        "effectCode": "FOG",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690209000,
+      "art2": {
+        "artId": 690209000,
+        "verbCode": "IGNORE",
+        "effectCode": "DARKNESS",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId3": 690208300,
+      "art3": {
+        "artId": 690208300,
+        "verbCode": "IGNORE",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "相手の顔を見ながら喋れない＠人の視線が苦手、見られたくない、見るのも見られるのも嫌＠だから帽子を目深にかぶる＠目を見られないように、目を見ずに済むように",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/09/25 15:10:00"
+  },
+  {
+    "pieceId": 1259,
+    "pieceType": "SKILL",
+    "pieceName": "戦争を、しましょう",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 843,
+    "hp": 763,
+    "skillId": 125900,
+    "pieceSkill": {
+      "id": 125900,
+      "groupId": 1092,
+      "name": "ブランディッシュ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "Blast ダメージUP[Ⅴ] & 与えるダメージUP[Ⅰ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201805,
+      "art1": {
+        "artId": 310201805,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201301,
+      "art2": {
+        "artId": 310201301,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 125901,
+    "pieceSkill2": {
+      "id": 125901,
+      "groupId": 1092,
+      "name": "ブランディッシュ[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "Blast ダメージUP[Ⅵ] & 与えるダメージUP[Ⅳ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201806,
+      "art1": {
+        "artId": 310201806,
+        "verbCode": "BUFF",
+        "effectCode": "BLAST",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201304,
+      "art2": {
+        "artId": 310201304,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "「私の力に？ふざけないで＠あなたに何ができるっていうのよ＠黙って、気を払わないでいてくれたらそれでいいの＠優しさも…敵対行為と看做すわよ」",
+    "illustrator": "―",
+    "openDate": "2018/09/25 15:10:00"
+  },
+  {
+    "pieceId": 1260,
+    "pieceType": "ABILITY",
+    "pieceName": "開けたら許さないから",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 770,
+    "defense": 0,
+    "hp": 850,
+    "skillId": 126000,
+    "pieceSkill": {
+      "id": 126000,
+      "groupId": 1147,
+      "name": "バインド・ブレイド[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃時に確率で拘束(1T)を付与[Ⅱ] & 与えるダメージUP[Ⅳ]",
+      "artId1": 690209802,
+      "art1": {
+        "artId": 690209802,
+        "verbCode": "ENCHANT",
+        "effectCode": "RESTRAINT",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 150
+      },
+      "artId2": 390201304,
+      "art2": {
+        "artId": 390201304,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 126001,
+    "pieceSkill2": {
+      "id": 126001,
+      "groupId": 1147,
+      "name": "バインド・ブレイド[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃時に確率で拘束(1T)を付与[Ⅲ] & 与えるダメージUP[Ⅴ]",
+      "artId1": 690209803,
+      "art1": {
+        "artId": 690209803,
+        "verbCode": "ENCHANT",
+        "effectCode": "RESTRAINT",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 200
+      },
+      "artId2": 390201305,
+      "art2": {
+        "artId": 390201305,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「み、見た!?見てないよね!?＠え…………何を、って？＠もちろん、撫子の部屋のクローゼットだよ！＠開けたら絶対に許さないから」",
+    "illustrator": "―",
+    "openDate": "2018/09/25 15:10:00"
+  },
+  {
+    "pieceId": 1261,
+    "pieceType": "SKILL",
+    "pieceName": "世界観を越えた夢のコラボ",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 850,
+    "hp": 770,
+    "skillId": 126100,
+    "pieceSkill": {
+      "id": 126100,
+      "groupId": 1085,
+      "name": "スペランツァ・フォース[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 9,
+      "shortDescription": "攻撃力UP[Ⅳ] & 防御力UP[Ⅲ] & 確率でクリティカル[Ⅳ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201104,
+      "art1": {
+        "artId": 330201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201203,
+      "art2": {
+        "artId": 330201203,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId3": 630206304,
+      "art3": {
+        "artId": 630206304,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 250
+      }
+    },
+    "skillId2": 126101,
+    "pieceSkill2": {
+      "id": 126101,
+      "groupId": 1085,
+      "name": "スペランツァ・フォース[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅳ] & 確率でクリティカル[Ⅴ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201105,
+      "art1": {
+        "artId": 330201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201204,
+      "art2": {
+        "artId": 330201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId3": 630206305,
+      "art3": {
+        "artId": 630206305,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "CRITICAL",
+        "targetId": "SELF",
+        "effectValue": 2000,
+        "enableTurn": 3,
+        "growPoint": 0,
+        "probability": 300
+      }
+    },
+    "description": "パラレルなワールド、パラレルなルート＠怪異の存在する世界、奇跡も魔法もある世界＠重なりあうはずのないふたつの世界が交差するとき…＠新たな物語が走り出す",
+    "illustrator": "谷口淳一郎",
+    "openDate": "2018/09/25 15:10:00"
+  },
+  {
+    "pieceId": 1262,
+    "pieceType": "SKILL",
+    "pieceName": "大物中学生",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 578,
+    "hp": 638,
+    "skillId": 126200,
+    "pieceSkill": {
+      "id": 126200,
+      "groupId": 1090,
+      "name": "アクセルライズ[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "Accele MPUP[Ⅵ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201606,
+      "art1": {
+        "artId": 330201606,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 126201,
+    "pieceSkill2": {
+      "id": 126201,
+      "groupId": 1090,
+      "name": "アクセルライズ[Ⅶ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "Accele MPUP[Ⅶ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201607,
+      "art1": {
+        "artId": 330201607,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "「…え、宿題？＠どうしてせっかくの楽しい休みの日に＠宿題みたいな大変なことをしなくちゃいけないの？＠勉強はしたいときにすればいいんだよ」",
+    "illustrator": "渡辺明夫",
+    "openDate": "2018/09/25 15:10:00"
   }
 ]
