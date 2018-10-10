@@ -12995,7 +12995,7 @@
     "skillId": 122100,
     "pieceSkill": {
       "id": 122100,
-      "groupId": 1183,
+      "groupId": 1154,
       "name": "メディエイト・アデプト[Ⅱ]",
       "type": "ABILITY",
       "shortDescription": "スキル不可無効 & Accele MPUP[Ⅱ]",
@@ -13022,7 +13022,7 @@
     "skillId2": 122101,
     "pieceSkill2": {
       "id": 122101,
-      "groupId": 1183,
+      "groupId": 1154,
       "name": "メディエイト・アデプト[Ⅲ]",
       "type": "ABILITY",
       "shortDescription": "スキル不可無効 & Accele MPUP[Ⅲ]",
@@ -15850,5 +15850,336 @@
     "description": "「…え、宿題？＠どうしてせっかくの楽しい休みの日に＠宿題みたいな大変なことをしなくちゃいけないの？＠勉強はしたいときにすればいいんだよ」",
     "illustrator": "渡辺明夫",
     "openDate": "2018/09/25 15:10:00"
+  },
+  {
+    "pieceId": 1263,
+    "pieceType": "SKILL",
+    "pieceName": "理想への手がかり",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3035",
+    "charaList": [
+      {
+        "charaId": 3035,
+        "name": "千秋 理子"
+      }
+    ],
+    "attack": 0,
+    "defense": 438,
+    "hp": 481,
+    "skillId": 126300,
+    "pieceSkill": {
+      "id": 126300,
+      "groupId": 1161,
+      "name": "モノポライズドロー",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "自分のDiscドロー",
+      "messageId": 70,
+      "artId1": 700211700,
+      "art1": {
+        "artId": 700211700,
+        "verbCode": "DRAW",
+        "effectCode": "CHARACTER",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 126301,
+    "pieceSkill2": {
+      "id": 126301,
+      "groupId": 1161,
+      "name": "モノポライズドロー",
+      "type": "SKILL",
+      "intervalTurn": 4,
+      "shortDescription": "自分のDiscドロー",
+      "messageId": 70,
+      "artId1": 700211700,
+      "art1": {
+        "artId": 700211700,
+        "verbCode": "DRAW",
+        "effectCode": "CHARACTER",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "ぶきっちょなわたしでも＠“理想のお姉さん”にもらったこの包丁があれば＠どんな料理だって作れる気がしてくる！＠お煮しめ、肉じゃが、きんぴらごぼう…どれから作ろうかな？",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/10/09 15:10:00"
+  },
+  {
+    "pieceId": 1264,
+    "pieceType": "SKILL",
+    "pieceName": "みんな可愛く彩って",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 728,
+    "hp": 888,
+    "skillId": 126400,
+    "pieceSkill": {
+      "id": 126400,
+      "groupId": 1169,
+      "name": "ディスクシャッフル",
+      "type": "SKILL",
+      "intervalTurn": 10,
+      "shortDescription": "再度Discを引く",
+      "messageId": 70,
+      "artId1": 700212100,
+      "art1": {
+        "artId": 700212100,
+        "verbCode": "DRAW",
+        "effectCode": "AGAIN",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 126401,
+    "pieceSkill2": {
+      "id": 126401,
+      "groupId": 1169,
+      "name": "ディスクシャッフル",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "再度Discを引く",
+      "messageId": 70,
+      "artId1": 700212100,
+      "art1": {
+        "artId": 700212100,
+        "verbCode": "DRAW",
+        "effectCode": "AGAIN",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「包丁が苦手で、まだまだお料理はへたっぴだけど、＠味付けとお弁当の詰め方は、どんどん成長してるんです！＠だから、わたしが美味しそうに、可愛く彩ってあげます＠魔女にも使い魔にも、呪いを散らしたりさせないですから！」",
+    "illustrator": "らぐほのえりか",
+    "openDate": "2018/10/09 15:10:00"
+  },
+  {
+    "pieceId": 1265,
+    "pieceType": "ABILITY",
+    "pieceName": "工匠区の人気者",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 577,
+    "defense": 0,
+    "hp": 637,
+    "skillId": 126500,
+    "pieceSkill": {
+      "id": 126500,
+      "groupId": 1155,
+      "name": "アンチ・シールマギア[Ⅶ]",
+      "type": "ABILITY",
+      "shortDescription": "確率でマギア不可無効[Ⅶ]",
+      "artId1": 690209307,
+      "art1": {
+        "artId": 690209307,
+        "verbCode": "IGNORE",
+        "effectCode": "BAN_MAGIA",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 550
+      }
+    },
+    "skillId2": 126501,
+    "pieceSkill2": {
+      "id": 126501,
+      "groupId": 1155,
+      "name": "アンチ・シールマギア",
+      "type": "ABILITY",
+      "shortDescription": "マギア不可無効",
+      "artId1": 690209300,
+      "art1": {
+        "artId": 690209300,
+        "verbCode": "IGNORE",
+        "effectCode": "BAN_MAGIA",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "いつもニコニコ笑顔で、お店をテキパキお手伝いして＠会うと元気がもらえるって評判の子は＠工匠区のお弁当屋さんにいる看板娘＠「お待たせしました！当店自慢の唐揚げ弁当ですっ！」",
+    "illustrator": "らぐほのえりか",
+    "openDate": "2018/10/09 15:10:00"
+  },
+  {
+    "pieceId": 1266,
+    "pieceType": "SKILL",
+    "pieceName": "継承される絆",
+    "attributeId": "ALL",
+    "rank": "RANK_2",
+    "attack": 0,
+    "defense": 366,
+    "hp": 446,
+    "skillId": 126600,
+    "pieceSkill": {
+      "id": 126600,
+      "groupId": 1093,
+      "name": "モラールライズ[Ⅱ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "MP獲得量UP[Ⅱ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201902,
+      "art1": {
+        "artId": 330201902,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 126601,
+    "pieceSkill2": {
+      "id": 126601,
+      "groupId": 1093,
+      "name": "モラールライズ[Ⅲ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "MP獲得量UP[Ⅲ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201903,
+      "art1": {
+        "artId": 330201903,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "がんばれた時に一緒に喜んだり、寂しい時に一緒に居たり＠わたしがお姉さんにしてもらったことを、この子にもしてあげたい＠いつかわたしを、自慢のお姉さんだって＠思ってくれたら嬉しいな…",
+    "illustrator": "―",
+    "openDate": "2018/10/09 15:10:00"
+  },
+  {
+    "pieceId": 1267,
+    "pieceType": "ABILITY",
+    "pieceName": "切り開けキュゥべえナイト",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 810,
+    "defense": 0,
+    "hp": 810,
+    "skillId": 126700,
+    "pieceSkill": {
+      "id": 126700,
+      "groupId": 1085,
+      "name": "スマイト・アデプト[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅱ] & Charge後ダメージUP[Ⅱ]",
+      "artId1": 390201102,
+      "art1": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201702,
+      "art2": {
+        "artId": 390201702,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 126701,
+    "pieceSkill2": {
+      "id": 126701,
+      "groupId": 1085,
+      "name": "スマイト・アデプト[Ⅴ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅴ] & Charge後ダメージUP[Ⅴ]",
+      "artId1": 390201105,
+      "art1": {
+        "artId": 390201105,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201705,
+      "art2": {
+        "artId": 390201705,
+        "verbCode": "BUFF",
+        "effectCode": "CHARGE",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "心に芽吹いていた不安はもう消えた＠忘れちゃいけない大切なことも思いだした＠焦らないし、不安にもならないし、怖がったりだってもうしない＠遠くても一歩ずつ近付いてみせる。“理想のお姉さん”に！",
+    "illustrator": "―",
+    "openDate": "2018/10/09 15:10:00"
+  },
+  {
+    "pieceId": 1268,
+    "pieceType": "SKILL",
+    "pieceName": "安らげる居場所",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 640,
+    "hp": 580,
+    "skillId": 126800,
+    "pieceSkill": {
+      "id": 126800,
+      "groupId": 1094,
+      "name": "クウェル・アタック[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "攻撃力DOWN[Ⅳ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302004,
+      "art1": {
+        "artId": 410302004,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "ALL",
+        "effectValue": 200,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 126801,
+    "pieceSkill2": {
+      "id": 126801,
+      "groupId": 1094,
+      "name": "クウェル・アタック[Ⅵ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "攻撃力DOWN[Ⅵ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 410302006,
+      "art1": {
+        "artId": 410302006,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "ALL",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "辛い記憶、自分の偽者、使い魔、そして魔女…＠怖い夢から目が覚めた今は、すべてが遠く彼方＠ここにいるのは強くて優しいお姉さんたち＠魔法少女になって知った、心安らげる大切な居場所",
+    "illustrator": "―",
+    "openDate": "2018/10/09 15:10:00"
   }
 ]
