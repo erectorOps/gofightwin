@@ -16181,5 +16181,439 @@
     "description": "辛い記憶、自分の偽者、使い魔、そして魔女…＠怖い夢から目が覚めた今は、すべてが遠く彼方＠ここにいるのは強くて優しいお姉さんたち＠魔法少女になって知った、心安らげる大切な居場所",
     "illustrator": "―",
     "openDate": "2018/10/09 15:10:00"
+  },
+  {
+    "pieceId": 1269,
+    "pieceType": "ABILITY",
+    "pieceName": "闇に包まれた病室",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "2007",
+    "charaList": [
+      {
+        "charaId": 2007,
+        "name": "百江 なぎさ"
+      }
+    ],
+    "attack": 428,
+    "defense": 0,
+    "hp": 508,
+    "skillId": 126900,
+    "pieceSkill": {
+      "id": 126900,
+      "groupId": 1138,
+      "name": "エスケープアーティスト[Ⅷ]",
+      "type": "ABILITY",
+      "shortDescription": "拘束無効 & 耐える & 確率でやけど無効[Ⅷ]",
+      "artId1": 690208500,
+      "art1": {
+        "artId": 690208500,
+        "verbCode": "IGNORE",
+        "effectCode": "RESTRAINT",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690207400,
+      "art2": {
+        "artId": 690207400,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "GUTS",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId3": 690208708,
+      "art3": {
+        "artId": 690208708,
+        "verbCode": "IGNORE",
+        "effectCode": "BURN",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 600
+      }
+    },
+    "skillId2": 126901,
+    "pieceSkill2": {
+      "id": 126901,
+      "groupId": 1138,
+      "name": "エスケープアーティスト",
+      "type": "ABILITY",
+      "shortDescription": "拘束無効 & やけど無効 & 耐える",
+      "artId1": 690208500,
+      "art1": {
+        "artId": 690208500,
+        "verbCode": "IGNORE",
+        "effectCode": "RESTRAINT",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 690208700,
+      "art2": {
+        "artId": 690208700,
+        "verbCode": "IGNORE",
+        "effectCode": "BURN",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId3": 690207400,
+      "art3": {
+        "artId": 690207400,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "GUTS",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "彼女の声が聞こえると、病室の空気は一段と重苦しくなる＠語られるのは、壊れた心で紡ぐ過去・現在・未来への呪詛＠だが、そんな彼女の言葉を、娘は一身に受け止める＠薄暗い病室にひとり立ち尽くして、張り付いた笑顔をたたえながら",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/10/29 15:10:00"
+  },
+  {
+    "pieceId": 1270,
+    "pieceType": "SKILL",
+    "pieceName": "なぎさが解決するのです！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 892,
+    "hp": 732,
+    "skillId": 127000,
+    "pieceSkill": {
+      "id": 127000,
+      "groupId": 1104,
+      "name": "ピーカーブー[Ⅱ]",
+      "type": "SKILL",
+      "intervalTurn": 10,
+      "shortDescription": "確率でスタン[Ⅱ](敵単/1T) & Blast ダメージDOWN[Ⅶ] & 攻撃力DOWN[Ⅲ](敵単/2T)",
+      "messageId": 72,
+      "artId1": 510004102,
+      "art1": {
+        "artId": 510004102,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "STUN",
+        "targetId": "TARGET",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 325
+      },
+      "artId2": 420002707,
+      "art2": {
+        "artId": 420002707,
+        "verbCode": "DEBUFF",
+        "effectCode": "BLAST",
+        "targetId": "TARGET",
+        "effectValue": 200,
+        "enableTurn": 2,
+        "growPoint": 25
+      },
+      "artId3": 420002003,
+      "art3": {
+        "artId": 420002003,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "TARGET",
+        "effectValue": 150,
+        "enableTurn": 2,
+        "growPoint": 25
+      },
+      "eventId": 1040,
+      "eventArtId1": 1040003,
+      "eventArt1": {
+        "artId": 1040003,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1040_KEY"
+      },
+      "eventDescription": "＆回数券＋3"
+    },
+    "skillId2": 127001,
+    "pieceSkill2": {
+      "id": 127001,
+      "groupId": 1104,
+      "name": "ピーカーブー[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "確率でスタン[Ⅳ](敵単/1T) & Blast ダメージDOWN[Ⅷ] & 攻撃力DOWN[Ⅳ](敵単/2T)",
+      "messageId": 72,
+      "artId1": 510004104,
+      "art1": {
+        "artId": 510004104,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "STUN",
+        "targetId": "TARGET",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 375
+      },
+      "artId2": 420002708,
+      "art2": {
+        "artId": 420002708,
+        "verbCode": "DEBUFF",
+        "effectCode": "BLAST",
+        "targetId": "TARGET",
+        "effectValue": 225,
+        "enableTurn": 2,
+        "growPoint": 25
+      },
+      "artId3": 420002004,
+      "art3": {
+        "artId": 420002004,
+        "verbCode": "DEBUFF",
+        "effectCode": "ATTACK",
+        "targetId": "TARGET",
+        "effectValue": 200,
+        "enableTurn": 2,
+        "growPoint": 25
+      },
+      "eventId": 1040,
+      "eventArtId1": 1040004,
+      "eventArt1": {
+        "artId": 1040004,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 7000,
+        "genericValue": "EVENT_DAILYTOWER_1040_KEY"
+      },
+      "eventDescription": "＆回数券＋7"
+    },
+    "description": "「うんうん…今、神浜が大騒ぎなのは知っているのです！＠この百江なぎさにぜーんぶお任せなのです！＠カッチコチにハードなトラブルも、チーズのようにトローッと解決！＠…って、い、今、なぎさが原因だって言ったのは誰なのです～!?」",
+    "illustrator": "谷口淳一郎",
+    "openDate": "2018/10/29 15:10:00"
+  },
+  {
+    "pieceId": 1271,
+    "pieceType": "ABILITY",
+    "pieceName": "舞い戻った少女",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 550,
+    "defense": 0,
+    "hp": 670,
+    "skillId": 127100,
+    "pieceSkill": {
+      "id": 127100,
+      "groupId": 1129,
+      "name": "リジェネレイト・ブレイド[Ⅰ]",
+      "type": "ABILITY",
+      "shortDescription": "HP自動回復[Ⅰ] &与えるダメージUP[Ⅱ]",
+      "artId1": 690207701,
+      "art1": {
+        "artId": 690207701,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 20,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 390201302,
+      "art2": {
+        "artId": 390201302,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 127101,
+    "pieceSkill2": {
+      "id": 127101,
+      "groupId": 1129,
+      "name": "リジェネレイト・ブレイド[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "HP自動回復[Ⅱ] &与えるダメージUP[Ⅲ]",
+      "artId1": 690207702,
+      "art1": {
+        "artId": 690207702,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AUTO_HEAL",
+        "targetId": "SELF",
+        "effectValue": 30,
+        "growPoint": 10,
+        "probability": 1000
+      },
+      "artId2": 390201303,
+      "art2": {
+        "artId": 390201303,
+        "verbCode": "BUFF",
+        "effectCode": "DAMAGE",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "お久しぶりに帰ってきたこの世界は＠なぎさが生きていた頃と変わったのか、変わってないのか…＠ただ、この風に乗って漂ってくる花の香り…！＠とーっても懐かしくて、思わず追いかけて走り出してしまうのです！",
+    "illustrator": "ハノカゲ",
+    "openDate": "2018/10/29 15:10:00"
+  },
+  {
+    "pieceId": 1272,
+    "pieceType": "SKILL",
+    "pieceName": "運命の結びつき",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 610,
+    "hp": 610,
+    "skillId": 127200,
+    "pieceSkill": {
+      "id": 127200,
+      "groupId": 1086,
+      "name": "ソリッドライズ[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "防御力UP[Ⅳ] & 状態異常耐性UP[Ⅲ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201204,
+      "art1": {
+        "artId": 330201204,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201503,
+      "art2": {
+        "artId": 330201503,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 127201,
+    "pieceSkill2": {
+      "id": 127201,
+      "groupId": 1086,
+      "name": "ソリッドライズ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "防御力UP[Ⅴ] & 状態異常耐性UP[Ⅳ](自/3T)",
+      "messageId": 70,
+      "artId1": 330201205,
+      "art1": {
+        "artId": 330201205,
+        "verbCode": "BUFF",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 375,
+        "enableTurn": 3,
+        "growPoint": 25
+      },
+      "artId2": 330201504,
+      "art2": {
+        "artId": 330201504,
+        "verbCode": "BUFF",
+        "effectCode": "RESIST",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 3,
+        "growPoint": 25
+      }
+    },
+    "description": "２人の間に繋がる糸は、複雑に絡み合っている＠お互いを引き寄せ、優しく穏やかな時を共有することもあれば＠お互いを引き寄せ、心を引き裂く残酷な時を共有することもある＠彼女たちに罪はなく、そこにはただ、運命だけがある",
+    "illustrator": "シャフト",
+    "openDate": "2018/10/29 15:10:00"
+  },
+  {
+    "pieceId": 1273,
+    "pieceType": "ABILITY",
+    "pieceName": "線を踏み越える",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 570,
+    "defense": 0,
+    "hp": 640,
+    "skillId": 127300,
+    "pieceSkill": {
+      "id": 127300,
+      "groupId": 1085,
+      "name": "クライシスアタック[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅱ] & 瀕死時攻撃力UP[Ⅰ]",
+      "artId1": 390201102,
+      "art1": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390202901,
+      "art2": {
+        "artId": 390202901,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "eventId": 1040,
+      "eventArtId1": 1040001,
+      "eventArt1": {
+        "artId": 1040001,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 1000,
+        "genericValue": "EVENT_DAILYTOWER_1040_KEY"
+      },
+      "eventDescription": "＆回数券＋1"
+    },
+    "skillId2": 127301,
+    "pieceSkill2": {
+      "id": 127301,
+      "groupId": 1085,
+      "name": "クライシスアタック[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅲ] & 瀕死時攻撃力UP[Ⅰ]",
+      "artId1": 390201103,
+      "art1": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390202901,
+      "art2": {
+        "artId": 390202901,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "eventId": 1040,
+      "eventArtId1": 1040002,
+      "eventArt1": {
+        "artId": 1040002,
+        "verbCode": "OTHER",
+        "effectCode": "DROPADD",
+        "effectValue": 3000,
+        "genericValue": "EVENT_DAILYTOWER_1040_KEY"
+      },
+      "eventDescription": "＆回数券＋3"
+    },
+    "description": "彼女は新しい道を歩き始めた＠複雑に交錯した想いの果てに、その一歩を踏み出した＠彼女はもう、自分で自分を押さえつけることはしない＠そう決断したから、彼女は新しい道を歩き始めた",
+    "illustrator": "いもあん",
+    "openDate": "2018/10/29 15:10:00"
   }
 ]
