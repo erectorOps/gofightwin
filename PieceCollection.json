@@ -16615,5 +16615,454 @@
     "description": "彼女は新しい道を歩き始めた＠複雑に交錯した想いの果てに、その一歩を踏み出した＠彼女はもう、自分で自分を押さえつけることはしない＠そう決断したから、彼女は新しい道を歩き始めた",
     "illustrator": "いもあん",
     "openDate": "2018/10/29 15:10:00"
+  },
+  {
+    "pieceId": 1274,
+    "pieceType": "SKILL",
+    "pieceName": "なぎさの独立宣言！",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 755,
+    "hp": 840,
+    "skillId": 127400,
+    "pieceSkill": {
+      "id": 127400,
+      "groupId": 1090,
+      "name": "アストラルアップ[Ⅲ]",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "Accele MPUP[Ⅲ] & マギアダメージUP[Ⅲ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201603,
+      "art1": {
+        "artId": 310201603,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201403,
+      "art2": {
+        "artId": 310201403,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "skillId2": 127401,
+    "pieceSkill2": {
+      "id": 127401,
+      "groupId": 1090,
+      "name": "アストラルアップ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 4,
+      "shortDescription": "Accele MPUP[Ⅴ] & マギアダメージUP[Ⅴ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201605,
+      "art1": {
+        "artId": 310201605,
+        "verbCode": "BUFF",
+        "effectCode": "ACCEL",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 310201405,
+      "art2": {
+        "artId": 310201405,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "enableTurn": 1,
+        "growPoint": 25
+      }
+    },
+    "description": "「なぎさは気付いてしまったのです！だから行動あるのみなのです！＠見る前に飛べ…考えるな、感じろ！なのです！＠ということで、お前とはここでオサラバなのです…＠そして！今からなぎさのフリーダムな時間が始まるのです～！」",
+    "illustrator": "一九十二",
+    "openDate": "2018/11/09 15:10:00"
+  },
+  {
+    "pieceId": 1275,
+    "pieceType": "SKILL",
+    "pieceName": "ふたりでふたつの夢を",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3053",
+    "charaList": [
+      {
+        "charaId": 3053,
+        "name": "牧野 郁美"
+      }
+    ],
+    "attack": 0,
+    "defense": 423,
+    "hp": 515,
+    "skillId": 127500,
+    "pieceSkill": {
+      "id": 127500,
+      "groupId": 1084,
+      "name": "レストア・ヘルス",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "状態異常解除(自)",
+      "messageId": 70,
+      "artId1": 200201000,
+      "art1": {
+        "artId": 200201000,
+        "verbCode": "REVOKE",
+        "effectCode": "BAD",
+        "targetId": "SELF",
+        "growPoint": 0
+      }
+    },
+    "skillId2": 127501,
+    "pieceSkill2": {
+      "id": 127501,
+      "groupId": 1084,
+      "name": "レストア・ヘルス",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "状態異常解除(自)",
+      "messageId": 70,
+      "artId1": 200201000,
+      "art1": {
+        "artId": 200201000,
+        "verbCode": "REVOKE",
+        "effectCode": "BAD",
+        "targetId": "SELF",
+        "growPoint": 0
+      }
+    },
+    "description": "バレーの選手になりたかった私＠アイドルになりたかったあの子＠自分の夢を叶える才を持たない私たちは互いの夢を交換した＠ふたりでふたつの夢をつかむと誓い合って",
+    "illustrator": "スミカワ",
+    "openDate": "2018/11/12 15:10:00"
+  },
+  {
+    "pieceId": 1276,
+    "pieceType": "ABILITY",
+    "pieceName": "南凪自由学園名物・観鳥報",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "3046",
+    "charaList": [
+      {
+        "charaId": 3046,
+        "name": "観鳥 令"
+      }
+    ],
+    "attack": 420,
+    "defense": 0,
+    "hp": 530,
+    "skillId": 127600,
+    "pieceSkill": {
+      "id": 127600,
+      "groupId": 1085,
+      "name": "グリッター・アデプト[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅱ] & MP獲得量UP[Ⅰ]",
+      "artId1": 390201102,
+      "art1": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201901,
+      "art2": {
+        "artId": 390201901,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 50,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 127601,
+    "pieceSkill2": {
+      "id": 127601,
+      "groupId": 1085,
+      "name": "グリッター・アデプト[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅲ] & MP獲得量UP[Ⅱ]",
+      "artId1": 390201103,
+      "art1": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201902,
+      "art2": {
+        "artId": 390201902,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "ゴシップ部…もとい新聞部の目玉・観鳥報＠隠しておきたいあんなこと、誰にも言ってないこんなこと＠どこからか嗅ぎ付け記事にしてしまうその新聞の一番人気は＠なんと、街角のネコを撮った“今日のネコ日記”だった",
+    "illustrator": "mepo",
+    "openDate": "2018/11/12 15:10:00"
+  },
+  {
+    "pieceId": 1277,
+    "pieceType": "ABILITY",
+    "pieceName": "ラブキュンなメイドさん",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 701,
+    "defense": 0,
+    "hp": 891,
+    "skillId": 127700,
+    "pieceSkill": {
+      "id": 127700,
+      "groupId": 1085,
+      "name": "クライシスブルーム[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "瀕死時攻撃力UP[Ⅲ] & 瀕死時防御力UP[Ⅲ]",
+      "artId1": 390202903,
+      "art1": {
+        "artId": 390202903,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390203003,
+      "art2": {
+        "artId": 390203003,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 400,
+        "growPoint": 20,
+        "probability": 1000
+      }
+    },
+    "skillId2": 127701,
+    "pieceSkill2": {
+      "id": 127701,
+      "groupId": 1085,
+      "name": "クライシスブルーム[Ⅳ]",
+      "type": "ABILITY",
+      "shortDescription": "瀕死時攻撃力UP[Ⅳ] & 瀕死時防御力UP[Ⅳ]",
+      "artId1": 390202904,
+      "art1": {
+        "artId": 390202904,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 250,
+        "growPoint": 20,
+        "probability": 1000
+      },
+      "artId2": 390203004,
+      "art2": {
+        "artId": 390203004,
+        "verbCode": "BUFF_DYING",
+        "effectCode": "DEFENSE",
+        "targetId": "SELF",
+        "effectValue": 500,
+        "growPoint": 20,
+        "probability": 1000
+      }
+    },
+    "description": "甘々キュンキュンなメイド服に身を包むのはアイドルメイドいくみん＠歌ってよし！踊ってよし！笑顔も一級品！＠でも、そのキャラはちょっと古臭い＠「ふえぇええん！くみのことBBAって言わないでよぉ～…！」",
+    "illustrator": "植田亮",
+    "openDate": "2018/11/12 15:10:00"
+  },
+  {
+    "pieceId": 1278,
+    "pieceType": "SKILL",
+    "pieceName": "スクープは逃さない",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "attack": 0,
+    "defense": 546,
+    "hp": 660,
+    "skillId": 127800,
+    "pieceSkill": {
+      "id": 127800,
+      "groupId": 1110,
+      "name": "フラッシュ[Ⅲ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "確率で暗闇[Ⅲ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510305303,
+      "art1": {
+        "artId": 510305303,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "DARKNESS",
+        "targetId": "ALL",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 350
+      }
+    },
+    "skillId2": 127801,
+    "pieceSkill2": {
+      "id": 127801,
+      "groupId": 1110,
+      "name": "フラッシュ[Ⅳ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "確率で暗闇[Ⅳ](敵全/1T)",
+      "messageId": 72,
+      "artId1": 510305304,
+      "art1": {
+        "artId": 510305304,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "DARKNESS",
+        "targetId": "ALL",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 375
+      }
+    },
+    "description": "誰も観鳥さんのカメラからは逃げられない＠それは願いであり、観鳥さんの矜持でもある＠事実としてレンズに収め、記事にする＠そこにあるのは善か悪かではなく、真実を届けるという執念だけ",
+    "illustrator": "凪良",
+    "openDate": "2018/11/12 15:10:00"
+  },
+  {
+    "pieceId": 1279,
+    "pieceType": "ABILITY",
+    "pieceName": "それぞれが行く場所",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 756,
+    "defense": 0,
+    "hp": 843,
+    "skillId": 127900,
+    "pieceSkill": {
+      "id": 127900,
+      "groupId": 1135,
+      "name": "イグノア・カウンター[Ⅴ]",
+      "type": "ABILITY",
+      "shortDescription": "確率でカウンター無効[Ⅴ] & 攻撃力UP[Ⅱ]",
+      "artId1": 690208205,
+      "art1": {
+        "artId": 690208205,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 450
+      },
+      "artId2": 390201102,
+      "art2": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 127901,
+    "pieceSkill2": {
+      "id": 127901,
+      "groupId": 1135,
+      "name": "イグノア・カウンター",
+      "type": "ABILITY",
+      "shortDescription": "カウンター無効 & 攻撃力UP[Ⅱ]",
+      "artId1": 690208200,
+      "art1": {
+        "artId": 690208200,
+        "verbCode": "IGNORE",
+        "effectCode": "COUNTER",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      },
+      "artId2": 390201102,
+      "art2": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "希望を願ったから、その希望を利用されたから、目を瞑れなかった＠許せなかったから、静かに牙を剥くことにした＠きっと近いうちに、悔しさで胸が詰まるかもしれない＠その時は恨むけど、今日この瞬間は決して後悔しないだろう",
+    "illustrator": "―",
+    "openDate": "2018/11/12 15:10:00"
+  },
+  {
+    "pieceId": 1280,
+    "pieceType": "SKILL",
+    "pieceName": "繋がれる場所",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 768,
+    "hp": 852,
+    "skillId": 128000,
+    "pieceSkill": {
+      "id": 128000,
+      "groupId": 1108,
+      "name": "カース",
+      "type": "SKILL",
+      "intervalTurn": 5,
+      "shortDescription": "呪い(敵単/1T)",
+      "artId1": 510005000,
+      "art1": {
+        "artId": 510005000,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CURSE",
+        "targetId": "TARGET",
+        "effectValue": 150,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 128001,
+    "pieceSkill2": {
+      "id": 128001,
+      "groupId": 1108,
+      "name": "カース",
+      "type": "SKILL",
+      "intervalTurn": 4,
+      "shortDescription": "呪い(敵単/1T)",
+      "artId1": 510005000,
+      "art1": {
+        "artId": 510005000,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "CURSE",
+        "targetId": "TARGET",
+        "effectValue": 150,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "魔法少女の宿命は、いつでも彼女たちを呑み込むことができる＠押さえ付けて溺れさせて、見えない闇の淵に引きずり混んで…＠鮮明に浮かぶ光景は、激しく離れがたく縋り付きたい場所＠それがないから、彼女はひとり焦り続ける",
+    "illustrator": "―",
+    "openDate": "2018/11/12 15:10:00"
   }
 ]
