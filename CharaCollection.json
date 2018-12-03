@@ -50266,6 +50266,699 @@
     ]
   },
   {
+    "charaId": 4042,
+    "chara": {
+      "id": 4042,
+      "name": "八九寺 真宵",
+      "kana": "はちくじ まよい",
+      "attributeId": "WATER",
+      "attackType": 1,
+      "initialType": "DEFENSE",
+      "growthType": "DEFENSE",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
+      "defaultCardId": 40424,
+      "defaultCard": {
+        "cardId": 40424,
+        "rank": "RANK_4",
+        "attributeId": "WATER",
+        "initialType": "DEFENSE",
+        "growthType": "DEFENSE",
+        "attack": 1594,
+        "defense": 2326,
+        "hp": 6074,
+        "miniCharaNo": 404200,
+        "charaNo": 4042,
+        "cardName": "八九寺 真宵"
+      },
+      "evolutionCardId1": 40425,
+      "evolutionCard1": {
+        "cardId": 40425,
+        "rank": "RANK_5",
+        "attributeId": "WATER",
+        "initialType": "DEFENSE",
+        "growthType": "DEFENSE",
+        "attack": 1805,
+        "defense": 2638,
+        "hp": 6777,
+        "miniCharaNo": 404200,
+        "charaNo": 4042,
+        "cardName": "八九寺 真宵"
+      },
+      "doppelCharaNo": 404200,
+      "doppel": {
+        "id": 404200,
+        "name": "迷子のドッペル",
+        "title": "その姿は、迷い牛",
+        "description": "この感情の主は、母親の家に帰ることのみを祈念する。＠一方、このドッペルは自身を主の本当の母親であると思い込んでおり、待ち受ける残酷な運命から主を守るため、前方に多数の時空渦を出現させ、その帰路を阻む。＠運悪く渦動に巻き込まれた者は、ドッペル本体に轢き殺され、生と死の狭間で永遠の迷子となる宿命を負う。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2018/11/26 15:10:00"
+      },
+      "firstMagiaGiftId1": 221,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 305,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 222,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 403,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 223,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 552,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 221,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 304,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 222,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 402,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 223,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 506,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 221,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 306,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 222,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 407,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 223,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 554,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 221,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 301,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 222,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 504,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 223,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 553,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 552,
+        "name": "立ち耳の綿",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 304,
+        "name": "羊の角笛",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 402,
+        "name": "南京錠の鎖",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 506,
+        "name": "キュレーターのフード",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 306,
+        "name": "振子のネジ",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 407,
+        "name": "マスコットのタテガミ",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 554,
+        "name": "屋上のバルーン",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 221,
+        "name": "アクアブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 301,
+        "name": "燕尾の羽",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 504,
+        "name": "リュトンのリボン",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "description": "迷宮の魔法少女。もしも〈物語〉シリーズのヒロインたちが魔法少女になったら…という「if」の姿。防御に秀で、敵の攻撃は道に迷ったように彼女を避ける。なぜか、どうしても母親の家に辿り着けないでいる。願いごとは「家に帰りたい」。",
+      "school": "―",
+      "designer": "渡辺明夫",
+      "voiceActor": "加藤英美里",
+      "openDate": "2018/11/26 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 4042,
+          "messageId": 6,
+          "message": "夢を食べる動物、それは人間ですよ"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 7,
+          "message": "水臭いですっ！近寄らないでくださいっ！"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 8,
+          "message": "失礼。噛みました。噛みまみた"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 9,
+          "message": "都合が悪いことは全て忘れられますから"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 10,
+          "message": "この程度、日常自販機なんですからっ！"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 11,
+          "message": "どっちが悪いかなんて問題ではありませんっ"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 12,
+          "message": "どっちが悪いかなんて問題ではありませんっ"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 43,
+          "message": "邪魔者は消えました"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 44,
+          "message": "帰りましょう…帰れる保証はありませんが"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 45,
+          "message": "可愛い迷子には旅をさせよ、です"
+        },
+        {
+          "charaNo": 4042,
+          "messageId": 46,
+          "message": "いつになったら帰れるのでしょう？"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 40424,
+        "card": {
+          "cardId": 40424,
+          "charaNo": 4042,
+          "miniCharaNo": 404200,
+          "magiaCharaNo": 404200,
+          "cardName": "八九寺 真宵",
+          "rank": "RANK_4",
+          "attributeId": "WATER",
+          "initialType": "DEFENSE",
+          "growthType": "DEFENSE",
+          "attack": 1594,
+          "defense": 2326,
+          "hp": 6074,
+          "rateGainMpAtk": 800,
+          "rateGainMpDef": 1000,
+          "magiaId": 40424,
+          "cardMagia": {
+            "id": 40424,
+            "groupId": 1067,
+            "name": "螺旋帰道",
+            "shortDescription": "敵単体にダメージ[Ⅴ]&低HPほど威力UP&防御力UP(全/3T)&ダメージカット無視(自/3T)",
+            "artId1": 100000305,
+            "art1": {
+              "artId": 100000305,
+              "verbCode": "ATTACK",
+              "effectCode": "LINKED_DAMAGE",
+              "targetId": "TARGET",
+              "effectValue": 5400,
+              "growPoint": 100,
+              "parameter": 5400
+            },
+            "artId2": 330301203,
+            "art2": {
+              "artId": 330301203,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 630216515,
+            "art3": {
+              "artId": 630216515,
+              "verbCode": "IGNORE",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "SELF",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 40424,
+          "cardSkill": {
+            "id": 40424,
+            "groupId": 1085,
+            "name": "失礼。噛みました",
+            "shortDescription": "攻撃力UP[Ⅶ] & ダメージカット無視 & 確率で防御無視",
+            "artId1": 310401107,
+            "art1": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610416515,
+            "art2": {
+              "artId": 610416515,
+              "verbCode": "IGNORE",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 610406607,
+            "art3": {
+              "artId": 610406607,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DEFENSE_IGNORED",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 600
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "illustrator": "いもあん",
+          "cardCustomize": {
+            "cardId": 40424,
+            "giftId1": 122,
+            "gift1": {
+              "id": 122,
+              "name": "アクアオーブ＋",
+              "attributeId": "WATER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 12,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 40,
+            "giftId2": 551,
+            "gift2": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum2": 3,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 80,
+            "giftId3": 123,
+            "gift3": {
+              "id": 123,
+              "name": "アクアオーブ＋＋",
+              "attributeId": "WATER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 6,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 404,
+            "gift4": {
+              "id": 404,
+              "name": "オウルのバケツ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 302,
+            "gift5": {
+              "id": 302,
+              "name": "鏡の招待状",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum5": 12,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 40,
+            "giftId6": 503,
+            "gift6": {
+              "id": 503,
+              "name": "マチビト馬の車輪",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 6,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 60
+          }
+        }
+      },
+      {
+        "cardId": 40425,
+        "card": {
+          "cardId": 40425,
+          "charaNo": 4042,
+          "miniCharaNo": 404200,
+          "magiaCharaNo": 404200,
+          "cardName": "八九寺 真宵",
+          "rank": "RANK_5",
+          "attributeId": "WATER",
+          "initialType": "DEFENSE",
+          "growthType": "DEFENSE",
+          "attack": 1805,
+          "defense": 2638,
+          "hp": 6777,
+          "rateGainMpAtk": 800,
+          "rateGainMpDef": 1000,
+          "magiaId": 40425,
+          "cardMagia": {
+            "id": 40425,
+            "groupId": 1067,
+            "name": "螺旋帰道",
+            "shortDescription": "敵単体にダメージ[Ⅶ]&低HPほど威力UP&防御力UP(全/3T)&ダメージカット無視&HP回復(自)",
+            "artId1": 100000307,
+            "art1": {
+              "artId": 100000307,
+              "verbCode": "ATTACK",
+              "effectCode": "LINKED_DAMAGE",
+              "targetId": "TARGET",
+              "effectValue": 5800,
+              "growPoint": 100,
+              "parameter": 5800
+            },
+            "artId2": 330301205,
+            "art2": {
+              "artId": 330301205,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "ALL",
+              "effectValue": 375,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 630216515,
+            "art3": {
+              "artId": 630216515,
+              "verbCode": "IGNORE",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "SELF",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 200200407,
+            "art4": {
+              "artId": 200200407,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "SELF",
+              "effectValue": 450,
+              "growPoint": 20
+            }
+          },
+          "doppelMagiaId": 40428,
+          "doppelCardMagia": {
+            "id": 40428,
+            "groupId": 1067,
+            "name": "迷子のドッペル",
+            "shortDescription": "敵単体にダメージ[Ⅸ]&低HPほど威力UP&防御力UP(全/3T)&ダメージカット無視&HP回復(自)",
+            "artId1": 190404281,
+            "art1": {
+              "artId": 190404281,
+              "verbCode": "ATTACK",
+              "effectCode": "LINKED_DAMAGE",
+              "targetId": "TARGET",
+              "effectValue": 14500,
+              "growPoint": 220,
+              "parameter": 5800
+            },
+            "artId2": 330301207,
+            "art2": {
+              "artId": 330301207,
+              "verbCode": "BUFF",
+              "effectCode": "DEFENSE",
+              "targetId": "ALL",
+              "effectValue": 450,
+              "enableTurn": 3,
+              "growPoint": 25
+            },
+            "artId3": 630216515,
+            "art3": {
+              "artId": 630216515,
+              "verbCode": "IGNORE",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "SELF",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 200200409,
+            "art4": {
+              "artId": 200200409,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "SELF",
+              "effectValue": 500,
+              "growPoint": 20
+            }
+          },
+          "skillId": 40425,
+          "cardSkill": {
+            "id": 40425,
+            "groupId": 1085,
+            "name": "失礼。噛みました",
+            "shortDescription": "攻撃力UP[Ⅸ] & ダメージカット無視 & 防御無視",
+            "artId1": 310401109,
+            "art1": {
+              "artId": 310401109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 610416515,
+            "art2": {
+              "artId": 610416515,
+              "verbCode": "IGNORE",
+              "effectCode": "DAMAGE_DOWN",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 610406700,
+            "art3": {
+              "artId": 610406700,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DEFENSE_IGNORED",
+              "targetId": "CONNECT",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "illustrator": "渡辺明夫",
+          "cardCustomize": {
+            "cardId": 40425,
+            "giftId1": 122,
+            "gift1": {
+              "id": 122,
+              "name": "アクアオーブ＋",
+              "attributeId": "WATER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 50,
+            "giftId2": 551,
+            "gift2": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum2": 3,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 90,
+            "giftId3": 123,
+            "gift3": {
+              "id": 123,
+              "name": "アクアオーブ＋＋",
+              "attributeId": "WATER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 70,
+            "giftId4": 506,
+            "gift4": {
+              "id": 506,
+              "name": "キュレーターのフード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 10,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 402,
+            "gift5": {
+              "id": 402,
+              "name": "南京錠の鎖",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum5": 15,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 50,
+            "giftId6": 556,
+            "gift6": {
+              "id": 556,
+              "name": "子守の取っ手",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/05/07 16:00:00"
+            },
+            "giftNum6": 8,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 70
+          }
+        }
+      }
+    ]
+  },
+  {
     "charaId": 4044,
     "chara": {
       "id": 4044,
@@ -50943,6 +51636,711 @@
             "giftNum6": 8,
             "bonusCode6": "CHARGE",
             "bonusNum6": 70
+          }
+        }
+      }
+    ]
+  },
+  {
+    "charaId": 4045,
+    "chara": {
+      "id": 4045,
+      "name": "羽川 翼",
+      "kana": "はねかわ つばさ",
+      "attributeId": "FIRE",
+      "attackType": 3,
+      "initialType": "SUPPORT",
+      "growthType": "BALANCE",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
+      "defaultCardId": 40454,
+      "defaultCard": {
+        "cardId": 40454,
+        "rank": "RANK_4",
+        "attributeId": "FIRE",
+        "initialType": "SUPPORT",
+        "growthType": "BALANCE",
+        "attack": 1769,
+        "defense": 1750,
+        "hp": 6323,
+        "miniCharaNo": 404500,
+        "charaNo": 4045,
+        "cardName": "羽川 翼"
+      },
+      "evolutionCardId1": 40455,
+      "evolutionCard1": {
+        "cardId": 40455,
+        "rank": "RANK_5",
+        "attributeId": "FIRE",
+        "initialType": "SUPPORT",
+        "growthType": "BALANCE",
+        "attack": 2009,
+        "defense": 1988,
+        "hp": 7177,
+        "miniCharaNo": 404500,
+        "charaNo": 4045,
+        "cardName": "羽川 翼"
+      },
+      "doppelCharaNo": 404500,
+      "doppel": {
+        "id": 404500,
+        "name": "焦心のドッペル",
+        "title": "その姿は、ふたつの影",
+        "description": "この感情の主は巨大な苦悩の行く先として己の影たる２体のドッペルを生み出した。＠影のひとつ、障り猫は接触した対象から力を吸い尽くし、＠影のひとつ、苛虎は嫉妬の炎で全てを灰に変える。＠ふたつの影は、正しく在ろうとするあまり主に切り離された負の感情の具現であり、主に必要とされてここに在る。＠影をふたつ召喚するたびに、大切な想いもまたふたつ失われるが、主がそれを後悔することはないだろう。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2018/12/03 15:10:00"
+      },
+      "firstMagiaGiftId1": 211,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 301,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 212,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 404,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 213,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 554,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 211,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 302,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 212,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 403,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 213,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 553,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 211,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 305,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 212,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 403,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 213,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 503,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 211,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 307,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 212,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 508,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 213,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 555,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 301,
+        "name": "燕尾の羽",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 554,
+        "name": "屋上のバルーン",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 553,
+        "name": "羊の角",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 403,
+        "name": "絵馬の水引",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 307,
+        "name": "子守の台座",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 508,
+        "name": "スピーカーのベル",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 555,
+        "name": "振子の重心",
+        "rank": 3
+      },
+      "description": "記憶の魔法少女。もしも〈物語〉シリーズのヒロインたちが魔法少女になったら…という「if」の姿。火炎瓶で何かを燃やすたびに記憶を失うが、学年トップの頭脳は常に新しい記憶を蓄積し続けている。願いごとは「全部忘れてしまいたい」。",
+      "school": "私立直江津高校",
+      "designer": "渡辺明夫",
+      "voiceActor": "堀江由衣",
+      "openDate": "2018/12/03 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 4045,
+          "messageId": 6,
+          "message": "何でもは知らないわよ。知ってることだけ"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 7,
+          "message": "女の子の届け物です"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 8,
+          "message": "これは予想外の展開だよ"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 9,
+          "message": "私の番号とメルアド、登録しといたから"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 10,
+          "message": "本当の私を知ったら、きっと幻滅するよ"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 11,
+          "message": "ただの足し算でしょ、こんなの"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 12,
+          "message": "私、卒業したら旅に出るの"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 43,
+          "message": "はー、すっきりしたー！"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 44,
+          "message": "満点の出来だったね"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 45,
+          "message": "…どう、反省した？"
+        },
+        {
+          "charaNo": 4045,
+          "messageId": 46,
+          "message": "ミッションコンプリートだね"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 40454,
+        "card": {
+          "cardId": 40454,
+          "charaNo": 4045,
+          "miniCharaNo": 404500,
+          "magiaCharaNo": 404500,
+          "cardName": "羽川 翼",
+          "rank": "RANK_4",
+          "attributeId": "FIRE",
+          "initialType": "SUPPORT",
+          "growthType": "BALANCE",
+          "attack": 1769,
+          "defense": 1750,
+          "hp": 6323,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 40454,
+          "cardMagia": {
+            "id": 40454,
+            "groupId": 1014,
+            "name": "シャンプ・ファイア",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力DOWN(全/2T) & 状態強化解除 & MPダメージ(全)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 420302003,
+            "art2": {
+              "artId": 420302003,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 200300900,
+            "art3": {
+              "artId": 200300900,
+              "verbCode": "REVOKE",
+              "effectCode": "GOOD",
+              "targetId": "ALL",
+              "growPoint": 0
+            },
+            "artId4": 200316401,
+            "art4": {
+              "artId": 200316401,
+              "verbCode": "HEAL",
+              "effectCode": "MP_DAMAGE",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "growPoint": 0
+            }
+          },
+          "skillId": 40454,
+          "cardSkill": {
+            "id": 40454,
+            "groupId": 1082,
+            "name": "友達、できちゃったね",
+            "shortDescription": "デバフ解除 & 攻撃力UP[Ⅶ] & 必ずやけど",
+            "artId1": 200400800,
+            "art1": {
+              "artId": 200400800,
+              "verbCode": "REVOKE",
+              "effectCode": "DEBUFF",
+              "targetId": "CONNECT",
+              "growPoint": 0
+            },
+            "artId2": 310401107,
+            "art2": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610410300,
+            "art3": {
+              "artId": 610410300,
+              "verbCode": "ENCHANT",
+              "effectCode": "BURN",
+              "targetId": "CONNECT",
+              "effectValue": 100,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "MPUP",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ササギコウシ",
+          "cardCustomize": {
+            "cardId": 40454,
+            "giftId1": 112,
+            "gift1": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 12,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 50,
+            "giftId2": 113,
+            "gift2": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 6,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 80,
+            "giftId4": 553,
+            "gift4": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 80,
+            "giftId5": 405,
+            "gift5": {
+              "id": 405,
+              "name": "メールのグライダー",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 40,
+            "giftId6": 305,
+            "gift6": {
+              "id": 305,
+              "name": "屋上の鍵",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 40455,
+        "card": {
+          "cardId": 40455,
+          "charaNo": 4045,
+          "miniCharaNo": 404500,
+          "magiaCharaNo": 404500,
+          "cardName": "羽川 翼",
+          "rank": "RANK_5",
+          "attributeId": "FIRE",
+          "initialType": "SUPPORT",
+          "growthType": "BALANCE",
+          "attack": 2009,
+          "defense": 1988,
+          "hp": 7177,
+          "rateGainMpAtk": 1200,
+          "rateGainMpDef": 1000,
+          "magiaId": 40455,
+          "cardMagia": {
+            "id": 40455,
+            "groupId": 1014,
+            "name": "シャンプ・ファイア",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力DOWN(全/2T) & 状態強化解除 & MPダメージ(全) & MP回復(自)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 420302004,
+            "art2": {
+              "artId": 420302004,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 200300900,
+            "art3": {
+              "artId": 200300900,
+              "verbCode": "REVOKE",
+              "effectCode": "GOOD",
+              "targetId": "ALL",
+              "growPoint": 0
+            },
+            "artId4": 200316402,
+            "art4": {
+              "artId": 200316402,
+              "verbCode": "HEAL",
+              "effectCode": "MP_DAMAGE",
+              "targetId": "ALL",
+              "effectValue": 350,
+              "growPoint": 0
+            },
+            "artId5": 200200503,
+            "art5": {
+              "artId": 200200503,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "SELF",
+              "effectValue": 250,
+              "growPoint": 10
+            }
+          },
+          "doppelMagiaId": 40458,
+          "doppelCardMagia": {
+            "id": 40458,
+            "groupId": 1014,
+            "name": "焦心のドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力DOWN(全/2T) & 状態強化解除 & MPダメージ(全) & MP回復(自)",
+            "artId1": 190404581,
+            "art1": {
+              "artId": 190404581,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 420302006,
+            "art2": {
+              "artId": 420302006,
+              "verbCode": "DEBUFF",
+              "effectCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 2,
+              "growPoint": 25
+            },
+            "artId3": 200300900,
+            "art3": {
+              "artId": 200300900,
+              "verbCode": "REVOKE",
+              "effectCode": "GOOD",
+              "targetId": "ALL",
+              "growPoint": 0
+            },
+            "artId4": 200316407,
+            "art4": {
+              "artId": 200316407,
+              "verbCode": "HEAL",
+              "effectCode": "MP_DAMAGE",
+              "targetId": "ALL",
+              "effectValue": 600,
+              "growPoint": 0
+            },
+            "artId5": 200200505,
+            "art5": {
+              "artId": 200200505,
+              "verbCode": "HEAL",
+              "effectCode": "MP",
+              "targetId": "SELF",
+              "effectValue": 300,
+              "growPoint": 10
+            }
+          },
+          "skillId": 40455,
+          "cardSkill": {
+            "id": 40455,
+            "groupId": 1082,
+            "name": "友達、できちゃったね",
+            "shortDescription": "デバフ解除 & 攻撃力UP[Ⅸ] & 必ずやけど",
+            "artId1": 200400800,
+            "art1": {
+              "artId": 200400800,
+              "verbCode": "REVOKE",
+              "effectCode": "DEBUFF",
+              "targetId": "CONNECT",
+              "growPoint": 0
+            },
+            "artId2": 310401109,
+            "art2": {
+              "artId": 310401109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610410300,
+            "art3": {
+              "artId": 610410300,
+              "verbCode": "ENCHANT",
+              "effectCode": "BURN",
+              "targetId": "CONNECT",
+              "effectValue": 100,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "MPUP",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "渡辺明夫",
+          "cardCustomize": {
+            "cardId": 40455,
+            "giftId1": 112,
+            "gift1": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum1": 15,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 113,
+            "gift2": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 551,
+            "gift3": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum3": 3,
+            "bonusCode3": "HP",
+            "bonusNum3": 90,
+            "giftId4": 552,
+            "gift4": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 90,
+            "giftId5": 555,
+            "gift5": {
+              "id": 555,
+              "name": "振子の重心",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 50,
+            "giftId6": 406,
+            "gift6": {
+              "id": 406,
+              "name": "スタッフのキースイッチ",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
           }
         }
       }

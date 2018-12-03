@@ -9295,7 +9295,7 @@
       "name": "アディクトスレイヤー[Ⅴ]",
       "type": "SKILL",
       "intervalTurn": 9,
-      "shortDescription": "ダメージアップ状態[Ⅴ]&敵状態異常時ダメージUP[V](自/1T)",
+      "shortDescription": "ダメージアップ状態[Ⅴ]&敵状態異常時ダメージUP[Ⅴ](自/1T)",
       "messageId": 70,
       "artId1": 610206105,
       "art1": {
@@ -16686,7 +16686,7 @@
       }
     },
     "description": "「なぎさは気付いてしまったのです！だから行動あるのみなのです！＠見る前に飛べ…考えるな、感じろ！なのです！＠ということで、お前とはここでオサラバなのです…＠そして！今からなぎさのフリーダムな時間が始まるのです～！」",
-    "illustrator": "一九十二",
+    "illustrator": "一十九二",
     "openDate": "2018/11/09 15:10:00"
   },
   {
@@ -17061,8 +17061,430 @@
         "probability": 1000
       }
     },
-    "description": "魔法少女の宿命は、いつでも彼女たちを呑み込むことができる＠押さえ付けて溺れさせて、見えない闇の淵に引きずり混んで…＠鮮明に浮かぶ光景は、激しく離れがたく縋り付きたい場所＠それがないから、彼女はひとり焦り続ける",
+    "description": "魔法少女の宿命は、いつでも彼女たちを呑み込むことができる＠押さえ付けて溺れさせて、見えない闇の淵に引きずり込んで…＠鮮明に浮かぶ光景は、激しく離れがたく縋り付きたい場所＠それがないから、彼女はひとり焦り続ける",
     "illustrator": "―",
     "openDate": "2018/11/12 15:10:00"
+  },
+  {
+    "pieceId": 1281,
+    "pieceType": "SKILL",
+    "pieceName": "まいまいアットホーム",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4042",
+    "charaList": [
+      {
+        "charaId": 4042,
+        "name": "八九寺 真宵"
+      }
+    ],
+    "attack": 0,
+    "defense": 470,
+    "hp": 470,
+    "skillId": 128100,
+    "pieceSkill": {
+      "id": 128100,
+      "groupId": 1124,
+      "name": "パリィ",
+      "type": "SKILL",
+      "intervalTurn": 10,
+      "shortDescription": "回避(自/1T)",
+      "messageId": 70,
+      "artId1": 610206900,
+      "art1": {
+        "artId": 610206900,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 128101,
+    "pieceSkill2": {
+      "id": 128101,
+      "groupId": 1124,
+      "name": "パリィ",
+      "type": "SKILL",
+      "intervalTurn": 8,
+      "shortDescription": "回避(自/1T)",
+      "messageId": 70,
+      "artId1": 610206900,
+      "art1": {
+        "artId": 610206900,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "AVOID",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「五年三組　八九寺真宵」と記された＠大きなリュックサックを背負って＠彼女は今日も母親の家を目指して歩く＠決してたどり着くことのない、その家を",
+    "illustrator": "都筑禰己",
+    "openDate": "2018/11/26 15:10:00"
+  },
+  {
+    "pieceId": 1282,
+    "pieceType": "ABILITY",
+    "pieceName": "神に選ばれた委員長",
+    "attributeId": "ALL",
+    "rank": "RANK_3",
+    "charaIds": "4045",
+    "charaList": [
+      {
+        "charaId": 4045,
+        "name": "羽川 翼"
+      }
+    ],
+    "attack": 430,
+    "defense": 0,
+    "hp": 510,
+    "skillId": 128200,
+    "pieceSkill": {
+      "id": 128200,
+      "groupId": 1093,
+      "name": "クレバー・アデプト[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "MP獲得量UP[Ⅱ] & 弱点属性で攻撃されたときMPUP[Ⅰ]",
+      "artId1": 390201902,
+      "art1": {
+        "artId": 390201902,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 75,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690207901,
+      "art2": {
+        "artId": 690207901,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "MP_PLUS_WEAKED",
+        "targetId": "SELF",
+        "effectValue": 20,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "skillId2": 128201,
+    "pieceSkill2": {
+      "id": 128201,
+      "groupId": 1093,
+      "name": "クレバー・アデプト[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]",
+      "artId1": 390201903,
+      "art1": {
+        "artId": 390201903,
+        "verbCode": "BUFF",
+        "effectCode": "MP_GAIN",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690207901,
+      "art2": {
+        "artId": 690207901,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "MP_PLUS_WEAKED",
+        "targetId": "SELF",
+        "effectValue": 20,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "究極の優等生、委員長の中の委員長…＠クラスメイトに選ばれたのではなく＠神に選ばれた委員長とさえ噂する者もいるという彼女にとって＠三つ編み、眼鏡はもちろん標準装備",
+    "illustrator": "mepo",
+    "openDate": "2018/12/03 15:10:00"
+  },
+  {
+    "pieceId": 1283,
+    "pieceType": "ABILITY",
+    "pieceName": "いなくなったりはしませんよ",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 761,
+    "defense": 0,
+    "hp": 841,
+    "skillId": 128300,
+    "pieceSkill": {
+      "id": 128300,
+      "groupId": 1085,
+      "name": "スネイル・アドバンテージ[Ⅱ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅱ] & 確率で魅了無効[Ⅶ]",
+      "artId1": 390201102,
+      "art1": {
+        "artId": 390201102,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690208307,
+      "art2": {
+        "artId": 690208307,
+        "verbCode": "IGNORE",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 550
+      }
+    },
+    "skillId2": 128301,
+    "pieceSkill2": {
+      "id": 128301,
+      "groupId": 1085,
+      "name": "スネイル・アドバンテージ[Ⅳ]",
+      "type": "ABILITY",
+      "shortDescription": "攻撃力UP[Ⅳ] & 魅了無効",
+      "artId1": 390201104,
+      "art1": {
+        "artId": 390201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 690208300,
+      "art2": {
+        "artId": 690208300,
+        "verbCode": "IGNORE",
+        "effectCode": "CHARM",
+        "targetId": "SELF",
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「わたしがこの町にい続けていることには、＠きっとちゃんとした意味があるのです＠その意味がわかるまでは、＠わたしはいなくなったりはしませんよ」",
+    "illustrator": "―",
+    "openDate": "2018/11/26 15:10:00"
+  },
+  {
+    "pieceId": 1284,
+    "pieceType": "SKILL",
+    "pieceName": "メルアド、登録しといたから",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 801,
+    "hp": 801,
+    "skillId": 128400,
+    "pieceSkill": {
+      "id": 128400,
+      "groupId": 1088,
+      "name": "ウィズダムアップ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "マギアダメージUP[Ⅴ] & 確率でスキルクイック[Ⅴ](自/1T)",
+      "messageId": 70,
+      "artId1": 310201405,
+      "art1": {
+        "artId": 310201405,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 9377,
+      "art2": {
+        "artId": 9377,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "SKILL_QUICK",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 400
+      }
+    },
+    "skillId2": 128401,
+    "pieceSkill2": {
+      "id": 128401,
+      "groupId": 1088,
+      "name": "ウィズダムアップ[Ⅷ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "マギアダメージUP[Ⅷ] & スキルクイック(自/1T)",
+      "messageId": 70,
+      "artId1": 310201408,
+      "art1": {
+        "artId": 310201408,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 225,
+        "enableTurn": 1,
+        "growPoint": 25
+      },
+      "artId2": 610207800,
+      "art2": {
+        "artId": 610207800,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "SKILL_QUICK",
+        "targetId": "SELF",
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 1000
+      }
+    },
+    "description": "「何で友達、作らないの？＠ふうん…じゃ、携帯持ってる？貸して？＠…私の番号とメルアド、登録しといたから＠ざーんねん、友達、できちゃったね」",
+    "illustrator": "―",
+    "openDate": "2018/11/26 15:10:00"
+  },
+  {
+    "pieceId": 1285,
+    "pieceType": "SKILL",
+    "pieceName": "迷子は日常自販機",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 0,
+    "defense": 849,
+    "hp": 769,
+    "skillId": 128500,
+    "pieceSkill": {
+      "id": 128500,
+      "groupId": 1109,
+      "name": "イアリー・フォッグ[Ⅴ]",
+      "type": "SKILL",
+      "intervalTurn": 7,
+      "shortDescription": "確率で霧[Ⅴ](敵全/1T) & 敵状態異常時ダメージUP[Ⅳ](自/1T)",
+      "messageId": 72,
+      "artId1": 510305105,
+      "art1": {
+        "artId": 510305105,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "FOG",
+        "targetId": "ALL",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 400
+      },
+      "artId2": 610214604,
+      "art2": {
+        "artId": 610214604,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP_BAD",
+        "targetId": "SELF",
+        "effectValue": 300,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 128501,
+    "pieceSkill2": {
+      "id": 128501,
+      "groupId": 1109,
+      "name": "イアリー・フォッグ[Ⅶ]",
+      "type": "SKILL",
+      "intervalTurn": 6,
+      "shortDescription": "確率で霧[Ⅶ](敵全/1T) & 敵状態異常時ダメージUP[Ⅴ](自/1T)",
+      "messageId": 72,
+      "artId1": 510305107,
+      "art1": {
+        "artId": 510305107,
+        "verbCode": "CONDITION_BAD",
+        "effectCode": "FOG",
+        "targetId": "ALL",
+        "effectValue": 250,
+        "enableTurn": 1,
+        "growPoint": 0,
+        "probability": 450
+      },
+      "artId2": 610214605,
+      "art2": {
+        "artId": 610214605,
+        "verbCode": "CONDITION_GOOD",
+        "effectCode": "DAMAGE_UP_BAD",
+        "targetId": "SELF",
+        "effectValue": 350,
+        "enableTurn": 1,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「さあ、今日も頑張って迷子をエンジョイします！＠…なんてことは決して思っていませんが＠何度迷子になろうとも、いつか家にたどり着いてみせます＠わたしにとってはこの程度、日常自販機なんですからっ！」",
+    "illustrator": "渡辺明夫",
+    "openDate": "2018/11/26 15:10:00"
+  },
+  {
+    "pieceId": 1286,
+    "pieceType": "ABILITY",
+    "pieceName": "公平すぎる味覚",
+    "attributeId": "ALL",
+    "rank": "RANK_4",
+    "attack": 729,
+    "defense": 0,
+    "hp": 889,
+    "skillId": 128600,
+    "pieceSkill": {
+      "id": 128600,
+      "groupId": 1088,
+      "name": "フィーライン・ロバストネス[Ⅲ]",
+      "type": "ABILITY",
+      "shortDescription": "マギアダメージUP[Ⅲ] & 攻撃力UP[Ⅲ]",
+      "artId1": 390201403,
+      "art1": {
+        "artId": 390201403,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 100,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201103,
+      "art2": {
+        "artId": 390201103,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 150,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "skillId2": 128601,
+    "pieceSkill2": {
+      "id": 128601,
+      "groupId": 1088,
+      "name": "フィーライン・ロバストネス[Ⅳ]",
+      "type": "ABILITY",
+      "shortDescription": "マギアダメージUP[Ⅳ] & 攻撃力UP[Ⅳ]",
+      "artId1": 390201404,
+      "art1": {
+        "artId": 390201404,
+        "verbCode": "BUFF",
+        "effectCode": "MAGIA",
+        "targetId": "SELF",
+        "effectValue": 125,
+        "growPoint": 25,
+        "probability": 1000
+      },
+      "artId2": 390201104,
+      "art2": {
+        "artId": 390201104,
+        "verbCode": "BUFF",
+        "effectCode": "ATTACK",
+        "targetId": "SELF",
+        "effectValue": 200,
+        "growPoint": 25,
+        "probability": 1000
+      }
+    },
+    "description": "「私の食生活なんて、とても平凡なものだと思うけれど…＠サラダにドレッシング？かけてもかけなくても、同じようにおいしいよね＠だって心のこもった料理って、味がなくてもおいしいじゃない？＠え…え？私、何か変なこと言った？」",
+    "illustrator": "渡辺明夫",
+    "openDate": "2018/12/03 15:10:00"
   }
 ]
