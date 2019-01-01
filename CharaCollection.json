@@ -13985,6 +13985,701 @@
     ]
   },
   {
+    "charaId": 1117,
+    "chara": {
+      "id": 1117,
+      "name": "八雲 みたま",
+      "kana": "やくも みたま",
+      "title": "晴着ver.",
+      "attributeId": "VOID",
+      "attackType": 1,
+      "initialType": "BALANCE",
+      "growthType": "ATKHP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
+      "defaultCardId": 11174,
+      "defaultCard": {
+        "cardId": 11174,
+        "rank": "RANK_4",
+        "attributeId": "VOID",
+        "initialType": "BALANCE",
+        "growthType": "ATKHP",
+        "attack": 1911,
+        "defense": 1902,
+        "hp": 6196,
+        "miniCharaNo": 111700,
+        "charaNo": 1117,
+        "cardName": "八雲 みたま"
+      },
+      "evolutionCardId1": 11175,
+      "evolutionCard1": {
+        "cardId": 11175,
+        "rank": "RANK_5",
+        "attributeId": "VOID",
+        "initialType": "BALANCE",
+        "growthType": "ATKHP",
+        "attack": 2180,
+        "defense": 2170,
+        "hp": 7027,
+        "miniCharaNo": 111700,
+        "charaNo": 1117,
+        "cardName": "八雲 みたま"
+      },
+      "doppelCharaNo": 111700,
+      "doppel": {
+        "id": 111700,
+        "name": "メメントモリのドッペル",
+        "title": "その姿は、佳日",
+        "description": "この感情の主は、自分の環境を恨みながらも、新たに始まる年を、新たに出会った仲間と共に迎えられることを喜んでいる。その喜びは黄金の百合や紅白幕といった形で体現されており、近付く者に花を散らしながら紅白幕で包み込むことで、歓迎の意思を表明する。ところが、おせちが振る舞われる時になると帰宅は許されず、人々は苦悶しながら久遠の世紀末を味わうことになる。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2019/01/01 00:00:00"
+      },
+      "firstMagiaGiftId1": 251,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 301,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 212,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 401,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 233,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 503,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 241,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 302,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 222,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 406,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 253,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 501,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 241,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 307,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 232,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 405,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 223,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 556,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 211,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 404,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 242,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 504,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 243,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 555,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 251,
+        "name": "ダークブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 301,
+        "name": "燕尾の羽",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 401,
+        "name": "砂場の巻貝",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 233,
+        "name": "フォレストブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 302,
+        "name": "鏡の招待状",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 222,
+        "name": "アクアブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 253,
+        "name": "ダークブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 501,
+        "name": "砂場のシャベル",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 241,
+        "name": "ライトブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 307,
+        "name": "子守の台座",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 232,
+        "name": "フォレストブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 223,
+        "name": "アクアブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 556,
+        "name": "子守の取っ手",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "fourthMagiaGift3": {
+        "id": 242,
+        "name": "ライトブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 504,
+        "name": "リュトンのリボン",
+        "rank": 3
+      },
+      "fourthMagiaGift5": {
+        "id": 243,
+        "name": "ライトブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 555,
+        "name": "振子の重心",
+        "rank": 3
+      },
+      "description": "新年早々遊びに商売に精を出す魔法少女。やちよに借りた着物がお気に入りで、試しにソウルジェムを調整して魔法少女の力を着物に込めたところ、そのままの姿で戦えるようになった。武器のかるたで、お手付きした敵を直接攻める。",
+      "school": "大東学院",
+      "designer": "ぷにゃん",
+      "voiceActor": "堀江由衣",
+      "openDate": "2019/01/01 00:00:00",
+      "charaMessageList": [
+        {
+          "charaNo": 1117,
+          "messageId": 6,
+          "message": "初詣にはぴったりの、穏やかな天気ね～"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 7,
+          "message": "書初めの言葉なら、もう決めてるわよぉ"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 8,
+          "message": "着付けは初めてだったし、ドキドキしたわぁ"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 9,
+          "message": "お困りなら、この調整屋さんにお任せっ♪"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 10,
+          "message": "お汁粉に、バターとチョコは欠かせないわ♪"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 11,
+          "message": "今年の初夢は、ちょっと不思議だったわねぇ"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 12,
+          "message": "やぁねぇ、わたしはまだお年玉をもらう側よ"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 43,
+          "message": "みかん買って帰ろうっと"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 44,
+          "message": "やった♪かるたの札が揃ったわ！"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 45,
+          "message": "あなたの運勢…「大凶」ねっ"
+        },
+        {
+          "charaNo": 1117,
+          "messageId": 46,
+          "message": "新年からめでたいわぁ♪"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 11174,
+        "card": {
+          "cardId": 11174,
+          "charaNo": 1117,
+          "miniCharaNo": 111700,
+          "magiaCharaNo": 111700,
+          "cardName": "八雲 みたま",
+          "rank": "RANK_4",
+          "attributeId": "VOID",
+          "initialType": "BALANCE",
+          "growthType": "ATKHP",
+          "attack": 1911,
+          "defense": 1902,
+          "hp": 6196,
+          "rateGainMpAtk": 900,
+          "rateGainMpDef": 900,
+          "magiaId": 11174,
+          "cardMagia": {
+            "id": 11174,
+            "groupId": 1014,
+            "name": "新春骨牌演舞",
+            "shortDescription": "敵全体にダメージ[Ⅴ] & 必ず呪い & 確率でマギア不可(敵全/1T)",
+            "artId1": 100300105,
+            "art1": {
+              "artId": 100300105,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3400,
+              "growPoint": 100
+            },
+            "artId2": 510305000,
+            "art2": {
+              "artId": 510305000,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "CURSE",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 510305910,
+            "art3": {
+              "artId": 510305910,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "BAN_MAGIA",
+              "targetId": "ALL",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 525
+            }
+          },
+          "skillId": 11174,
+          "cardSkill": {
+            "id": 11174,
+            "groupId": 1078,
+            "name": "今年もいい１年になりそうね",
+            "shortDescription": "HP回復[Ⅵ] & 攻撃力UP[Ⅴ] & 敵状態異常時ダメージUP[Ⅲ]",
+            "artId1": 200400406,
+            "art1": {
+              "artId": 200400406,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "CONNECT",
+              "effectValue": 425,
+              "growPoint": 20
+            },
+            "artId2": 310401105,
+            "art2": {
+              "artId": 310401105,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 300,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610414603,
+            "art3": {
+              "artId": 610414603,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DAMAGE_UP_BAD",
+              "targetId": "CONNECT",
+              "effectValue": 300,
+              "enableTurn": 1,
+              "growPoint": 25,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ぷにゃん",
+          "cardCustomize": {
+            "cardId": 11174,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 60,
+            "giftId2": 153,
+            "gift2": {
+              "id": 153,
+              "name": "ダークオーブ＋＋",
+              "attributeId": "DARK",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 6,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 60,
+            "giftId3": 112,
+            "gift3": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum3": 12,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 552,
+            "gift4": {
+              "id": 552,
+              "name": "立ち耳の綿",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 6,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 60,
+            "giftId5": 403,
+            "gift5": {
+              "id": 403,
+              "name": "絵馬の水引",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 3000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 305,
+            "gift6": {
+              "id": 305,
+              "name": "屋上の鍵",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum6": 12,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 40
+          }
+        }
+      },
+      {
+        "cardId": 11175,
+        "card": {
+          "cardId": 11175,
+          "charaNo": 1117,
+          "miniCharaNo": 111700,
+          "magiaCharaNo": 111700,
+          "cardName": "八雲 みたま",
+          "rank": "RANK_5",
+          "attributeId": "VOID",
+          "initialType": "BALANCE",
+          "growthType": "ATKHP",
+          "attack": 2180,
+          "defense": 2170,
+          "hp": 7027,
+          "rateGainMpAtk": 900,
+          "rateGainMpDef": 900,
+          "magiaId": 11175,
+          "cardMagia": {
+            "id": 11175,
+            "groupId": 1014,
+            "name": "新春骨牌演舞",
+            "shortDescription": "敵全体にダメージ[Ⅶ] & 必ず呪い(敵全/1T) & 必ず毒 & 必ずマギア不可(敵全/2T)",
+            "artId1": 100300107,
+            "art1": {
+              "artId": 100300107,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 3600,
+              "growPoint": 100
+            },
+            "artId2": 510305000,
+            "art2": {
+              "artId": 510305000,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "CURSE",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 9379,
+            "art3": {
+              "artId": 9379,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "POISON",
+              "targetId": "ALL",
+              "effectValue": 50,
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 9380,
+            "art4": {
+              "artId": 9380,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "BAN_MAGIA",
+              "targetId": "ALL",
+              "enableTurn": 2,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "doppelMagiaId": 11178,
+          "doppelCardMagia": {
+            "id": 11178,
+            "groupId": 1014,
+            "name": "メメントモリのドッペル",
+            "shortDescription": "敵全体にダメージ[Ⅸ] & 必ず呪い(敵全/1T) & 必ず毒 & 必ずマギア不可(敵全/3T)",
+            "artId1": 190111781,
+            "art1": {
+              "artId": 190111781,
+              "verbCode": "ATTACK",
+              "targetId": "ALL",
+              "effectValue": 8140,
+              "growPoint": 220
+            },
+            "artId2": 510305000,
+            "art2": {
+              "artId": 510305000,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "CURSE",
+              "targetId": "ALL",
+              "effectValue": 150,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 530304600,
+            "art3": {
+              "artId": 530304600,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "POISON",
+              "targetId": "ALL",
+              "effectValue": 50,
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId4": 530306000,
+            "art4": {
+              "artId": 530306000,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "BAN_MAGIA",
+              "targetId": "ALL",
+              "enableTurn": 3,
+              "growPoint": 0,
+              "probability": 1000
+            }
+          },
+          "skillId": 11175,
+          "cardSkill": {
+            "id": 11175,
+            "groupId": 1078,
+            "name": "今年もいい１年になりそうね",
+            "shortDescription": "HP回復[Ⅷ] & 攻撃力UP[Ⅶ] & 敵状態異常時ダメージUP[Ⅴ]",
+            "artId1": 200400408,
+            "art1": {
+              "artId": 200400408,
+              "verbCode": "HEAL",
+              "effectCode": "HP",
+              "targetId": "CONNECT",
+              "effectValue": 475,
+              "growPoint": 20
+            },
+            "artId2": 310401107,
+            "art2": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610414605,
+            "art3": {
+              "artId": 610414605,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "DAMAGE_UP_BAD",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25,
+              "probability": 1000
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "MPUP",
+          "commandType3": "RANGE_H",
+          "commandType4": "RANGE_V",
+          "commandType5": "CHARGE",
+          "illustrator": "ぷにゃん",
+          "cardCustomize": {
+            "cardId": 11175,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 70,
+            "giftId2": 123,
+            "gift2": {
+              "id": 123,
+              "name": "アクアオーブ＋＋",
+              "attributeId": "WATER",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum2": 10,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 70,
+            "giftId3": 132,
+            "gift3": {
+              "id": 132,
+              "name": "フォレストオーブ＋",
+              "attributeId": "TIMBER",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum3": 15,
+            "bonusCode3": "HP",
+            "bonusNum3": 70,
+            "giftId4": 553,
+            "gift4": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum4": 8,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 70,
+            "giftId5": 506,
+            "gift5": {
+              "id": 506,
+              "name": "キュレーターのフード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 310,
+            "gift6": {
+              "id": 310,
+              "name": "流浪の杭",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000,
+              "openDate": "2018/09/03 15:10:00"
+            },
+            "giftNum6": 15,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 50
+          }
+        }
+      }
+    ]
+  },
+  {
     "charaId": 2001,
     "chara": {
       "id": 2001,
