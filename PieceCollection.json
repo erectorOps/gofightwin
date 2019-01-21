@@ -1138,5 +1138,21 @@
   {
     "pieceId": 1298,
     "rank": "RANK_4"
+  },
+  {
+    "pieceId": 1299,
+    "rank": "RANK_3"
+  },
+  {
+    "pieceId": 1300,
+    "rank": "RANK_4"
+  },
+  {
+    "pieceId": 1301,
+    "rank": "RANK_3"
+  },
+  {
+    "pieceId": 1302,
+    "rank": "RANK_3"
   }
 ]
