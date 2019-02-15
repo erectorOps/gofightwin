@@ -9708,7 +9708,7 @@
             "id": 10164,
             "groupId": 1085,
             "name": "貸しではないから心配するな",
-            "shortDescription": "攻撃力UP[Ⅶ]  & 回避無効",
+            "shortDescription": "攻撃力UP[Ⅶ] & 回避無効",
             "artId1": 310401107,
             "art1": {
               "artId": 310401107,
@@ -9910,7 +9910,7 @@
             "id": 10165,
             "groupId": 1085,
             "name": "貸しではないから心配するな",
-            "shortDescription": "攻撃力UP[Ⅸ]  & 回避無効",
+            "shortDescription": "攻撃力UP[Ⅸ] & 回避無効",
             "artId1": 310401109,
             "art1": {
               "artId": 310401109,
@@ -13032,7 +13032,7 @@
             "id": 11033,
             "groupId": 1085,
             "name": "一緒にノンビリしよーよ",
-            "shortDescription": "攻撃力UP[Ⅳ]  & 確率で魅了",
+            "shortDescription": "攻撃力UP[Ⅳ] & 確率で魅了",
             "artId1": 310401104,
             "art1": {
               "artId": 310401104,
@@ -13197,7 +13197,7 @@
             "id": 11034,
             "groupId": 1085,
             "name": "一緒にノンビリしよーよ",
-            "shortDescription": "攻撃力UP[Ⅵ]  & 確率で魅了",
+            "shortDescription": "攻撃力UP[Ⅵ] & 確率で魅了",
             "artId1": 310401106,
             "art1": {
               "artId": 310401106,
@@ -13417,7 +13417,7 @@
             "id": 11035,
             "groupId": 1085,
             "name": "一緒にノンビリしよーよ",
-            "shortDescription": "攻撃力UP[Ⅷ]  & 確率で魅了",
+            "shortDescription": "攻撃力UP[Ⅷ] & 確率で魅了",
             "artId1": 310401108,
             "art1": {
               "artId": 310401108,
@@ -22107,7 +22107,7 @@
             "id": 23004,
             "groupId": 1124,
             "name": "ふたりなら大物相手でも！",
-            "shortDescription": "必ず回避 & 攻撃力UP[Ⅶ]  & 確率でスキルクイック",
+            "shortDescription": "必ず回避 & 攻撃力UP[Ⅶ] & 確率でスキルクイック",
             "artId1": 610406900,
             "art1": {
               "artId": 610406900,
@@ -22330,7 +22330,7 @@
             "id": 23005,
             "groupId": 1124,
             "name": "ふたりなら大物相手でも！",
-            "shortDescription": "必ず回避 & 攻撃力UP[Ⅸ]  & 確率でスキルクイック",
+            "shortDescription": "必ず回避 & 攻撃力UP[Ⅸ] & 確率でスキルクイック",
             "artId1": 610406900,
             "art1": {
               "artId": 610406900,
@@ -43765,7 +43765,7 @@
             "id": 30494,
             "groupId": 1085,
             "name": "ん、手伝う…",
-            "shortDescription": "攻撃力UP[Ⅵ]  & デバフ解除",
+            "shortDescription": "攻撃力UP[Ⅵ] & デバフ解除",
             "artId1": 310401106,
             "art1": {
               "artId": 310401106,
@@ -43958,7 +43958,7 @@
             "id": 30495,
             "groupId": 1085,
             "name": "ん、手伝う…",
-            "shortDescription": "攻撃力UP[Ⅷ]  & デバフ解除",
+            "shortDescription": "攻撃力UP[Ⅷ] & デバフ解除",
             "artId1": 310401108,
             "art1": {
               "artId": 310401108,
@@ -53518,6 +53518,681 @@
               "rankGift": "RANK_3",
               "price": 5000,
               "openDate": "2018/05/07 16:00:00"
+            },
+            "giftNum6": 8,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 70
+          }
+        }
+      }
+    ]
+  },
+  {
+    "charaId": 4043,
+    "chara": {
+      "id": 4043,
+      "name": "神原 駿河",
+      "kana": "かんばる するが",
+      "attributeId": "FIRE",
+      "attackType": 1,
+      "initialType": "ATTACK",
+      "growthType": "ATKHP",
+      "enemyFlg": false,
+      "saleItemId": "PRISM",
+      "maxSaleItemId": "DESTINY_CRYSTAL",
+      "defaultCardId": 40434,
+      "defaultCard": {
+        "cardId": 40434,
+        "rank": "RANK_4",
+        "attributeId": "FIRE",
+        "initialType": "ATTACK",
+        "growthType": "ATKHP",
+        "attack": 2164,
+        "defense": 1573,
+        "hp": 4989,
+        "miniCharaNo": 404300,
+        "charaNo": 4043,
+        "cardName": "神原 駿河"
+      },
+      "evolutionCardId1": 40435,
+      "evolutionCard1": {
+        "cardId": 40435,
+        "rank": "RANK_5",
+        "attributeId": "FIRE",
+        "initialType": "ATTACK",
+        "growthType": "ATKHP",
+        "attack": 2458,
+        "defense": 1783,
+        "hp": 5653,
+        "miniCharaNo": 404300,
+        "charaNo": 4043,
+        "cardName": "神原 駿河"
+      },
+      "doppelCharaNo": 404300,
+      "doppel": {
+        "id": 404300,
+        "name": "暴力のドッペル",
+        "title": "その姿は、猿の手",
+        "description": "この感情の主は善良な心性とは裏腹に、心の奥底にどす黒い感情を飼っている。＠このドッペルは主の表の願望の裏に秘められたネガティヴな感情を斟酌し、暴力的な形で叶えようとする。＠このドッペルは主の魂がマイナスの無意識に一時的に身を委ねることで発現するが、ドッペルはその意識と身体を永久に乗っ取ってしまおうと、常に隙を窺っている。＠もしも主がその競争に疲れ、負の感情に敗北してしまったら、主は二度と人の姿に戻ることができず、１体の悪魔に成り果ててしまうだろう。",
+        "designer": "原案・監修：劇団イヌカレー（泥犬）",
+        "archive": true,
+        "openDate": "2019/02/15 15:10:00"
+      },
+      "firstMagiaGiftId1": 211,
+      "firstMagiaGiftNum1": 5,
+      "firstMagiaGiftId2": 305,
+      "firstMagiaGiftNum2": 5,
+      "firstMagiaGiftId3": 212,
+      "firstMagiaGiftNum3": 3,
+      "firstMagiaGiftId4": 404,
+      "firstMagiaGiftNum4": 3,
+      "firstMagiaGiftId5": 213,
+      "firstMagiaGiftNum5": 1,
+      "firstMagiaGiftId6": 505,
+      "firstMagiaGiftNum6": 1,
+      "secondMagiaGiftId1": 211,
+      "secondMagiaGiftNum1": 7,
+      "secondMagiaGiftId2": 308,
+      "secondMagiaGiftNum2": 7,
+      "secondMagiaGiftId3": 212,
+      "secondMagiaGiftNum3": 5,
+      "secondMagiaGiftId4": 406,
+      "secondMagiaGiftNum4": 5,
+      "secondMagiaGiftId5": 213,
+      "secondMagiaGiftNum5": 3,
+      "secondMagiaGiftId6": 501,
+      "secondMagiaGiftNum6": 3,
+      "thirdMagiaGiftId1": 211,
+      "thirdMagiaGiftNum1": 9,
+      "thirdMagiaGiftId2": 303,
+      "thirdMagiaGiftNum2": 9,
+      "thirdMagiaGiftId3": 212,
+      "thirdMagiaGiftNum3": 7,
+      "thirdMagiaGiftId4": 405,
+      "thirdMagiaGiftNum4": 7,
+      "thirdMagiaGiftId5": 213,
+      "thirdMagiaGiftNum5": 5,
+      "thirdMagiaGiftId6": 503,
+      "thirdMagiaGiftNum6": 5,
+      "fourthMagiaGiftId1": 211,
+      "fourthMagiaGiftNum1": 11,
+      "fourthMagiaGiftId2": 308,
+      "fourthMagiaGiftNum2": 11,
+      "fourthMagiaGiftId3": 212,
+      "fourthMagiaGiftNum3": 9,
+      "fourthMagiaGiftId4": 406,
+      "fourthMagiaGiftNum4": 5,
+      "fourthMagiaGiftId5": 213,
+      "fourthMagiaGiftNum5": 7,
+      "fourthMagiaGiftId6": 555,
+      "fourthMagiaGiftNum6": 7,
+      "firstMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "firstMagiaGift2": {
+        "id": 305,
+        "name": "屋上の鍵",
+        "rank": 1
+      },
+      "firstMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "firstMagiaGift4": {
+        "id": 404,
+        "name": "オウルのバケツ",
+        "rank": 2
+      },
+      "firstMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "firstMagiaGift6": {
+        "id": 505,
+        "name": "人工知能のコード",
+        "rank": 3
+      },
+      "secondMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "secondMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "secondMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "secondMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "secondMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "secondMagiaGift6": {
+        "id": 501,
+        "name": "砂場のシャベル",
+        "rank": 3
+      },
+      "thirdMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "thirdMagiaGift2": {
+        "id": 303,
+        "name": "立ち耳の包装紙",
+        "rank": 1
+      },
+      "thirdMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "thirdMagiaGift4": {
+        "id": 405,
+        "name": "メールのグライダー",
+        "rank": 2
+      },
+      "thirdMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "thirdMagiaGift6": {
+        "id": 503,
+        "name": "マチビト馬の車輪",
+        "rank": 3
+      },
+      "fourthMagiaGift1": {
+        "id": 211,
+        "name": "フレイムブック",
+        "rank": 1
+      },
+      "fourthMagiaGift2": {
+        "id": 308,
+        "name": "イキガミの毛玉",
+        "rank": 1
+      },
+      "fourthMagiaGift3": {
+        "id": 212,
+        "name": "フレイムブック＋",
+        "rank": 2
+      },
+      "fourthMagiaGift4": {
+        "id": 406,
+        "name": "スタッフのキースイッチ",
+        "rank": 2
+      },
+      "fourthMagiaGift5": {
+        "id": 213,
+        "name": "フレイムブック＋＋",
+        "rank": 3
+      },
+      "fourthMagiaGift6": {
+        "id": 555,
+        "name": "振子の重心",
+        "rank": 3
+      },
+      "description": "先駆の魔法少女。もしも〈物語〉シリーズのヒロインたちが魔法少女になったら…という「if」の姿。変身時はバイクと一体化。直江津高校バスケ部を全国大会へ導いたスターだが、きわどい言動が多い。願いごとは「誰よりも速く走りたい」。",
+      "school": "私立直江津高校",
+      "designer": "渡辺明夫",
+      "voiceActor": "沢城みゆき",
+      "openDate": "2019/02/15 15:10:00",
+      "charaMessageList": [
+        {
+          "charaNo": 4043,
+          "messageId": 6,
+          "message": "ん？ＢＬとはボーイズラブの略だぞ？"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 7,
+          "message": "神をも恐れぬマニアックな行為を…"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 8,
+          "message": "それは萌えるがゴミじゃない"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 9,
+          "message": "腐ってはいても、必要なものだ"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 10,
+          "message": "この場合は乙女買いと言って欲しい"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 11,
+          "message": "レディとして当然のたしなみだ"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 12,
+          "message": "レディとして当然のたしなみだ"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 43,
+          "message": "タイムアップだな！"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 44,
+          "message": "また、対戦したいものだな"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 45,
+          "message": "悪いが、「最速」の称号は譲れないぞ"
+        },
+        {
+          "charaNo": 4043,
+          "messageId": 46,
+          "message": "負けられない事情があるのでな"
+        }
+      ]
+    },
+    "cardList": [
+      {
+        "cardId": 40434,
+        "card": {
+          "cardId": 40434,
+          "charaNo": 4043,
+          "miniCharaNo": 404300,
+          "magiaCharaNo": 404300,
+          "cardName": "神原 駿河",
+          "rank": "RANK_4",
+          "attributeId": "FIRE",
+          "initialType": "ATTACK",
+          "growthType": "ATKHP",
+          "attack": 2164,
+          "defense": 1573,
+          "hp": 4989,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 40434,
+          "cardMagia": {
+            "id": 40434,
+            "groupId": 1012,
+            "name": "ランナーズ・ダイ",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅴ] & 必ずスタン(敵単/1T) & Charge後ダメージUP(全/3T)",
+            "artId1": 100000205,
+            "art1": {
+              "artId": 100000205,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "TARGET",
+              "effectValue": 5400,
+              "growPoint": 100
+            },
+            "artId2": 510004200,
+            "art2": {
+              "artId": 510004200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 330301705,
+            "art3": {
+              "artId": 330301705,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "ALL",
+              "effectValue": 200,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "skillId": 40434,
+          "cardSkill": {
+            "id": 40434,
+            "groupId": 1085,
+            "name": "称賛は、チームのみんなで",
+            "shortDescription": "攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅵ] & 確率でクリティカル[Ⅳ]",
+            "artId1": 310401107,
+            "art1": {
+              "artId": 310401107,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 350,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 310401706,
+            "art2": {
+              "artId": 310401706,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "CONNECT",
+              "effectValue": 225,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610406304,
+            "art3": {
+              "artId": 610406304,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "CONNECT",
+              "effectValue": 2000,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 450
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_H",
+          "commandType3": "RANGE_H",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "illustrator": "一十九二",
+          "cardCustomize": {
+            "cardId": 40434,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 80,
+            "giftId2": 112,
+            "gift2": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 12,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 40,
+            "giftId3": 113,
+            "gift3": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 6,
+            "bonusCode3": "HP",
+            "bonusNum3": 50,
+            "giftId4": 302,
+            "gift4": {
+              "id": 302,
+              "name": "鏡の招待状",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000
+            },
+            "giftNum4": 12,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 40,
+            "giftId5": 553,
+            "gift5": {
+              "id": 553,
+              "name": "羊の角",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 8,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 60,
+            "giftId6": 554,
+            "gift6": {
+              "id": 554,
+              "name": "屋上のバルーン",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum6": 6,
+            "bonusCode6": "CHARGE",
+            "bonusNum6": 60
+          }
+        }
+      },
+      {
+        "cardId": 40435,
+        "card": {
+          "cardId": 40435,
+          "charaNo": 4043,
+          "miniCharaNo": 404300,
+          "magiaCharaNo": 404300,
+          "cardName": "神原 駿河",
+          "rank": "RANK_5",
+          "attributeId": "FIRE",
+          "initialType": "ATTACK",
+          "growthType": "ATKHP",
+          "attack": 2458,
+          "defense": 1783,
+          "hp": 5653,
+          "rateGainMpAtk": 1000,
+          "rateGainMpDef": 800,
+          "magiaId": 40435,
+          "cardMagia": {
+            "id": 40435,
+            "groupId": 1012,
+            "name": "ランナーズ・ダイ",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅶ] & 必ずスタン(敵単/1T) & Charge後ダメージUP(全/3T)",
+            "artId1": 100000207,
+            "art1": {
+              "artId": 100000207,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "TARGET",
+              "effectValue": 5800,
+              "growPoint": 100
+            },
+            "artId2": 510004200,
+            "art2": {
+              "artId": 510004200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 330301707,
+            "art3": {
+              "artId": 330301707,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "ALL",
+              "effectValue": 250,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "doppelMagiaId": 40438,
+          "doppelCardMagia": {
+            "id": 40438,
+            "groupId": 1012,
+            "name": "暴力のドッペル",
+            "shortDescription": "敵単体に属性強化ダメージ[Ⅸ] & 必ずスタン(敵単/1T) & Charge後ダメージUP(全/3T)",
+            "artId1": 190404381,
+            "art1": {
+              "artId": 190404381,
+              "verbCode": "ATTACK",
+              "effectCode": "ALIGNMENT",
+              "targetId": "TARGET",
+              "effectValue": 13640,
+              "growPoint": 220
+            },
+            "artId2": 510004200,
+            "art2": {
+              "artId": 510004200,
+              "verbCode": "CONDITION_BAD",
+              "effectCode": "STUN",
+              "targetId": "TARGET",
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 1000
+            },
+            "artId3": 330301709,
+            "art3": {
+              "artId": 330301709,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "ALL",
+              "effectValue": 300,
+              "enableTurn": 3,
+              "growPoint": 25
+            }
+          },
+          "skillId": 40435,
+          "cardSkill": {
+            "id": 40435,
+            "groupId": 1085,
+            "name": "称賛は、チームのみんなで",
+            "shortDescription": "攻撃力UP[Ⅸ] & Charge後ダメージUP[Ⅷ] & 確率でクリティカル[Ⅵ]",
+            "artId1": 310401109,
+            "art1": {
+              "artId": 310401109,
+              "verbCode": "BUFF",
+              "effectCode": "ATTACK",
+              "targetId": "CONNECT",
+              "effectValue": 400,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId2": 310401708,
+            "art2": {
+              "artId": 310401708,
+              "verbCode": "BUFF",
+              "effectCode": "CHARGE",
+              "targetId": "CONNECT",
+              "effectValue": 275,
+              "enableTurn": 1,
+              "growPoint": 25
+            },
+            "artId3": 610406306,
+            "art3": {
+              "artId": 610406306,
+              "verbCode": "CONDITION_GOOD",
+              "effectCode": "CRITICAL",
+              "targetId": "CONNECT",
+              "effectValue": 2000,
+              "enableTurn": 1,
+              "growPoint": 0,
+              "probability": 550
+            }
+          },
+          "pieceSkillList": [
+            
+          ],
+          "maxPieceSkillList": [
+            
+          ],
+          "commandType1": "MPUP",
+          "commandType2": "RANGE_H",
+          "commandType3": "RANGE_H",
+          "commandType4": "CHARGE",
+          "commandType5": "CHARGE",
+          "illustrator": "渡辺明夫",
+          "cardCustomize": {
+            "cardId": 40435,
+            "giftId1": 551,
+            "gift1": {
+              "id": 551,
+              "name": "レインボーオーブ",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 10000
+            },
+            "giftNum1": 3,
+            "bonusCode1": "ATTACK",
+            "bonusNum1": 90,
+            "giftId2": 112,
+            "gift2": {
+              "id": 112,
+              "name": "フレイムオーブ＋",
+              "attributeId": "FIRE",
+              "rank": 2,
+              "rankGift": "RANK_2",
+              "price": 1000
+            },
+            "giftNum2": 15,
+            "bonusCode2": "DEFENSE",
+            "bonusNum2": 50,
+            "giftId3": 113,
+            "gift3": {
+              "id": 113,
+              "name": "フレイムオーブ＋＋",
+              "attributeId": "FIRE",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 2000
+            },
+            "giftNum3": 10,
+            "bonusCode3": "HP",
+            "bonusNum3": 60,
+            "giftId4": 308,
+            "gift4": {
+              "id": 308,
+              "name": "イキガミの毛玉",
+              "rank": 1,
+              "rankGift": "RANK_1",
+              "price": 1000,
+              "openDate": "2018/04/23 15:10:00"
+            },
+            "giftNum4": 15,
+            "bonusCode4": "ACCEL",
+            "bonusNum4": 50,
+            "giftId5": 505,
+            "gift5": {
+              "id": 505,
+              "name": "人工知能のコード",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000
+            },
+            "giftNum5": 10,
+            "bonusCode5": "BLAST",
+            "bonusNum5": 70,
+            "giftId6": 557,
+            "gift6": {
+              "id": 557,
+              "name": "イキガミの水瓶",
+              "rank": 3,
+              "rankGift": "RANK_3",
+              "price": 5000,
+              "openDate": "2018/06/18 15:10:00"
             },
             "giftNum6": 8,
             "bonusCode6": "CHARGE",
